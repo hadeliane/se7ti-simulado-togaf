@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TOGAF® 10 | Estudo & Simulado</title>
+
+  <style>
+    :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    body { margin: 0; background: #f6f7fb; color: #111; }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 20px; }
+    .card { background: #fff; border-radius: 14px; padding: 18px; box-shadow: 0 6px 18px rgba(0,0,0,.06); }
+
+    .header { display:flex; gap:14px; align-items:center; flex-wrap:wrap; }
+    .logoBox{
+      width: 130px; height: 44px;
+      border-radius: 10px;
+      background: #f2f4fb;
+      border: 1px dashed #cfd6f5;
+      display:flex; align-items:center; justify-content:center;
+      overflow:hidden;
+    }
+    .logoBox img{ width:100%; height:100%; object-fit: contain; display:block; }
+
+    h1 { margin: 0 0 6px; font-size: 20px; }
+    .muted { color: #666; font-size: 13px; }
+    .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+    .spacer { flex: 1; }
+    .pill { background: #eef2ff; color: #2b3a8a; padding: 4px 10px; border-radius: 999px; font-size: 12px; }
+    button {
+      border: 0; border-radius: 10px; padding: 10px 12px;
+      background: #2f6fed; color: #fff; cursor: pointer; font-weight: 600;
+    }
+    button.secondary { background: #e9ecf5; color: #1a1a1a; }
+    button:disabled { opacity: .5; cursor: not-allowed; }
+
+    .qtitle { font-size: 16px; margin: 12px 0 12px; line-height: 1.35; }
+    .answers { display: grid; gap: 10px; }
+    label.opt {
+      display: flex; gap: 10px; align-items: flex-start;
+      border: 1px solid #e7e7ef; border-radius: 12px; padding: 10px 12px;
+      cursor: pointer; background: #fff;
+    }
+    label.opt:hover { background: #fafbff; }
+    input[type="radio"] { margin-top: 3px; }
+
+    label.correct { border-color: #19a35b; background: #f1fff6; }
+    label.wrongSelected { border-color: #d84a4a; background: #fff5f5; }
+
+    .explain {
+      margin-top: 12px; padding: 12px; border-radius: 12px;
+      background: #f8f9ff; border: 1px solid #eceffd;
+      font-size: 13px; line-height: 1.4;
+    }
+    .hr { height: 1px; background: #eee; margin: 14px 0; }
+    .small { font-size: 13px; line-height: 1.35; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; }
+
+    .grid2 { display: grid; gap: 10px; grid-template-columns: repeat(2, minmax(0,1fr)); }
+    @media (max-width: 700px) { .grid2 { grid-template-columns: 1fr; } }
+
+    .review-item { border: 1px solid #eee; border-radius: 12px; padding: 12px; margin-bottom: 10px; background: #fff; }
+    .ok { color: #0a7a2f; font-weight: 700; }
+    .bad { color: #b31919; font-weight: 700; }
+
+    select {
+      border: 1px solid #dfe3f4; border-radius: 10px; padding: 10px 12px;
+      font-weight: 600; background: #fff;
+    }
+  </style>
+
+  <!-- PT -->
+  <script src="./questionsSE7Ti_TOGAF10.js"></script>
+  <!-- EN  -->
+  <script src="./questionsSE7Ti_TOGAF10_english.js"></script>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="header">
+        <div class="logoBox" title="Logo da empresa">
+          <img src="./logo.png" alt="Logo">
+        </div>
+
+        <div style="min-width:240px">
+          <h1>Padrão TOGAF® 10 | Estudo & Simulado</h1>
+          <div class="muted">Escolha o idioma e o modo. Estudo com resposta comentada ou simulado com 40 questões + timer.</div>
+        </div>
+
+        <div class="spacer"></div>
+        <span class="pill" id="pillCount">0</span>
+        <span class="pill" id="pillMode">modo: —</span>
+        <span class="pill" id="pillLang">idioma: —</span>
+      </div>
+
+      <div class="hr"></div>
+
+      <!-- Menu -->
+      <div id="stageMode">
+        <div class="small">
+          <p><b>Idioma:</b></p>
+          <div class="row">
+            <select id="selLang">
+              <option value="pt">Português</option>
+              <option value="en">English</option>
+            </select>
+            <span class="muted" id="bankInfo"></span>
+          </div>
+
+          <div class="hr"></div>
+
+          <p><b>Escolha o modo:</b></p>
+          <div class="grid2">
+            <button class="secondary" id="btnStudy">Estudar</button>
+            <button class="secondary" id="btnQuiz">Fazer o simulado</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Execução -->
+      <div id="stageRun" style="display:none;">
+        <div class="row">
+          <span class="pill" id="pillProgress">Questão 1/1</span>
+          <span class="pill" id="pillAnswered">Respondidas: 0</span>
+          <div class="spacer"></div>
+          <span class="pill" id="pillClock" style="display:none;">00:00</span>
+        </div>
+
+        <div class="qtitle" id="qText"></div>
+        <div class="answers" id="qAnswers"></div>
+
+        <div id="studyActions" class="row" style="margin-top:12px; display:none;">
+          <button id="btnReveal">Responder</button>
+          <button class="secondary" id="btnNextStudy">Próxima</button>
+          <div class="spacer"></div>
+          <button class="secondary" id="btnBackToMenu1">Voltar</button>
+        </div>
+
+        <div id="quizActions" class="row" style="margin-top:12px; display:none;">
+          <button class="secondary" id="btnPrev">Anterior</button>
+          <button class="secondary" id="btnNext">Próxima</button>
+          <div class="spacer"></div>
+          <button id="btnFinish">Finalizar simulado</button>
+          <button class="secondary" id="btnBackToMenu2">Voltar</button>
+        </div>
+
+        <div id="explainBox" class="explain" style="display:none;"></div>
+      </div>
+
+      <!-- Resultado -->
+      <div id="stageResult" style="display:none;">
+        <div class="row">
+          <span class="pill" id="pillScore">Nota: 0%</span>
+          <span class="pill" id="pillRight">Acertos: 0</span>
+          <span class="pill" id="pillTotal">Total: 40</span>
+          <div class="spacer"></div>
+          <button id="btnRetryWrong">Refazer só as erradas</button>
+          <button class="secondary" id="btnBackToMenu3">Voltar ao menu</button>
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="small" id="resultText"></div>
+
+        <div class="hr"></div>
+
+        <div class="small">
+          <b id="wrongTitle">Revisão (somente as erradas):</b>
+        </div>
+        <div style="margin-top:10px" id="wrongReview"></div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  const el = (id) => document.getElementById(id);
+
+  function normalizeAnswerLetter(s) {
+    if (!s) return "";
+    return String(s).trim().toUpperCase().replace(".", "");
+  }
+  function parseAnswerLetterFromOptionText(optionText) {
+    const m = String(optionText).trim().match(/^([A-D])\./i);
+    return m ? m[1].toUpperCase() : "";
+  }
+  function shuffleArray(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+  function sampleN(arr, n) {
+    if (n >= arr.length) return shuffleArray(arr);
+    return shuffleArray(arr).slice(0, n);
+  }
+  function pad2(n) { return String(n).padStart(2, "0"); }
+
+  // Banks
+  const bankPT = (typeof questions !== "undefined" && Array.isArray(questions)) ? questions : [];
+  const bankEN = (typeof questions_en !== "undefined" && Array.isArray(questions_en)) ? questions_en : [];
+
+  // UI
+  const pillCount = el("pillCount");
+  const pillMode  = el("pillMode");
+  const pillLang  = el("pillLang");
+  const bankInfo  = el("bankInfo");
+  const selLang   = el("selLang");
+
+  const stageMode = el("stageMode");
+  const stageRun = el("stageRun");
+  const stageResult = el("stageResult");
+
+  const pillProgress = el("pillProgress");
+  const pillAnswered = el("pillAnswered");
+  const pillClock = el("pillClock");
+
+  const qText = el("qText");
+  const qAnswers = el("qAnswers");
+  const explainBox = el("explainBox");
+
+  const btnStudy = el("btnStudy");
+  const btnQuiz = el("btnQuiz");
+
+  const studyActions = el("studyActions");
+  const quizActions = el("quizActions");
+
+  const btnReveal = el("btnReveal");
+  const btnNextStudy = el("btnNextStudy");
+
+  const btnPrev = el("btnPrev");
+  const btnNext = el("btnNext");
+  const btnFinish = el("btnFinish");
+
+  const btnBackToMenu1 = el("btnBackToMenu1");
+  const btnBackToMenu2 = el("btnBackToMenu2");
+  const btnBackToMenu3 = el("btnBackToMenu3");
+
+  const pillScore = el("pillScore");
+  const pillRight = el("pillRight");
+  const pillTotal = el("pillTotal");
+  const resultText = el("resultText");
+  const wrongReview = el("wrongReview");
+  const btnRetryWrong = el("btnRetryWrong");
+  const wrongTitle = el("wrongTitle");
+
+  // State
+  let mode = null;       // "study" | "quiz"
+  let lang = "pt";       // "pt" | "en"
+  let bankRaw = [];      // current selected bank
+  let bank = [];
+  let idx = 0;
+  let userAnswers = new Map();
+  let revealed = false;
+  let wrongQuestions = [];
+
+  const TIMER = {
+    enabled: true,
+    totalSec: 60 * 60, // ajuste aqui
+    leftSec: 0,
+    t: null
+  };
+
+  function t(key) {
+    const PT = {
+      modeStudy: "estudar",
+      modeQuiz: "simulado",
+      langPT: "Português",
+      langEN: "English",
+      answered: "Respondidas",
+      next: "Próxima",
+      prev: "Anterior",
+      finish: "Finalizar simulado",
+      back: "Voltar",
+      correctAnswer: "Resposta correta",
+      explanation: "Explicação",
+      score: "Nota",
+      right: "Acertos",
+      total: "Total",
+      retryWrong: "Refazer só as erradas",
+      reviewWrong: "Revisão (somente as erradas):",
+      noExplain: "Sem explicação cadastrada.",
+      pickMode: "Escolha o modo",
+      timeout: "Tempo esgotado.",
+      youGot: "Você acertou",
+      of: "de",
+      questionsWord: "questões",
+      wrongNone: "Nada para revisar. Você gabaritou. 😄",
+      qLabel: "Questão"
+    };
+    const EN = {
+      modeStudy: "study",
+      modeQuiz: "quiz",
+      langPT: "Portuguese",
+      langEN: "English",
+      answered: "Answered",
+      next: "Next",
+      prev: "Previous",
+      finish: "Finish quiz",
+      back: "Back",
+      correctAnswer: "Correct answer",
+      explanation: "Explanation",
+      score: "Score",
+      right: "Correct",
+      total: "Total",
+      retryWrong: "Retry wrong only",
+      reviewWrong: "Review (wrong only):",
+      noExplain: "No explanation provided.",
+      pickMode: "Choose mode",
+      timeout: "Time is up.",
+      youGot: "You got",
+      of: "out of",
+      questionsWord: "questions",
+      wrongNone: "Nothing to review. Perfect score. 😄",
+      qLabel: "Question"
+    };
+    return (lang === "en" ? EN : PT)[key] ?? key;
+  }
+
+  function qKey(q) {
+    return q.JSONINDEX ?? q.QUESTION_TEXT ?? String(Math.random());
+  }
+
+  function setStage(which) {
+    stageMode.style.display = which === "mode" ? "block" : "none";
+    stageRun.style.display = which === "run" ? "block" : "none";
+    stageResult.style.display = which === "result" ? "block" : "none";
+  }
+
+  function applyLangAndBank(newLang) {
+    lang = newLang;
+    bankRaw = (lang === "en") ? bankEN : bankPT;
+
+    pillLang.textContent = `idioma: ${lang === "en" ? "EN" : "PT"}`;
+    pillCount.textContent = `${bankRaw.length} ${t("questionsWord")}`;
+    bankInfo.textContent =
+      (lang === "en")
+        ? `Bank: ${bankEN.length} questions`
+        : `Banco: ${bankPT.length} questões`;
+
+    // ajustes de labels dinâmicos
+    btnRetryWrong.textContent = t("retryWrong");
+    wrongTitle.textContent = t("reviewWrong");
+  }
+
+  function setMode(newMode) {
+    mode = newMode;
+    pillMode.textContent = `modo: ${newMode === "study" ? t("modeStudy") : t("modeQuiz")}`;
+  }
+
+  function resetRunState() {
+    idx = 0;
+    userAnswers = new Map();
+    revealed = false;
+    stopTimer();
+    explainBox.style.display = "none";
+    explainBox.textContent = "";
+  }
+
+  function startStudy() {
+    if (!bankRaw.length) return alert("Banco de questões não carregou. Verifique o JS.");
+    setMode("study");
+    resetRunState();
+    bank = shuffleArray(bankRaw);
+    setStage("run");
+    studyActions.style.display = "flex";
+    quizActions.style.display = "none";
+    pillClock.style.display = "none";
+    renderQuestion();
+  }
+
+  function startQuizFromList(list) {
+    setMode("quiz");
+    resetRunState();
+    bank = list.slice();
+    setStage("run");
+    studyActions.style.display = "none";
+    quizActions.style.display = "flex";
+    pillClock.style.display = "inline-block";
+
+    TIMER.leftSec = TIMER.totalSec;
+    tickClock();
+    startTimer();
+    renderQuestion();
+  }
+
+  function startQuiz() {
+    if (!bankRaw.length) return alert("Banco de questões não carregou. Verifique o JS.");
+    wrongQuestions = [];
+    const selected = sampleN(bankRaw, 40);
+    startQuizFromList(selected);
+  }
+
+  function startTimer() {
+    if (!TIMER.enabled) return;
+    stopTimer();
+    TIMER.t = setInterval(() => {
+      TIMER.leftSec--;
+      tickClock();
+      if (TIMER.leftSec <= 0) {
+        stopTimer();
+        finishQuiz(true);
+      }
+    }, 1000);
+  }
+
+  function stopTimer() {
+    if (TIMER.t) clearInterval(TIMER.t);
+    TIMER.t = null;
+  }
+
+  function tickClock() {
+    const mm = Math.floor(TIMER.leftSec / 60);
+    const ss = TIMER.leftSec % 60;
+    pillClock.textContent = `${pad2(mm)}:${pad2(ss)}`;
+  }
+
+  function renderQuestion() {
+    if (!bank.length) return;
+
+    const q = bank[idx];
+    const selected = userAnswers.get(qKey(q)) ?? "";
+    const correct = normalizeAnswerLetter(q.CORRECT_ANSWER);
+
+    pillProgress.textContent = `${t("qLabel")} ${idx + 1}/${bank.length}`;
+    pillAnswered.textContent = `${t("answered")}: ${userAnswers.size}`;
+    qText.textContent = q.QUESTION_TEXT ?? "(no text)";
+
+    qAnswers.innerHTML = "";
+    const opts = Array.isArray(q.POSSIBLE_ANSWERS) ? q.POSSIBLE_ANSWERS : [];
+
+    opts.forEach((optText, i) => {
+      const letter = parseAnswerLetterFromOptionText(optText) || ["A","B","C","D"][i] || "";
+      const id = `opt_${idx}_${letter}`;
+
+      const wrap = document.createElement("label");
+      wrap.className = "opt";
+      wrap.setAttribute("for", id);
+
+      const input = document.createElement("input");
+      input.type = "radio";
+      input.name = "answer";
+      input.id = id;
+      input.value = letter;
+      input.checked = selected === letter;
+
+      input.disabled = (mode === "study" && revealed);
+
+      input.addEventListener("change", () => {
+        userAnswers.set(qKey(q), letter);
+        pillAnswered.textContent = `${t("answered")}: ${userAnswers.size}`;
+        if (mode === "quiz") {
+          explainBox.style.display = "none";
+          explainBox.textContent = "";
+        }
+      });
+
+      const txt = document.createElement("div");
+      txt.textContent = optText;
+
+      wrap.appendChild(input);
+      wrap.appendChild(txt);
+      qAnswers.appendChild(wrap);
+
+      if (mode === "study" && revealed) {
+        if (letter === correct) wrap.classList.add("correct");
+        if (selected && selected !== correct && letter === selected) wrap.classList.add("wrongSelected");
+      }
+    });
+
+    if (mode === "study") {
+      btnReveal.disabled = revealed;
+      btnNextStudy.disabled = idx === bank.length - 1;
+      btnReveal.textContent = lang === "en" ? "Show answer" : "Responder";
+      btnNextStudy.textContent = t("next");
+      btnBackToMenu1.textContent = t("back");
+    } else {
+      btnPrev.disabled = idx === 0;
+      btnNext.disabled = idx === bank.length - 1;
+      btnPrev.textContent = t("prev");
+      btnNext.textContent = t("next");
+      btnFinish.textContent = t("finish");
+      btnBackToMenu2.textContent = t("back");
+    }
+  }
+
+  function revealAnswerStudy() {
+    const q = bank[idx];
+    const correct = normalizeAnswerLetter(q.CORRECT_ANSWER);
+    const selected = userAnswers.get(qKey(q)) ?? "";
+
+    revealed = true;
+    btnReveal.disabled = true;
+
+    const labels = qAnswers.querySelectorAll("label.opt");
+    labels.forEach(lbl => {
+      const input = lbl.querySelector("input[type=radio]");
+      const letter = input?.value ?? "";
+      if (letter === correct) lbl.classList.add("correct");
+      if (selected && selected !== correct && letter === selected) lbl.classList.add("wrongSelected");
+      if (input) input.disabled = true;
+    });
+
+    const expl = (q.EXPLANATION_TEXT ?? "").trim();
+    explainBox.style.display = "block";
+    explainBox.innerHTML = `
+      <div><b>${t("correctAnswer")}:</b> <span class="mono">${correct || "?"}</span></div>
+      <div style="margin-top:8px">${expl ? expl : `<span class='muted'>${t("noExplain")}</span>`}</div>
+    `;
+  }
+
+  function nextStudy() {
+    if (idx >= bank.length - 1) return;
+    idx++;
+    revealed = false;
+    explainBox.style.display = "none";
+    explainBox.textContent = "";
+    renderQuestion();
+  }
+
+  function buildWrongReview(wrongList) {
+    wrongReview.innerHTML = "";
+
+    if (!wrongList.length) {
+      wrongReview.innerHTML = `<div class="review-item"><span class="ok">${t("wrongNone")}</span></div>`;
+      return;
+    }
+
+    wrongList.forEach((q) => {
+      const correct = normalizeAnswerLetter(q.CORRECT_ANSWER);
+      const chosen = userAnswers.get(qKey(q)) ?? "";
+      const chosenTxt = chosen ? chosen : (lang === "en" ? "blank" : "em branco");
+
+      const box = document.createElement("div");
+      box.className = "review-item";
+
+      const title = document.createElement("div");
+      title.innerHTML = `<b>${t("qLabel")}:</b> ${q.QUESTION_TEXT ?? ""}`;
+
+      const status = document.createElement("div");
+      status.className = "small";
+      status.innerHTML = `<span class="bad">${lang === "en" ? "Wrong" : "Errado"}</span> | ${lang === "en" ? "Your answer" : "Sua resposta"}: <b>${chosenTxt}</b> | ${lang === "en" ? "Correct" : "Correta"}: <b>${correct}</b>`;
+
+      const optsWrap = document.createElement("div");
+      optsWrap.className = "answers";
+      optsWrap.style.marginTop = "10px";
+
+      const opts = Array.isArray(q.POSSIBLE_ANSWERS) ? q.POSSIBLE_ANSWERS : [];
+      opts.forEach((optText, k) => {
+        const letter = parseAnswerLetterFromOptionText(optText) || ["A","B","C","D"][k] || "";
+
+        const lbl = document.createElement("label");
+        lbl.className = "opt";
+        lbl.style.cursor = "default";
+
+        const input = document.createElement("input");
+        input.type = "radio";
+        input.disabled = true;
+        input.checked = (chosen === letter);
+
+        const txt = document.createElement("div");
+        txt.textContent = optText;
+
+        lbl.appendChild(input);
+        lbl.appendChild(txt);
+
+        if (letter === correct) lbl.classList.add("correct");
+        if (chosen && chosen !== correct && letter === chosen) lbl.classList.add("wrongSelected");
+
+        optsWrap.appendChild(lbl);
+      });
+
+      const expl = document.createElement("div");
+      expl.className = "explain";
+      const explanation = (q.EXPLANATION_TEXT ?? "").trim();
+      expl.innerHTML = `
+        <div><b>${t("explanation")}:</b></div>
+        <div style="margin-top:8px">${explanation ? explanation : `<span class='muted'>${t("noExplain")}</span>`}</div>
+      `;
+
+      box.appendChild(title);
+      box.appendChild(status);
+      box.appendChild(optsWrap);
+      box.appendChild(expl);
+
+      wrongReview.appendChild(box);
+    });
+  }
+
+  function finishQuiz(byTimeout=false) {
+    stopTimer();
+    setStage("result");
+
+    const total = bank.length;
+    let right = 0;
+    wrongQuestions = [];
+
+    bank.forEach(q => {
+      const chosen = userAnswers.get(qKey(q)) ?? "";
+      const correct = normalizeAnswerLetter(q.CORRECT_ANSWER);
+      if (chosen && chosen === correct) right++;
+      else wrongQuestions.push(q);
+    });
+
+    const pct = Math.round((right / total) * 100);
+
+    pillScore.textContent = `${t("score")}: ${pct}%`;
+    pillRight.textContent = `${t("right")}: ${right}`;
+    pillTotal.textContent = `${t("total")}: ${total}`;
+    btnBackToMenu3.textContent = t("back");
+
+    const msgTimeout = byTimeout ? `<b>${t("timeout")}</b> ` : "";
+    resultText.innerHTML = `
+      ${msgTimeout}
+      ${t("youGot")} <b>${right}</b> ${t("of")} <b>${total}</b>.
+      <br><span class="muted">${lang === "en" ? "Below are only the wrong ones, with the correct answer highlighted and the explanation." : "Abaixo estão somente as que você errou, com a resposta certa destacada e a explicação."}</span>
+    `;
+
+    buildWrongReview(wrongQuestions);
+    btnRetryWrong.disabled = wrongQuestions.length === 0;
+  }
+
+  function retryWrong() {
+    if (!wrongQuestions.length) return;
+    const list = shuffleArray(wrongQuestions);
+    startQuizFromList(list);
+  }
+
+  function backToMenu() {
+    stopTimer();
+    pillMode.textContent = "modo: —";
+    mode = null;
+    resetRunState();
+    bank = [];
+    wrongQuestions = [];
+    setStage("mode");
+  }
+
+  // Events
+  selLang.addEventListener("change", (e) => applyLangAndBank(e.target.value));
+
+  btnStudy.addEventListener("click", startStudy);
+  btnQuiz.addEventListener("click", startQuiz);
+
+  btnReveal.addEventListener("click", revealAnswerStudy);
+  btnNextStudy.addEventListener("click", nextStudy);
+
+  btnPrev.addEventListener("click", () => { if (idx > 0) { idx--; renderQuestion(); } });
+  btnNext.addEventListener("click", () => { if (idx < bank.length - 1) { idx++; renderQuestion(); } });
+
+  btnFinish.addEventListener("click", () => finishQuiz(false));
+  btnRetryWrong.addEventListener("click", retryWrong);
+
+  btnBackToMenu1.addEventListener("click", backToMenu);
+  btnBackToMenu2.addEventListener("click", backToMenu);
+  btnBackToMenu3.addEventListener("click", backToMenu);
+
+  // Init
+  applyLangAndBank("pt");
+
+  // helpful info if EN bank missing
+  if (!bankEN.length) {
+    // mantém silencioso, mas informa no menu
+    bankInfo.textContent += (lang === "pt")
+      ? " | Inglês ainda não carregou (verifique se o JS expõe questions_en)."
+      : " | English bank not loaded (ensure it exposes questions_en).";
+  }
+</script>
+
+</body>
+</html>
