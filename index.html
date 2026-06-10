@@ -67,12 +67,38 @@
       border: 1px solid #dfe3f4; border-radius: 10px; padding: 10px 12px;
       font-weight: 600; background: #fff;
     }
+
+    .subjectBox {
+      border: 1px solid #edf0fb;
+      border-radius: 12px;
+      background: #fbfcff;
+      padding: 12px;
+      margin-top: 8px;
+    }
+    .subjectTools { display:flex; gap:8px; flex-wrap:wrap; margin: 8px 0 10px; }
+    .subjectGrid {
+      display: grid;
+      gap: 8px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      max-height: 260px;
+      overflow: auto;
+      padding-right: 4px;
+    }
+    @media (max-width: 700px) { .subjectGrid { grid-template-columns: 1fr; } }
+    label.subjectOpt {
+      display:flex; gap:8px; align-items:flex-start;
+      border: 1px solid #e7e7ef; border-radius: 10px;
+      padding: 8px 10px; background:#fff; cursor:pointer;
+    }
+    label.subjectOpt:hover { background:#f7f9ff; }
+    label.subjectOpt input { margin-top: 2px; }
+    .subjectCount { color:#666; font-size:12px; margin-left:auto; white-space:nowrap; }
   </style>
 
   <!-- PT -->
-  <script src="./questionsSE7Ti_TOGAF10.js"></script>
+  <script src="./questionsSE7Ti_TOGAF.js"></script>
   <!-- EN  -->
-  <script src="./questionsSE7Ti_TOGAF10_english.js"></script>
+  <script src="./questionsSE7Ti_TOGAF_english.js"></script>
 </head>
 
 <body>
@@ -106,6 +132,19 @@
               <option value="en">English</option>
             </select>
             <span class="muted" id="bankInfo"></span>
+          </div>
+
+          <div class="hr"></div>
+
+          <p><b id="subjectTitle">Assuntos para estudar/simular:</b></p>
+          <div class="subjectBox">
+            <div class="muted" id="subjectHelp">Marque os assuntos que deseja estudar. Você pode escolher todos.</div>
+            <div class="subjectTools">
+              <button class="secondary" id="btnSelectAllSubjects" type="button">Selecionar todos</button>
+              <button class="secondary" id="btnClearSubjects" type="button">Limpar seleção</button>
+              <span class="pill" id="pillSubjects">0 assuntos</span>
+            </div>
+            <div id="subjectList" class="subjectGrid"></div>
           </div>
 
           <div class="hr"></div>
@@ -198,6 +237,24 @@
   }
   function pad2(n) { return String(n).padStart(2, "0"); }
 
+function formatKlp(q) {
+  if (!q || !q.klp || typeof q.klp !== "object") return "";
+
+  const order = ["9", "10"];
+  const parts = [];
+
+  order.forEach((v) => {
+    const refs = q.klp[v];
+    if (Array.isArray(refs) && refs.filter(Boolean).length) {
+      const clean = refs.map(r => String(r).trim()).filter(Boolean).join(" | ");
+      parts.push(`<strong>TOGAF ${v}:</strong> KLP ${clean}`);
+    }
+  });
+
+  if (!parts.length) return "";
+  return `Para estudar mais -> ${parts.join(" • ")}`;
+}
+
   // Banks
   const bankPT = (typeof questions !== "undefined" && Array.isArray(questions)) ? questions : [];
   const bankEN = (typeof questions_en !== "undefined" && Array.isArray(questions_en)) ? questions_en : [];
@@ -208,6 +265,12 @@
   const pillLang  = el("pillLang");
   const bankInfo  = el("bankInfo");
   const selLang   = el("selLang");
+  const subjectTitle = el("subjectTitle");
+  const subjectHelp = el("subjectHelp");
+  const subjectList = el("subjectList");
+  const pillSubjects = el("pillSubjects");
+  const btnSelectAllSubjects = el("btnSelectAllSubjects");
+  const btnClearSubjects = el("btnClearSubjects");
 
   const stageMode = el("stageMode");
   const stageRun = el("stageRun");
@@ -250,6 +313,7 @@
   let mode = null;       // "study" | "quiz"
   let lang = "pt";       // "pt" | "en"
   let bankRaw = [];      // current selected bank
+  let selectedSubjects = new Set();
   let bank = [];
   let idx = 0;
   let userAnswers = new Map();
@@ -288,7 +352,16 @@
       of: "de",
       questionsWord: "questões",
       wrongNone: "Nada para revisar. Você gabaritou. 😄",
-      qLabel: "Questão"
+      qLabel: "Questão",
+      subjectsTitle: "Assuntos para estudar/simular:",
+      subjectsHelp: "Marque os assuntos que deseja estudar. Você pode escolher todos.",
+      selectAllSubjects: "Selecionar todos",
+      clearSubjects: "Limpar seleção",
+      subjectsWord: "assuntos",
+      selectedSubjects: "assuntos selecionados",
+      noSubject: "Sem assunto",
+      chooseAtLeastOneSubject: "Selecione pelo menos um assunto.",
+      filteredBankEmpty: "Não há questões para os assuntos selecionados."
     };
     const EN = {
       modeStudy: "study",
@@ -314,7 +387,16 @@
       of: "out of",
       questionsWord: "questions",
       wrongNone: "Nothing to review. Perfect score. 😄",
-      qLabel: "Question"
+      qLabel: "Question",
+      subjectsTitle: "Subjects to study/practice:",
+      subjectsHelp: "Select the subjects you want to study. You can choose all of them.",
+      selectAllSubjects: "Select all",
+      clearSubjects: "Clear selection",
+      subjectsWord: "subjects",
+      selectedSubjects: "selected subjects",
+      noSubject: "No subject",
+      chooseAtLeastOneSubject: "Select at least one subject.",
+      filteredBankEmpty: "There are no questions for the selected subjects."
     };
     return (lang === "en" ? EN : PT)[key] ?? key;
   }
@@ -329,20 +411,133 @@
     stageResult.style.display = which === "result" ? "block" : "none";
   }
 
+  function subjectOf(q) {
+    const raw = (q && typeof q.subject === "string" && q.subject.trim()) ? q.subject.trim() : t("noSubject");
+    return raw;
+  }
+
+  function getSubjectsFromBank(list) {
+    const counts = new Map();
+    (list || []).forEach(q => {
+      const subject = subjectOf(q);
+      counts.set(subject, (counts.get(subject) || 0) + 1);
+    });
+
+    return Array.from(counts.entries())
+      .map(([name, count]) => ({ name, count }))
+      .sort((a, b) => a.name.localeCompare(b.name, lang === "en" ? "en" : "pt-BR", { sensitivity: "base" }));
+  }
+
+  function renderSubjectChecklist() {
+    const subjects = getSubjectsFromBank(bankRaw);
+    subjectList.innerHTML = "";
+
+    // Por padrão, deixa todos selecionados quando troca o idioma ou carrega a página.
+    selectedSubjects = new Set(subjects.map(s => s.name));
+
+    subjects.forEach(({ name, count }) => {
+      const id = `subject_${name.replace(/[^a-z0-9_-]+/gi, "_")}`;
+
+      const label = document.createElement("label");
+      label.className = "subjectOpt";
+      label.setAttribute("for", id);
+
+      const input = document.createElement("input");
+      input.type = "checkbox";
+      input.id = id;
+      input.value = name;
+      input.checked = true;
+
+      input.addEventListener("change", () => {
+        if (input.checked) selectedSubjects.add(name);
+        else selectedSubjects.delete(name);
+        updateSubjectSummary();
+      });
+
+      const text = document.createElement("div");
+      text.textContent = name;
+
+      const countSpan = document.createElement("span");
+      countSpan.className = "subjectCount";
+      countSpan.textContent = count;
+
+      label.appendChild(input);
+      label.appendChild(text);
+      label.appendChild(countSpan);
+      subjectList.appendChild(label);
+    });
+
+    updateSubjectSummary();
+  }
+
+  function updateSubjectSummary() {
+    const selectedCount = selectedSubjects.size;
+    const totalCount = getSubjectsFromBank(bankRaw).length;
+    const filteredCount = getFilteredBank().length;
+
+    pillSubjects.textContent = `${selectedCount}/${totalCount} ${t("subjectsWord")}`;
+    pillCount.textContent = `${filteredCount} ${t("questionsWord")}`;
+  }
+
+  function selectAllSubjects() {
+    const subjects = getSubjectsFromBank(bankRaw).map(s => s.name);
+    selectedSubjects = new Set(subjects);
+    subjectList.querySelectorAll("input[type=checkbox]").forEach(input => input.checked = true);
+    updateSubjectSummary();
+  }
+
+  function clearSubjects() {
+    selectedSubjects = new Set();
+    subjectList.querySelectorAll("input[type=checkbox]").forEach(input => input.checked = false);
+    updateSubjectSummary();
+  }
+
+  function getFilteredBank() {
+    if (!bankRaw.length) return [];
+    if (!selectedSubjects.size) return [];
+    return bankRaw.filter(q => selectedSubjects.has(subjectOf(q)));
+  }
+
+  function validateSubjectSelection() {
+    if (!bankRaw.length) {
+      alert(lang === "en" ? "Question bank did not load. Check the JS file." : "Banco de questões não carregou. Verifique o JS.");
+      return null;
+    }
+
+    if (!selectedSubjects.size) {
+      alert(t("chooseAtLeastOneSubject"));
+      return null;
+    }
+
+    const filtered = getFilteredBank();
+    if (!filtered.length) {
+      alert(t("filteredBankEmpty"));
+      return null;
+    }
+
+    return filtered;
+  }
+
   function applyLangAndBank(newLang) {
     lang = newLang;
     bankRaw = (lang === "en") ? bankEN : bankPT;
 
     pillLang.textContent = `idioma: ${lang === "en" ? "EN" : "PT"}`;
-    pillCount.textContent = `${bankRaw.length} ${t("questionsWord")}`;
     bankInfo.textContent =
       (lang === "en")
         ? `Bank: ${bankEN.length} questions`
         : `Banco: ${bankPT.length} questões`;
 
+    subjectTitle.textContent = t("subjectsTitle");
+    subjectHelp.textContent = t("subjectsHelp");
+    btnSelectAllSubjects.textContent = t("selectAllSubjects");
+    btnClearSubjects.textContent = t("clearSubjects");
+
     // ajustes de labels dinâmicos
     btnRetryWrong.textContent = t("retryWrong");
     wrongTitle.textContent = t("reviewWrong");
+
+    renderSubjectChecklist();
   }
 
   function setMode(newMode) {
@@ -360,10 +555,12 @@
   }
 
   function startStudy() {
-    if (!bankRaw.length) return alert("Banco de questões não carregou. Verifique o JS.");
+    const filtered = validateSubjectSelection();
+    if (!filtered) return;
+
     setMode("study");
     resetRunState();
-    bank = shuffleArray(bankRaw);
+    bank = shuffleArray(filtered);
     setStage("run");
     studyActions.style.display = "flex";
     quizActions.style.display = "none";
@@ -387,9 +584,11 @@
   }
 
   function startQuiz() {
-    if (!bankRaw.length) return alert("Banco de questões não carregou. Verifique o JS.");
+    const filtered = validateSubjectSelection();
+    if (!filtered) return;
+
     wrongQuestions = [];
-    const selected = sampleN(bankRaw, 40);
+    const selected = sampleN(filtered, 40);
     startQuizFromList(selected);
   }
 
@@ -505,8 +704,14 @@
 
     const expl = (q.EXPLANATION_TEXT ?? "").trim();
     explainBox.style.display = "block";
+
+    const klpText = formatKlp(q);
+
     explainBox.innerHTML = `
       <div><b>${t("correctAnswer")}:</b> <span class="mono">${correct || "?"}</span></div>
+
+      ${klpText ? `<div style="margin-top:6px"><b>KLP:</b> <span class="mono">${klpText}</span></div>` : ""}
+
       <div style="margin-top:8px">${expl ? expl : `<span class='muted'>${t("noExplain")}</span>`}</div>
     `;
   }
@@ -575,8 +780,13 @@
       const expl = document.createElement("div");
       expl.className = "explain";
       const explanation = (q.EXPLANATION_TEXT ?? "").trim();
+      const klpText = formatKlp(q);
+
       expl.innerHTML = `
         <div><b>${t("explanation")}:</b></div>
+
+        ${klpText ? `<div style="margin-top:6px"><b>KLP:</b> <span class="mono">${klpText}</span></div>` : ""}
+
         <div style="margin-top:8px">${explanation ? explanation : `<span class='muted'>${t("noExplain")}</span>`}</div>
       `;
 
@@ -640,6 +850,8 @@
 
   // Events
   selLang.addEventListener("change", (e) => applyLangAndBank(e.target.value));
+  btnSelectAllSubjects.addEventListener("click", selectAllSubjects);
+  btnClearSubjects.addEventListener("click", clearSubjects);
 
   btnStudy.addEventListener("click", startStudy);
   btnQuiz.addEventListener("click", startQuiz);
