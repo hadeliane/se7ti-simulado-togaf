@@ -2367,6 +2367,103 @@ const questions_en = [
             "10": ["G20F §1.2"]
         },
         "subject": "EA Definition"
+    },
+
+    {
+        "QUESTION_NUMBER": "120",
+        "QUESTION_TEXT": "An organization wants to use the TOGAF Standard, but it is not yet mature enough to adopt all of its components. The architecture team decides to start only with the ADM process and leave the Architecture Capability materials for a later stage. How should this decision be assessed according to the TOGAF Standard?",
+        "POSSIBLE_ANSWERS": [
+            "A. It is inappropriate, because the TOGAF Standard can only be adopted in full.",
+            "B. It is inappropriate, because the ADM can only be used after the complete implementation of Architecture Capability.",
+            "C. It is acceptable only if the organization already has a modeling tool compatible with TOGAF.",
+            "D. It is acceptable, because the TOGAF Standard documents can be adopted independently and incrementally."
+        ],
+        "EXPLANATION_TEXT": "Explanation: The division of the TOGAF Standard into independent documents allows different areas to be considered in detail and, when appropriate, adopted separately. The standard recognizes that organizations new to the TOGAF approach may start with some documents and leave others for later consideration.",
+        "CORRECT_ANSWER": "D",
+        "JSONINDEX": "120",
+        "Probability": 1,
+        "versions": ["10"],
+        "klp": {
+            "10": ["{S0} §2.2"]
+        },
+        "subject": "TOGAF Standard"
+    },
+    {
+        "QUESTION_NUMBER": "121",
+        "QUESTION_TEXT": "While structuring its Enterprise Architecture function, an organization realizes that it needs to define roles, responsibilities, processes, required skills, and governance mechanisms. Which document of the TOGAF Standard Fundamental Content addresses this topic most directly?",
+        "POSSIBLE_ANSWERS": [
+            "A. The TOGAF Standard — ADM Techniques.",
+            "B. The TOGAF Standard — Applying the ADM.",
+            "C. The TOGAF Standard — Enterprise Architecture Capability and Governance.",
+            "D. The TOGAF Standard — Architecture Content."
+        ],
+        "EXPLANATION_TEXT": "Explanation: The Enterprise Architecture Capability and Governance document discusses the organization, processes, skills, roles, and responsibilities required to establish and operate an architecture function within an enterprise. It also describes an Enterprise Architecture governance framework.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "121",
+        "Probability": 1,
+        "versions": ["10"],
+        "klp": {
+            "10": ["{S0} §2.2"]
+        },
+        "subject": "TOGAF Standard"
+    },
+    {
+        "QUESTION_NUMBER": "122",
+        "QUESTION_TEXT": "An architecture team needs to understand the use of reusable Architecture Building Blocks, architectural artifacts, typical architecture deliverables, and the structured content metamodel. Which document of the TOGAF Standard Fundamental Content is most appropriate?",
+        "POSSIBLE_ANSWERS": [
+            "A. The TOGAF Standard — Applying the ADM.",
+            "B. The TOGAF Standard — ADM Techniques.",
+            "C. The TOGAF Standard — Architecture Content.",
+            "D. The TOGAF Standard — Architecture Development Method."
+        ],
+        "EXPLANATION_TEXT": "Explanation: The Architecture Content document describes the TOGAF Content Framework, the structured metamodel for architectural artifacts, the use of reusable Architecture Building Blocks, and an overview of typical architecture deliverables.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "122",
+        "Probability": 1,
+        "versions": ["10"],
+        "klp": {
+            "10": ["{S0} §2.2"]
+        },
+        "subject": "TOGAF Standard"
+    },
+    {
+        "QUESTION_NUMBER": "123",
+        "QUESTION_TEXT": "An Enterprise Architect is looking for additional guidance on topics such as Security Architecture, architecture for an agile enterprise, and support for the digital enterprise. These topics are not treated as the main part of the six Fundamental Content documents, but appear in specific guidance materials. Where should she look for this type of content?",
+        "POSSIBLE_ANSWERS": [
+            "A. Only in the Architecture Development Method document.",
+            "B. Only in the Introduction and Core Concepts document.",
+            "C. Only in the Architecture Content document.",
+            "D. In the TOGAF Series Guides."
+        ],
+        "EXPLANATION_TEXT": "Explanation: In addition to the Fundamental Content, the TOGAF Standard includes the TOGAF Series Guides, which provide practical guidance for specific concerns and use-cases, such as security, agility, digital enterprise, technology, data, and integration with other standards.",
+        "CORRECT_ANSWER": "D",
+        "JSONINDEX": "123",
+        "Probability": 1,
+        "versions": ["10"],
+        "klp": {
+            "10": ["{S0} §2.2"]
+        },
+        "subject": "TOGAF Standard"
+    },
+    {
+        "QUESTION_NUMBER": "124",
+        "QUESTION_TEXT": "An organization wants to deploy the TOGAF Standard and asks whether all TOGAF Series Guides need to be used in every architecture project. What is the best answer, according to the standard?",
+        "POSSIBLE_ANSWERS": [
+            "A. Yes, all guides are mandatory for any adoption of the TOGAF Standard.",
+            "B. No, not all guides will be relevant in every situation, but architects should be aware of the available guidance.",
+            "C. Yes, the guides replace the six Fundamental Content documents of the TOGAF Standard.",
+            "D. No, the guides should be ignored by organizations that already use the ADM."
+        ],
+        "EXPLANATION_TEXT": "Explanation: Not all TOGAF Series Guides will be relevant in every situation. However, Enterprise Architects who are planning the deployment of the TOGAF Standard should be aware of the guidance available.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "124",
+        "Probability": 1,
+        "versions": ["10"],
+        "klp": {
+            "10": ["{S0} §2.2"]
+        },
+        "subject": "TOGAF Standard"
     }
+
 
 ];

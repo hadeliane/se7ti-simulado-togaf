@@ -180,7 +180,7 @@ const questions = [
         "C. Propor um cronograma detalhado para a execução de projetos de transformação.",
         "D. Realizar auditorias financeiras para projetos estratégicos."
     ],
-    "EXPLANATION_TEXT": "Explicação: O propósito da Avaliação de Prontidão para Transformação do Negócio é avaliar a capacidade da organização de planejar e implementar uma transformação estratégica, identificando pontos fortes e lacunas que podem impactar o sucesso dessa transformação.",
+    "EXPLANATION_TEXT": "Explicação: O propósito da Avaliação de Prontidão para Transformação do Negócio é avaliar a capacidade da organização de planejar e implementar uma transformação estratégica, identificando pontos fortes e diferenças que podem impactar o sucesso dessa transformação.",
     "CORRECT_ANSWER": "B",
     "JSONINDEX": "9",
     "Probability": 1,
@@ -194,14 +194,14 @@ const questions = [
 
 {
     "QUESTION_NUMBER": "10",
-    "QUESTION_TEXT": "Em qual fase do Ciclo ADM o Padrão TOGAF® recomenda o uso da Avaliação de Prontidão para Transformação do Negócio?",
+    "QUESTION_TEXT": "Em qual fase do MDA o Padrão TOGAF® recomenda o uso da Avaliação de Prontidão para Transformação do Negócio?",
     "POSSIBLE_ANSWERS": [
-        "A. Fase A (Visão da Arquitetura).",
-        "B. Fase B (Arquitetura de Negócio).",
-        "C. Fase E (Oportunidades e Soluções).",
-        "D. Todas as fases do ADM."
+        "A. Fase A.",
+        "B. Fase B.",
+        "C. Fase E.",
+        "D. Todas as fases do MDA."
     ],
-    "EXPLANATION_TEXT": "Explicação: O padrão TOGAF® recomenda o uso da Avaliação de Prontidão para Transformação do Negócio na Fase A (Visão da Arquitetura), quando são avaliadas as capacidades organizacionais para suportar a transformação proposta.",
+    "EXPLANATION_TEXT": "Explicação: O padrão TOGAF®, em seu Método de Desenvolvimento da Arquitetura (ADM, em inglês) recomenda o uso da Avaliação de Prontidão para Transformação do Negócio na Fase A (Visão da Arquitetura), quando são avaliadas as capacidades organizacionais para suportar a transformação proposta.",
     "CORRECT_ANSWER": "A",
     "JSONINDEX": "10",
     "Probability": 1,
@@ -348,9 +348,9 @@ const questions = [
     "QUESTION_NUMBER": "17",
     "QUESTION_TEXT": "De acordo com o Padrão TOGAF®, como a Análise de Diferenças apoia o desenvolvimento do Roadmap de Implementação?",
     "POSSIBLE_ANSWERS": [
-        "A. Identificando as lacunas que precisam ser preenchidas antes do desenvolvimento das soluções.",
+        "A. Identificando as diferenças que precisam ser preenchidas antes do desenvolvimento das soluções.",
         "B. Determinando os critérios de aceitação para novos sistemas.",
-        "C. Estabelecendo diretrizes para os ciclos iterativos do ADM.",
+        "C. Estabelecendo diretrizes para as rodadas iterativas do MDA.",
         "D. Mapeando as prioridades organizacionais no momento atual."
     ],
     "EXPLANATION_TEXT": "Explicação: A Análise de Diferenças apoia o desenvolvimento do Roadmap de Implementação ao identificar as lacunas que precisam ser tratadas, ajudando a priorizar iniciativas para alcançar a arquitetura alvo.",
@@ -497,18 +497,16 @@ const questions = [
 },
 
 
-//
-
 {
     "QUESTION_NUMBER": "24",
-    "QUESTION_TEXT": "Como o Ciclo MDA se relaciona com as Diretrizes e Técnicas de Apoio, segundo o Padrão TOGAF®?",
+    "QUESTION_TEXT": "Como o MDA se relaciona com as Diretrizes e Técnicas de Apoio, segundo o Padrão TOGAF®?",
     "POSSIBLE_ANSWERS": [
-        "A. O ADM é uma alternativa ao uso das Diretrizes e Técnicas de Apoio.",
-        "B. As Diretrizes e Técnicas de Apoio substituem o ADM em contextos específicos.",
-        "C. O ADM é apoiado pelas Diretrizes e Técnicas de Apoio que ajudam o arquiteto a executá-lo seguindo as necessidades da organização.",
-        "D. As Diretrizes e Técnicas de Apoio são aplicadas apenas após a conclusão do ADM."
+        "A. O MDA é uma alternativa ao uso das Diretrizes e Técnicas de Apoio.",
+        "B. As Diretrizes e Técnicas de Apoio substituem o MDA em contextos específicos.",
+        "C. O MDA é apoiado pelas Diretrizes e Técnicas de Apoio que ajudam o arquiteto a executá-lo seguindo as necessidades da organização.",
+        "D. As Diretrizes e Técnicas de Apoio são aplicadas apenas após a conclusão do MDA."
     ],
-    "EXPLANATION_TEXT": "Explicação: Segundo o Padrão TOGAF®, o MDA (Método de Desenvolvimento da Arquitetura, conhecido em inglês por ADM) é apoiado por Diretrizes e Técnicas que ajudam o arquiteto a executar o método, adaptando-o às necessidades específicas da organização. Elas não substituem o MDA, mas o complementam.",
+    "EXPLANATION_TEXT": "Explicação: Segundo o Padrão TOGAF®, o MDA é apoiado por Diretrizes e Técnicas que ajudam o arquiteto a executar o método, adaptando-o às necessidades específicas da organização. Elas não substituem o MDA, mas o complementam. Lembre-se que MDA é Método de Desenvolvimento da Arquitetura, ou seja, o ADM! Na prova em português, a sigla aparecerá traduzida",
     "CORRECT_ANSWER": "C",
     "JSONINDEX": "24",
     "Probability": 1,
@@ -519,8 +517,6 @@ const questions = [
     },
     "subject": "Padrão TOGAF"
 },
-
-
 
 {
     "QUESTION_NUMBER": "25",
@@ -557,7 +553,7 @@ const questions = [
     "Probability": 1,
     "versions": ["9","10"],
     "klp": {
-        "9":  ["Desculpe, não lembro!"],
+        "9":  ["1.1"],
         "10": ["{S0} §2.2"]
     },
     "subject": "Padrão TOGAF"
@@ -578,7 +574,7 @@ const questions = [
     "Probability": 1,
     "versions": ["9","10"],
     "klp": {
-        "9":  ["Desculpe, não lembro!"],
+        "9":  ["1.1"],
         "10": ["{S0} §2.2"]
     },
     "subject": "Padrão TOGAF"
@@ -844,7 +840,7 @@ const questions = [
 
 {
     "QUESTION_NUMBER": "40",
-    "QUESTION_TEXT": "Qual das atividades está mais associada à Fase E do ADM, segundo o Padrão TOGAF®?",
+    "QUESTION_TEXT": "Qual das atividades está mais associada à Fase E do MDA, segundo o Padrão TOGAF®?",
     "POSSIBLE_ANSWERS": [
         "A. Identificar pacotes de trabalho e possíveis soluções de entrega.",
         "B. Detalhar os componentes técnicos da solução.",
@@ -956,7 +952,7 @@ const questions = [
         "A. A documentação de requisitos apenas nas fases iniciais.",
         "B. A realização de auditorias ao final de cada fase.",
         "C. A integração entre projetos de software e infraestrutura.",
-        "D. A operação contínua do processo de gestão de requisitos de arquitetura ao longo do ADM."
+        "D. A operação contínua do processo de gestão de requisitos de arquitetura ao longo do MDA."
     ],
     "EXPLANATION_TEXT": "Explicação: A Fase Gerenciamento de Requisitos opera o processo de gestão de requisitos ao longo de todo o MDA (Método de Desenvolvimento da Arquitetura... quem aqui gosta do ADM!? Eu, Hadeliane, gosto! hehehe), garantindo alinhamento contínuo entre as fases e as necessidades da organização. (KLP: {S0} §3.4)",
     "CORRECT_ANSWER": "D",
@@ -995,7 +991,7 @@ const questions = [
     "QUESTION_NUMBER": "47",
     "QUESTION_TEXT": "Em qual ponto do MDA atua o Gerenciamento de Requisitos, segundo o Padrão TOGAF®?",
     "POSSIBLE_ANSWERS": [
-        "A. Ao longo de todo o ciclo do ADM",
+        "A. Ao longo de todo o ciclo do MDA",
         "B. Após a entrega da arquitetura final",
         "C. Apenas nas fases de desenvolvimento de soluções",
         "D. Exclusivamente na Fase A"
@@ -1098,7 +1094,7 @@ const questions = [
   "POSSIBLE_ANSWERS": [
     "A. Serve apenas como artefato de planejamento estratégico.",
     "B. Deve ser utilizado apenas em ambientes de arquitetura orientada a serviços.",
-    "C. É restrito às fases iniciais do ADM.",
+    "C. É restrito às fases iniciais do MDA.",
     "D. É utilizado para representar diferentes estágios da arquitetura no tempo."
   ],
   "EXPLANATION_TEXT": "Explicação: O Panorama de Arquitetura (Architecture Landscape) pode representar arquiteturas no estado atual, no estado de transição e no estado futuro, refletindo a evolução da arquitetura ao longo do tempo.",
@@ -1129,7 +1125,7 @@ const questions = [
   "klp": {
     "10": ["G184 §3.3"]
   },
-  "subject": "Capacidade de Arquitetura"
+  "subject": "Quatro propósitos do ADM"
 },
 {
   "QUESTION_NUMBER": "54",
@@ -1148,7 +1144,7 @@ const questions = [
   "klp": {
     "10": ["G184 §3.3"]
   },
-  "subject": "Capacidade de Arquitetura"
+  "subject": "Quatro propósitos do ADM"
 },
 {
   "QUESTION_NUMBER": "55",
@@ -1167,7 +1163,7 @@ const questions = [
   "klp": {
     "10": ["G186 §3.2.2"]
   },
-  "subject": "Capacidade de Arquitetura"
+  "subject": "Quatro propósitos do ADM"
 },
 {
   "QUESTION_NUMBER": "56",
@@ -1186,7 +1182,7 @@ const questions = [
   "klp": {
     "10": ["G184 §3.3"]
   },
-  "subject": "Capacidade de Arquitetura"
+  "subject": "Quatro propósitos do ADM"
 },
 {
   "QUESTION_NUMBER": "57",
@@ -1205,7 +1201,7 @@ const questions = [
   "klp": {
     "10": ["G186 §3.2.2"]
   },
-  "subject": "Capacidade de Arquitetura"
+  "subject": "Quatro propósitos do ADM"
 },
 {
   "QUESTION_NUMBER": "58",
@@ -1213,7 +1209,7 @@ const questions = [
   "POSSIBLE_ANSWERS": [
     "A. A arquitetura usada para apoiar o portfólio é geralmente mais detalhada que a usada para apoiar projetos.",
     "B. A arquitetura para apoiar a entrega de soluções normalmente contém apenas orientações gerais e estratégicas.",
-    "C. Os quatro propósitos do ADM são mutuamente exclusivos e só podem ser aplicados de forma isolada.",
+    "C. Os quatro propósitos do MDA são mutuamente exclusivos e só podem ser aplicados de forma isolada.",
     "D. A mesma Capacidade de Arquitetura pode apoiar mais de um propósito, como estratégia e projetos."
   ],
   "EXPLANATION_TEXT": "Explicação: Segundo o Padrão TOGAF®, uma Capacidade de Arquitetura pode apoiar múltiplos propósitos ao mesmo tempo, como estratégia, portfólio e projetos. Esses propósitos não são excludentes.",
@@ -1224,19 +1220,19 @@ const questions = [
   "klp": {
     "10": ["G184 §3.3"]
   },
-  "subject": "Capacidade de Arquitetura"
+  "subject": "Quatro propósitos do ADM"
 },
-//
+
 {
   "QUESTION_NUMBER": "59",
   "QUESTION_TEXT": "Qual é a finalidade do Framework de Conteúdo do Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
-    "A. Estruturar as descrições de arquitetura e os produtos gerados nas fases do ADM",
+    "A. Estruturar as descrições de arquitetura e os produtos gerados nas fases do MDA",
     "B. Classificar os projetos de transformação digital com base na urgência e importância",
     "C. Garantir que todos os artefatos sejam modelados com a mesma ferramenta computacional",
     "D. Criar listas de verificação para uso em auditorias de governança"
   ],
-  "EXPLANATION_TEXT": "Explicação: O Framework de Conteúdo é utilizado para estruturar as descrições de arquitetura, os produtos de trabalho e os modelos gerados durante o ADM.",
+  "EXPLANATION_TEXT": "Explicação: O Framework de Conteúdo é utilizado para estruturar as descrições de arquitetura, os produtos de trabalho e os modelos gerados durante o Método de Desenvolvimento da Arquitetura (MDA, em português, e o mais famoso ADM, em inglês).",
   "CORRECT_ANSWER": "A",
   "JSONINDEX": "59",
   "Probability": 1,
@@ -1291,10 +1287,10 @@ const questions = [
   "QUESTION_NUMBER": "62",
   "QUESTION_TEXT": "Segundo o Padrão TOGAF®, qual é a principal relação entre o MDA e o Framework de Conteúdo?",
   "POSSIBLE_ANSWERS": [
-    "A. O ADM organiza as informações em fases, enquanto o Framework define os papéis dos stakeholders",
-    "B. O ADM representa o método de desenvolvimento, enquanto o Framework de Conteúdo organiza os produtos gerados",
+    "A. O MDA organiza as informações em fases, enquanto o Framework define os papéis dos stakeholders",
+    "B. O MDA representa o método de desenvolvimento, enquanto o Framework de Conteúdo organiza os produtos gerados",
     "C. Ambos tratam dos artefatos que compõem a arquitetura, mas o Framework trata apenas da fase preliminar",
-    "D. O Framework de Conteúdo define a estrutura da organização, enquanto o ADM define o orçamento de TI"
+    "D. O Framework de Conteúdo define a estrutura da organização, enquanto o MDA define o orçamento de TI"
   ],
   "EXPLANATION_TEXT": "Explicação: O MDA (Método de Desenvolvimento da Arquitetura – ADM em inglês) descreve como a arquitetura é criada, utilizada e mantida. O Framework de Conteúdo, por sua vez, organiza e estrutura os elementos e produtos arquiteturais gerados ao longo do ADM.",
   "CORRECT_ANSWER": "B",
@@ -1557,9 +1553,9 @@ const questions = [
     "A. Distribuição de requisitos por área de negócios",
     "B. Separação entre domínios de arquitetura",
     "C. Organização dos requisitos por níveis de granularidade",
-    "D. Definição de responsabilidades por fase do ADM"
+    "D. Definição de responsabilidades por fase do MDA"
   ],
-  "EXPLANATION_TEXT": "Explicação: Os requisitos de arquitetura são divididos em três níveis de granularidade — estratégico, segmento e capacidade — para refletir diferentes escopos e necessidades.",
+  "EXPLANATION_TEXT": "Explicação: Os requisitos de arquitetura são divididos em três níveis de granularidade — estratégico, segmento e capacidade — para refletir diferentes escopos e necessidades. Lembre-se que esses três níveis são os mesmos ddos níveis do Particionamento da Arquitetura (aquela figura do cubo de três cores!).",
   "CORRECT_ANSWER": "C",
   "JSONINDEX": "75",
   "Probability": 1,
@@ -1572,14 +1568,14 @@ const questions = [
 },
 {
   "QUESTION_NUMBER": "76",
-  "QUESTION_TEXT": "Um arquiteto júnior está organizando a documentação gerada durante as fases do ADM e deseja entender onde cada elemento deve ser armazenado. Qual das afirmações abaixo está de acordo com o Padrão TOGAF®?",
+  "QUESTION_TEXT": "Um arquiteto júnior está organizando a documentação gerada durante as fases do MDA e deseja entender onde cada elemento deve ser armazenado. Qual das afirmações abaixo está de acordo com o Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
     "A. O Panorama de Arquitetura armazena os dados gerados pelas soluções implementadas.",
     "B. O Repositório de Requisitos guarda os padrões obrigatórios aprovados pela organização.",
     "C. A Biblioteca de Padrões armazena apenas modelos de fornecedores externos.",
     "D. O Panorama de Soluções representa os blocos de construção de solução usados para suportar os blocos de construção arquiteturais."
   ],
-  "EXPLANATION_TEXT": "Explicação: O Panorama de Soluções contém a representação dos blocos de construção de solução (SBBs) que suportam os blocos de construção de arquitetura (ABBs). Ele não armazena os dados gerados pelas soluções.",
+  "EXPLANATION_TEXT": "Explicação: O Panorama de Soluções contém a representação dos blocos de construção de solução (BCS, os SBBs em inglês) que suportam os blocos de construção de arquitetura (BCA, os ABBs em inglês). Ele não armazena os dados gerados pelas soluções.",
   "CORRECT_ANSWER": "D",
   "JSONINDEX": "76",
   "Probability": 1,
@@ -1610,8 +1606,6 @@ const questions = [
   },
   "subject": "Repositório de Arquitetura"
 },
-
-//
 
 {
   "QUESTION_NUMBER": "78",
@@ -1648,25 +1642,6 @@ const questions = [
   "versions": ["10"],
   "klp": {
     "10": ["{S0} §3.12.3"]
-  },
-  "subject": "Metamodelo"
-},
-{
-  "QUESTION_NUMBER": "80",
-  "QUESTION_TEXT": "Qual é a relação entre o MDA e o Framework de Conteúdo segundo o Padrão TOGAF®?",
-  "POSSIBLE_ANSWERS": [
-    "A. O ADM orienta a criação de conteúdo que será estruturado pelo Framework.",
-    "B. O Framework de Conteúdo substitui a estrutura do ADM nos projetos menores.",
-    "C. O Framework de Conteúdo determina quais fases do ADM devem ser executadas.",
-    "D. O ADM e o Framework de Conteúdo são usados exclusivamente na Fase Preliminar."
-  ],
-  "EXPLANATION_TEXT": "Explicação: O MDA (Método de Desenvolvimento da Arquitetura) fornece as fases e as entregas, enquanto o Framework de Conteúdo estrutura os elementos que compõem essas entregas. Um complementa o outro.",
-  "CORRECT_ANSWER": "A",
-  "JSONINDEX": "80",
-  "Probability": 1,
-  "versions": ["10"],
-  "klp": {
-    "10": ["{S0} §3.12.1"]
   },
   "subject": "Metamodelo"
 },
@@ -1950,8 +1925,6 @@ const questions = [
   "subject": "Visões e Pontos de Vista"
 },
 
-//
-
 {
   "QUESTION_NUMBER": "95",
   "QUESTION_TEXT": "O que o Continuum Corporativo fornece para apoiar o trabalho do arquiteto?",
@@ -1959,7 +1932,7 @@ const questions = [
     "A. Uma lista fixa de modelos obrigatórios para todas as organizações.",
     "B. Um método para classificar artefatos conforme evoluem do genérico ao específico.",
     "C. Um repositório físico que armazena somente artefatos internos.",
-    "D. Um conjunto de processos para substituir o ADM."
+    "D. Um conjunto de processos para substituir o MDA."
   ],
   "EXPLANATION_TEXT": "Explicação: O Continuum Corporativo fornece um mecanismo de classificação que organiza os artefatos de arquitetura à medida que evoluem de arquiteturas mais genéricas para arquiteturas específicas da organização.",
   "CORRECT_ANSWER": "B",
@@ -2202,12 +2175,12 @@ const questions = [
   "QUESTION_NUMBER": "107",
   "QUESTION_TEXT": "Segundo o Padrão TOGAF®, por que é importante considerar arquiteturas alvo alternativas?",
   "POSSIBLE_ANSWERS": [
-    "A. Porque a Visão da Arquitetura normalmente não é definida no início do ADM.",
+    "A. Porque a Visão da Arquitetura normalmente não é definida no início do MDA.",
     "B. Porque raramente existe uma única Arquitetura Alvo que atenda a todas as preocupações das partes interessadas.",
     "C. Porque os Princípios de Arquitetura exigem múltiplas soluções técnicas.",
-    "D. Porque o ADM determina obrigatoriamente a criação de várias arquiteturas finais."
+    "D. Porque o MDA determina obrigatoriamente a criação de várias arquiteturas finais."
   ],
-  "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® afirma que frequentemente existe mais de uma Arquitetura Alvo possível em conformidade com a Visão, os Princípios e os Requisitos, e que uma única alternativa raramente atende a todas as preocupações das partes interessadas.",
+  "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® afirma que frequentemente existe mais de uma Arquitetura Alvo possível em conformidade com a Visão, os Princípios e os Requisitos, e que uma única alternativa raramente atende a todas as preocupações das partes interessadas. Não esqueça que MDA é a tradução para o português do ADM.",
   "CORRECT_ANSWER": "B",
   "JSONINDEX": "107",
   "Probability": 1,
@@ -2259,12 +2232,12 @@ const questions = [
   "QUESTION_NUMBER": "110",
   "QUESTION_TEXT": "De acordo com o Padrão TOGAF®, em qual momento o método de Trade-offs pode ser utilizado?",
   "POSSIBLE_ANSWERS": [
-    "A. Apenas na Fase A do ADM.",
+    "A. Apenas na Fase A do MDA.",
     "B. Somente em arquiteturas de nível estratégico.",
     "C. Apenas durante a definição da Arquitetura de Tecnologia.",
-    "D. Em qualquer Fase do ADM e para qualquer nível de arquitetura."
+    "D. Em qualquer Fase do MDA e para qualquer nível de arquitetura."
   ],
-  "EXPLANATION_TEXT": "Explicação: O método de Trade-offs pode ser aplicado em qualquer fase do ADM e em qualquer nível de arquitetura, sempre que houver necessidade de avaliar alternativas e tomar decisões arquiteturais fundamentadas.",
+  "EXPLANATION_TEXT": "Explicação: O método de Trade-offs pode ser aplicado em qualquer fase do MDA (nosso super amigo ADM!) e em qualquer nível de arquitetura, sempre que houver necessidade de avaliar alternativas e tomar decisões arquiteturais fundamentadas.",
   "CORRECT_ANSWER": "D",
   "JSONINDEX": "110",
   "Probability": 1,
@@ -2448,7 +2421,104 @@ const questions = [
             "10": ["G20F §1.2"]
         },
         "subject": "Definição de EA"
+    },
+
+    {
+        "QUESTION_NUMBER": "120",
+        "QUESTION_TEXT": "Uma empresa deseja usar o Padrão TOGAF, mas ainda não tem maturidade para adotar todos os seus componentes. A equipe de arquitetura decide começar apenas pelo MDA e deixar os materiais sobre Capacidade de Arquitetura para uma etapa posterior. Como essa decisão deve ser avaliada segundo o Padrão TOGAF®?",
+        "POSSIBLE_ANSWERS": [
+            "A. É inadequada, pois o Padrão TOGAF só pode ser adotado integralmente.",
+            "B. É inadequada, pois o MDA só pode ser usado depois da implantação completa da Capacidade de Arquitetura.",
+            "C. É aceitável apenas se a organização já possuir uma ferramenta de modelagem compatível com TOGAF.",
+            "D. É aceitável, pois os documentos do Padrão TOGAF podem ser adotados de forma independente e incremental."
+        ],
+        "EXPLANATION_TEXT": "Explicação: A divisão do Padrão TOGAF em documentos independentes permite que diferentes áreas sejam consideradas em detalhe e, quando necessário, adotadas separadamente. O padrão reconhece que organizações novas no TOGAF podem iniciar por alguns documentos e deixar outros para consideração posterior.",
+        "CORRECT_ANSWER": "D",
+        "JSONINDEX": "120",
+        "Probability": 1,
+        "versions": ["10"],
+        "klp": {
+            "10": ["{S0} §2.2"]
+        },
+        "subject": "Padrão TOGAF"
+    },
+    {
+        "QUESTION_NUMBER": "121",
+        "QUESTION_TEXT": "Durante a estruturação da função de Arquitetura Corporativa, uma empresa percebe que precisa definir papéis, responsabilidades, processos, habilidades necessárias e mecanismos de governança. Qual documento do conteúdo fundamental do Padrão TOGAF trata mais diretamente desse assunto?",
+        "POSSIBLE_ANSWERS": [
+            "A. Técnicas do MDA.",
+            "B. Aplicando o MDA.",
+            "C. Capacidade e Governança da Arquitetura Corporativa.",
+            "D. Conteúdo da Arquitetura."
+        ],
+        "EXPLANATION_TEXT": "Explicação: O documento \"Enterprise Architecture Capability and Governance\" trata da organização, processos, habilidades, papéis e responsabilidades necessários para estabelecer e operar uma função de arquitetura dentro da empresa. Ele também descreve um framework de governança de Arquitetura Corporativa.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "121",
+        "Probability": 1,
+        "versions": ["10"],
+        "klp": {
+            "10": ["{S0} §2.2"]
+        },
+        "subject": "Padrão TOGAF"
+    },
+    {
+        "QUESTION_NUMBER": "122",
+        "QUESTION_TEXT": "Uma equipe de arquitetura precisa entender o uso de Blocos de Construção reutilizáveis, artefatos arquiteturais, entregáveis típicos e o metamodelo estruturado de conteúdo. Qual documento do conteúdo fundamental do Padrão TOGAF é mais apropriado?",
+        "POSSIBLE_ANSWERS": [
+            "A. Aplicando o MDA.",
+            "B. Técnicas do MDA.",
+            "C. Conteudo da Arquitetura.",
+            "D. Método de Desenvolvimento da Arquitetura."
+        ],
+        "EXPLANATION_TEXT": "Explicação: O documento \"Architecture Content\" descreve o \"TOGAF Content Framework\", o metamodelo estruturado para artefatos arquiteturais, o uso de Blocos de Construção reutilizáveis e uma visão geral dos entregáveis típicos de arquitetura.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "122",
+        "Probability": 1,
+        "versions": ["10"],
+        "klp": {
+            "10": ["{S0} §2.2"]
+        },
+        "subject": "Padrão TOGAF"
+    },
+    {
+        "QUESTION_NUMBER": "123",
+        "QUESTION_TEXT": "Uma arquiteta corporativa procura orientação adicional sobre temas como Arquitetura de Segurança, arquitetura para uma empresa ágil e suporte à empresa digital. Esses assuntos não são tratados como parte principal dos seis documentos fundamentais, mas aparecem em materiais de orientação específicos. Onde ela deve procurar esse tipo de conteúdo?",
+        "POSSIBLE_ANSWERS": [
+            "A. Apenas no documento Architecture Development Method.",
+            "B. Apenas no documento Introduction and Core Concepts.",
+            "C. Apenas no documento Architecture Content.",
+            "D. Nos TOGAF Series Guides."
+        ],
+        "EXPLANATION_TEXT": "Explicação: Além do conteúdo fundamental, o Padrão TOGAF inclui os TOGAF Series Guides, que oferecem orientação prática para preocupações e casos de uso específicos, como Segurança, agilidade, empresa digital, tecnologia, dados e integração com outros padrões.",
+        "CORRECT_ANSWER": "D",
+        "JSONINDEX": "123",
+        "Probability": 1,
+        "versions": ["10"],
+        "klp": {
+            "10": ["{S0} §2.2"]
+        },
+        "subject": "Padrão TOGAF"
+    },
+    {
+        "QUESTION_NUMBER": "124",
+        "QUESTION_TEXT": "Uma organização quer implantar o Padrão TOGAF e pergunta se todos os TOGAF Series Guides precisam ser utilizados em todos os projetos de arquitetura. Qual é a melhor resposta, de acordo com o padrão?",
+        "POSSIBLE_ANSWERS": [
+            "A. Sim, todos os guias são obrigatórios para qualquer adoção do Padrão TOGAF.",
+            "B. Não, nem todos os guias serão relevantes em todas as situações, mas os arquitetos devem conhecer a orientação disponível.",
+            "C. Sim, os guias substituem os seis documentos fundamentais do Padrão TOGAF.",
+            "D. Não, os guias devem ser ignorados por organizações que já utilizam o MDA."
+        ],
+        "EXPLANATION_TEXT": "Explicação: Nem todos os TOGAF Series Guides serão relevantes em todas as situações. Contudo, arquitetos corporativos que planejam a implantação do Padrão TOGAF devem estar cientes da orientação disponível.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "124",
+        "Probability": 1,
+        "versions": ["10"],
+        "klp": {
+            "10": ["{S0} §2.2"]
+        },
+        "subject": "Padrão TOGAF"
     }
+
 
 ];
 
