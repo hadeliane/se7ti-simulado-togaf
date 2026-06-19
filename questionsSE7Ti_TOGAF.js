@@ -239,11 +239,11 @@ const questions = [
     "QUESTION_TEXT": "O que é mais importante ao conduzir uma Avaliação de Prontidão para Transformação do Negócio, de acordo com o Padrão TOGAF®?",
     "POSSIBLE_ANSWERS": [
         "A. Assegurar a precisão dos dados técnicos coletados.",
-        "B. Garantir o alinhamento dos stakeholders em relação à capacidade organizacional de transformação.",
+        "B. Garantir o alinhamento das partes interessadas em relação à capacidade organizacional de transformação.",
         "C. Avaliar a conformidade com as normas técnicas do setor.",
         "D. Criar um modelo financeiro detalhado para apoiar os investimentos."
     ],
-    "EXPLANATION_TEXT": "Explicação: O alinhamento dos stakeholders em relação às capacidades organizacionais é essencial para garantir entendimento comum sobre desafios, riscos e recursos necessários para a transformação.",
+    "EXPLANATION_TEXT": "Explicação: O alinhamento das partes interessdas (stakeholders) em relação às capacidades organizacionais é essencial para garantir entendimento comum sobre desafios, riscos e recursos necessários para a transformação.",
     "CORRECT_ANSWER": "B",
     "JSONINDEX": "12",
     "Probability": 1,
@@ -277,18 +277,16 @@ const questions = [
 },
 
 
-//
-
 {
     "QUESTION_NUMBER": "14",
-    "QUESTION_TEXT": "De acordo com o Padrão TOGAF®, como é definido o termo 'Parte Interessada' (Stakeholder)?",
+    "QUESTION_TEXT": "De acordo com o Padrão TOGAF®, como é definido o termo 'Parte Interessada'?",
     "POSSIBLE_ANSWERS": [
         "A. Uma pessoa ou grupo com interesse direto nos objetivos e resultados de uma organização.",
         "B. Uma pessoa que é diretamente responsável por executar tarefas de arquitetura.",
         "C. Qualquer membro da equipe de TI.",
         "D. Um fornecedor externo envolvido no desenvolvimento de sistemas."
     ],
-    "EXPLANATION_TEXT": "Explicação: No Padrão TOGAF®, uma Parte Interessada é qualquer pessoa ou grupo que tenha interesse nos objetivos e resultados de uma organização e que possa influenciar ou ser influenciada pela arquitetura corporativa.",
+    "EXPLANATION_TEXT": "Explicação: No Padrão TOGAF®, uma Parte Interessada (stakeholder) é qualquer pessoa ou grupo que tenha interesse nos objetivos e resultados de uma organização e que possa influenciar ou ser influenciada pela arquitetura corporativa.",
     "CORRECT_ANSWER": "A",
     "JSONINDEX": "14",
     "Probability": 1,
@@ -299,8 +297,6 @@ const questions = [
     },
     "subject": "Parte interessada"
 },
-
-//
 
 {
     "QUESTION_NUMBER": "15",
@@ -429,8 +425,6 @@ const questions = [
     },
     "subject": "Interoperabilidade"
 },
-
-//
 
 {
     "QUESTION_NUMBER": "21",
@@ -580,8 +574,6 @@ const questions = [
     "subject": "Padrão TOGAF"
 },
 
-//
-
 {
     "QUESTION_NUMBER": "28",
     "QUESTION_TEXT": "O que é realizado na Fase Preliminar, segundo o Padrão TOGAF®?",
@@ -605,11 +597,11 @@ const questions = [
 
 {
     "QUESTION_NUMBER": "29",
-    "QUESTION_TEXT": "De acordo com o Padrão TOGAF®, qual é o papel da Fase Preliminar em relação às fases cíclicas do MDA?",
+    "QUESTION_TEXT": "De acordo com o Padrão TOGAF®, qual é o papel da Fase Preliminar em relação às demais fases do MDA?",
     "POSSIBLE_ANSWERS": [
-        "A. Estabelecer uma base metodológica antes do início do ciclo contínuo.",
+        "A. Estabelecer uma base metodológica antes do início das rodadas.",
         "B. Definir a arquitetura alvo antes das fases de execução.",
-        "C. Fornecer informações operacionais para cada fase do ciclo.",
+        "C. Fornecer informações operacionais para cada fase das rodadas.",
         "D. Consolidar os entregáveis finais do MDA."
     ],
     "EXPLANATION_TEXT": "Explicação: A Fase Preliminar prepara o ambiente organizacional, metodológico e de governança antes do início das iterações do MDA (Método de Desenvolvimento da Arquitetura). Por isso, ela está posicionada fora do ciclo contínuo.",
@@ -631,7 +623,7 @@ const questions = [
         "A. Sempre que uma nova demanda de arquitetura surgir.",
         "B. Apenas quando houver mudança estratégica significativa ou necessidade de atualização na capacidade de Arquitetura Corporativa.",
         "C. No início de cada fase do ciclo.",
-        "D. Durante a transição entre as fases F e G."
+        "D. Durante a transição entre a Fase H e a Fase A."
     ],
     "EXPLANATION_TEXT": "Explicação: A Fase Preliminar não é revisitada a cada nova demanda. Ela pode ser reavaliada quando houver mudanças estratégicas, estruturais ou quando for necessário atualizar a capacidade de Arquitetura Corporativa.",
     "CORRECT_ANSWER": "B",
@@ -645,15 +637,13 @@ const questions = [
     "subject": "Fases do ADM"
 },
 
-
-//
 {
     "QUESTION_NUMBER": "31",
     "QUESTION_TEXT": "Qual é o objetivo principal da Fase A, segundo o Padrão TOGAF®?",
     "POSSIBLE_ANSWERS": [
         "A. Executar a transição da arquitetura atual para a futura.",
         "B. Detalhar todos os modelos arquiteturais para o ciclo completo.",
-        "C. Definir o escopo, os stakeholders e a Visão da Arquitetura.",
+        "C. Definir o escopo, as partes interessadas e a Visão da Arquitetura.",
         "D. Validar a solução proposta com testes técnicos e funcionais."
     ],
     "EXPLANATION_TEXT": "Explicação: A Fase A tem como foco a definição do escopo da iniciativa de arquitetura, a identificação dos stakeholders, a criação da Visão da Arquitetura e a obtenção da aprovação para prosseguir com o desenvolvimento.",
@@ -695,7 +685,7 @@ const questions = [
     "POSSIBLE_ANSWERS": [
         "A. Desenvolver a Arquitetura de Negócio para apoiar a Visão da Arquitetura acordada.",
         "B. Planejar a implementação de projetos de tecnologia.",
-        "C. Avaliar a viabilidade técnica da arquitetura-alvo.",
+        "C. Avaliar a viabilidade técnica da arquitetura alvo.",
         "D. Consolidar os artefatos para as fases posteriores."
     ],
     "EXPLANATION_TEXT": "Explicação: A Fase B descreve o desenvolvimento da Arquitetura de Negócio com o objetivo de apoiar a Visão da Arquitetura previamente acordada.",
@@ -714,12 +704,12 @@ const questions = [
     "QUESTION_NUMBER": "34",
     "QUESTION_TEXT": "Qual das alternativas apresenta corretamente a associação entre Fases do MDA e seus respectivos domínios, segundo o Padrão TOGAF®?",
     "POSSIBLE_ANSWERS": [
-        "A. Fase B – Infraestrutura, Fase C – Processos, Fase D – Sistemas de Informação.",
-        "B. Fase B – Negócio, Fase C – Sistemas de Informação, Fase D – Tecnologia.",
-        "C. Fase B – Sistemas de Informação, Fase C – Estratégia, Fase D – Governança.",
-        "D. Fase B – Negócio, Fase C – Aplicativos, Fase D – Tecnologia."
+        "A. Fase B – Infraestrutura, Fase C – Processos, Fase D – Dados e Aplicativos.",
+        "B. Fase B – Negócio, Fase C – Dados e Aplicativos, Fase D – Tecnologia.",
+        "C. Fase B – Dados, Fase C – Estratégia, Fase D – Governança.",
+        "D. Fase B – Negócio, Fase C – Sistemas de Informação, Fase D – Tecnologia."
     ],
-    "EXPLANATION_TEXT": "Explicação: A associação correta é: Fase B – Arquitetura de Negócio; Fase C – Arquitetura de Sistemas de Informação (dados e aplicativos); Fase D – Arquitetura de Tecnologia. Lembre que MDA é a sigla para Método de Desenvolvimento da Arquitetura. Nosso queridinho ADM em inglês!",
+    "EXPLANATION_TEXT": "Explicação: A associação correta é: Fase B – Domínio de Negócio; Fase C – Domínios de Dados e Aplicativos (ATENÇÃO aqui porque o nome da Fase é Arquitetura de Sistemas de Informação, mas os domínios são Dados e Aplicativos!); Fase D – Domínio de Tecnologia. Lembre que MDA é a sigla para Método de Desenvolvimento da Arquitetura. Nosso queridinho ADM em inglês!",
     "CORRECT_ANSWER": "B",
     "JSONINDEX": "34",
     "Probability": 1,
@@ -752,8 +742,6 @@ const questions = [
     "subject": "Fases do ADM"
 },
 
-//
-
 {
     "QUESTION_NUMBER": "36",
     "QUESTION_TEXT": "Qual Fase do MDA trata da criação de um plano detalhado para mover da arquitetura linha de base para a arquitetura alvo, segundo o Padrão TOGAF®?",
@@ -779,10 +767,10 @@ const questions = [
     "QUESTION_NUMBER": "37",
     "QUESTION_TEXT": "Qual é o foco principal da Fase E, segundo o Padrão TOGAF®?",
     "POSSIBLE_ANSWERS": [
-        "A. Criar os modelos detalhados da arquitetura-alvo.",
+        "A. Criar os modelos detalhados da arquitetura alvo.",
         "B. Conduzir o planejamento inicial da implementação e identificar os pacotes de trabalho.",
         "C. Elaborar o roteiro de governança para a arquitetura.",
-        "D. Validar a arquitetura com os stakeholders e ajustar os requisitos."
+        "D. Validar a arquitetura com as partes interessadas e ajustar os requisitos."
     ],
     "EXPLANATION_TEXT": "Explicação: A Fase E (Oportunidades e Soluções) é responsável por iniciar o planejamento da implementação, identificando soluções potenciais e pacotes de trabalho para viabilizar a arquitetura definida nas fases anteriores.",
     "CORRECT_ANSWER": "B",
@@ -844,7 +832,7 @@ const questions = [
     "POSSIBLE_ANSWERS": [
         "A. Identificar pacotes de trabalho e possíveis soluções de entrega.",
         "B. Detalhar os componentes técnicos da solução.",
-        "C. Criar um modelo de dados completo para a arquitetura-alvo.",
+        "C. Criar um modelo de dados completo para a arquitetura alvo.",
         "D. Avaliar a viabilidade de migração dos sistemas legados."
     ],
     "EXPLANATION_TEXT": "Explicação: A Fase E (Oportunidades e Soluções) é responsável por identificar pacotes de trabalho e soluções de entrega que viabilizam a implementação da arquitetura definida.",
@@ -859,8 +847,6 @@ const questions = [
     "subject": "Fases do ADM"
 },
 
-//
-
 {
     "QUESTION_NUMBER": "41",
     "QUESTION_TEXT": "Qual é o foco principal da Fase G, segundo o Padrão TOGAF®?",
@@ -868,9 +854,9 @@ const questions = [
         "A. Construir os componentes da arquitetura técnica.",
         "B. Acompanhar a implementação para garantir conformidade com a arquitetura.",
         "C. Detalhar os pacotes de trabalho da solução.",
-        "D. Planejar a migração para a arquitetura-alvo."
+        "D. Planejar a migração para a arquitetura alvo."
     ],
-    "EXPLANATION_TEXT": "Explicação: A Fase G (Governança da Implementação) é responsável por fornecer supervisão arquitetural durante a implementação, garantindo que ela esteja em conformidade com a arquitetura aprovada. (KLP: {S0} §3.4)",
+    "EXPLANATION_TEXT": "Explicação: A Fase G (Governança da Implementação) é responsável por fornecer supervisão arquitetural durante a implementação, garantindo que ela esteja em conformidade com a arquitetura aprovada.",
     "CORRECT_ANSWER": "B",
     "JSONINDEX": "41",
     "Probability": 1,
@@ -891,7 +877,7 @@ const questions = [
         "C. Fase F",
         "D. Fase G"
     ],
-    "EXPLANATION_TEXT": "Explicação: A Fase G (Governança da Implementação) é a etapa do MDA (não esqueça que MDA é o nosso amado ADM que em português significa Método de Desenvolvimento da Arquitetura) em que ocorre a governança da implementação, com o arquiteto acompanhando a execução para assegurar que ela siga os direcionamentos definidos anteriormente. Esse comentário fofo é para você saber que eu, Hadeliane, revisei cada questão! (KLP: {S0} §3.4)",
+    "EXPLANATION_TEXT": "Explicação: A Fase G (Governança da Implementação) é a etapa do MDA (não esqueça que MDA é o nosso amado ADM que em português significa Método de Desenvolvimento da Arquitetura) em que ocorre a governança da implementação, com o arquiteto acompanhando a execução para assegurar que ela siga os direcionamentos definidos anteriormente. Esse comentário fofo é para você saber que eu, Hadeliane, revisei cada questão!",
     "CORRECT_ANSWER": "D",
     "JSONINDEX": "42",
     "Probability": 1,
@@ -912,7 +898,7 @@ const questions = [
         "C. Que os cronogramas sejam revisados continuamente.",
         "D. Que as mudanças organizacionais sejam evitadas."
     ],
-    "EXPLANATION_TEXT": "Explicação: A principal finalidade da Fase G (Governança da Implementação) é garantir que a implementação dos sistemas e soluções ocorra de forma alinhada à arquitetura definida e aprovada nas fases anteriores. (KLP: {S0} §3.4)",
+    "EXPLANATION_TEXT": "Explicação: A principal finalidade da Fase G (Governança da Implementação) é garantir que a implementação dos sistemas e soluções ocorra de forma alinhada à arquitetura definida e aprovada nas fases anteriores.",
     "CORRECT_ANSWER": "B",
     "JSONINDEX": "43",
     "Probability": 1,
@@ -929,11 +915,11 @@ const questions = [
     "QUESTION_TEXT": "Qual é o objetivo principal da Fase H, segundo o Padrão TOGAF®?",
     "POSSIBLE_ANSWERS": [
         "A. Estabelecer procedimentos para gerenciar mudanças na arquitetura implantada.",
-        "B. Validar os requisitos de negócio com os stakeholders.",
+        "B. Validar os requisitos de negócio com as partes interessadas.",
         "C. Desenvolver a arquitetura de dados e aplicativos.",
         "D. Elaborar os modelos de arquitetura para os domínios corporativos."
     ],
-    "EXPLANATION_TEXT": "Explicação: A Fase H (Gerenciamento da Mudança na Arquitetura) estabelece os procedimentos para gerenciar mudanças na nova arquitetura após sua implantação. (KLP: {S0} §3.4)",
+    "EXPLANATION_TEXT": "Explicação: A Fase H (Gerenciamento da Mudança na Arquitetura) estabelece os procedimentos para gerenciar mudanças na nova arquitetura após sua implantação.",
     "CORRECT_ANSWER": "A",
     "JSONINDEX": "44",
     "Probability": 1,
@@ -954,7 +940,7 @@ const questions = [
         "C. A integração entre projetos de software e infraestrutura.",
         "D. A operação contínua do processo de gestão de requisitos de arquitetura ao longo do MDA."
     ],
-    "EXPLANATION_TEXT": "Explicação: A Fase Gerenciamento de Requisitos opera o processo de gestão de requisitos ao longo de todo o MDA (Método de Desenvolvimento da Arquitetura... quem aqui gosta do ADM!? Eu, Hadeliane, gosto! hehehe), garantindo alinhamento contínuo entre as fases e as necessidades da organização. (KLP: {S0} §3.4)",
+    "EXPLANATION_TEXT": "Explicação: A Fase Gerenciamento de Requisitos opera o processo de gestão de requisitos ao longo de todo o MDA (Método de Desenvolvimento da Arquitetura... quem aqui gosta do ADM!? Eu, Hadeliane, gosto! hehehe), garantindo alinhamento contínuo entre as fases e as necessidades da organização.",
     "CORRECT_ANSWER": "D",
     "JSONINDEX": "45",
     "Probability": 1,
@@ -975,7 +961,7 @@ const questions = [
         "C. Fase G",
         "D. Fase H"
     ],
-    "EXPLANATION_TEXT": "Explicação: A Fase H (Gerenciamento da Mudança na Arquitetura) trata do Gerenciamento de Mudanças na Arquitetura, ou seja, da adaptação da arquitetura implantada diante de novas necessidades. (KLP: {S0} §3.4)",
+    "EXPLANATION_TEXT": "Explicação: A Fase H (Gerenciamento da Mudança na Arquitetura) trata do Gerenciamento de Mudanças na Arquitetura, ou seja, da adaptação da arquitetura implantada diante de novas necessidades.",
     "CORRECT_ANSWER": "D",
     "JSONINDEX": "46",
     "Probability": 1,
@@ -996,7 +982,7 @@ const questions = [
         "C. Apenas nas fases de desenvolvimento de soluções",
         "D. Exclusivamente na Fase A"
     ],
-    "EXPLANATION_TEXT": "Explicação: A Fase Gerenciamento de Requisitos atua ao longo de todo o MDA (Método de Desenvolvimento da Arquitetura - aluno da Hadê nunca esquece que MDA e ADM é a mesma coisa!), permitindo o acompanhamento e atualização contínua dos requisitos de arquitetura. (KLP: {S0} §3.4)",
+    "EXPLANATION_TEXT": "Explicação: A Fase Gerenciamento de Requisitos atua ao longo de todo o MDA (Método de Desenvolvimento da Arquitetura - aluno da Hadê nunca esquece que MDA e ADM é a mesma coisa!), permitindo o acompanhamento e atualização contínua dos requisitos de arquitetura.",
     "CORRECT_ANSWER": "A",
     "JSONINDEX": "47",
     "Probability": 1,
@@ -1017,7 +1003,7 @@ const questions = [
         "C. Responsável pela execução da arquitetura planejada.",
         "D. Responsável pela manutenção da arquitetura implantada diante de mudanças."
     ],
-    "EXPLANATION_TEXT": "Explicação: A Fase H (Gerenciamento da Mudança na Arquitetura) é dedicada a garantir que a arquitetura implantada continue relevante e adequada, mesmo diante de mudanças. Lembre-se do H de Hadeliane que trouxe a mudança em sua vida! hehehe (KLP: {S0} §3.4)",
+    "EXPLANATION_TEXT": "Explicação: A Fase H (Gerenciamento da Mudança na Arquitetura) é dedicada a garantir que a arquitetura implantada continue relevante e adequada, mesmo diante de mudanças. Lembre-se do H de Hadeliane que trouxe a mudança em sua vida! hehehe",
     "CORRECT_ANSWER": "D",
     "JSONINDEX": "48",
     "Probability": 1,
@@ -1227,10 +1213,10 @@ const questions = [
   "QUESTION_NUMBER": "59",
   "QUESTION_TEXT": "Qual é a finalidade do Framework de Conteúdo do Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
-    "A. Estruturar as descrições de arquitetura e os produtos gerados nas fases do MDA",
-    "B. Classificar os projetos de transformação digital com base na urgência e importância",
-    "C. Garantir que todos os artefatos sejam modelados com a mesma ferramenta computacional",
-    "D. Criar listas de verificação para uso em auditorias de governança"
+    "A. Estruturar as descrições de arquitetura e os produtos gerados nas fases do MDA.",
+    "B. Classificar os projetos de transformação digital com base na urgência e importância.",
+    "C. Garantir que todos os artefatos sejam modelados com a mesma ferramenta computacional.",
+    "D. Criar listas de verificação para uso em auditorias de governança."
   ],
   "EXPLANATION_TEXT": "Explicação: O Framework de Conteúdo é utilizado para estruturar as descrições de arquitetura, os produtos de trabalho e os modelos gerados durante o Método de Desenvolvimento da Arquitetura (MDA, em português, e o mais famoso ADM, em inglês).",
   "CORRECT_ANSWER": "A",
@@ -1247,12 +1233,12 @@ const questions = [
   "QUESTION_NUMBER": "60",
   "QUESTION_TEXT": "Uma das tarefas essenciais durante a Fase Preliminar é:",
   "POSSIBLE_ANSWERS": [
-    "A. Selecionar fornecedores de ferramentas de modelagem",
-    "B. Definir o framework de conteúdo das descrições de arquitetura",
-    "C. Implementar o repositório central de dados operacionais",
-    "D. Mapear os objetivos estratégicos das partes interessadas"
+    "A. Selecionar fornecedores de ferramentas de modelagem.",
+    "B. Definir o framework de conteúdo a ser seguindo nas descrições de arquitetura.",
+    "C. Implementar o repositório central de dados arquiteturais.",
+    "D. Mapear os objetivos estratégicos das partes interessadas."
   ],
-  "EXPLANATION_TEXT": "Explicação: Uma das tarefas essenciais da Fase Preliminar é definir o framework de conteúdo para estruturar as descrições de arquitetura e os produtos gerados. ( A ) Selecionar fornecedores de ferramentas de modelagem – está parcialmente relacionado, mas não é essencial, pois a escolha da ferramenta pode influenciar o framework, mas não o define. ( C ) Implementar o repositório central de dados operacionais – está incorreta porque o TOGAF trata de repositórios de artefatos arquiteturais, não de dados operacionais. ( D ) Mapear os objetivos estratégicos das partes interessadas – é relevante em fases iniciais como a Fase A, mas não é o foco da Fase Preliminar.",
+  "EXPLANATION_TEXT": "Explicação: Uma das tarefas essenciais da Fase Preliminar é definir o framework de conteúdo para estruturar as descrições de arquitetura e os produtos gerados. As demais respostas estão incorretas porque: ( A ) Selecionar fornecedores de ferramentas de modelagem – está parcialmente relacionado, mas não é essencial, pois podemos ter arquitetura sem ferramenta de modelagem. ( C ) Implementar o repositório central de dados operacionais – está incorreta porque o TOGAF trata de repositórios de artefatos arquiteturais, não de dados operacionais. ( D ) Mapear os objetivos estratégicos das partes interessadas – é relevante em fases iniciais como a Fase A, mas não é o foco da Fase Preliminar.",
   "CORRECT_ANSWER": "B",
   "JSONINDEX": "60",
   "Probability": 1,
@@ -1261,16 +1247,16 @@ const questions = [
     "9": ["29.1"],
     "10": ["{S0} §3.12"]
   },
-  "subject": "Framework de Conteúdo"
+  "subject": "Fase Preliminar"
 },
 {
   "QUESTION_NUMBER": "61",
-  "QUESTION_TEXT": "A escolha do Framework de Conteúdo pode ser influenciada por:",
+  "QUESTION_TEXT": "A escolha do Framework de Conteúdo pode ser influenciada:",
   "POSSIBLE_ANSWERS": [
-    "A. O nível de maturidade dos times de desenvolvimento ágil",
-    "B. A frequência das revisões trimestrais de arquitetura",
-    "C. A política de segurança cibernética vigente na organização",
-    "D. A ferramenta computacional utilizada como apoio à prática de arquitetura"
+    "A. Pelo nível de maturidade dos times de desenvolvimento ágil.",
+    "B. Pela frequência das revisões da arquitetura.",
+    "C. Pela política de segurança da informação vigente na organização.",
+    "D. Pela ferramenta computacional utilizada como apoio à prática de arquitetura."
   ],
   "EXPLANATION_TEXT": "Explicação: A escolha do Framework de Conteúdo pode ser influenciada tanto pelo framework de arquitetura adotado quanto pelo software de suporte utilizado na prática de arquitetura corporativa.",
   "CORRECT_ANSWER": "D",
@@ -1287,10 +1273,10 @@ const questions = [
   "QUESTION_NUMBER": "62",
   "QUESTION_TEXT": "Segundo o Padrão TOGAF®, qual é a principal relação entre o MDA e o Framework de Conteúdo?",
   "POSSIBLE_ANSWERS": [
-    "A. O MDA organiza as informações em fases, enquanto o Framework define os papéis dos stakeholders",
-    "B. O MDA representa o método de desenvolvimento, enquanto o Framework de Conteúdo organiza os produtos gerados",
-    "C. Ambos tratam dos artefatos que compõem a arquitetura, mas o Framework trata apenas da fase preliminar",
-    "D. O Framework de Conteúdo define a estrutura da organização, enquanto o MDA define o orçamento de TI"
+    "A. O MDA organiza as informações em fases, enquanto o Framework de Conteúdo define os papéis das partes interessadas.",
+    "B. O MDA representa o método de desenvolvimento, enquanto o Framework de Conteúdo organiza os produtos gerados.",
+    "C. Ambos tratam dos artefatos que compõem a arquitetura, mas o Framework de Conteúdo trata apenas da Fase Preliminar.",
+    "D. O Framework de Conteúdo contempla a estrutura da organização, enquanto o MDA define a base orçamentária."
   ],
   "EXPLANATION_TEXT": "Explicação: O MDA (Método de Desenvolvimento da Arquitetura – ADM em inglês) descreve como a arquitetura é criada, utilizada e mantida. O Framework de Conteúdo, por sua vez, organiza e estrutura os elementos e produtos arquiteturais gerados ao longo do ADM.",
   "CORRECT_ANSWER": "B",
@@ -1303,17 +1289,17 @@ const questions = [
   },
   "subject": "Framework de Conteúdo"
 },
-//
+
 {
   "QUESTION_NUMBER": "63",
   "QUESTION_TEXT": "Qual é a principal característica de um entregável segundo o Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
-    "A. É um documento técnico mantido apenas pela equipe de arquitetura",
-    "B. É um produto de trabalho informal, usado apenas para comunicação interna",
-    "C. É formalmente revisado, acordado e assinado pelos stakeholders",
-    "D. É uma documentação opcional que pode ser descartada após o projeto"
+    "A. É um documento técnico mantido apenas pela equipe de arquitetura.",
+    "B. É um produto de trabalho informal, usado apenas para comunicação interna.",
+    "C. É um produto da arquitetura formalmente revisado, acordado e assinado pelas partes interessdas.",
+    "D. É uma documentação opcional que pode ser descartada após o projeto."
   ],
-  "EXPLANATION_TEXT": "Explicação: O entregável é um produto de trabalho da arquitetura formalmente revisado, acordado e assinado pelos stakeholders.",
+  "EXPLANATION_TEXT": "Explicação: O entregável é um produto de trabalho da arquitetura formalmente revisado, acordado e assinado pelas partes interessadas (stakeholders).",
   "CORRECT_ANSWER": "C",
   "JSONINDEX": "63",
   "Probability": 1,
@@ -1328,12 +1314,12 @@ const questions = [
   "QUESTION_NUMBER": "64",
   "QUESTION_TEXT": "De acordo com o Padrão TOGAF®, o que melhor descreve um artefato?",
   "POSSIBLE_ANSWERS": [
-    "A. Um conjunto de entregáveis organizados por domínio",
-    "B. Um documento de alto nível que define objetivos estratégicos",
-    "C. Um modelo de referência aplicável a múltiplos projetos",
+    "A. Um conjunto de entregáveis organizados por domínio.",
+    "B. Um documento de alto nível que define as Arquiteturas Linha de Base e Alvo.",
+    "C. Um modelo de referência aplicável a múltiplos projetos a ser utilizado como orientação prática.",
     "D. Um produto de trabalho de arquitetura que descreve um aspecto específico da arquitetura"
   ],
-  "EXPLANATION_TEXT": "Explicação: O artefato é um produto de trabalho de arquitetura que descreve um aspecto específico da arquitetura.",
+  "EXPLANATION_TEXT": "Explicação: O artefato é um produto de trabalho de arquitetura que descreve um aspecto específico da arquitetura. Ele pode fazer parte de vários entregável e um entregável pode conter vários artefatos.",
   "CORRECT_ANSWER": "D",
   "JSONINDEX": "64",
   "Probability": 1,
@@ -1344,37 +1330,18 @@ const questions = [
   },
   "subject": "Framework de Conteúdo"
 },
-{
-  "QUESTION_NUMBER": "65",
-  "QUESTION_TEXT": "O que pode acontecer com os entregáveis após a conclusão de um projeto, conforme o Padrão TOGAF®?",
-  "POSSIBLE_ANSWERS": [
-    "A. Serem revisados continuamente por um comitê de governança externa",
-    "B. Serem arquivados ou transferidos para o Repositório de Arquitetura",
-    "C. Serem descartados e substituídos por artefatos técnicos mais recentes",
-    "D. Serem convertidos em documentos executivos para apresentação à diretoria"
-  ],
-  "EXPLANATION_TEXT": "Explicação: Após a conclusão de um projeto, os entregáveis podem ser arquivados ou transferidos para o Repositório de Arquitetura como modelo de referência, padrão ou retrato do Panorama de Arquitetura.",
-  "CORRECT_ANSWER": "B",
-  "JSONINDEX": "65",
-  "Probability": 1,
-  "versions": ["9","10"],
-  "klp": {
-    "9": ["2.5", "29.1"],
-    "10": ["{S0} §4.40"]
-  },
-  "subject": "Framework de Conteúdo"
-},
+
 {
   "QUESTION_NUMBER": "66",
   "QUESTION_TEXT": "Qual é a relação entre entregável e artefato no contexto do Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
-    "A. O entregável pode ser composto por artefatos que detalham partes da arquitetura",
-    "B. O artefato é desenvolvido antes do entregável e substitui seu conteúdo final",
-    "C. O artefato é um tipo de entregável com maior valor estratégico",
-    "D. Ambos são produtos de arquitetura, mas o artefato é voltado apenas para documentação técnica"
+    "A. O artefato é um tipo de entregável com maior valor estratégico.",
+    "B. O artefato é desenvolvido antes do entregável e substitui seu conteúdo final.",
+    "C. O entregável pode ser composto por artefatos que detalham partes da arquitetura.",
+    "D. Ambos são produtos de arquitetura e um artefato só pode em um único entregável."
   ],
   "EXPLANATION_TEXT": "Explicação: No contexto do Padrão TOGAF®, entregáveis podem ser compostos por artefatos, que detalham aspectos específicos da arquitetura.",
-  "CORRECT_ANSWER": "A",
+  "CORRECT_ANSWER": "C",
   "JSONINDEX": "66",
   "Probability": 1,
   "versions": ["9","10"],
@@ -1384,15 +1351,15 @@ const questions = [
   },
   "subject": "Framework de Conteúdo"
 },
-//
+
 {
   "QUESTION_NUMBER": "67",
   "QUESTION_TEXT": "Qual das opções expressa corretamente uma característica de um bom bloco de construção segundo o Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
-    "A. Pode ser reutilizável, substituível e bem especificado",
-    "B. Deve ser exclusivo para cada arquitetura desenvolvida",
-    "C. Deve conter todos os detalhes técnicos logo na primeira versão",
-    "D. Pode ignorar padrões tecnológicos, pois é apenas conceitual"
+    "A. Pode ser reutilizável e substituível.",
+    "B. Deve ser exclusivo para cada arquitetura desenvolvida.",
+    "C. Deve conter todos os detalhes técnicos.",
+    "D. Deve ignorar padrões tecnológicos."
   ],
   "EXPLANATION_TEXT": "Explicação: Um bom bloco de construção deve ser reutilizável, substituível, bem especificado e considerar sua evolução com o uso e padrões.",
   "CORRECT_ANSWER": "A",
@@ -1409,10 +1376,10 @@ const questions = [
   "QUESTION_NUMBER": "68",
   "QUESTION_TEXT": "O que caracteriza a forma como os blocos de construção interagem entre si no Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
-    "A. Só interagem se pertencerem ao mesmo tipo de metamodelo",
-    "B. Operam de forma isolada, sem dependência entre elementos",
-    "C. Podem interoperar com outros blocos interdependentes",
-    "D. São substituídos por entregáveis nas fases posteriores"
+    "A. Só interagem se pertencerem ao mesmo tipo de metamodelo.",
+    "B. Operam de forma isolada, sem dependência entre elementos.",
+    "C. Podem interoperar com outros blocos de construção interdependentes.",
+    "D. São substituídos por entregáveis nas próximas fases do MDA."
   ],
   "EXPLANATION_TEXT": "Explicação: Blocos de construção podem interoperar com outros blocos interdependentes, promovendo integração e flexibilidade.",
   "CORRECT_ANSWER": "C",
@@ -1429,10 +1396,10 @@ const questions = [
   "QUESTION_NUMBER": "69",
   "QUESTION_TEXT": "O que é considerado uma boa prática ao definir o nível de detalhe de um bloco de construção?",
   "POSSIBLE_ANSWERS": [
-    "A. Sempre detalhar ao máximo, com no mínimo 50 páginas por bloco",
-    "B. Ajustar o nível de detalhe de acordo com os objetivos da arquitetura",
-    "C. Trabalhar apenas com descrições genéricas para manter flexibilidade",
-    "D. Ignorar o nível de detalhe até a implementação da solução"
+    "A. Sempre detalhar ao máximo.",
+    "B. Ajustar o nível de detalhe de acordo com os objetivos da arquitetura.",
+    "C. Trabalhar apenas com descrições genéricas para manter o reuso.",
+    "D. Não se preocupar com o nível de detalhe até a Fase E do MDA."
   ],
   "EXPLANATION_TEXT": "Explicação: O nível de detalhe de um bloco de construção deve ser ajustado conforme os objetivos da arquitetura, podendo variar ao longo do desenvolvimento.",
   "CORRECT_ANSWER": "B",
@@ -1449,12 +1416,12 @@ const questions = [
   "QUESTION_NUMBER": "70",
   "QUESTION_TEXT": "Qual é a vantagem de manter o limite e a especificação de um bloco de construção fracamente acoplados à sua implementação?",
   "POSSIBLE_ANSWERS": [
-    "A. Facilita a substituição de padrões por frameworks visuais",
-    "B. Permite maior controle sobre o código-fonte envolvido",
-    "C. Garante que o bloco funcione em qualquer sistema operacional",
-    "D. Possibilita realizá-lo de várias maneiras sem impactar seu uso"
+    "A. Facilita a substituição de padrões por frameworks visuais.",
+    "B. Permite maior controle sobre o código fonte envolvido.",
+    "C. Garante que o bloco de construção funcione em qualquer sistema operacional.",
+    "D. Possibilita realizá-lo de várias maneiras sem impactar seu uso."
   ],
-  "EXPLANATION_TEXT": "Explicação: Manter o limite e a especificação fracamente acoplados à implementação permite diferentes realizações do bloco sem comprometer sua estrutura.",
+  "EXPLANATION_TEXT": "Explicação: Manter o limite e a especificação fracamente acoplados à implementação permite diferentes realizações do bloco de construção sem comprometer sua estrutura, facilitando o reuso.",
   "CORRECT_ANSWER": "D",
   "JSONINDEX": "70",
   "Probability": 1,
@@ -1485,17 +1452,17 @@ const questions = [
   },
   "subject": "Blocos de Construção"
 },
-// 
+
 {
   "QUESTION_NUMBER": "72",
   "QUESTION_TEXT": "Qual é o principal papel do Repositório de Arquitetura segundo o Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
     "A. Armazenar apenas os artefatos da arquitetura corrente em produção.",
-    "B. Controlar o ciclo de vida de aplicações empresariais específicas.",
+    "B. Controlar o ciclo de vida das arquiteturas.",
     "C. Armazenar diferentes classes de resultados arquiteturais em múltiplos níveis de abstração.",
-    "D. Substituir repositórios externos usados por projetos de TI."
+    "D. Substituir repositórios externos usados por projetos de TI para consolidar todos os artefatos na arquitetura."
   ],
-  "EXPLANATION_TEXT": "Explicação: O Repositório de Arquitetura armazena diferentes classes de resultados arquiteturais produzidos durante o trabalho de arquitetura, organizados em múltiplos níveis de abstração.",
+  "EXPLANATION_TEXT": "Explicação: O Repositório de Arquitetura armazena diferentes classes de resultados arquiteturais produzidos durante o trabalho de arquitetura, organizados em múltiplos níveis de abstração (estratégia, seguimento e capacidade).",
   "CORRECT_ANSWER": "C",
   "JSONINDEX": "72",
   "Probability": 1,
@@ -1506,16 +1473,17 @@ const questions = [
   },
   "subject": "Repositório de Arquitetura"
 },
+
 {
   "QUESTION_NUMBER": "73",
-  "QUESTION_TEXT": "Uma equipe de arquitetura está estruturando uma proposta de solução e deseja utilizar elementos previamente aprovados e já existentes na organização. Para isso, decide consultar um componente específico do Repositório de Arquitetura previsto no Padrão TOGAF®. Qual elemento é mais adequado para esse tipo de reutilização?",
+  "QUESTION_TEXT": "Uma equipe de arquitetura está estruturando uma proposta de solução e deseja utilizar materiais previamente aprovados e já existentes na organização que possam orientar o seu trabalho. Para isso, decide consultar um componente específico do Repositório de Arquitetura previsto no Padrão TOGAF®. Qual elemento é mais adequado para esse tipo de reutilização?",
   "POSSIBLE_ANSWERS": [
     "A. Repositório de Governança",
     "B. Biblioteca de Referência",
     "C. Repositório de Requisitos de Arquitetura",
     "D. Capacidade de Arquitetura"
   ],
-  "EXPLANATION_TEXT": "Explicação: A Biblioteca de Referência é um dos componentes do Repositório de Arquitetura e fornece materiais como modelos, diretrizes e templates que podem ser reutilizados no desenvolvimento de arquiteturas específicas.",
+  "EXPLANATION_TEXT": "Explicação: A Biblioteca de Referência é um dos componentes do Repositório de Arquitetura e fornece materiais como modelos, diretrizes e templates que podem ser reutilizados no desenvolvimento de arquiteturas específicas. Os materiais de referência podem ser obtidos de diversas formas e devem incluir: Arquiteturas de Referência, Modelos de Referência e a biblioteca de pontos de vista.",
   "CORRECT_ANSWER": "B",
   "JSONINDEX": "73",
   "Probability": 1,
@@ -1526,16 +1494,17 @@ const questions = [
   },
   "subject": "Repositório de Arquitetura"
 },
+
 {
   "QUESTION_NUMBER": "74",
-  "QUESTION_TEXT": "Durante o desenvolvimento da arquitetura de uma nova unidade de negócio, o arquiteto responsável quer entender quais blocos de construção já estão implantados na organização, em diferentes níveis de detalhe, para apoiar seu planejamento. Qual elemento do Repositório de Arquitetura deve ser consultado?",
+  "QUESTION_TEXT": "Durante o desenvolvimento da arquitetura de uma nova unidade de negócio, o arquiteto responsável quer entender quais blocos de construção já estão implantados na organização, em diferentes níveis de detalhe. Qual elemento do Repositório de Arquitetura deve ser consultado?",
   "POSSIBLE_ANSWERS": [
     "A. Panorama de Arquitetura",
     "B. Biblioteca de Padrões",
     "C. Repositório de Soluções",
     "D. Metamodelo de Arquitetura"
   ],
-  "EXPLANATION_TEXT": "Explicação: O Panorama de Arquitetura é um dos componentes do Repositório de Arquitetura e mostra a representação dos ativos arquiteturais implantados, organizados por diferentes níveis de abstração, conforme os objetivos arquiteturais.",
+  "EXPLANATION_TEXT": "Explicação: O Panorama de Arquitetura (Solutions Landscape) é um dos componentes do Repositório de Arquitetura e mostra a representação dos ativos arquiteturais implantados, organizados por diferentes níveis de abstração, conforme os objetivos arquiteturais.",
   "CORRECT_ANSWER": "A",
   "JSONINDEX": "74",
   "Probability": 1,
@@ -1548,12 +1517,12 @@ const questions = [
 },
 {
   "QUESTION_NUMBER": "75",
-  "QUESTION_TEXT": "Ao revisar o Repositório de Arquitetura, um arquiteto encontra três conjuntos de informações: requisitos amplos e de longo prazo, requisitos de uma área específica da organização e requisitos associados a projetos e pacotes de trabalho. Essa estrutura corresponde a qual princípio do Padrão TOGAF®?",
+  "QUESTION_TEXT": "Ao revisar o Repositório de Arquitetura, um arquiteto encontra três conjuntos de informações: requisitos amplos e de longo prazo, requisitos de uma área específica da organização e requisitos associados a projetos. Essa estrutura corresponde a qual orientação do Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
-    "A. Distribuição de requisitos por área de negócios",
-    "B. Separação entre domínios de arquitetura",
-    "C. Organização dos requisitos por níveis de granularidade",
-    "D. Definição de responsabilidades por fase do MDA"
+    "A. Distribuição de requisitos por área de negócio.",
+    "B. Separação entre domínios de arquitetura.",
+    "C. Organização dos requisitos por níveis de granularidade.",
+    "D. Definição de responsabilidades por fase do MDA."
   ],
   "EXPLANATION_TEXT": "Explicação: Os requisitos de arquitetura são divididos em três níveis de granularidade — estratégico, segmento e capacidade — para refletir diferentes escopos e necessidades. Lembre-se que esses três níveis são os mesmos ddos níveis do Particionamento da Arquitetura (aquela figura do cubo de três cores!).",
   "CORRECT_ANSWER": "C",
@@ -1568,12 +1537,12 @@ const questions = [
 },
 {
   "QUESTION_NUMBER": "76",
-  "QUESTION_TEXT": "Um arquiteto júnior está organizando a documentação gerada durante as fases do MDA e deseja entender onde cada elemento deve ser armazenado. Qual das afirmações abaixo está de acordo com o Padrão TOGAF®?",
+  "QUESTION_TEXT": "Um arquiteto, recém chegado à empresa, está organizando a documentação gerada durante as fases do MDA e deseja entender onde cada elemento deve ser armazenado no Repositório de Arquitetura. Qual das afirmações abaixo está de acordo com o Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
     "A. O Panorama de Arquitetura armazena os dados gerados pelas soluções implementadas.",
     "B. O Repositório de Requisitos guarda os padrões obrigatórios aprovados pela organização.",
     "C. A Biblioteca de Padrões armazena apenas modelos de fornecedores externos.",
-    "D. O Panorama de Soluções representa os blocos de construção de solução usados para suportar os blocos de construção arquiteturais."
+    "D. O Panorama de Soluções representa os blocos de construção de solução usados para suportar os blocos de construção de arquitetura."
   ],
   "EXPLANATION_TEXT": "Explicação: O Panorama de Soluções contém a representação dos blocos de construção de solução (BCS, os SBBs em inglês) que suportam os blocos de construção de arquitetura (BCA, os ABBs em inglês). Ele não armazena os dados gerados pelas soluções.",
   "CORRECT_ANSWER": "D",
@@ -1595,7 +1564,7 @@ const questions = [
     "C. Substitui o Enterprise Continuum como principal mecanismo de classificação arquitetural.",
     "D. Restringe o acesso aos resultados arquiteturais apenas às partes interessdas na solução proposta."
   ],
-  "EXPLANATION_TEXT": "Explicação: O Repositório de Arquitetura armazena diferentes classes de resultados arquiteturais, produzidos pelo MDA (Método de Desenvolvimento da Arquitetura - ADM), em múltiplos níveis de abstração. Isso facilita o entendimento, a colaboração e o alinhamento entre stakeholders e praticantes que atuam em diferentes níveis da organização, dentro do contexto fornecido pelo Enterprise Continuum.",
+  "EXPLANATION_TEXT": "Explicação: O Repositório de Arquitetura armazena diferentes classes de resultados arquiteturais, produzidos pelo MDA (Método de Desenvolvimento da Arquitetura - ADM), em múltiplos níveis de abstração (estratégia, seguimento e capacidade). Isso facilita o entendimento, a colaboração e o alinhamento entre stakeholders e praticantes que atuam em diferentes níveis da organização, dentro do contexto fornecido pelo Enterprise Continuum.",
   "CORRECT_ANSWER": "B",
   "JSONINDEX": "77",
   "Probability": 1,
@@ -1611,10 +1580,10 @@ const questions = [
   "QUESTION_NUMBER": "78",
   "QUESTION_TEXT": "Qual das opções expressa corretamente o papel do Framework de Conteúdo no contexto do Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
-    "A. Modelar os processos de negócios a partir de notações específicas como BPMN.",
+    "A. Especificar uma notação para representação dos elementos arquiteturais.",
     "B. Estruturar os artefatos e produtos de trabalho gerados durante o MDA.",
-    "C. Substituir a escolha de ferramentas utilizadas na modelagem da arquitetura.",
-    "D. Definir os papéis e responsabilidades dos envolvidos na governança."
+    "C. Orientar a escolha de ferramentas utilizadas na modelagem da arquitetura.",
+    "D. Definir os papéis e responsabilidades dos envolvidos na no trabalho de arquitetura."
   ],
   "EXPLANATION_TEXT": "Explicação: O Framework de Conteúdo define uma estrutura de categorização usada para descrever os blocos de construção e artefatos da arquitetura, organizando os produtos de trabalho gerados em cada fase do MDA (Método de Desenvolvimento da Arquitetura, nosso amigo ADM).",
   "CORRECT_ANSWER": "B",
@@ -1630,12 +1599,12 @@ const questions = [
   "QUESTION_NUMBER": "79",
   "QUESTION_TEXT": "Qual é um dos benefícios diretos de utilizar um Metamodelo Corporativo no desenvolvimento da Arquitetura segundo o Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
-    "A. Garantir que todos os artefatos sigam a notação UML.",
+    "A. Garantir que todos os artefatos sigam a mesma notação.",
     "B. Permitir a substituição de fases do MDA por frameworks alternativos.",
-    "C. Oferecer uma base integrada para consistência e rastreabilidade dos modelos.",
+    "C. Oferecer uma base integrada para consistência e rastreabilidade das visões.",
     "D. Eliminar a necessidade de validação do contexto estratégico."
   ],
-  "EXPLANATION_TEXT": "Explicação: O Metamodelo Corporativo fornece valor ao garantir consistência, integralidade e rastreabilidade nos modelos de arquitetura criados pela organização.",
+  "EXPLANATION_TEXT": "Explicação: O Metamodelo Corporativo fornece valor ao garantir consistência, integralidade e rastreabilidade nos artefatos de arquitetura criados pela organização.",
   "CORRECT_ANSWER": "C",
   "JSONINDEX": "79",
   "Probability": 1,
@@ -1692,7 +1661,7 @@ const questions = [
     "C. O orçamento anual de TI.",
     "D. O catálogo completo de processos da organização."
   ],
-  "EXPLANATION_TEXT": "Explicação: A finalidade da Capacidade de AE define o que precisa estar “à mão”; as demais necessidades derivam da biblioteca de viewpoints e das informações que a suportam.",
+  "EXPLANATION_TEXT": "Explicação: A finalidade da Capacidade de AE define o que precisa estar “à mão”; as demais necessidades derivam da biblioteca de pontos de vista e das informações que a suportam.",
   "CORRECT_ANSWER": "B",
   "JSONINDEX": "83",
   "Probability": 1,
@@ -1708,10 +1677,10 @@ const questions = [
   "POSSIBLE_ANSWERS": [
     "A. Adotar um metamodelo já existente no mercado sem ajustes.",
     "B. Mapear todos os componentes possíveis antes de ouvir as partes interessadas.",
-    "C. Replicar integralmente um framework externo de referência.",
+    "C. Replicar integralmente o matamodelo do Padrão TOGAF.",
     "D. Partir das perguntas centrais do contexto, identificar preocupações e pontos de vista."
   ],
-  "EXPLANATION_TEXT": "Explicação: A prática mais bem-sucedida parte das perguntas centrais, identifica preocupações e viewpoints e, a partir disso, deriva o metamodelo.",
+  "EXPLANATION_TEXT": "Explicação: A prática mais bem-sucedida parte das perguntas centrais, identifica preocupações e pontos de vista e, a partir disso, deriva o metamodelo.",
   "CORRECT_ANSWER": "D",
   "JSONINDEX": "84",
   "Probability": 1,
@@ -1738,7 +1707,7 @@ const questions = [
   "klp": {
     "10": ["G184 §8.3"]
   },
-  "subject": "Repositório"
+  "subject": "Repositório de Arquitetura"
 },
 {
   "QUESTION_NUMBER": "86",
@@ -1807,7 +1776,7 @@ const questions = [
     "C. Uma descrição textual de requisitos e restrições.",
     "D. Um conjunto de processos e papéis para governança."
   ],
-  "EXPLANATION_TEXT": "Explicação: Uma Visão de Arquitetura é a representação de um sistema ou de parte dele sob a perspectiva de um conjunto relacionado de preocupações de partes interessadas. Ela é construída para responder a questões específicas dessas partes interessadas, e não para descrever a arquitetura de forma completa ou definitiva.",
+  "EXPLANATION_TEXT": "Explicação: Uma Visão de Arquitetura é a representação de um sistema ou de parte dele sob a perspectiva de um conjunto relacionado de preocupações de partes interessadas. Ela é construída para responder a questões específicas dessas partes interessadas, e não para descrever a arquitetura de forma completa ou definitiva. Lembre-se de que aqui estamos falando de Architecture View e não da Fase A (Architecture Vision).",
   "CORRECT_ANSWER": "B",
   "JSONINDEX": "89",
   "Probability": 1,
@@ -1826,7 +1795,7 @@ const questions = [
     "A. A opinião das partes interessadas sobre a arquitetura.",
     "B. Um catálogo de modelos reutilizáveis para qualquer situação.",
     "C. A especificação das convenções para um tipo de visão, estabelecendo como construir, interpretar e usar a visão para tratar preocupações de partes interessadas.",
-    "D. Uma lista de stakeholders e suas responsabilidades."
+    "D. Uma lista de partes interessadas e suas responsabilidades."
   ],
   "EXPLANATION_TEXT": "Explicação: Um Ponto de Vista de Arquitetura define as convenções, regras e notações que orientam a construção, interpretação e uso de uma Visão. Ele funciona como um esquema que garante que a Visão trate adequadamente as preocupações das partes interessadas.",
   "CORRECT_ANSWER": "C",
@@ -1865,7 +1834,7 @@ const questions = [
 
 {
   "QUESTION_NUMBER": "92",
-  "QUESTION_TEXT": "Qual prática favorece um Repositório de Arquitetura Empresarial sustentável segundo o Padrão TOGAF®?",
+  "QUESTION_TEXT": "Qual prática favorece um Repositório de Arquitetura Corporativa sustentável, segundo o Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
     "A. Minimizar o que é coletado e mantido, registrando apenas o necessário para o projeto atual e para a rastreabilidade mínima.",
     "B. Modelar a arquitetura de ponta a ponta antes de qualquer decisão.",
@@ -1880,13 +1849,13 @@ const questions = [
   "klp": {
     "10": ["G186 §5.1"]
   },
-  "subject": "Repositório"
+  "subject": "Repositório de Arquitetura"
 },
 
 
 {
   "QUESTION_NUMBER": "93",
-  "QUESTION_TEXT": "Qual é uma vantagem de criar Visões usando Pontos de Vista já definidos em uma biblioteca?",
+  "QUESTION_TEXT": "Qual é uma vantagem de criar Visões utilizando Pontos de Vista já definidos em uma biblioteca?",
   "POSSIBLE_ANSWERS": [
     "A. Aumentar a quantidade de Visões produzidas, mesmo que nem todas respondam a preocupações relevantes.",
     "B. Reduzir o esforço do arquiteto, gerar Visões mais rapidamente e facilitar a compreensão das partes interessadas por já lidarem com formatos familiares.",
@@ -2192,7 +2161,7 @@ const questions = [
 },
 {
   "QUESTION_NUMBER": "108",
-  "QUESTION_TEXT": "De acordo com o Padrão TOGAF®, qual é um dos principais benefícios de apresentar alternativas arquiteturais e trade-offs aos stakeholders?",
+  "QUESTION_TEXT": "De acordo com o Padrão TOGAF®, qual é um dos principais benefícios de apresentar alternativas arquiteturais e trade-offs às partes interessadas?",
   "POSSIBLE_ANSWERS": [
     "A. Facilitar a documentação técnica detalhada da Arquitetura Alvo.",
     "B. Reduzir a necessidade de governança arquitetural.",
@@ -2213,9 +2182,9 @@ const questions = [
   "QUESTION_NUMBER": "109",
   "QUESTION_TEXT": "Segundo o Padrão TOGAF®, qual alternativa descreve corretamente as três fases da técnica de Trade-offs, na ordem em que são executadas?",
   "POSSIBLE_ANSWERS": [
-    "A. Definir alternativas técnicas detalhadas, avaliar impactos de implementação e validar a arquitetura final com os stakeholders.",
+    "A. Definir alternativas técnicas detalhadas, avaliar impactos de implementação e validar a arquitetura final com as partes interessadas.",
     "B. Selecionar critérios com base na Visão, Princípios e Requisitos; definir e compreender as alternativas; selecionar ou combinar alternativas para criar a proposta.",
-    "C. Identificar stakeholders, avaliar riscos associados às alternativas e aprovar a arquitetura por meio da governança.",
+    "C. Identificar as partes interessadas, avaliar riscos associados às alternativas e aprovar a arquitetura por meio da governança.",
     "D. Definir alternativas por domínio, eliminar opções inviáveis e documentar a arquitetura escolhida para referência futura."
   ],
   "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® descreve a técnica de Architecture Alternatives and Trade-offs em três etapas: seleção de critérios com base na Visão da Arquitetura, Princípios e Requisitos; definição e compreensão das alternativas; e seleção ou combinação das alternativas para construir a proposta arquitetural.",
@@ -2310,7 +2279,7 @@ const questions = [
         "QUESTION_TEXT": "Ao tratar do conceito de arquitetura, o Padrão TOGAF® procura equilibrar:",
         "POSSIBLE_ANSWERS": [
             "A. A documentação técnica e a documentação de negócio usadas em projetos de transformação.",
-            "B. Os interesses dos stakeholders internos e externos envolvidos na governança.",
+            "B. Os interesses das partes interessadas internas e externas envolvidas na governança.",
             "C. Conceitos e terminologia de padrões relevantes com a terminologia comumente aceita e familiar à maioria dos leitores do Padrão TOGAF®.",
             "D. A arquitetura atual da empresa e a arquitetura futura definida no roadmap."
         ],
@@ -2517,8 +2486,28 @@ const questions = [
             "10": ["{S0} §2.2"]
         },
         "subject": "Padrão TOGAF"
-    }
+    },
 
+{
+    "QUESTION_NUMBER": "125",
+    "QUESTION_TEXT": "Durante o desenvolvimento da arquitetura de um novo sistema corporativo, a equipe identifica diferentes pessoas, grupos e organizações que possuem interesses relacionados ao sistema. Segundo o Padrão TOGAF®, qual alternativa identifica corretamente quem pode ser considerado uma Parte Interessada?",
+    "POSSIBLE_ANSWERS": [
+        "A. Somente as pessoas que possuem autoridade para aprovar formalmente a arquitetura.",
+        "B. Qualquer indivíduo, equipe, organização ou classe desses grupos que tenha interesse no sistema.",
+        "C. Apenas os usuários que interagirão diretamente com o sistema após sua implantação.",
+        "D. Somente as equipes internas responsáveis pelo desenvolvimento e pela operação da solução."
+    ],
+    "EXPLANATION_TEXT": "Explicação: No Padrão TOGAF®, uma Parte Interessada é um indivíduo, uma equipe, uma organização ou uma classe desses grupos que tenha interesse em um sistema. Portanto, o conceito não se limita aos responsáveis pela aprovação da arquitetura, aos usuários diretos ou às equipes que desenvolvem e operam a solução.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "125",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["3.72"],
+        "10": ["{S0} §4.75"]
+    },
+    "subject": "Parte interessada"
+}
 
 ];
 

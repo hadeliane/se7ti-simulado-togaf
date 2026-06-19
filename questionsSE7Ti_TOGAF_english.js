@@ -657,7 +657,7 @@ const questions_en = [
 
 {
     "QUESTION_NUMBER": "32",
-    "QUESTION_TEXT": "Which of the following activities is NOT part of Phase A in the TOGAF® Standard?",
+    "QUESTION_TEXT": "Which of the following activities is not part of Phase A in the TOGAF® Standard?",
     "POSSIBLE_ANSWERS": [
         "A. Creation of the Architecture Vision.",
         "B. Obtaining approval to proceed with architecture development.",
@@ -701,9 +701,9 @@ const questions_en = [
     "QUESTION_NUMBER": "34",
     "QUESTION_TEXT": "Which option correctly associates ADM phases with their respective domains according to the TOGAF® Standard?",
     "POSSIBLE_ANSWERS": [
-        "A. Phase B – Infrastructure, Phase C – Processes, Phase D – Information Systems.",
-        "B. Phase B – Business, Phase C – Information Systems, Phase D – Technology.",
-        "C. Phase B – Information Systems, Phase C – Strategy, Phase D – Governance.",
+        "A. Phase B – Infrastructure, Phase C – Processes, Phase D – Data and Applications.",
+        "B. Phase B – Business, Phase C – Data and Applications, Phase D – Technology.",
+        "C. Phase B – Data and Applications, Phase C – Strategy, Phase D – Governance.",
         "D. Phase B – Business, Phase C – Applications, Phase D – Technology."
     ],
     "EXPLANATION_TEXT": "Explanation: The correct association is: Phase B – Business Architecture; Phase C – Information Systems Architecture (Data and Applications); Phase D – Technology Architecture.",
@@ -855,7 +855,7 @@ const questions_en = [
     "C. Detail the solution work packages.",
     "D. Plan the migration to the target architecture."
   ],
-  "EXPLANATION_TEXT": "Explanation: Phase G (Implementation Governance) is responsible for providing architectural oversight during implementation, ensuring that it complies with the approved architecture. (KLP: {S0} §3.4)",
+  "EXPLANATION_TEXT": "Explanation: Phase G (Implementation Governance) is responsible for providing architectural oversight during implementation, ensuring that it complies with the approved architecture.",
   "CORRECT_ANSWER": "B",
   "JSONINDEX": "41",
   "Probability": 1,
@@ -870,7 +870,7 @@ const questions_en = [
     "C. Phase F",
     "D. Phase G"
   ],
-  "EXPLANATION_TEXT": "Explanation: Phase G (Implementation Governance) is the stage of the ADM (don’t forget that in Portuguese we lovingly call it MDA, which stands for Architecture Development Method) where implementation governance takes place, with the architect monitoring execution to ensure it follows the previously defined directions. This cute comment is just to let you know that I, Hadeliane, personally reviewed every single question! (KLP: {S0} §3.4)",
+  "EXPLANATION_TEXT": "Explanation: Phase G (Implementation Governance) is the stage of the ADM (don’t forget that in Portuguese we lovingly call it MDA, which stands for Architecture Development Method) where implementation governance takes place, with the architect monitoring execution to ensure it follows the previously defined directions. This cute comment is just to let you know that I, Hadeliane, personally reviewed every single question!",
   "CORRECT_ANSWER": "D",
   "JSONINDEX": "42",
   "Probability": 1,
@@ -885,7 +885,7 @@ const questions_en = [
     "C. That schedules are continuously reviewed.",
     "D. That organizational changes are avoided."
   ],
-  "EXPLANATION_TEXT": "Explanation: The main purpose of Phase G (Implementation Governance) is to ensure that the implementation of systems and solutions is carried out in alignment with the architecture defined and approved in the previous phases. (KLP: {S0} §3.4)",
+  "EXPLANATION_TEXT": "Explanation: The main purpose of Phase G (Implementation Governance) is to ensure that the implementation of systems and solutions is carried out in alignment with the architecture defined and approved in the previous phases.",
   "CORRECT_ANSWER": "B",
   "JSONINDEX": "43",
   "Probability": 1,
@@ -900,7 +900,7 @@ const questions_en = [
     "C. Develop data and application architectures.",
     "D. Produce architecture models for enterprise domains."
   ],
-  "EXPLANATION_TEXT": "Explanation: Phase H (Architecture Change Management) establishes the procedures for managing changes to the new architecture after it has been implemented. (KLP: {S0} §3.4)",
+  "EXPLANATION_TEXT": "Explanation: Phase H (Architecture Change Management) establishes the procedures for managing changes to the new architecture after it has been implemented.",
   "CORRECT_ANSWER": "A",
   "JSONINDEX": "44",
   "Probability": 1,
@@ -915,7 +915,7 @@ const questions_en = [
     "C. Integration between software and infrastructure projects.",
     "D. Continuous operation of the architecture requirements management process throughout the ADM."
   ],
-  "EXPLANATION_TEXT": "Explanation: The Requirements Management phase operates the requirements management process throughout the entire ADM (Architecture Development Method… who here likes the ADM!? I do, Hadeliane does! hahaha), ensuring continuous alignment between the phases and the organization’s needs. (KLP: {S0} §3.4)",
+  "EXPLANATION_TEXT": "Explanation: The Requirements Management phase operates the requirements management process throughout the entire ADM (Architecture Development Method… who here likes the ADM!? I do, Hadeliane does! hahaha), ensuring continuous alignment between the phases and the organization’s needs.",
   "CORRECT_ANSWER": "D",
   "JSONINDEX": "45",
   "Probability": 1,
@@ -930,7 +930,7 @@ const questions_en = [
     "C. Phase G",
     "D. Phase H"
   ],
-  "EXPLANATION_TEXT": "Explanation: Phase H (Architecture Change Management) addresses the management of changes to the architecture, that is, adapting the implemented architecture in response to new needs. (KLP: {S0} §3.4)",
+  "EXPLANATION_TEXT": "Explanation: Phase H (Architecture Change Management) addresses the management of changes to the architecture, that is, adapting the implemented architecture in response to new needs.",
   "CORRECT_ANSWER": "D",
   "JSONINDEX": "46",
   "Probability": 1,
@@ -945,7 +945,7 @@ const questions_en = [
     "C. Only during the solution development phases",
     "D. Exclusively in Phase A"
   ],
-  "EXPLANATION_TEXT": "Explanation: The Requirements Management phase operates throughout the entire ADM (Architecture Development Method – a Hadê student never forgets that MDA and ADM are the same thing!), enabling continuous monitoring and updating of architecture requirements. (KLP: {S0} §3.4)",
+  "EXPLANATION_TEXT": "Explanation: The Requirements Management phase operates throughout the entire ADM (Architecture Development Method – a Hadê student never forgets that MDA and ADM are the same thing!), enabling continuous monitoring and updating of architecture requirements.",
   "CORRECT_ANSWER": "A",
   "JSONINDEX": "47",
   "Probability": 1,
@@ -960,7 +960,7 @@ const questions_en = [
     "C. Responsible for executing the planned architecture.",
     "D. Responsible for maintaining the implemented architecture in the face of change."
   ],
-  "EXPLANATION_TEXT": "Explanation: Phase H (Architecture Change Management) is dedicated to ensuring that the implemented architecture remains relevant and appropriate, even in the face of change. Remember the H for Hadeliane, who brought change into your life! hahaha (KLP: {S0} §3.4)",
+  "EXPLANATION_TEXT": "Explanation: Phase H (Architecture Change Management) is dedicated to ensuring that the implemented architecture remains relevant and appropriate, even in the face of change. Remember the H for Hadeliane, who brought change into your life! hahaha",
   "CORRECT_ANSWER": "D",
   "JSONINDEX": "48",
   "Probability": 1,
@@ -1282,33 +1282,13 @@ const questions_en = [
   "subject": "Content Framework"
 },
 {
-  "QUESTION_NUMBER": "65",
-  "QUESTION_TEXT": "What can happen to deliverables after the completion of a project according to the TOGAF® Standard?",
-  "POSSIBLE_ANSWERS": [
-    "A. They are continuously reviewed by an external governance committee",
-    "B. They are archived or transferred to the Architecture Repository",
-    "C. They are discarded and replaced by more recent technical artifacts",
-    "D. They are converted into executive documents for board-level presentations"
-  ],
-  "EXPLANATION_TEXT": "Explanation: After a project is completed, deliverables may be archived or transferred to the Architecture Repository as a reference model, standard, or snapshot of the Architecture Landscape.",
-  "CORRECT_ANSWER": "B",
-  "JSONINDEX": "65",
-  "Probability": 1,
-  "versions": ["9","10"],
-  "klp": {
-    "9": ["2.5", "29.1"],
-    "10": ["{S0} §4.40"]
-  },
-  "subject": "Content Framework"
-},
-{
   "QUESTION_NUMBER": "66",
   "QUESTION_TEXT": "What is the relationship between a deliverable and an artifact in the context of the TOGAF® Standard?",
   "POSSIBLE_ANSWERS": [
-    "A. A deliverable may be composed of artifacts that detail parts of the architecture",
-    "B. An artifact is developed before a deliverable and replaces its final content",
-    "C. An artifact is a type of deliverable with higher strategic value",
-    "D. Both are architecture products, but artifacts are intended only for technical documentation"
+    "A. A deliverable may be composed of artifacts that detail parts of the architecture.",
+    "B. An artifact is developed before a deliverable and replaces its final content.",
+    "C. An artifact is a type of deliverable with higher strategic value.",
+    "D. Both are architecture products, but artifacts are intended only for technical documentation."
   ],
   "EXPLANATION_TEXT": "Explanation: In the context of the TOGAF® Standard, deliverables may be composed of artifacts that detail specific aspects of the architecture.",
   "CORRECT_ANSWER": "A",
@@ -1325,10 +1305,10 @@ const questions_en = [
   "QUESTION_NUMBER": "67",
   "QUESTION_TEXT": "Which option correctly expresses a characteristic of a good building block according to the TOGAF® Standard?",
   "POSSIBLE_ANSWERS": [
-    "A. It can be reusable, replaceable, and well-specified",
-    "B. It must be exclusive to each architecture that is developed",
-    "C. It must contain all technical details in its first version",
-    "D. It may ignore technology standards, since it is only conceptual"
+    "A. It can be reusable, replaceable, and well-specified.",
+    "B. It must be exclusive to each architecture that is developed.",
+    "C. It must contain all technical details in its first version.",
+    "D. It may ignore technology standards, since it is only conceptual."
   ],
   "EXPLANATION_TEXT": "Explanation: A good building block should be reusable, replaceable, well-specified, and take into account its evolution through use and standards.",
   "CORRECT_ANSWER": "A",
@@ -1345,10 +1325,10 @@ const questions_en = [
   "QUESTION_NUMBER": "68",
   "QUESTION_TEXT": "What characterizes how building blocks interact with each other in the TOGAF® Standard?",
   "POSSIBLE_ANSWERS": [
-    "A. They only interact if they belong to the same type of metamodel",
-    "B. They operate in isolation, without dependencies between elements",
-    "C. They can interoperate with other interdependent building blocks",
-    "D. They are replaced by deliverables in later phases"
+    "A. They only interact if they belong to the same type of metamodel.",
+    "B. They operate in isolation, without dependencies between elements.",
+    "C. They can interoperate with other interdependent building blocks.",
+    "D. They are replaced by deliverables in later phases."
   ],
   "EXPLANATION_TEXT": "Explanation: Building blocks can interoperate with other interdependent building blocks, promoting integration and flexibility.",
   "CORRECT_ANSWER": "C",
@@ -1365,10 +1345,10 @@ const questions_en = [
   "QUESTION_NUMBER": "69",
   "QUESTION_TEXT": "What is considered a good practice when defining the level of detail of a building block?",
   "POSSIBLE_ANSWERS": [
-    "A. Always detailing it to the maximum, with at least 50 pages per block",
-    "B. Adjusting the level of detail according to the architecture objectives",
-    "C. Working only with generic descriptions to maintain flexibility",
-    "D. Ignoring the level of detail until solution implementation"
+    "A. Always detailing it to the maximum.",
+    "B. Adjusting the level of detail according to the architecture objectives.",
+    "C. Working only with generic descriptions to maintain flexibility.",
+    "D. Ignoring the level of detail until solution implementation."
   ],
   "EXPLANATION_TEXT": "Explanation: The level of detail of a building block should be adjusted according to the architecture objectives and may vary throughout its development.",
   "CORRECT_ANSWER": "B",
@@ -1385,10 +1365,10 @@ const questions_en = [
   "QUESTION_NUMBER": "70",
   "QUESTION_TEXT": "What is the advantage of keeping the boundary and specification of a building block loosely coupled to its implementation?",
   "POSSIBLE_ANSWERS": [
-    "A. It makes it easier to replace standards with visual frameworks",
-    "B. It allows greater control over the source code involved",
-    "C. It ensures that the block works on any operating system",
-    "D. It allows the block to be realized in multiple ways without impacting its use"
+    "A. It makes it easier to replace standards with visual frameworks.",
+    "B. It allows greater control over the source code involved.",
+    "C. It ensures that the block works on any operating system.",
+    "D. It allows the block to be realized in multiple ways without impacting its use."
   ],
   "EXPLANATION_TEXT": "Explanation: Keeping the boundary and specification loosely coupled to the implementation allows multiple realizations of the building block without compromising its structure.",
   "CORRECT_ANSWER": "D",
@@ -1503,7 +1483,7 @@ const questions_en = [
 },
 {
   "QUESTION_NUMBER": "76",
-  "QUESTION_TEXT": "A junior architect is organizing the documentation generated during the ADM phases and wants to understand where each element should be stored. Which of the following statements is consistent with the TOGAF® Standard?",
+  "QUESTION_TEXT": "An architect is organizing the documentation generated during the ADM phases and wants to understand where each element should be stored in the Architecture Repository. Which of the following statements is consistent with the TOGAF® Standard?",
   "POSSIBLE_ANSWERS": [
     "A. The Architecture Landscape stores data generated by implemented solutions.",
     "B. The Requirements Repository stores mandatory standards approved by the organization.",
@@ -1564,7 +1544,7 @@ const questions_en = [
   "QUESTION_NUMBER": "79",
   "QUESTION_TEXT": "What is one of the direct benefits of using an Enterprise Metamodel in architecture development according to the TOGAF® Standard?",
   "POSSIBLE_ANSWERS": [
-    "A. Ensuring that all artifacts follow UML notation.",
+    "A. Ensuring that all artifacts follow same notation.",
     "B. Allowing the replacement of ADM phases with alternative frameworks.",
     "C. Providing an integrated basis for model consistency and traceability.",
     "D. Eliminating the need to validate the strategic context."
@@ -2463,7 +2443,29 @@ const questions_en = [
             "10": ["{S0} §2.2"]
         },
         "subject": "TOGAF Standard"
-    }
+    },
 
+{
+    "QUESTION_NUMBER": "125",
+    "QUESTION_TEXT": "During the development of an architecture for a new enterprise system, the architecture team identifies several people, groups, and organizations with interests related to the system. According to the TOGAF Standard, which option correctly identifies who may be considered a Stakeholder?",
+    "POSSIBLE_ANSWERS": [
+        "A. Only individuals who have the authority to formally approve the architecture.",
+        "B. Any individual, team, organization, or class thereof that has an interest in the system.",
+        "C. Only users who will interact directly with the system after its implementation.",
+        "D. Only the internal teams responsible for developing and operating the solution."
+    ],
+    "EXPLANATION_TEXT": "Explanation: In the TOGAF Standard, a Stakeholder is an individual, team, organization, or class thereof that has an interest in a system. Therefore, the concept is not limited to those who approve the architecture, direct users, or the teams responsible for developing and operating the solution.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "125",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["3.72"],
+        "10": ["{S0} §4.75"]
+    },
+    "subject": "Stakeholder"
+}
+
+//Slot 65 está vago! Eu apaguei a questão e não coloquei outra no lugar.
 
 ];
