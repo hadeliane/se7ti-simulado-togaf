@@ -79,12 +79,47 @@
     .subjectGrid {
       display: grid;
       gap: 8px;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      max-height: 260px;
+      grid-template-columns: 1fr;
+      max-height: 360px;
       overflow: auto;
       padding-right: 4px;
     }
-    @media (max-width: 700px) { .subjectGrid { grid-template-columns: 1fr; } }
+    .subjectGroup {
+      border: 1px solid #dfe3f4;
+      border-radius: 10px;
+      background: #fff;
+      overflow: hidden;
+    }
+    .subjectGroup > summary {
+      display: flex; gap: 9px; align-items: center;
+      padding: 10px 12px;
+      cursor: pointer; font-weight: 700;
+      list-style: none;
+      background: #f8f9ff;
+    }
+    .subjectGroup > summary::-webkit-details-marker { display: none; }
+    .subjectGroup > summary::before {
+      content: "\25B8"; color: #2f6fed; width: 12px;
+      transition: transform .15s ease;
+    }
+    .subjectGroup[open] > summary::before { transform: rotate(90deg); }
+    .subjectGroup.hasSelection > summary { background: #eef3ff; }
+    .subjectGroup > summary input { margin: 0; }
+    .topicName { min-width: 0; }
+    .topicSelection {
+      color: #536078; font-size: 12px; font-weight: 600;
+      margin-left: auto; white-space: nowrap;
+    }
+    .subjectGroup:not([open]).hasSelection .topicSelection {
+      color: #234fba;
+    }
+    .subjectItems {
+      display: grid; gap: 8px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      padding: 10px;
+      border-top: 1px solid #e7e7ef;
+    }
+    @media (max-width: 700px) { .subjectItems { grid-template-columns: 1fr; } }
     label.subjectOpt {
       display:flex; gap:8px; align-items:flex-start;
       border: 1px solid #e7e7ef; border-radius: 10px;
@@ -93,12 +128,48 @@
     label.subjectOpt:hover { background:#f7f9ff; }
     label.subjectOpt input { margin-top: 2px; }
     .subjectCount { color:#666; font-size:12px; margin-left:auto; white-space:nowrap; }
+    button.tipButton {
+      flex: 0 0 auto;
+      border: 0; border-radius: 7px;
+      padding: 2px 4px;
+      background: transparent; color: inherit;
+      font-size: 16px; line-height: 1.2;
+      cursor: pointer;
+    }
+    button.tipButton:hover, button.tipButton:focus-visible { background: #fff1a8; }
+    .tipModal {
+      position: fixed; inset: 0; z-index: 1000;
+      display: flex; align-items: center; justify-content: center;
+      padding: 20px;
+      background: rgba(19, 27, 48, .58);
+    }
+    .tipModal[hidden] { display: none; }
+    .tipDialog {
+      width: min(620px, 100%);
+      max-height: min(78vh, 680px);
+      overflow: auto;
+      border-radius: 16px;
+      padding: 18px;
+      background: #fff;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, .28);
+    }
+    .tipDialogHeader { display: flex; gap: 12px; align-items: flex-start; }
+    .tipDialogTitle { margin: 0; font-size: 18px; line-height: 1.35; }
+    .tipClose { margin-left: auto; }
+    .tipText {
+      margin-top: 14px;
+      white-space: pre-wrap;
+      font-size: 14px; line-height: 1.55;
+    }
+    body.modalOpen { overflow: hidden; }
   </style>
 
   <!-- PT -->
   <script src="./questionsSE7Ti_TOGAF.js"></script>
   <!-- EN  -->
   <script src="./questionsSE7Ti_TOGAF_english.js"></script>
+  <!-- Dicas opcionais para categorias e assuntos -->
+  <script src="./tipsSE7Ti_TOGAF.js"></script>
 </head>
 
 <body>
@@ -212,6 +283,16 @@
     </div>
   </div>
 
+  <div class="tipModal" id="tipModal" hidden aria-hidden="true">
+    <div class="tipDialog" role="dialog" aria-modal="true" aria-labelledby="tipModalTitle">
+      <div class="tipDialogHeader">
+        <h2 class="tipDialogTitle" id="tipModalTitle"></h2>
+        <button class="secondary tipClose" id="btnCloseTip" type="button">Fechar</button>
+      </div>
+      <div class="tipText" id="tipModalText"></div>
+    </div>
+  </div>
+
 <script>
   const el = (id) => document.getElementById(id);
 
@@ -258,6 +339,29 @@ function formatKlp(q) {
   // Banks
   const bankPT = (typeof questions !== "undefined" && Array.isArray(questions)) ? questions : [];
   const bankEN = (typeof questions_en !== "undefined" && Array.isArray(questions_en)) ? questions_en : [];
+  const tipsRaw = (typeof examTips !== "undefined" && Array.isArray(examTips)) ? examTips : [];
+  const tipMap = new Map(
+    tipsRaw
+      .filter(item => item && typeof item.category === "string" && typeof item.tip === "string" && item.tip.trim())
+      .map(item => [`${item.category.trim()}\u0000${typeof item.subject === "string" ? item.subject.trim() : ""}`, item.tip.trim()])
+  );
+  const tipCategoryAliasesEN = new Map([
+    ["1. Introduction", "1. Introdução"],
+    ["2. ADM", "2. ADM"],
+    ["5. Governance", "5. Governança"]
+  ]);
+  const tipSubjectAliasesEN = new Map([
+    ["Architecture Domains", "Domínios arquiteturais"],
+    ["Architecture Framework", "Framework de arquitetura"],
+    ["Benefits of EA", "Benefícios de EA"],
+    ["Essential definitions", "Definições essenciais"],
+    ["Structure of the TOGAF Standard", "Estrutura do Padrão TOGAF"],
+    ["Architecture Board", "Comitê"],
+    ["Compliance", "Conformidade"],
+    ["Contract", "Contrato"],
+    ["EA Governance", "Governança de EA"],
+    ["Establishing EA Capability", "Estabelecer Capacidade de EA"]
+  ]);
 
   // UI
   const pillCount = el("pillCount");
@@ -271,6 +375,10 @@ function formatKlp(q) {
   const pillSubjects = el("pillSubjects");
   const btnSelectAllSubjects = el("btnSelectAllSubjects");
   const btnClearSubjects = el("btnClearSubjects");
+  const tipModal = el("tipModal");
+  const tipModalTitle = el("tipModalTitle");
+  const tipModalText = el("tipModalText");
+  const btnCloseTip = el("btnCloseTip");
 
   const stageMode = el("stageMode");
   const stageRun = el("stageRun");
@@ -319,6 +427,7 @@ function formatKlp(q) {
   let userAnswers = new Map();
   let revealed = false;
   let wrongQuestions = [];
+  let tipLastFocus = null;
 
   const TIMER = {
     enabled: true,
@@ -350,6 +459,7 @@ function formatKlp(q) {
       timeout: "Tempo esgotado.",
       youGot: "Você acertou",
       of: "de",
+      questionWord: "questão",
       questionsWord: "questões",
       wrongNone: "Nada para revisar. Você gabaritou. 😄",
       qLabel: "Questão",
@@ -358,8 +468,12 @@ function formatKlp(q) {
       selectAllSubjects: "Selecionar todos",
       clearSubjects: "Limpar seleção",
       subjectsWord: "assuntos",
+      groupSelectedOf: "de",
       selectedSubjects: "assuntos selecionados",
       noSubject: "Sem assunto",
+      noCategory: "Sem tópico",
+      examTip: "Dica para a Prova",
+      closeTip: "Fechar",
       chooseAtLeastOneSubject: "Selecione pelo menos um assunto.",
       filteredBankEmpty: "Não há questões para os assuntos selecionados."
     };
@@ -385,6 +499,7 @@ function formatKlp(q) {
       timeout: "Time is up.",
       youGot: "You got",
       of: "out of",
+      questionWord: "question",
       questionsWord: "questions",
       wrongNone: "Nothing to review. Perfect score. 😄",
       qLabel: "Question",
@@ -393,8 +508,12 @@ function formatKlp(q) {
       selectAllSubjects: "Select all",
       clearSubjects: "Clear selection",
       subjectsWord: "subjects",
+      groupSelectedOf: "of",
       selectedSubjects: "selected subjects",
       noSubject: "No subject",
+      noCategory: "No topic",
+      examTip: "Dica para a Prova",
+      closeTip: "Close",
       chooseAtLeastOneSubject: "Select at least one subject.",
       filteredBankEmpty: "There are no questions for the selected subjects."
     };
@@ -416,55 +535,163 @@ function formatKlp(q) {
     return raw;
   }
 
-  function getSubjectsFromBank(list) {
-    const counts = new Map();
+  function categoryOf(q) {
+    const raw = (q && typeof q.category === "string" && q.category.trim()) ? q.category.trim() : t("noCategory");
+    return raw;
+  }
+
+  function subjectKey(q) {
+    return `${categoryOf(q)}\u0000${subjectOf(q)}`;
+  }
+
+  function getTip(category, subject = null) {
+    const lookupCategory = lang === "en" ? (tipCategoryAliasesEN.get(category) || category) : category;
+    const lookupSubject = lang === "en" && subject
+      ? (tipSubjectAliasesEN.get(subject) || subject)
+      : subject;
+    return tipMap.get(`${lookupCategory}\u0000${lookupSubject || ""}`) || "";
+  }
+
+  function openTip(tip, label) {
+    if (!tip) return;
+    tipLastFocus = document.activeElement;
+    tipModalTitle.textContent = `${t("examTip")} — ${label}`;
+    tipModalText.textContent = tip;
+    btnCloseTip.textContent = t("closeTip");
+    tipModal.hidden = false;
+    tipModal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("modalOpen");
+    btnCloseTip.focus();
+  }
+
+  function closeTip() {
+    if (tipModal.hidden) return;
+    tipModal.hidden = true;
+    tipModal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("modalOpen");
+    if (tipLastFocus && typeof tipLastFocus.focus === "function") tipLastFocus.focus();
+    tipLastFocus = null;
+  }
+
+  function createTipButton(tip, label) {
+    if (!tip) return null;
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "tipButton";
+    button.textContent = "💡";
+    button.title = t("examTip");
+    button.setAttribute("aria-label", `${t("examTip")}: ${label}`);
+    button.addEventListener("click", event => {
+      event.preventDefault();
+      event.stopPropagation();
+      openTip(tip, label);
+    });
+    return button;
+  }
+
+  function getSubjectGroupsFromBank(list) {
+    const groups = new Map();
     (list || []).forEach(q => {
+      const category = categoryOf(q);
       const subject = subjectOf(q);
-      counts.set(subject, (counts.get(subject) || 0) + 1);
+      if (!groups.has(category)) groups.set(category, new Map());
+      const subjects = groups.get(category);
+      subjects.set(subject, (subjects.get(subject) || 0) + 1);
     });
 
-    return Array.from(counts.entries())
-      .map(([name, count]) => ({ name, count }))
-      .sort((a, b) => a.name.localeCompare(b.name, lang === "en" ? "en" : "pt-BR", { sensitivity: "base" }));
+    const locale = lang === "en" ? "en" : "pt-BR";
+    return Array.from(groups.entries())
+      .map(([category, subjects]) => ({
+        category,
+        subjects: Array.from(subjects.entries())
+          .map(([name, count]) => ({ name, count, key: `${category}\u0000${name}` }))
+          .sort((a, b) => a.name.localeCompare(b.name, locale, { sensitivity: "base" }))
+      }))
+      .sort((a, b) => a.category.localeCompare(b.category, locale, { sensitivity: "base", numeric: true }));
   }
 
   function renderSubjectChecklist() {
-    const subjects = getSubjectsFromBank(bankRaw);
+    const groups = getSubjectGroupsFromBank(bankRaw);
     subjectList.innerHTML = "";
 
-    // Por padrão, deixa todos selecionados quando troca o idioma ou carrega a página.
-    selectedSubjects = new Set(subjects.map(s => s.name));
+    // Por padrão, deixa todos os assuntos selecionados quando troca o idioma ou carrega a página.
+    selectedSubjects = new Set(groups.flatMap(group => group.subjects.map(subject => subject.key)));
 
-    subjects.forEach(({ name, count }) => {
-      const id = `subject_${name.replace(/[^a-z0-9_-]+/gi, "_")}`;
+    groups.forEach(({ category, subjects }, groupIndex) => {
+      const details = document.createElement("details");
+      details.className = "subjectGroup";
+      details._subjectKeys = subjects.map(subject => subject.key);
+      details._subjects = subjects;
 
-      const label = document.createElement("label");
-      label.className = "subjectOpt";
-      label.setAttribute("for", id);
+      const summary = document.createElement("summary");
 
-      const input = document.createElement("input");
-      input.type = "checkbox";
-      input.id = id;
-      input.value = name;
-      input.checked = true;
-
-      input.addEventListener("change", () => {
-        if (input.checked) selectedSubjects.add(name);
-        else selectedSubjects.delete(name);
+      const groupCheckbox = document.createElement("input");
+      groupCheckbox.type = "checkbox";
+      groupCheckbox.className = "topicCheckbox";
+      groupCheckbox.setAttribute("aria-label", category);
+      groupCheckbox.addEventListener("click", event => event.stopPropagation());
+      groupCheckbox.addEventListener("change", () => {
+        details._subjectKeys.forEach(key => {
+          if (groupCheckbox.checked) selectedSubjects.add(key);
+          else selectedSubjects.delete(key);
+        });
+        details.querySelectorAll(".subjectOpt input[type=checkbox]").forEach(input => {
+          input.checked = groupCheckbox.checked;
+        });
         updateSubjectSummary();
       });
 
-      const text = document.createElement("div");
-      text.textContent = name;
+      const topicName = document.createElement("span");
+      topicName.className = "topicName";
+      topicName.textContent = category;
+      const categoryTipButton = createTipButton(getTip(category), category);
 
-      const countSpan = document.createElement("span");
-      countSpan.className = "subjectCount";
-      countSpan.textContent = count;
+      const topicSelection = document.createElement("span");
+      topicSelection.className = "topicSelection";
 
-      label.appendChild(input);
-      label.appendChild(text);
-      label.appendChild(countSpan);
-      subjectList.appendChild(label);
+      summary.appendChild(groupCheckbox);
+      summary.appendChild(topicName);
+      if (categoryTipButton) summary.appendChild(categoryTipButton);
+      summary.appendChild(topicSelection);
+      details.appendChild(summary);
+
+      const items = document.createElement("div");
+      items.className = "subjectItems";
+
+      subjects.forEach(({ name, count, key }, subjectIndex) => {
+        const id = `subject_${groupIndex}_${subjectIndex}`;
+        const label = document.createElement("label");
+        label.className = "subjectOpt";
+        label.setAttribute("for", id);
+
+        const input = document.createElement("input");
+        input.type = "checkbox";
+        input.id = id;
+        input.value = key;
+        input.checked = true;
+        input.addEventListener("change", () => {
+          if (input.checked) selectedSubjects.add(key);
+          else selectedSubjects.delete(key);
+          updateSubjectSummary();
+        });
+
+        const text = document.createElement("div");
+        text.textContent = name;
+        const subjectTipButton = createTipButton(getTip(category, name), name);
+
+        const countSpan = document.createElement("span");
+        countSpan.className = "subjectCount";
+        countSpan.textContent = count;
+
+        label.appendChild(input);
+        label.appendChild(text);
+        if (subjectTipButton) label.appendChild(subjectTipButton);
+        label.appendChild(countSpan);
+        items.appendChild(label);
+      });
+
+      details.appendChild(items);
+      subjectList.appendChild(details);
     });
 
     updateSubjectSummary();
@@ -472,30 +699,50 @@ function formatKlp(q) {
 
   function updateSubjectSummary() {
     const selectedCount = selectedSubjects.size;
-    const totalCount = getSubjectsFromBank(bankRaw).length;
+    const totalCount = getSubjectGroupsFromBank(bankRaw)
+      .reduce((total, group) => total + group.subjects.length, 0);
     const filteredCount = getFilteredBank().length;
+
+    subjectList.querySelectorAll(".subjectGroup").forEach(details => {
+      const keys = details._subjectKeys || [];
+      const subjects = details._subjects || [];
+      const selectedSubjectCount = keys.filter(key => selectedSubjects.has(key)).length;
+      const selectedQuestionCount = subjects.reduce(
+        (total, subject) => total + (selectedSubjects.has(subject.key) ? subject.count : 0),
+        0
+      );
+      const totalQuestionCount = subjects.reduce((total, subject) => total + subject.count, 0);
+      const checkbox = details.querySelector(".topicCheckbox");
+      const indicator = details.querySelector(".topicSelection");
+      checkbox.checked = keys.length > 0 && selectedSubjectCount === keys.length;
+      checkbox.indeterminate = selectedSubjectCount > 0 && selectedSubjectCount < keys.length;
+      const questionLabel = t(totalQuestionCount === 1 ? "questionWord" : "questionsWord");
+      indicator.textContent = `${selectedQuestionCount} ${t("groupSelectedOf")} ${totalQuestionCount} ${questionLabel}`;
+      details.classList.toggle("hasSelection", selectedQuestionCount > 0);
+    });
 
     pillSubjects.textContent = `${selectedCount}/${totalCount} ${t("subjectsWord")}`;
     pillCount.textContent = `${filteredCount} ${t("questionsWord")}`;
   }
 
   function selectAllSubjects() {
-    const subjects = getSubjectsFromBank(bankRaw).map(s => s.name);
-    selectedSubjects = new Set(subjects);
-    subjectList.querySelectorAll("input[type=checkbox]").forEach(input => input.checked = true);
+    const keys = getSubjectGroupsFromBank(bankRaw)
+      .flatMap(group => group.subjects.map(subject => subject.key));
+    selectedSubjects = new Set(keys);
+    subjectList.querySelectorAll(".subjectOpt input[type=checkbox]").forEach(input => input.checked = true);
     updateSubjectSummary();
   }
 
   function clearSubjects() {
     selectedSubjects = new Set();
-    subjectList.querySelectorAll("input[type=checkbox]").forEach(input => input.checked = false);
+    subjectList.querySelectorAll(".subjectOpt input[type=checkbox]").forEach(input => input.checked = false);
     updateSubjectSummary();
   }
 
   function getFilteredBank() {
     if (!bankRaw.length) return [];
     if (!selectedSubjects.size) return [];
-    return bankRaw.filter(q => selectedSubjects.has(subjectOf(q)));
+    return bankRaw.filter(q => selectedSubjects.has(subjectKey(q)));
   }
 
   function validateSubjectSelection() {
@@ -519,6 +766,7 @@ function formatKlp(q) {
   }
 
   function applyLangAndBank(newLang) {
+    closeTip();
     lang = newLang;
     bankRaw = (lang === "en") ? bankEN : bankPT;
 
@@ -868,6 +1116,13 @@ function formatKlp(q) {
   btnBackToMenu1.addEventListener("click", backToMenu);
   btnBackToMenu2.addEventListener("click", backToMenu);
   btnBackToMenu3.addEventListener("click", backToMenu);
+  btnCloseTip.addEventListener("click", closeTip);
+  tipModal.addEventListener("click", event => {
+    if (event.target === tipModal) closeTip();
+  });
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape" && !tipModal.hidden) closeTip();
+  });
 
   // Init
   applyLangAndBank("pt");

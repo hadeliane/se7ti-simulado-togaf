@@ -17,6 +17,7 @@ const questions = [
         "9": ["20.1-1"],
         "10": ["G184 §4.3.3"]
       },
+      "category": "3. Técnicas do ADM",
       "subject": "Princípios"	
     },
 
@@ -38,6 +39,7 @@ const questions = [
         "9":  ["20.3"],
         "10": ["{S2} §2.3"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Princípios"
 },
 
@@ -60,6 +62,7 @@ const questions = [
         "9":  ["20.4"],
         "10": ["{S2} §2.4"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Princípios"
 },
 
@@ -81,6 +84,7 @@ const questions = [
         "9":  ["20.4"],
         "10": ["{S2} §2.4.1"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Princípios"
 },
 
@@ -103,6 +107,7 @@ const questions = [
         "9":  ["20.1"],
         "10": ["{S4} §4.2.4"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Princípios"
 },
 
@@ -124,6 +129,7 @@ const questions = [
         "9":  ["20.3"],
         "10": ["{S2} §2.3"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Princípios"
 },
 
@@ -145,6 +151,7 @@ const questions = [
         "9":  ["20.4"],
         "10": ["{S2} §2.4.1"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Princípios"
 },
 
@@ -166,6 +173,7 @@ const questions = [
         "9":  ["20.3"],
         "10": ["{S2} §2.3"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Princípios"
 },
 
@@ -189,6 +197,7 @@ const questions = [
         "9":  ["26.1"],
         "10": ["{S2} §8.1"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Prontidão"
 },
 
@@ -210,6 +219,7 @@ const questions = [
         "9":  ["26.1"],
         "10": ["{S2} §8.1"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Prontidão"
 },
 
@@ -231,6 +241,7 @@ const questions = [
         "9":  ["26.1"],
         "10": ["{S2} §8.1"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Prontidão"
 },
 
@@ -252,6 +263,7 @@ const questions = [
         "9":  ["26.1"],
         "10": ["{S2} §8.1"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Prontidão"
 },
 
@@ -273,6 +285,7 @@ const questions = [
         "9":  ["26.1"],
         "10": ["{S2} §8.1"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Prontidão"
 },
 
@@ -295,7 +308,8 @@ const questions = [
         "9":  ["3.72"],
         "10": ["{S0} §4.75"]
     },
-    "subject": "Parte interessada"
+    "category": "3. Técnicas do ADM",
+    "subject": "Partes Interessadas"
 },
 
 {
@@ -316,6 +330,7 @@ const questions = [
         "9":  ["23.2"],
         "10": ["{S2} §5.1"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Análise de Diferenças"
 },
 
@@ -337,6 +352,7 @@ const questions = [
         "9":  ["23.2"],
         "10": ["G186 §15.2.3"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Análise de Diferenças"
 },
 
@@ -358,6 +374,7 @@ const questions = [
         "9":  ["23.2"],
         "10": ["{S2} §5.1"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Análise de Diferenças"
 },
 
@@ -381,6 +398,7 @@ const questions = [
         "9":  ["25.1"],
         "10": ["{S0} §3.9"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Interoperabilidade"
 },
 
@@ -402,6 +420,7 @@ const questions = [
         "9":  ["25.2"],
         "10": ["{S0} §3.9"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Interoperabilidade"
 },
 
@@ -423,6 +442,7 @@ const questions = [
         "9":  ["25.1"],
         "10": ["{S0} §3.9"]
     },
+    "category": "3. Técnicas do ADM",
     "subject": "Interoperabilidade"
 },
 
@@ -444,7 +464,8 @@ const questions = [
         "9":  ["1.3"],
         "10": ["{S0} §1.1", "{S0} §1.4"]
     },
-    "subject": "1. Introdução - Framework de arquitetura"
+    "category": "1. Introdução",
+    "subject": "Framework de arquitetura"
 },
 
 {
@@ -465,7 +486,8 @@ const questions = [
         "9":  ["1.3"],
         "10": ["{S0} §1.1", "{S0} §1.4"]
     },
-    "subject": "1. Introdução - Framework de arquitetura"
+    "category": "1. Introdução",
+    "subject": "Framework de arquitetura"
 },
 
 
@@ -487,7 +509,8 @@ const questions = [
         "9":  ["1.3"],
         "10": ["{S0} §1.1", "{S0} §1.4"]
     },
-    "subject": "1. Introdução - Framework de arquitetura"
+    "category": "1. Introdução",
+    "subject": "Framework de arquitetura"
 },
 
 
@@ -509,7 +532,8 @@ const questions = [
         "9":  ["1.1"],
         "10": ["{S1} §1.1.3"]
     },
-    "subject": "1. Introdução - Estrutura do Padrão TOGAF"
+    "category": "1. Introdução",
+    "subject": "Estrutura do Padrão TOGAF"
 },
 
 {
@@ -529,7 +553,8 @@ const questions = [
     "klp": {
         "10": ["{S0} §2.2"]
     },
-    "subject": "1. Introdução - Estrutura do Padrão TOGAF"
+    "category": "1. Introdução",
+    "subject": "Estrutura do Padrão TOGAF"
 },
 
 {
@@ -550,7 +575,8 @@ const questions = [
         "9":  ["1.1"],
         "10": ["{S0} §2.2"]
     },
-    "subject": "1. Introdução - Estrutura do Padrão TOGAF"
+    "category": "1. Introdução",
+    "subject": "Estrutura do Padrão TOGAF"
 },
 
 {
@@ -571,7 +597,8 @@ const questions = [
         "9":  ["1.1"],
         "10": ["{S0} §2.2"]
     },
-    "subject": "1. Introdução - Estrutura do Padrão TOGAF"
+    "category": "1. Introdução",
+    "subject": "Estrutura do Padrão TOGAF"
 },
 
 {
@@ -592,7 +619,8 @@ const questions = [
         "9":  ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -613,7 +641,8 @@ const questions = [
         "9":  ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -634,7 +663,8 @@ const questions = [
         "9":  ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -655,7 +685,8 @@ const questions = [
         "9":  ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -676,7 +707,8 @@ const questions = [
         "9":  ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -697,7 +729,8 @@ const questions = [
         "9":  ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -718,7 +751,8 @@ const questions = [
         "9":  ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -739,7 +773,8 @@ const questions = [
         "9":  ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -760,7 +795,8 @@ const questions = [
         "9":  ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -781,7 +817,8 @@ const questions = [
         "9":  ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -802,7 +839,8 @@ const questions = [
         "9":  ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -823,7 +861,8 @@ const questions = [
         "9":  ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -844,7 +883,8 @@ const questions = [
         "9":  ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -865,7 +905,8 @@ const questions = [
         "9": ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -886,7 +927,8 @@ const questions = [
         "9": ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -907,7 +949,8 @@ const questions = [
         "9": ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -928,7 +971,8 @@ const questions = [
         "9": ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -949,7 +993,8 @@ const questions = [
         "9": ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -970,7 +1015,8 @@ const questions = [
         "9": ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -991,7 +1037,8 @@ const questions = [
         "9": ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 
 {
@@ -1012,7 +1059,8 @@ const questions = [
         "9": ["2.4"],
         "10": ["{S0} §3.4"]
     },
-    "subject": "Fases do ADM"
+    "category": "2. ADM",
+    "subject": "Resumo das fases"
 },
 {
   "QUESTION_NUMBER": "49",
@@ -1031,6 +1079,7 @@ const questions = [
   "klp": {
     "10": ["{S0} §4.15"]
   },
+  "category": "6. Conteúdo",
   "subject": "Panorama de Arquitetura"
 },
 {
@@ -1050,6 +1099,7 @@ const questions = [
   "klp": {
     "10": ["{S0} §4.15"]
   },
+  "category": "6. Conteúdo",
   "subject": "Panorama de Arquitetura"
 },
 {
@@ -1069,6 +1119,7 @@ const questions = [
   "klp": {
     "10": ["{S0} §4.15"]
   },
+  "category": "6. Conteúdo",
   "subject": "Panorama de Arquitetura"
 },
 {
@@ -1088,6 +1139,7 @@ const questions = [
   "klp": {
     "10": ["{S0} §4.15"]
   },
+  "category": "6. Conteúdo",
   "subject": "Panorama de Arquitetura"
 },
 //
@@ -1108,6 +1160,7 @@ const questions = [
   "klp": {
     "10": ["G184 §3.3"]
   },
+  "category": "2. ADM",
   "subject": "Quatro propósitos do ADM"
 },
 {
@@ -1127,6 +1180,7 @@ const questions = [
   "klp": {
     "10": ["G184 §3.3"]
   },
+  "category": "2. ADM",
   "subject": "Quatro propósitos do ADM"
 },
 {
@@ -1146,6 +1200,7 @@ const questions = [
   "klp": {
     "10": ["G186 §3.2.2"]
   },
+  "category": "2. ADM",
   "subject": "Quatro propósitos do ADM"
 },
 {
@@ -1165,6 +1220,7 @@ const questions = [
   "klp": {
     "10": ["G184 §3.3"]
   },
+  "category": "2. ADM",
   "subject": "Quatro propósitos do ADM"
 },
 {
@@ -1184,6 +1240,7 @@ const questions = [
   "klp": {
     "10": ["G186 §3.2.2"]
   },
+  "category": "2. ADM",
   "subject": "Quatro propósitos do ADM"
 },
 {
@@ -1203,6 +1260,7 @@ const questions = [
   "klp": {
     "10": ["G184 §3.3"]
   },
+  "category": "2. ADM",
   "subject": "Quatro propósitos do ADM"
 },
 
@@ -1224,6 +1282,7 @@ const questions = [
     "9": ["29.1"],
     "10": ["{S0} §3.12"]
   },
+  "category": "6. Conteúdo",
   "subject": "Framework de Conteúdo"
 },
 {
@@ -1244,6 +1303,7 @@ const questions = [
     "9": ["29.1"],
     "10": ["{S0} §3.12"]
   },
+  "category": "2. ADM",
   "subject": "Fase Preliminar"
 },
 {
@@ -1264,6 +1324,7 @@ const questions = [
     "9": ["29.1"],
     "10": ["{S0} §3.12"]
   },
+  "category": "6. Conteúdo",
   "subject": "Framework de Conteúdo"
 },
 {
@@ -1284,6 +1345,7 @@ const questions = [
     "9": ["29.3"],
     "10": ["{S0} §3.12"]
   },
+  "category": "6. Conteúdo",
   "subject": "Framework de Conteúdo"
 },
 
@@ -1305,6 +1367,7 @@ const questions = [
     "9": ["2.5", "29.1"],
     "10": ["{S0} §4.40"]
   },
+  "category": "6. Conteúdo",
   "subject": "Framework de Conteúdo"
 },
 {
@@ -1325,6 +1388,7 @@ const questions = [
     "9": ["2.5", "29.1"],
     "10": ["{S0} §4.23"]
   },
+  "category": "6. Conteúdo",
   "subject": "Framework de Conteúdo"
 },
 
@@ -1346,6 +1410,7 @@ const questions = [
     "9": ["2.5", "29.1"],
     "10": ["{S0} §4.40", "{S0} §4.23"]
   },
+  "category": "6. Conteúdo",
   "subject": "Framework de Conteúdo"
 },
 
@@ -1367,6 +1432,7 @@ const questions = [
     "9": ["2.5", "29.1"],
     "10": ["{S4} §5.2.2"]
   },
+  "category": "6. Conteúdo",
   "subject": "Blocos de Construção"
 },
 {
@@ -1387,6 +1453,7 @@ const questions = [
     "9": ["2.5", "29.1"],
     "10": ["{S4} §5.2.2"]
   },
+  "category": "6. Conteúdo",
   "subject": "Blocos de Construção"
 },
 {
@@ -1407,6 +1474,7 @@ const questions = [
     "9": ["33.2"],
     "10": ["{S4} §5.2.2"]
   },
+  "category": "6. Conteúdo",
   "subject": "Blocos de Construção"
 },
 {
@@ -1427,6 +1495,7 @@ const questions = [
     "9": ["33.2"],
     "10": ["{S4} §5.2.2"]
   },
+  "category": "6. Conteúdo",
   "subject": "Blocos de Construção"
 },
 {
@@ -1447,6 +1516,7 @@ const questions = [
     "9": ["2.5", "29.1"],
     "10": ["{S4} §5.2.2"]
   },
+  "category": "6. Conteúdo",
   "subject": "Blocos de Construção"
 },
 
@@ -1468,6 +1538,7 @@ const questions = [
     "9": ["2.7"],
     "10": ["{S0} §3.11"]
   },
+  "category": "6. Conteúdo",
   "subject": "Repositório de Arquitetura"
 },
 
@@ -1489,6 +1560,7 @@ const questions = [
     "9": ["2.7"],
     "10": ["{S0} §3.11"]
   },
+  "category": "6. Conteúdo",
   "subject": "Repositório de Arquitetura"
 },
 
@@ -1510,6 +1582,7 @@ const questions = [
     "9": ["2.7"],
     "10": ["{S0} §3.11"]
   },
+  "category": "6. Conteúdo",
   "subject": "Repositório de Arquitetura"
 },
 {
@@ -1530,6 +1603,7 @@ const questions = [
     "9": ["2.7"],
     "10": ["{S0} §3.11"]
   },
+  "category": "6. Conteúdo",
   "subject": "Repositório de Arquitetura"
 },
 {
@@ -1550,6 +1624,7 @@ const questions = [
     "9": ["2.7"],
     "10": ["{S0} §3.11"]
   },
+  "category": "6. Conteúdo",
   "subject": "Repositório de Arquitetura"
 },
 {
@@ -1570,6 +1645,7 @@ const questions = [
     "9": ["2.7"],
     "10": ["{S0} §3.11"]
   },
+  "category": "6. Conteúdo",
   "subject": "Repositório de Arquitetura"
 },
 
@@ -1590,6 +1666,7 @@ const questions = [
   "klp": {
     "10": ["{S0} §3.11.2"]
   },
+  "category": "6. Conteúdo",
   "subject": "Framework de Conteúdo"
 },
 {
@@ -1609,6 +1686,7 @@ const questions = [
   "klp": {
     "10": ["{S0} §3.12.3"]
   },
+  "category": "6. Conteúdo",
   "subject": "Metamodelo"
 },
 {
@@ -1628,6 +1706,7 @@ const questions = [
   "klp": {
     "10": ["{S0} §3.12.1"]
   },
+  "category": "6. Conteúdo",
   "subject": "Metamodelo"
 },
 {
@@ -1647,6 +1726,7 @@ const questions = [
   "klp": {
     "10": ["{S0} §3.12.3"]
   },
+  "category": "6. Conteúdo",
   "subject": "Metamodelo"
 },
 {
@@ -1666,6 +1746,7 @@ const questions = [
   "klp": {
     "10": ["{S0} §3.12.3"]
   },
+  "category": "6. Conteúdo",
   "subject": "Metamodelo"
 },
 {
@@ -1685,6 +1766,7 @@ const questions = [
   "klp": {
     "10": ["G184 §8.3"]
   },
+  "category": "6. Conteúdo",
   "subject": "Metamodelo"
 },
 {
@@ -1704,6 +1786,7 @@ const questions = [
   "klp": {
     "10": ["G184 §8.3"]
   },
+  "category": "6. Conteúdo",
   "subject": "Metamodelo"
 },
 {
@@ -1723,6 +1806,7 @@ const questions = [
   "klp": {
     "10": ["G184 §8.3"]
   },
+  "category": "6. Conteúdo",
   "subject": "Repositório de Arquitetura"
 },
 {
@@ -1742,6 +1826,7 @@ const questions = [
   "klp": {
     "10": ["G184 §8.3"]
   },
+  "category": "6. Conteúdo",
   "subject": "Metamodelo"
 },
 {
@@ -1761,6 +1846,7 @@ const questions = [
   "klp": {
     "10": ["G184 §8.3"]
   },
+  "category": "6. Conteúdo",
   "subject": "Metamodelo"
 },
 {
@@ -1780,6 +1866,7 @@ const questions = [
   "klp": {
     "10": ["G184 §8.3"]
   },
+  "category": "6. Conteúdo",
   "subject": "Metamodelo"
 },
 
@@ -1801,6 +1888,7 @@ const questions = [
     "9": ["31.1"],
     "10": ["{S4} §3.1"]
   },
+  "category": "6. Conteúdo",
   "subject": "Visões e Pontos de Vista"
 },
 
@@ -1822,6 +1910,7 @@ const questions = [
     "9": ["3.1"],
     "10": ["{S4} §3.1"]
   },
+  "category": "6. Conteúdo",
   "subject": "Visões e Pontos de Vista"
 },
 {
@@ -1842,6 +1931,7 @@ const questions = [
     "9": ["3.1"],
     "10": ["{S4} §3.1"]
   },
+  "category": "6. Conteúdo",
   "subject": "Visões e Pontos de Vista"
 },
 
@@ -1865,6 +1955,7 @@ const questions = [
   "klp": {
     "10": ["G186 §5.1"]
   },
+  "category": "6. Conteúdo",
   "subject": "Repositório de Arquitetura"
 },
 
@@ -1887,6 +1978,7 @@ const questions = [
     "9": ["31.2"],
     "10": ["{S4} §3.2"]
   },
+  "category": "6. Conteúdo",
   "subject": "Visões e Pontos de Vista"
 },
 {
@@ -1907,6 +1999,7 @@ const questions = [
     "9": ["31.2"],
     "10": ["{S4} §3.2"]
   },
+  "category": "6. Conteúdo",
   "subject": "Visões e Pontos de Vista"
 },
 
@@ -1928,6 +2021,7 @@ const questions = [
     "9": ["35.1"],
     "10": ["{S0} §3.10"]
   },
+  "category": "6. Conteúdo",
   "subject": "Continuum"
 },
 {
@@ -1948,6 +2042,7 @@ const questions = [
     "9": ["35.2"],
     "10": ["{S4} §6.2"]
   },
+  "category": "6. Conteúdo",
   "subject": "Continuum"
 },
 {
@@ -1968,6 +2063,7 @@ const questions = [
     "9": ["35.2"],
     "10": ["{S4} §6.2"]
   },
+  "category": "6. Conteúdo",
   "subject": "Continuum"
 },
 {
@@ -1988,6 +2084,7 @@ const questions = [
     "9": ["35.2"],
     "10": ["{S4} §6.2"]
   },
+  "category": "6. Conteúdo",
   "subject": "Continuum"
 },
 
@@ -2011,6 +2108,7 @@ const questions = [
     "9": ["27.1"],
     "10": ["G152 §3.1.1"]
   },
+  "category": "3. Técnicas do ADM",
   "subject": "Riscos"
 },
 {
@@ -2030,6 +2128,7 @@ const questions = [
   "klp": {
     "10": ["{S2} §9.1"]
   },
+  "category": "3. Técnicas do ADM",
   "subject": "Riscos"
 },
 {
@@ -2050,6 +2149,7 @@ const questions = [
     "9": ["27.1"],
     "10": ["{S2} §9.1"]
   },
+  "category": "3. Técnicas do ADM",
   "subject": "Riscos"
 },
 {
@@ -2070,6 +2170,7 @@ const questions = [
     "9": ["27.1"],
     "10": ["{S2} §9.1"]
   },
+  "category": "3. Técnicas do ADM",
   "subject": "Riscos"
 },
 {
@@ -2089,6 +2190,7 @@ const questions = [
   "klp": {
     "10": ["{S2} §9.1"]
   },
+  "category": "3. Técnicas do ADM",
   "subject": "Riscos"
 },
 {
@@ -2108,6 +2210,7 @@ const questions = [
   "klp": {
     "10": ["G152 §3.1.1"]
   },
+  "category": "3. Técnicas do ADM",
   "subject": "Riscos"
 },
 {
@@ -2127,6 +2230,7 @@ const questions = [
   "klp": {
     "10": ["G152 §3.1.1"]
   },
+  "category": "3. Técnicas do ADM",
   "subject": "Riscos"
 },
 {
@@ -2147,6 +2251,7 @@ const questions = [
     "9": ["35.2"],
     "10": ["{S4} §6.2"]
   },
+  "category": "6. Conteúdo",
   "subject": "Continuum"
 },
 {
@@ -2166,6 +2271,7 @@ const questions = [
   "klp": {
     "10": ["{S1} §1.6"]
   },
+  "category": "3. Técnicas do ADM",
   "subject": "Trade-offs"
 },
 {
@@ -2185,6 +2291,7 @@ const questions = [
   "klp": {
     "10": ["{S1} §1.6"]
   },
+  "category": "3. Técnicas do ADM",
   "subject": "Trade-offs"
 },
 {
@@ -2204,6 +2311,7 @@ const questions = [
   "klp": {
     "10": ["{S1} §1.6.1"]
   },
+  "category": "3. Técnicas do ADM",
   "subject": "Trade-offs"
 },
 {
@@ -2223,6 +2331,7 @@ const questions = [
   "klp": {
     "10": ["{S1} §1.6.1"]
   },
+  "category": "3. Técnicas do ADM",
   "subject": "Trade-offs"
 },
 
@@ -2243,7 +2352,8 @@ const questions = [
         "klp": {
             "9": ["2.2"]
         },
-        "subject": "1. Introdução - Definições essenciais"
+        "category": "1. Introdução",
+        "subject": "Definições essenciais"
     },
     {
         "QUESTION_NUMBER": "112",
@@ -2262,7 +2372,8 @@ const questions = [
         "klp": {
             "9": ["3.7"]
         },
-        "subject": "1. Introdução - Definições essenciais"
+        "category": "1. Introdução",
+        "subject": "Definições essenciais"
     },
     {
         "QUESTION_NUMBER": "113",
@@ -2281,7 +2392,8 @@ const questions = [
         "klp": {
             "9": ["2.2"]
         },
-        "subject": "1. Introdução - Definições essenciais"
+        "category": "1. Introdução",
+        "subject": "Definições essenciais"
     },
     {
         "QUESTION_NUMBER": "114",
@@ -2300,7 +2412,8 @@ const questions = [
         "klp": {
             "9": ["3.7"]
         },
-        "subject": "1. Introdução - Definições essenciais"
+        "category": "1. Introdução",
+        "subject": "Definições essenciais"
     },
 
     {
@@ -2321,7 +2434,8 @@ const questions = [
             "9": ["1.3"],
             "10": ["{S0} §1.1"]
         },
-        "subject": "1. Introdução - Definições essenciais"
+        "category": "1. Introdução",
+        "subject": "Definições essenciais"
     },
     {
         "QUESTION_NUMBER": "116",
@@ -2340,7 +2454,8 @@ const questions = [
         "klp": {
             "10": ["G20F §1.2"]
         },
-        "subject": "1. Introdução - Definições essenciais"
+        "category": "1. Introdução",
+        "subject": "Definições essenciais"
     },
     {
         "QUESTION_NUMBER": "117",
@@ -2360,7 +2475,8 @@ const questions = [
             "9": ["1.3"],
             "10": ["{S0} §1.1"]
         },
-        "subject": "1. Introdução - Definições essenciais"
+        "category": "1. Introdução",
+        "subject": "Definições essenciais"
     },
     {
         "QUESTION_NUMBER": "118",
@@ -2379,7 +2495,8 @@ const questions = [
         "klp": {
             "10": ["G186 §3.1"]
         },
-        "subject": "1. Introdução - Definições essenciais"
+        "category": "1. Introdução",
+        "subject": "Definições essenciais"
     },
     {
         "QUESTION_NUMBER": "119",
@@ -2398,7 +2515,8 @@ const questions = [
         "klp": {
             "10": ["G20F §1.2"]
         },
-        "subject": "1. Introdução - Definições essenciais"
+        "category": "1. Introdução",
+        "subject": "Definições essenciais"
     },
 
     {
@@ -2418,7 +2536,8 @@ const questions = [
         "klp": {
             "10": ["{S0} §2.2"]
         },
-        "subject": "Padrão TOGAF"
+        "category": "1. Introdução",
+        "subject": "Estrutura do Padrão TOGAF"
     },
     {
         "QUESTION_NUMBER": "121",
@@ -2437,7 +2556,8 @@ const questions = [
         "klp": {
             "10": ["{S0} §2.2"]
         },
-        "subject": "Padrão TOGAF"
+        "category": "1. Introdução",
+        "subject": "Estrutura do Padrão TOGAF"
     },
     {
         "QUESTION_NUMBER": "122",
@@ -2456,7 +2576,8 @@ const questions = [
         "klp": {
             "10": ["{S0} §2.2"]
         },
-        "subject": "Padrão TOGAF"
+        "category": "1. Introdução",
+        "subject": "Estrutura do Padrão TOGAF"
     },
     {
         "QUESTION_NUMBER": "123",
@@ -2475,7 +2596,8 @@ const questions = [
         "klp": {
             "10": ["{S0} §2.2"]
         },
-        "subject": "Padrão TOGAF"
+        "category": "1. Introdução",
+        "subject": "Estrutura do Padrão TOGAF"
     },
     {
         "QUESTION_NUMBER": "124",
@@ -2494,7 +2616,8 @@ const questions = [
         "klp": {
             "10": ["{S0} §2.2"]
         },
-        "subject": "Padrão TOGAF"
+        "category": "1. Introdução",
+        "subject": "Estrutura do Padrão TOGAF"
     },
 
 {
@@ -2515,7 +2638,8 @@ const questions = [
         "9": ["3.72"],
         "10": ["{S0} §4.75"]
     },
-    "subject": "Parte interessada"
+    "category": "3. Técnicas do ADM",
+    "subject": "Partes Interessadas"
 },
 
 {
@@ -2545,7 +2669,9 @@ const questions = [
         "10": ["{S0} §1.1"]
     },
 
-    "subject": "1. Introdução - Benefícios de EA"
+    "category": "1. Introdução",
+
+    "subject": "Benefícios de EA"
 },
 
 {
@@ -2575,7 +2701,9 @@ const questions = [
         "10": ["{S0} §1.1"]
     },
 
-    "subject": "1. Introdução - Benefícios de EA"
+    "category": "1. Introdução",
+
+    "subject": "Benefícios de EA"
 },
 
 {
@@ -2605,7 +2733,9 @@ const questions = [
         "10": ["{S0} §1.1"]
     },
 
-    "subject": "1. Introdução - Benefícios de EA"
+    "category": "1. Introdução",
+
+    "subject": "Benefícios de EA"
 },
 
 {
@@ -2635,7 +2765,9 @@ const questions = [
         "10": ["{S0} §1.1"]
     },
 
-    "subject": "1. Introdução - Benefícios de EA"
+    "category": "1. Introdução",
+
+    "subject": "Benefícios de EA"
 },
 
 {
@@ -2665,7 +2797,9 @@ const questions = [
         "10": ["{S0} §1.1"]
     },
 
-    "subject": "1. Introdução - Benefícios de EA"
+    "category": "1. Introdução",
+
+    "subject": "Benefícios de EA"
 },
 
 {
@@ -2695,7 +2829,9 @@ const questions = [
         "10": ["G184 §3.6"]
     },
 
-    "subject": "1. Introdução - Benefícios de EA"
+    "category": "1. Introdução",
+
+    "subject": "Benefícios de EA"
 },
 
 {
@@ -2725,7 +2861,9 @@ const questions = [
         "10": ["{S0} §3.3"]
     },
 
-    "subject": "1. Introdução - Domínios arquiteturais"
+    "category": "1. Introdução",
+
+    "subject": "Domínios arquiteturais"
 },
 
 {
@@ -2755,7 +2893,9 @@ const questions = [
         "10": ["{S0} §3.3"]
     },
 
-    "subject": "1. Introdução - Domínios arquiteturais"
+    "category": "1. Introdução",
+
+    "subject": "Domínios arquiteturais"
 },
 
 {
@@ -2785,7 +2925,9 @@ const questions = [
         "10": ["{S0} §3.3"]
     },
 
-    "subject": "1. Introdução - Domínios arquiteturais"
+    "category": "1. Introdução",
+
+    "subject": "Domínios arquiteturais"
 },
 
 {
@@ -2815,7 +2957,9 @@ const questions = [
         "10": ["{S0} §3.3"]
     },
 
-    "subject": "1. Introdução - Domínios arquiteturais"
+    "category": "1. Introdução",
+
+    "subject": "Domínios arquiteturais"
 },
 
 {
@@ -2845,7 +2989,9 @@ const questions = [
         "10": ["{S0} §3.3"]
     },
 
-    "subject": "1. Introdução - Domínios arquiteturais"
+    "category": "1. Introdução",
+
+    "subject": "Domínios arquiteturais"
 },
 
 {
@@ -2866,7 +3012,8 @@ const questions = [
         "9": ["1.3"],
         "10": ["{S0} §1.1"]
     },
-    "subject": "1. Introdução - Framework de arquitetura"
+    "category": "1. Introdução",
+    "subject": "Framework de arquitetura"
 },
 {
     "QUESTION_NUMBER": "138",
@@ -2886,7 +3033,8 @@ const questions = [
         "9": ["1.3"],
         "10": ["{S0} §1.1"]
     },
-    "subject": "1. Introdução - Framework de arquitetura"
+    "category": "1. Introdução",
+    "subject": "Framework de arquitetura"
 },
 {
     "QUESTION_NUMBER": "139",
@@ -2906,7 +3054,8 @@ const questions = [
         "9": ["1.3"],
         "10": ["{S0} §1.1"]
     },
-    "subject": "1. Introdução - Framework de arquitetura"
+    "category": "1. Introdução",
+    "subject": "Framework de arquitetura"
 },
 {
     "QUESTION_NUMBER": "140",
@@ -2925,7 +3074,8 @@ const questions = [
     "klp": {
         "10": ["G20F §1.2"]
     },
-    "subject": "1. Introdução - Framework de arquitetura"
+    "category": "1. Introdução",
+    "subject": "Framework de arquitetura"
 },
 {
     "QUESTION_NUMBER": "141",
@@ -2945,7 +3095,8 @@ const questions = [
         "9": ["1.3"],
         "10": ["{S0} §1.1"]
     },
-    "subject": "1. Introdução - Framework de arquitetura"
+    "category": "1. Introdução",
+    "subject": "Framework de arquitetura"
 },
 
 {
@@ -2965,7 +3116,8 @@ const questions = [
     "klp": {
         "10": ["{S0} §2.2"]
     },
-    "subject": "1. Introdução - Estrutura do Padrão TOGAF"
+    "category": "1. Introdução",
+    "subject": "Estrutura do Padrão TOGAF"
 },
 
 {
@@ -2985,7 +3137,8 @@ const questions = [
     "klp": {
         "10": ["{S0} §2.2"]
     },
-    "subject": "1. Introdução - Estrutura do Padrão TOGAF"
+    "category": "1. Introdução",
+    "subject": "Estrutura do Padrão TOGAF"
 },
 
 {
@@ -3005,7 +3158,8 @@ const questions = [
     "klp": {
         "10": ["{S0} §2.2"]
     },
-    "subject": "1. Introdução - Estrutura do Padrão TOGAF"
+    "category": "1. Introdução",
+    "subject": "Estrutura do Padrão TOGAF"
 },
 
 {
@@ -3025,7 +3179,8 @@ const questions = [
     "klp": {
         "10": ["{S0} §2.2"]
     },
-    "subject": "1. Introdução - Estrutura do Padrão TOGAF"
+    "category": "1. Introdução",
+    "subject": "Estrutura do Padrão TOGAF"
 },
 
 {
@@ -3045,7 +3200,8 @@ const questions = [
     "klp": {
         "10": ["{S1} §1.1.3"]
     },
-    "subject": "1. Introdução - Estrutura do Padrão TOGAF"
+    "category": "1. Introdução",
+    "subject": "Estrutura do Padrão TOGAF"
 },
 
 {
@@ -3075,7 +3231,9 @@ const questions = [
         "10": ["{S0} §3.13"]
     },
 
-    "subject": "5. Governança – Estabelecer Capacidade de EA"
+    "category": "5. Governança",
+
+    "subject": "Estabelecer Capacidade de EA"
 },
 
 {
@@ -3105,7 +3263,9 @@ const questions = [
         "10": ["{S0} §3.14"]
     },
 
-    "subject": "5. Governança – Estabelecer Capacidade de EA"
+    "category": "5. Governança",
+
+    "subject": "Estabelecer Capacidade de EA"
 },
 
 {
@@ -3135,7 +3295,9 @@ const questions = [
         "10": ["{S0} §3.14"]
     },
 
-    "subject": "5. Governança – Estabelecer Capacidade de EA"
+    "category": "5. Governança",
+
+    "subject": "Estabelecer Capacidade de EA"
 },
 
 {
@@ -3165,7 +3327,9 @@ const questions = [
         "10": ["{S0} §3.13"]
     },
 
-    "subject": "5. Governança – Estabelecer Capacidade de EA"
+    "category": "5. Governança",
+
+    "subject": "Estabelecer Capacidade de EA"
 },
 
 {
@@ -3195,7 +3359,9 @@ const questions = [
         "10": ["G184 §13.1"]
     },
 
-    "subject": "5. Governança – Estabelecer Capacidade de EA"
+    "category": "5. Governança",
+
+    "subject": "Estabelecer Capacidade de EA"
 },
 
 {
@@ -3225,7 +3391,9 @@ const questions = [
         "10": ["G184 §13.1"]
     },
 
-    "subject": "5. Governança – Estabelecer Capacidade de EA"
+    "category": "5. Governança",
+
+    "subject": "Estabelecer Capacidade de EA"
 },
 
 {
@@ -3255,7 +3423,9 @@ const questions = [
         "10": ["G184 §13.1"]
     },
 
-    "subject": "5. Governança – Estabelecer Capacidade de EA"
+    "category": "5. Governança",
+
+    "subject": "Estabelecer Capacidade de EA"
 },
 
 {
@@ -3285,7 +3455,9 @@ const questions = [
         "10": ["{S0} §3.13"]
     },
 
-    "subject": "5. Governança – Estabelecer Capacidade de EA"
+    "category": "5. Governança",
+
+    "subject": "Estabelecer Capacidade de EA"
 },
 
 {
@@ -3306,7 +3478,8 @@ const questions = [
         "9": ["44.1"],
         "10": ["{S5} §3.1.1"]
     },
-    "subject": "5. Governança – Governança de EA"
+    "category": "5. Governança",
+    "subject": "Governança de EA"
 },
 
 {
@@ -3327,7 +3500,8 @@ const questions = [
         "9": ["44.1"],
         "10": ["{S5} §3.1.1"]
     },
-    "subject": "5. Governança – Governança de EA"
+    "category": "5. Governança",
+    "subject": "Governança de EA"
 },
 
 {
@@ -3348,7 +3522,8 @@ const questions = [
         "9": ["44.1"],
         "10": ["G184 §6.1.1"]
     },
-    "subject": "5. Governança – Governança de EA"
+    "category": "5. Governança",
+    "subject": "Governança de EA"
 },
 
 {
@@ -3368,7 +3543,8 @@ const questions = [
     "klp": {
         "10": ["G186 §15.1.1"]
     },
-    "subject": "5. Governança – Governança de EA"
+    "category": "5. Governança",
+    "subject": "Governança de EA"
 },
 
 {
@@ -3388,7 +3564,8 @@ const questions = [
     "klp": {
         "10": ["G186 §15.1.1"]
     },
-    "subject": "5. Governança – Governança de EA"
+    "category": "5. Governança",
+    "subject": "Governança de EA"
 },
 
 {
@@ -3408,7 +3585,8 @@ const questions = [
     "klp": {
         "10": ["G186 §15.1.2"]
     },
-    "subject": "5. Governança – Governança de EA"
+    "category": "5. Governança",
+    "subject": "Governança de EA"
 },
 
 {
@@ -3429,7 +3607,8 @@ const questions = [
         "9": ["4.4"],
         "10": ["{S1} §1.4"]
     },
-    "subject": "5. Governança – Governança de EA"
+    "category": "5. Governança",
+    "subject": "Governança de EA"
 },
 
 {
@@ -3450,7 +3629,8 @@ const questions = [
         "9": ["44.1"],
         "10": ["{S5} §3.1.2"]
     },
-    "subject": "5. Governança – Governança de EA"
+    "category": "5. Governança",
+    "subject": "Governança de EA"
 },
 
 {
@@ -3471,7 +3651,8 @@ const questions = [
         "9": ["44.1"],
         "10": ["{S5} §3.1.1"]
     },
-    "subject": "5. Governança – Governança de EA"
+    "category": "5. Governança",
+    "subject": "Governança de EA"
 },
 
 {
@@ -3491,7 +3672,8 @@ const questions = [
     "klp": {
         "10": ["G186 §15.1.1"]
     },
-    "subject": "5. Governança – Governança de EA"
+    "category": "5. Governança",
+    "subject": "Governança de EA"
 },
 
 {
@@ -3511,7 +3693,8 @@ const questions = [
     "klp": {
         "10": ["G186 §15.1.1"]
     },
-    "subject": "5. Governança – Governança de EA"
+    "category": "5. Governança",
+    "subject": "Governança de EA"
 },
 
 {
@@ -3532,7 +3715,8 @@ const questions = [
         "9": ["44.1"],
         "10": ["G184 §6.1.1"]
     },
-    "subject": "5. Governança – Governança de EA"
+    "category": "5. Governança",
+    "subject": "Governança de EA"
 },
 
 {
@@ -3553,7 +3737,8 @@ const questions = [
         "9": ["4.4"],
         "10": ["{S1} §1.4"]
     },
-    "subject": "5. Governança – Governança de EA"
+    "category": "5. Governança",
+    "subject": "Governança de EA"
 },
 
 {
@@ -3574,7 +3759,8 @@ const questions = [
         "9": ["41.1"],
         "10": ["{S5} §4.1"]
     },
-    "subject": "5. Governança – Comitê"
+    "category": "5. Governança",
+    "subject": "Comitê"
 },
 
 {
@@ -3595,7 +3781,8 @@ const questions = [
         "9": ["41.1"],
         "10": ["{S5} §4.1"]
     },
-    "subject": "5. Governança – Comitê"
+    "category": "5. Governança",
+    "subject": "Comitê"
 },
 
 {
@@ -3616,7 +3803,8 @@ const questions = [
         "9": ["41.2"],
         "10": ["{S5} §4.2"]
     },
-    "subject": "5. Governança – Comitê"
+    "category": "5. Governança",
+    "subject": "Comitê"
 },
 
 {
@@ -3636,7 +3824,8 @@ const questions = [
     "klp": {
         "10": ["G184 §6.2"]
     },
-    "subject": "5. Governança – Comitê"
+    "category": "5. Governança",
+    "subject": "Comitê"
 },
 
 {
@@ -3657,7 +3846,8 @@ const questions = [
         "9": ["41.2"],
         "10": ["{S5} §4.2"]
     },
-    "subject": "5. Governança – Comitê"
+    "category": "5. Governança",
+    "subject": "Comitê"
 },
 
 {
@@ -3687,7 +3877,9 @@ const questions = [
         "10": ["{S5} §5.1"]
     },
 
-    "subject": "5. Governança – Contrato"
+    "category": "5. Governança",
+
+    "subject": "Contrato"
 },
 
 {
@@ -3717,7 +3909,9 @@ const questions = [
         "10": ["{S5} §5.1"]
     },
 
-    "subject": "5. Governança – Contrato"
+    "category": "5. Governança",
+
+    "subject": "Contrato"
 },
 
 {
@@ -3747,7 +3941,9 @@ const questions = [
         "10": ["{S5} §5.1"]
     },
 
-    "subject": "5. Governança – Contrato"
+    "category": "5. Governança",
+
+    "subject": "Contrato"
 },
 
 {
@@ -3777,7 +3973,9 @@ const questions = [
         "10": ["{S5} §5.1"]
     },
 
-    "subject": "5. Governança – Contrato"
+    "category": "5. Governança",
+
+    "subject": "Contrato"
 },
 
 {
@@ -3798,7 +3996,8 @@ const questions = [
         "9": ["42.1"],
         "10": ["{S5} §6.1"]
     },
-    "subject": "5. Governança – Conformidade"
+    "category": "5. Governança",
+    "subject": "Conformidade"
 },
 
 {
@@ -3818,7 +4017,8 @@ const questions = [
     "klp": {
         "10": ["G186 §15.2.1"]
     },
-    "subject": "5. Governança – Conformidade"
+    "category": "5. Governança",
+    "subject": "Conformidade"
 },
 
 {
@@ -3838,7 +4038,8 @@ const questions = [
     "klp": {
         "10": ["{S4} §2.13"]
     },
-    "subject": "5. Governança – Conformidade"
+    "category": "5. Governança",
+    "subject": "Conformidade"
 },
 
 {
@@ -3858,7 +4059,8 @@ const questions = [
     "klp": {
         "10": ["{S4} §2.13"]
     },
-    "subject": "5. Governança – Conformidade"
+    "category": "5. Governança",
+    "subject": "Conformidade"
 },
 
 {
@@ -3878,7 +4080,8 @@ const questions = [
     "klp": {
         "10": ["G186 §15.2.3"]
     },
-    "subject": "5. Governança – Conformidade"
+    "category": "5. Governança",
+    "subject": "Conformidade"
 },
 
 {
@@ -3898,7 +4101,8 @@ const questions = [
     "klp": {
         "9": ["42.2"]
     },
-    "subject": "5. Governança – Conformidade"
+    "category": "5. Governança",
+    "subject": "Conformidade"
 },
 
 {
@@ -3918,7 +4122,8 @@ const questions = [
     "klp": {
         "9": ["42.3"]
     },
-    "subject": "5. Governança – Conformidade"
+    "category": "5. Governança",
+    "subject": "Conformidade"
 },
 
 {
@@ -3938,7 +4143,8 @@ const questions = [
     "klp": {
         "9": ["42.4"]
     },
-    "subject": "5. Governança – Conformidade"
+    "category": "5. Governança",
+    "subject": "Conformidade"
 }
 
 ];
