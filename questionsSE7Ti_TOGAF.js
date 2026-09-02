@@ -1368,7 +1368,7 @@ const questions = [
     "10": ["{S0} §4.40"]
   },
   "category": "6. Conteúdo",
-  "subject": "Framework de Conteúdo"
+  "subject": "Entregável e Artefato"
 },
 {
   "QUESTION_NUMBER": "64",
@@ -1389,11 +1389,11 @@ const questions = [
     "10": ["{S0} §4.23"]
   },
   "category": "6. Conteúdo",
-  "subject": "Framework de Conteúdo"
+  "subject": "Entregável e Artefato"
 },
 
 {
-  "QUESTION_NUMBER": "66",
+  "QUESTION_NUMBER": "65",
   "QUESTION_TEXT": "Qual é a relação entre entregável e artefato no contexto do Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
     "A. O artefato é um tipo de entregável com maior valor estratégico.",
@@ -1403,7 +1403,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: No contexto do Padrão TOGAF®, entregáveis podem ser compostos por artefatos, que detalham aspectos específicos da arquitetura.",
   "CORRECT_ANSWER": "C",
-  "JSONINDEX": "66",
+  "JSONINDEX": "65",
   "Probability": 1,
   "versions": ["9","10"],
   "klp": {
@@ -1411,11 +1411,11 @@ const questions = [
     "10": ["{S0} §4.40", "{S0} §4.23"]
   },
   "category": "6. Conteúdo",
-  "subject": "Framework de Conteúdo"
+  "subject": "Entregável e Artefato"
 },
 
 {
-  "QUESTION_NUMBER": "67",
+  "QUESTION_NUMBER": "66",
   "QUESTION_TEXT": "Qual das opções expressa corretamente uma característica de um bom bloco de construção segundo o Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
     "A. Pode ser reutilizável e substituível.",
@@ -1425,6 +1425,27 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: Um bom bloco de construção deve ser reutilizável, substituível, bem especificado e considerar sua evolução com o uso e padrões.",
   "CORRECT_ANSWER": "A",
+  "JSONINDEX": "66",
+  "Probability": 1,
+  "versions": ["9","10"],
+  "klp": {
+    "9": ["2.5", "29.1"],
+    "10": ["{S4} §5.2.2"]
+  },
+  "category": "6. Conteúdo",
+  "subject": "Blocos de Construção"
+},
+{
+  "QUESTION_NUMBER": "67",
+  "QUESTION_TEXT": "O que caracteriza a forma como os blocos de construção interagem entre si no Padrão TOGAF®?",
+  "POSSIBLE_ANSWERS": [
+    "A. Só interagem se pertencerem ao mesmo tipo de metamodelo.",
+    "B. Operam de forma isolada, sem dependência entre elementos.",
+    "C. Podem interoperar com outros blocos de construção interdependentes.",
+    "D. São substituídos por entregáveis nas próximas fases do MDA."
+  ],
+  "EXPLANATION_TEXT": "Explicação: Blocos de construção podem interoperar com outros blocos interdependentes, promovendo integração e flexibilidade.",
+  "CORRECT_ANSWER": "C",
   "JSONINDEX": "67",
   "Probability": 1,
   "versions": ["9","10"],
@@ -1437,27 +1458,6 @@ const questions = [
 },
 {
   "QUESTION_NUMBER": "68",
-  "QUESTION_TEXT": "O que caracteriza a forma como os blocos de construção interagem entre si no Padrão TOGAF®?",
-  "POSSIBLE_ANSWERS": [
-    "A. Só interagem se pertencerem ao mesmo tipo de metamodelo.",
-    "B. Operam de forma isolada, sem dependência entre elementos.",
-    "C. Podem interoperar com outros blocos de construção interdependentes.",
-    "D. São substituídos por entregáveis nas próximas fases do MDA."
-  ],
-  "EXPLANATION_TEXT": "Explicação: Blocos de construção podem interoperar com outros blocos interdependentes, promovendo integração e flexibilidade.",
-  "CORRECT_ANSWER": "C",
-  "JSONINDEX": "68",
-  "Probability": 1,
-  "versions": ["9","10"],
-  "klp": {
-    "9": ["2.5", "29.1"],
-    "10": ["{S4} §5.2.2"]
-  },
-  "category": "6. Conteúdo",
-  "subject": "Blocos de Construção"
-},
-{
-  "QUESTION_NUMBER": "69",
   "QUESTION_TEXT": "O que é considerado uma boa prática ao definir o nível de detalhe de um bloco de construção?",
   "POSSIBLE_ANSWERS": [
     "A. Sempre detalhar ao máximo.",
@@ -1467,6 +1467,27 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O nível de detalhe de um bloco de construção deve ser ajustado conforme os objetivos da arquitetura, podendo variar ao longo do desenvolvimento.",
   "CORRECT_ANSWER": "B",
+  "JSONINDEX": "68",
+  "Probability": 1,
+  "versions": ["9","10"],
+  "klp": {
+    "9": ["33.2"],
+    "10": ["{S4} §5.2.2"]
+  },
+  "category": "6. Conteúdo",
+  "subject": "Blocos de Construção"
+},
+{
+  "QUESTION_NUMBER": "69",
+  "QUESTION_TEXT": "Qual é a vantagem de manter o limite e a especificação de um bloco de construção fracamente acoplados à sua implementação?",
+  "POSSIBLE_ANSWERS": [
+    "A. Facilita a substituição de padrões por frameworks visuais.",
+    "B. Permite maior controle sobre o código fonte envolvido.",
+    "C. Garante que o bloco de construção funcione em qualquer sistema operacional.",
+    "D. Possibilita realizá-lo de várias maneiras sem impactar seu uso."
+  ],
+  "EXPLANATION_TEXT": "Explicação: Manter o limite e a especificação fracamente acoplados à implementação permite diferentes realizações do bloco de construção sem comprometer sua estrutura, facilitando o reuso.",
+  "CORRECT_ANSWER": "D",
   "JSONINDEX": "69",
   "Probability": 1,
   "versions": ["9","10"],
@@ -1479,27 +1500,6 @@ const questions = [
 },
 {
   "QUESTION_NUMBER": "70",
-  "QUESTION_TEXT": "Qual é a vantagem de manter o limite e a especificação de um bloco de construção fracamente acoplados à sua implementação?",
-  "POSSIBLE_ANSWERS": [
-    "A. Facilita a substituição de padrões por frameworks visuais.",
-    "B. Permite maior controle sobre o código fonte envolvido.",
-    "C. Garante que o bloco de construção funcione em qualquer sistema operacional.",
-    "D. Possibilita realizá-lo de várias maneiras sem impactar seu uso."
-  ],
-  "EXPLANATION_TEXT": "Explicação: Manter o limite e a especificação fracamente acoplados à implementação permite diferentes realizações do bloco de construção sem comprometer sua estrutura, facilitando o reuso.",
-  "CORRECT_ANSWER": "D",
-  "JSONINDEX": "70",
-  "Probability": 1,
-  "versions": ["9","10"],
-  "klp": {
-    "9": ["33.2"],
-    "10": ["{S4} §5.2.2"]
-  },
-  "category": "6. Conteúdo",
-  "subject": "Blocos de Construção"
-},
-{
-  "QUESTION_NUMBER": "71",
   "QUESTION_TEXT": "Trata-se de um pacote de funcionalidades, reconhecido pelos especialistas como “uma coisa”, com limites bem definidos, que pode ser montado ou decomposto em outros elementos e reaproveitado em diferentes contextos. Qual conceito do Padrão TOGAF® está sendo descrito?",
   "POSSIBLE_ANSWERS": [
     "A. Entregável",
@@ -1509,7 +1509,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: A descrição corresponde ao conceito de bloco de construção (Building Block): um pacote de funcionalidades com limites definidos, reconhecível, montável, decomposto e reutilizável.",
   "CORRECT_ANSWER": "B",
-  "JSONINDEX": "71",
+  "JSONINDEX": "70",
   "Probability": 1,
   "versions": ["9","10"],
   "klp": {
@@ -1521,7 +1521,7 @@ const questions = [
 },
 
 {
-  "QUESTION_NUMBER": "72",
+  "QUESTION_NUMBER": "71",
   "QUESTION_TEXT": "Qual é o principal papel do Repositório de Arquitetura segundo o Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
     "A. Armazenar apenas os artefatos da arquitetura corrente em produção.",
@@ -1531,6 +1531,28 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O Repositório de Arquitetura armazena diferentes classes de resultados arquiteturais produzidos durante o trabalho de arquitetura, organizados em múltiplos níveis de abstração (estratégia, segmento e capacidade).",
   "CORRECT_ANSWER": "C",
+  "JSONINDEX": "71",
+  "Probability": 1,
+  "versions": ["9","10"],
+  "klp": {
+    "9": ["2.7"],
+    "10": ["{S0} §3.11"]
+  },
+  "category": "6. Conteúdo",
+  "subject": "Repositório de Arquitetura"
+},
+
+{
+  "QUESTION_NUMBER": "72",
+  "QUESTION_TEXT": "Uma equipe de arquitetura está estruturando uma proposta de solução e deseja utilizar materiais previamente aprovados e já existentes na organização que possam orientar o seu trabalho. Para isso, decide consultar um componente específico do Repositório de Arquitetura previsto no Padrão TOGAF®. Qual elemento é mais adequado para esse tipo de reutilização?",
+  "POSSIBLE_ANSWERS": [
+    "A. Repositório de Governança",
+    "B. Biblioteca de Referência",
+    "C. Repositório de Requisitos de Arquitetura",
+    "D. Capacidade de Arquitetura"
+  ],
+  "EXPLANATION_TEXT": "Explicação: A Biblioteca de Referência é um dos componentes do Repositório de Arquitetura e fornece materiais como modelos, diretrizes e templates que podem ser reutilizados no desenvolvimento de arquiteturas específicas. Os materiais de referência podem ser obtidos de diversas formas e devem incluir: Arquiteturas de Referência, Modelos de Referência e a biblioteca de pontos de vista.",
+  "CORRECT_ANSWER": "B",
   "JSONINDEX": "72",
   "Probability": 1,
   "versions": ["9","10"],
@@ -1544,15 +1566,15 @@ const questions = [
 
 {
   "QUESTION_NUMBER": "73",
-  "QUESTION_TEXT": "Uma equipe de arquitetura está estruturando uma proposta de solução e deseja utilizar materiais previamente aprovados e já existentes na organização que possam orientar o seu trabalho. Para isso, decide consultar um componente específico do Repositório de Arquitetura previsto no Padrão TOGAF®. Qual elemento é mais adequado para esse tipo de reutilização?",
+  "QUESTION_TEXT": "Durante o desenvolvimento da arquitetura de uma nova unidade de negócio, o arquiteto responsável quer entender quais blocos de construção já estão implantados na organização, em diferentes níveis de detalhe. Qual elemento do Repositório de Arquitetura deve ser consultado?",
   "POSSIBLE_ANSWERS": [
-    "A. Repositório de Governança",
-    "B. Biblioteca de Referência",
-    "C. Repositório de Requisitos de Arquitetura",
-    "D. Capacidade de Arquitetura"
+    "A. Panorama de Arquitetura",
+    "B. Biblioteca de Padrões",
+    "C. Repositório de Soluções",
+    "D. Metamodelo de Arquitetura"
   ],
-  "EXPLANATION_TEXT": "Explicação: A Biblioteca de Referência é um dos componentes do Repositório de Arquitetura e fornece materiais como modelos, diretrizes e templates que podem ser reutilizados no desenvolvimento de arquiteturas específicas. Os materiais de referência podem ser obtidos de diversas formas e devem incluir: Arquiteturas de Referência, Modelos de Referência e a biblioteca de pontos de vista.",
-  "CORRECT_ANSWER": "B",
+  "EXPLANATION_TEXT": "Explicação: O Panorama de Arquitetura (Architecture Landscape) é um dos componentes do Repositório de Arquitetura e mostra a representação dos ativos arquiteturais implantados, organizados por diferentes níveis de abstração, conforme os objetivos arquiteturais.",
+  "CORRECT_ANSWER": "A",
   "JSONINDEX": "73",
   "Probability": 1,
   "versions": ["9","10"],
@@ -1563,18 +1585,17 @@ const questions = [
   "category": "6. Conteúdo",
   "subject": "Repositório de Arquitetura"
 },
-
 {
   "QUESTION_NUMBER": "74",
-  "QUESTION_TEXT": "Durante o desenvolvimento da arquitetura de uma nova unidade de negócio, o arquiteto responsável quer entender quais blocos de construção já estão implantados na organização, em diferentes níveis de detalhe. Qual elemento do Repositório de Arquitetura deve ser consultado?",
+  "QUESTION_TEXT": "Ao revisar o Repositório de Arquitetura, um arquiteto encontra três conjuntos de informações: requisitos amplos e de longo prazo, requisitos de uma área específica da organização e requisitos associados a projetos. Essa estrutura corresponde a qual orientação do Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
-    "A. Panorama de Arquitetura",
-    "B. Biblioteca de Padrões",
-    "C. Repositório de Soluções",
-    "D. Metamodelo de Arquitetura"
+    "A. Distribuição de requisitos por área de negócio.",
+    "B. Separação entre domínios de arquitetura.",
+    "C. Organização dos requisitos por níveis de granularidade.",
+    "D. Definição de responsabilidades por fase do MDA."
   ],
-  "EXPLANATION_TEXT": "Explicação: O Panorama de Arquitetura (Architecture Landscape) é um dos componentes do Repositório de Arquitetura e mostra a representação dos ativos arquiteturais implantados, organizados por diferentes níveis de abstração, conforme os objetivos arquiteturais.",
-  "CORRECT_ANSWER": "A",
+  "EXPLANATION_TEXT": "Explicação: Os requisitos de arquitetura são divididos em três níveis de granularidade — estratégico, segmento e capacidade — para refletir diferentes escopos e necessidades. Lembre-se que esses três níveis são os mesmos do Particionamento da Arquitetura (aquela figura do cubo de três cores!).",
+  "CORRECT_ANSWER": "C",
   "JSONINDEX": "74",
   "Probability": 1,
   "versions": ["9","10"],
@@ -1587,15 +1608,15 @@ const questions = [
 },
 {
   "QUESTION_NUMBER": "75",
-  "QUESTION_TEXT": "Ao revisar o Repositório de Arquitetura, um arquiteto encontra três conjuntos de informações: requisitos amplos e de longo prazo, requisitos de uma área específica da organização e requisitos associados a projetos. Essa estrutura corresponde a qual orientação do Padrão TOGAF®?",
+  "QUESTION_TEXT": "Um arquiteto, recém-chegado à empresa, está organizando a documentação gerada durante as fases do MDA e deseja entender onde cada elemento deve ser armazenado no Repositório de Arquitetura. Qual das afirmações abaixo está de acordo com o Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
-    "A. Distribuição de requisitos por área de negócio.",
-    "B. Separação entre domínios de arquitetura.",
-    "C. Organização dos requisitos por níveis de granularidade.",
-    "D. Definição de responsabilidades por fase do MDA."
+    "A. O Panorama de Arquitetura armazena os dados gerados pelas soluções implementadas.",
+    "B. O Repositório de Requisitos guarda os padrões obrigatórios aprovados pela organização.",
+    "C. A Biblioteca de Padrões armazena apenas modelos de fornecedores externos.",
+    "D. O Panorama de Soluções representa os blocos de construção de solução usados para suportar os blocos de construção de arquitetura."
   ],
-  "EXPLANATION_TEXT": "Explicação: Os requisitos de arquitetura são divididos em três níveis de granularidade — estratégico, segmento e capacidade — para refletir diferentes escopos e necessidades. Lembre-se que esses três níveis são os mesmos do Particionamento da Arquitetura (aquela figura do cubo de três cores!).",
-  "CORRECT_ANSWER": "C",
+  "EXPLANATION_TEXT": "Explicação: O Panorama de Soluções contém a representação dos blocos de construção de solução (BCS, os SBBs em inglês) que suportam os blocos de construção de arquitetura (BCA, os ABBs em inglês). Ele não armazena os dados gerados pelas soluções.",
+  "CORRECT_ANSWER": "D",
   "JSONINDEX": "75",
   "Probability": 1,
   "versions": ["9","10"],
@@ -1608,27 +1629,6 @@ const questions = [
 },
 {
   "QUESTION_NUMBER": "76",
-  "QUESTION_TEXT": "Um arquiteto, recém-chegado à empresa, está organizando a documentação gerada durante as fases do MDA e deseja entender onde cada elemento deve ser armazenado no Repositório de Arquitetura. Qual das afirmações abaixo está de acordo com o Padrão TOGAF®?",
-  "POSSIBLE_ANSWERS": [
-    "A. O Panorama de Arquitetura armazena os dados gerados pelas soluções implementadas.",
-    "B. O Repositório de Requisitos guarda os padrões obrigatórios aprovados pela organização.",
-    "C. A Biblioteca de Padrões armazena apenas modelos de fornecedores externos.",
-    "D. O Panorama de Soluções representa os blocos de construção de solução usados para suportar os blocos de construção de arquitetura."
-  ],
-  "EXPLANATION_TEXT": "Explicação: O Panorama de Soluções contém a representação dos blocos de construção de solução (BCS, os SBBs em inglês) que suportam os blocos de construção de arquitetura (BCA, os ABBs em inglês). Ele não armazena os dados gerados pelas soluções.",
-  "CORRECT_ANSWER": "D",
-  "JSONINDEX": "76",
-  "Probability": 1,
-  "versions": ["9","10"],
-  "klp": {
-    "9": ["2.7"],
-    "10": ["{S0} §3.11"]
-  },
-  "category": "6. Conteúdo",
-  "subject": "Repositório de Arquitetura"
-},
-{
-  "QUESTION_NUMBER": "77",
   "QUESTION_TEXT": "Segundo o Padrão TOGAF®, de que forma o Repositório de Arquitetura apoia o entendimento e a colaboração entre diferentes níveis da organização?",
   "POSSIBLE_ANSWERS": [
     "A. Impõe um único nível de abstração para todos os artefatos de arquitetura.",
@@ -1638,7 +1638,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O Repositório de Arquitetura armazena diferentes classes de resultados arquiteturais, produzidos pelo MDA (Método de Desenvolvimento da Arquitetura - ADM), em múltiplos níveis de abstração (estratégia, segmento e capacidade). Isso facilita o entendimento, a colaboração e o alinhamento entre stakeholders e praticantes que atuam em diferentes níveis da organização, dentro do contexto fornecido pelo Enterprise Continuum.",
   "CORRECT_ANSWER": "B",
-  "JSONINDEX": "77",
+  "JSONINDEX": "76",
   "Probability": 1,
   "versions": ["9", "10"],
   "klp": {
@@ -1650,7 +1650,7 @@ const questions = [
 },
 
 {
-  "QUESTION_NUMBER": "78",
+  "QUESTION_NUMBER": "77",
   "QUESTION_TEXT": "Qual das opções expressa corretamente o papel do Framework de Conteúdo no contexto do Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
     "A. Especificar uma notação para representação dos elementos arquiteturais.",
@@ -1660,7 +1660,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O Framework de Conteúdo define uma estrutura de categorização usada para descrever os blocos de construção e artefatos da arquitetura, organizando os produtos de trabalho gerados em cada fase do MDA (Método de Desenvolvimento da Arquitetura, nosso amigo ADM).",
   "CORRECT_ANSWER": "B",
-  "JSONINDEX": "78",
+  "JSONINDEX": "77",
   "Probability": 1,
   "versions": ["10"],
   "klp": {
@@ -1670,7 +1670,7 @@ const questions = [
   "subject": "Framework de Conteúdo"
 },
 {
-  "QUESTION_NUMBER": "79",
+  "QUESTION_NUMBER": "78",
   "QUESTION_TEXT": "Qual é um dos benefícios diretos de utilizar um Metamodelo Corporativo no desenvolvimento da Arquitetura segundo o Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
     "A. Garantir que todos os artefatos sigam a mesma notação.",
@@ -1680,6 +1680,26 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O Metamodelo Corporativo fornece valor ao garantir consistência, integralidade e rastreabilidade nos artefatos de arquitetura criados pela organização.",
   "CORRECT_ANSWER": "C",
+  "JSONINDEX": "78",
+  "Probability": 1,
+  "versions": ["10"],
+  "klp": {
+    "10": ["{S0} §3.12.3"]
+  },
+  "category": "6. Conteúdo",
+  "subject": "Metamodelo"
+},
+{
+  "QUESTION_NUMBER": "79",
+  "QUESTION_TEXT": "De acordo com o Padrão TOGAF®, o que o Metamodelo Corporativo representa?",
+  "POSSIBLE_ANSWERS": [
+    "A. A relação entre projetos, investimentos, cronogramas e entregas.",
+    "B. O conjunto de ferramentas utilizadas na arquitetura.",
+    "C. O roteiro de transformação de uma arquitetura linha de base para uma alvo.",
+    "D. Os tipos de entidades que aparecem nos modelos arquiteturais e seus relacionamentos dentro da empresa."
+  ],
+  "EXPLANATION_TEXT": "Explicação: O Metamodelo Corporativo representa os tipos de entidades que aparecem nos modelos que descrevem a empresa e os relacionamentos entre essas entidades.",
+  "CORRECT_ANSWER": "D",
   "JSONINDEX": "79",
   "Probability": 1,
   "versions": ["10"],
@@ -1691,46 +1711,6 @@ const questions = [
 },
 {
   "QUESTION_NUMBER": "80",
-  "QUESTION_TEXT": "Qual é a relação entre o MDA e o Framework de Conteúdo, de acordo com o Padrão TOGAF®?",
-  "POSSIBLE_ANSWERS": [
-    "A. O MDA orienta a criação do conteúdo que é estruturado pelo Framework de Conteúdo.",
-    "B. O Framework de Conteúdo substitui a estrutura do MDA em projetos menores.",
-    "C. O Framework de Conteúdo determina quais fases do MDA devem ser executadas.",
-    "D. O MDA e o Framework de Conteúdo são utilizados exclusivamente na Fase Preliminar."
-  ],
-  "EXPLANATION_TEXT": "Explicação: O MDA (Método de Desenvolvimento da Arquitetura) fornece as fases e os entregáveis, enquanto o Framework de Conteúdo estrutura os elementos que compõem esses entregáveis. Um complementa o outro.",
-  "CORRECT_ANSWER": "A",
-  "JSONINDEX": "80",
-  "Probability": 1,
-  "versions": ["10"],
-  "klp": {
-    "10": ["{S0} §3.12.1"]
-  },
-  "category": "6. Conteúdo",
-  "subject": "Metamodelo"
-},
-{
-  "QUESTION_NUMBER": "81",
-  "QUESTION_TEXT": "De acordo com o Padrão TOGAF®, o que o Metamodelo Corporativo representa?",
-  "POSSIBLE_ANSWERS": [
-    "A. A relação entre projetos, investimentos, cronogramas e entregas.",
-    "B. O conjunto de ferramentas utilizadas na arquitetura.",
-    "C. O roteiro de transformação de uma arquitetura linha de base para uma alvo.",
-    "D. Os tipos de entidades que aparecem nos modelos arquiteturais e seus relacionamentos dentro da empresa."
-  ],
-  "EXPLANATION_TEXT": "Explicação: O Metamodelo Corporativo representa os tipos de entidades que aparecem nos modelos que descrevem a empresa e os relacionamentos entre essas entidades.",
-  "CORRECT_ANSWER": "D",
-  "JSONINDEX": "81",
-  "Probability": 1,
-  "versions": ["10"],
-  "klp": {
-    "10": ["{S0} §3.12.3"]
-  },
-  "category": "6. Conteúdo",
-  "subject": "Metamodelo"
-},
-{
-  "QUESTION_NUMBER": "82",
   "QUESTION_TEXT": "Por que o Padrão TOGAF® não impõe uma única notação de modelagem para representar a arquitetura?",
   "POSSIBLE_ANSWERS": [
     "A. Porque há flexibilidade para usar diferentes linguagens conforme o contexto.",
@@ -1740,7 +1720,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® permite o uso de diversas linguagens de modelagem para que a representação da arquitetura possa se adaptar ao contexto da organização.",
   "CORRECT_ANSWER": "A",
-  "JSONINDEX": "82",
+  "JSONINDEX": "80",
   "Probability": 1,
   "versions": ["10"],
   "klp": {
@@ -1750,7 +1730,7 @@ const questions = [
   "subject": "Metamodelo"
 },
 {
-  "QUESTION_NUMBER": "83",
+  "QUESTION_NUMBER": "81",
   "QUESTION_TEXT": "O que define quais informações a Capacidade de Arquitetura deve ter “à mão”, segundo o Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
     "A. A lista de sistemas legados em uso.",
@@ -1760,7 +1740,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: A finalidade da Capacidade de AE define o que precisa estar “à mão”; as demais necessidades derivam da biblioteca de pontos de vista e das informações que a suportam.",
   "CORRECT_ANSWER": "B",
-  "JSONINDEX": "83",
+  "JSONINDEX": "81",
   "Probability": 1,
   "versions": ["10"],
   "klp": {
@@ -1770,7 +1750,7 @@ const questions = [
   "subject": "Metamodelo"
 },
 {
-  "QUESTION_NUMBER": "84",
+  "QUESTION_NUMBER": "82",
   "QUESTION_TEXT": "Qual prática é apontada como a mais bem-sucedida para definir os conceitos que irão compor o Metamodelo de Arquitetura?",
   "POSSIBLE_ANSWERS": [
     "A. Adotar um metamodelo já existente no mercado sem ajustes.",
@@ -1780,6 +1760,46 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: A prática mais bem-sucedida parte das perguntas centrais, identifica preocupações e pontos de vista e, a partir disso, deriva o metamodelo.",
   "CORRECT_ANSWER": "D",
+  "JSONINDEX": "82",
+  "Probability": 1,
+  "versions": ["10"],
+  "klp": {
+    "10": ["G184 §8.3"]
+  },
+  "category": "6. Conteúdo",
+  "subject": "Metamodelo"
+},
+{
+  "QUESTION_NUMBER": "83",
+  "QUESTION_TEXT": "Qual prática reduz o esforço de gestão de informações e mantém o repositório sustentável?",
+  "POSSIBLE_ANSWERS": [
+    "A. Diferenciar o que precisa estar disponível facilmente do que pode ser coletado sob demanda, definindo o mínimo obrigatório.",
+    "B. Coletar o máximo de informações para evitar lacunas futuras e necessidades de levantamento.",
+    "C. Expandir continuamente o escopo de modelos e relacionamentos.",
+    "D. Centralizar todas as respostas em um único diagrama geral para que todas as informações estejam facilmente acessíveis."
+  ],
+  "EXPLANATION_TEXT": "Explicação: Recomenda-se separar o mínimo obrigatório “à mão” daquilo que é “sob demanda”, mantendo rastreabilidade e foco no propósito.",
+  "CORRECT_ANSWER": "A",
+  "JSONINDEX": "83",
+  "Probability": 1,
+  "versions": ["10"],
+  "klp": {
+    "10": ["G184 §8.3"]
+  },
+  "category": "6. Conteúdo",
+  "subject": "Repositório de Arquitetura"
+},
+{
+  "QUESTION_NUMBER": "84",
+  "QUESTION_TEXT": "Por que a maioria das partes interessadas não precisa conhecer o Metamodelo de Arquitetura em detalhes?",
+  "POSSIBLE_ANSWERS": [
+    "A. Porque o metamodelo é de uso exclusivo do time de TI.",
+    "B. Porque as partes interessadas se preocupam com questões específicas e resultados, não com a estrutura do metamodelo.",
+    "C. Porque o metamodelo é confidencial.",
+    "D. Porque sempre se usa uma abordagem de domínio restrito."
+  ],
+  "EXPLANATION_TEXT": "Explicação: As partes interessadas buscam respostas para suas questões; não precisam conhecer a estrutura do metamodelo em si.",
+  "CORRECT_ANSWER": "B",
   "JSONINDEX": "84",
   "Probability": 1,
   "versions": ["10"],
@@ -1791,46 +1811,6 @@ const questions = [
 },
 {
   "QUESTION_NUMBER": "85",
-  "QUESTION_TEXT": "Qual prática reduz o esforço de gestão de informações e mantém o repositório sustentável?",
-  "POSSIBLE_ANSWERS": [
-    "A. Diferenciar o que precisa estar disponível facilmente do que pode ser coletado sob demanda, definindo o mínimo obrigatório.",
-    "B. Coletar o máximo de informações para evitar lacunas futuras e necessidades de levantamento.",
-    "C. Expandir continuamente o escopo de modelos e relacionamentos.",
-    "D. Centralizar todas as respostas em um único diagrama geral para que todas as informações estejam facilmente acessíveis."
-  ],
-  "EXPLANATION_TEXT": "Explicação: Recomenda-se separar o mínimo obrigatório “à mão” daquilo que é “sob demanda”, mantendo rastreabilidade e foco no propósito.",
-  "CORRECT_ANSWER": "A",
-  "JSONINDEX": "85",
-  "Probability": 1,
-  "versions": ["10"],
-  "klp": {
-    "10": ["G184 §8.3"]
-  },
-  "category": "6. Conteúdo",
-  "subject": "Repositório de Arquitetura"
-},
-{
-  "QUESTION_NUMBER": "86",
-  "QUESTION_TEXT": "Por que a maioria das partes interessadas não precisa conhecer o Metamodelo de Arquitetura em detalhes?",
-  "POSSIBLE_ANSWERS": [
-    "A. Porque o metamodelo é de uso exclusivo do time de TI.",
-    "B. Porque as partes interessadas se preocupam com questões específicas e resultados, não com a estrutura do metamodelo.",
-    "C. Porque o metamodelo é confidencial.",
-    "D. Porque sempre se usa uma abordagem de domínio restrito."
-  ],
-  "EXPLANATION_TEXT": "Explicação: As partes interessadas buscam respostas para suas questões; não precisam conhecer a estrutura do metamodelo em si.",
-  "CORRECT_ANSWER": "B",
-  "JSONINDEX": "86",
-  "Probability": 1,
-  "versions": ["10"],
-  "klp": {
-    "10": ["G184 §8.3"]
-  },
-  "category": "6. Conteúdo",
-  "subject": "Metamodelo"
-},
-{
-  "QUESTION_NUMBER": "87",
   "QUESTION_TEXT": "Qual ação é recomendada para confirmar se a informação levantada é suficiente para responder às perguntas das partes interessadas?",
   "POSSIBLE_ANSWERS": [
     "A. Capturar toda a informação que pode ser útil no futuro.",
@@ -1840,7 +1820,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® recomenda testar catálogos, matrizes e diagramas para verificar se a informação é suficiente.",
   "CORRECT_ANSWER": "D",
-  "JSONINDEX": "87",
+  "JSONINDEX": "85",
   "Probability": 1,
   "versions": ["10"],
   "klp": {
@@ -1850,7 +1830,7 @@ const questions = [
   "subject": "Metamodelo"
 },
 {
-  "QUESTION_NUMBER": "88",
+  "QUESTION_NUMBER": "86",
   "QUESTION_TEXT": "O que ocorre quando se amplia o conjunto de questões críticas que a Capacidade de Arquitetura Corporativa deve responder?",
   "POSSIBLE_ANSWERS": [
     "A. Aumenta a complexidade do repositório e amplia as possibilidades de análise.",
@@ -1860,7 +1840,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: Ampliar o conjunto de questões expande os requisitos de informação e aumenta a complexidade do repositório.",
   "CORRECT_ANSWER": "A",
-  "JSONINDEX": "88",
+  "JSONINDEX": "86",
   "Probability": 1,
   "versions": ["10"],
   "klp": {
@@ -1871,7 +1851,7 @@ const questions = [
 },
 
 {
-  "QUESTION_NUMBER": "89",
+  "QUESTION_NUMBER": "87",
   "QUESTION_TEXT": "Segundo o Padrão TOGAF®, o que melhor define uma Visão de Arquitetura?",
   "POSSIBLE_ANSWERS": [
     "A. Um conjunto de diagramas que descreve a solução final aprovada.",
@@ -1881,7 +1861,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: Uma Visão de Arquitetura é a representação de um sistema ou de parte dele sob a perspectiva de um conjunto relacionado de preocupações de partes interessadas. Ela é construída para responder a questões específicas dessas partes interessadas, e não para descrever a arquitetura de forma completa ou definitiva. Lembre-se de que aqui estamos falando de Architecture View e não da Fase A (Architecture Vision).",
   "CORRECT_ANSWER": "B",
-  "JSONINDEX": "89",
+  "JSONINDEX": "87",
   "Probability": 1,
   "versions": ["9", "10"],
   "klp": {
@@ -1893,7 +1873,7 @@ const questions = [
 },
 
 {
-  "QUESTION_NUMBER": "90",
+  "QUESTION_NUMBER": "88",
   "QUESTION_TEXT": "O que é um Ponto de Vista de Arquitetura no Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
     "A. A opinião das partes interessadas sobre a arquitetura.",
@@ -1903,7 +1883,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: Um Ponto de Vista de Arquitetura define as convenções, regras e notações que orientam a construção, interpretação e uso de uma Visão. Ele funciona como um esquema que garante que a Visão trate adequadamente as preocupações das partes interessadas.",
   "CORRECT_ANSWER": "C",
-  "JSONINDEX": "90",
+  "JSONINDEX": "88",
   "Probability": 1,
   "versions": ["9", "10"],
   "klp": {
@@ -1914,7 +1894,7 @@ const questions = [
   "subject": "Visões e Pontos de Vista"
 },
 {
-  "QUESTION_NUMBER": "91",
+  "QUESTION_NUMBER": "89",
   "QUESTION_TEXT": "Qual afirmação descreve corretamente a relação entre Ponto de Vista e Visão?",
   "POSSIBLE_ANSWERS": [
     "A. A Visão define o esquema, a notação e as regras de construção, e o Ponto de Vista segue o modelo produzido.",
@@ -1924,7 +1904,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O Ponto de Vista define a perspectiva, as convenções e o recorte da arquitetura, enquanto a Visão é a representação concreta construída com base nesse esquema para responder às preocupações das partes interessadas.",
   "CORRECT_ANSWER": "D",
-  "JSONINDEX": "91",
+  "JSONINDEX": "89",
   "Probability": 1,
   "versions": ["9", "10"],
   "klp": {
@@ -1939,7 +1919,7 @@ const questions = [
 //
 
 {
-  "QUESTION_NUMBER": "92",
+  "QUESTION_NUMBER": "90",
   "QUESTION_TEXT": "Qual prática favorece um Repositório de Arquitetura Corporativa sustentável, segundo o Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
     "A. Minimizar o que é coletado e mantido, registrando apenas o necessário para o projeto atual e para a rastreabilidade mínima.",
@@ -1949,7 +1929,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: Um Repositório de Arquitetura sustentável depende da minimização rigorosa da informação coletada e mantida. Devem ser registrados apenas os elementos necessários para apoiar o projeto atual e garantir a rastreabilidade mínima exigida.",
   "CORRECT_ANSWER": "A",
-  "JSONINDEX": "92",
+  "JSONINDEX": "90",
   "Probability": 1,
   "versions": ["10"],
   "klp": {
@@ -1961,7 +1941,7 @@ const questions = [
 
 
 {
-  "QUESTION_NUMBER": "93",
+  "QUESTION_NUMBER": "91",
   "QUESTION_TEXT": "Qual é uma vantagem de criar Visões utilizando Pontos de Vista já definidos em uma biblioteca?",
   "POSSIBLE_ANSWERS": [
     "A. Aumentar a quantidade de Visões produzidas, mesmo que nem todas respondam a preocupações relevantes.",
@@ -1971,7 +1951,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O uso de Pontos de Vista previamente definidos reduz o esforço do arquiteto, acelera a criação das Visões e melhora a compreensão das partes interessadas, que passam a lidar com formatos consistentes e familiares. Isso também aumenta a confiança na validade das representações arquiteturais.",
   "CORRECT_ANSWER": "B",
-  "JSONINDEX": "93",
+  "JSONINDEX": "91",
   "Probability": 1,
   "versions": ["9", "10"],
   "klp": {
@@ -1982,7 +1962,7 @@ const questions = [
   "subject": "Visões e Pontos de Vista"
 },
 {
-  "QUESTION_NUMBER": "94",
+  "QUESTION_NUMBER": "92",
   "QUESTION_TEXT": "O que o arquiteto deve fazer quando surge a necessidade de uma Visão sem um Ponto de Vista predefinido?",
   "POSSIBLE_ANSWERS": [
     "A. Criar um novo Ponto de Vista ou uma Visão ad hoc e depois avaliar se o Ponto de Vista deve ser incluído na biblioteca.",
@@ -1992,7 +1972,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: Na ausência de um Ponto de Vista predefinido, o arquiteto pode criar um novo Ponto de Vista ou produzir uma Visão de acordo com as necessidades daquela situação (ad hoc). Posteriormente, avalia-se se esse Ponto de Vista deve ser formalizado e incorporado à biblioteca.",
   "CORRECT_ANSWER": "A",
-  "JSONINDEX": "94",
+  "JSONINDEX": "92",
   "Probability": 1,
   "versions": ["9", "10"],
   "klp": {
@@ -2004,7 +1984,7 @@ const questions = [
 },
 
 {
-  "QUESTION_NUMBER": "95",
+  "QUESTION_NUMBER": "93",
   "QUESTION_TEXT": "O que o Continuum Corporativo fornece para apoiar o trabalho do arquiteto?",
   "POSSIBLE_ANSWERS": [
     "A. Uma lista fixa de modelos obrigatórios para todas as organizações.",
@@ -2014,7 +1994,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O Continuum Corporativo fornece um mecanismo de classificação que organiza os artefatos de arquitetura à medida que evoluem de arquiteturas mais genéricas para arquiteturas específicas da organização.",
   "CORRECT_ANSWER": "B",
-  "JSONINDEX": "95",
+  "JSONINDEX": "93",
   "Probability": 1,
   "versions": ["9", "10"],
   "klp": {
@@ -2025,7 +2005,7 @@ const questions = [
   "subject": "Continuum"
 },
 {
-  "QUESTION_NUMBER": "96",
+  "QUESTION_NUMBER": "94",
   "QUESTION_TEXT": "Sobre os artefatos que podem compor o Continuum Corporativo, qual afirmação está correta?",
   "POSSIBLE_ANSWERS": [
     "A. Ele inclui apenas modelos criados dentro da organização.",
@@ -2035,7 +2015,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O Continuum Corporativo inclui artefatos internos e externos, abrangendo desde modelos de referência amplamente aceitos, como o TRM, até arquiteturas e modelos desenvolvidos por consórcios da indústria. O Continuum Corporativo é dividido em Continuum de arquitetura que abarca os Blocos de Construção de Arquitetura (BCAs) e o Continuum de Soluções que organiza os Blocos de Construção de Solução (BCSs).",
   "CORRECT_ANSWER": "D",
-  "JSONINDEX": "96",
+  "JSONINDEX": "94",
   "Probability": 1,
   "versions": ["9", "10"],
   "klp": {
@@ -2046,7 +2026,7 @@ const questions = [
   "subject": "Continuum"
 },
 {
-  "QUESTION_NUMBER": "97",
+  "QUESTION_NUMBER": "95",
   "QUESTION_TEXT": "Qual é o benefício principal de compreender em que ponto do Continuum Corporativo a organização se encontra?",
   "POSSIBLE_ANSWERS": [
     "A. Evitar discussões desencontradas durante debates arquiteturais.",
@@ -2056,7 +2036,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® destaca que a falta de entendimento sobre o posicionamento no Continuum Corporativo leva as pessoas a discutirem a arquitetura em níveis distintos de abstração, resultando em conversas sem alinhamento.",
   "CORRECT_ANSWER": "A",
-  "JSONINDEX": "97",
+  "JSONINDEX": "95",
   "Probability": 1,
   "versions": ["9", "10"],
   "klp": {
@@ -2067,7 +2047,7 @@ const questions = [
   "subject": "Continuum"
 },
 {
-  "QUESTION_NUMBER": "98",
+  "QUESTION_NUMBER": "96",
   "QUESTION_TEXT": "O Continuum Corporativo apoia a reutilização ao permitir que a organização:",
   "POSSIBLE_ANSWERS": [
     "A. Construa todas as soluções do zero.",
@@ -2077,7 +2057,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O Continuum Corporativo organiza e classifica ativos arquiteturais reutilizáveis, internos ou externos, facilitando sua aplicação em diferentes contextos e maximizando o valor gerado pela arquitetura.",
   "CORRECT_ANSWER": "C",
-  "JSONINDEX": "98",
+  "JSONINDEX": "96",
   "Probability": 1,
   "versions": ["9", "10"],
   "klp": {
@@ -2091,7 +2071,7 @@ const questions = [
 //
 
 {
-  "QUESTION_NUMBER": "99",
+  "QUESTION_NUMBER": "97",
   "QUESTION_TEXT": "Segundo o Padrão TOGAF®, como o risco é definido no contexto de Arquitetura Corporativa?",
   "POSSIBLE_ANSWERS": [
     "A. Como a probabilidade de falhas técnicas em sistemas críticos.",
@@ -2101,7 +2081,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® define risco como o efeito da incerteza sobre os objetivos, considerando possíveis desvios positivos ou negativos em relação ao que é esperado.",
   "CORRECT_ANSWER": "D",
-  "JSONINDEX": "99",
+  "JSONINDEX": "97",
   "Probability": 1,
   "versions": ["9", "10"],
   "klp": {
@@ -2112,7 +2092,7 @@ const questions = [
   "subject": "Riscos"
 },
 {
-  "QUESTION_NUMBER": "100",
+  "QUESTION_NUMBER": "98",
   "QUESTION_TEXT": "De acordo com o Padrão TOGAF®, por que a mitigação de riscos deve ser tratada como um esforço contínuo?",
   "POSSIBLE_ANSWERS": [
     "A. Porque todos os riscos podem ser completamente eliminados com o tempo.",
@@ -2122,7 +2102,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: A mitigação de riscos é contínua porque os gatilhos de risco podem surgir fora do escopo direto dos planejadores de transformação, exigindo monitoramento constante do contexto.",
   "CORRECT_ANSWER": "B",
-  "JSONINDEX": "100",
+  "JSONINDEX": "98",
   "Probability": 1,
   "versions": ["10"],
   "klp": {
@@ -2132,7 +2112,7 @@ const questions = [
   "subject": "Riscos"
 },
 {
-  "QUESTION_NUMBER": "101",
+  "QUESTION_NUMBER": "99",
   "QUESTION_TEXT": "Qual alternativa descreve corretamente a diferença entre o nível inicial de risco e o nível de risco residual no Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
     "A. O nível inicial de risco considera apenas riscos estratégicos, enquanto o residual considera riscos operacionais.",
@@ -2142,7 +2122,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O nível inicial de risco é categorizado antes da definição e implementação das ações de mitigação, enquanto o risco residual é avaliado após essas ações.",
   "CORRECT_ANSWER": "C",
-  "JSONINDEX": "101",
+  "JSONINDEX": "99",
   "Probability": 1,
   "versions": ["9", "10"],
   "klp": {
@@ -2153,7 +2133,7 @@ const questions = [
   "subject": "Riscos"
 },
 {
-  "QUESTION_NUMBER": "102",
+  "QUESTION_NUMBER": "100",
   "QUESTION_TEXT": "Segundo o processo de gerenciamento de riscos do Padrão TOGAF®, qual atividade ocorre imediatamente após a identificação dos riscos?",
   "POSSIBLE_ANSWERS": [
     "A. Monitoramento de risco.",
@@ -2163,7 +2143,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: Após a identificação dos riscos, o processo de gerenciamento prevê a realização da avaliação inicial de risco, antes da definição das ações de mitigação.",
   "CORRECT_ANSWER": "B",
-  "JSONINDEX": "102",
+  "JSONINDEX": "100",
   "Probability": 1,
   "versions": ["9", "10"],
   "klp": {
@@ -2174,7 +2154,7 @@ const questions = [
   "subject": "Riscos"
 },
 {
-  "QUESTION_NUMBER": "103",
+  "QUESTION_NUMBER": "101",
   "QUESTION_TEXT": "No contexto do Padrão TOGAF®, qual é o papel da governança na gestão de riscos?",
   "POSSIBLE_ANSWERS": [
     "A. Eliminar riscos antes que eles sejam identificados.",
@@ -2184,7 +2164,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® estabelece que, embora riscos possam ser identificados e mitigados pelos arquitetos, eles precisam ser formalmente aceitos dentro da estrutura de governança antes de serem gerenciados.",
   "CORRECT_ANSWER": "D",
-  "JSONINDEX": "103",
+  "JSONINDEX": "101",
   "Probability": 1,
   "versions": ["10"],
   "klp": {
@@ -2194,7 +2174,7 @@ const questions = [
   "subject": "Riscos"
 },
 {
-  "QUESTION_NUMBER": "104",
+  "QUESTION_NUMBER": "102",
   "QUESTION_TEXT": "Segundo o Padrão TOGAF®, em quais níveis organizacionais o risco pode ser observado?",
   "POSSIBLE_ANSWERS": [
     "A. Apenas no nível operacional.",
@@ -2204,7 +2184,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O risco pode ser observado nos níveis estratégico, tático (programas e projetos) e operacional, sempre orientado de cima para baixo a partir do valor de negócio.",
   "CORRECT_ANSWER": "C",
-  "JSONINDEX": "104",
+  "JSONINDEX": "102",
   "Probability": 1,
   "versions": ["10"],
   "klp": {
@@ -2214,7 +2194,7 @@ const questions = [
   "subject": "Riscos"
 },
 {
-  "QUESTION_NUMBER": "105",
+  "QUESTION_NUMBER": "103",
   "QUESTION_TEXT": "Qual é o principal objetivo do gerenciamento de riscos segundo o Padrão TOGAF®?",
   "POSSIBLE_ANSWERS": [
     "A. Eliminar completamente a incerteza do processo decisório.",
@@ -2224,7 +2204,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O gerenciamento de riscos busca otimizar os resultados de negócio, maximizando o valor e minimizando perdas decorrentes da incerteza.",
   "CORRECT_ANSWER": "D",
-  "JSONINDEX": "105",
+  "JSONINDEX": "103",
   "Probability": 1,
   "versions": ["10"],
   "klp": {
@@ -2234,7 +2214,7 @@ const questions = [
   "subject": "Riscos"
 },
 {
-  "QUESTION_NUMBER": "106",
+  "QUESTION_NUMBER": "104",
   "QUESTION_TEXT": "Qual alternativa lista exemplos de artefatos externos referenciados no Continuum Corporativo?",
   "POSSIBLE_ANSWERS": [
     "A. Apenas soluções proprietárias de um único fornecedor.",
@@ -2244,7 +2224,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O Continuum Corporativo inclui artefatos externos amplamente reconhecidos, como o TOGAF TRM, arquiteturas de referência SOA e modelos desenvolvidos por consórcios da indústria. Esses ativos podem ser reutilizados e adaptados conforme o contexto da organização.",
   "CORRECT_ANSWER": "C",
-  "JSONINDEX": "106",
+  "JSONINDEX": "104",
   "Probability": 1,
   "versions": ["9", "10"],
   "klp": {
@@ -2255,7 +2235,7 @@ const questions = [
   "subject": "Continuum"
 },
 {
-  "QUESTION_NUMBER": "107",
+  "QUESTION_NUMBER": "105",
   "QUESTION_TEXT": "Segundo o Padrão TOGAF®, por que é importante considerar arquiteturas alvo alternativas?",
   "POSSIBLE_ANSWERS": [
     "A. Porque a Visão da Arquitetura normalmente não é definida no início do MDA.",
@@ -2265,7 +2245,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® afirma que frequentemente existe mais de uma Arquitetura Alvo possível em conformidade com a Visão, os Princípios e os Requisitos, e que uma única alternativa raramente atende a todas as preocupações das partes interessadas. Não esqueça que MDA é a tradução para o português do ADM.",
   "CORRECT_ANSWER": "B",
-  "JSONINDEX": "107",
+  "JSONINDEX": "105",
   "Probability": 1,
   "versions": ["10"],
   "klp": {
@@ -2275,7 +2255,7 @@ const questions = [
   "subject": "Trade-offs"
 },
 {
-  "QUESTION_NUMBER": "108",
+  "QUESTION_NUMBER": "106",
   "QUESTION_TEXT": "De acordo com o Padrão TOGAF®, qual é um dos principais benefícios de apresentar alternativas arquiteturais e trade-offs às partes interessadas?",
   "POSSIBLE_ANSWERS": [
     "A. Facilitar a documentação técnica detalhada da Arquitetura Alvo.",
@@ -2285,7 +2265,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: A apresentação de alternativas e trade-offs ajuda a tornar explícitas agendas, princípios e requisitos que nem sempre estão claros inicialmente, mas que podem influenciar significativamente a Arquitetura Alvo final.",
   "CORRECT_ANSWER": "D",
-  "JSONINDEX": "108",
+  "JSONINDEX": "106",
   "Probability": 1,
   "versions": ["10"],
   "klp": {
@@ -2295,7 +2275,7 @@ const questions = [
   "subject": "Trade-offs"
 },
 {
-  "QUESTION_NUMBER": "109",
+  "QUESTION_NUMBER": "107",
   "QUESTION_TEXT": "Segundo o Padrão TOGAF®, qual alternativa descreve corretamente as três fases da técnica de Trade-offs, na ordem em que são executadas?",
   "POSSIBLE_ANSWERS": [
     "A. Definir alternativas técnicas detalhadas, avaliar impactos de implementação e validar a arquitetura final com as partes interessadas.",
@@ -2305,7 +2285,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® descreve a técnica de Architecture Alternatives and Trade-offs em três etapas: seleção de critérios com base na Visão da Arquitetura, Princípios e Requisitos; definição e compreensão das alternativas; e seleção ou combinação das alternativas para construir a proposta arquitetural.",
   "CORRECT_ANSWER": "B",
-  "JSONINDEX": "109",
+  "JSONINDEX": "107",
   "Probability": 1,
   "versions": ["10"],
   "klp": {
@@ -2315,7 +2295,7 @@ const questions = [
   "subject": "Trade-offs"
 },
 {
-  "QUESTION_NUMBER": "110",
+  "QUESTION_NUMBER": "108",
   "QUESTION_TEXT": "De acordo com o Padrão TOGAF®, em qual momento o método de Trade-offs pode ser utilizado?",
   "POSSIBLE_ANSWERS": [
     "A. Apenas na Fase A do MDA.",
@@ -2325,7 +2305,7 @@ const questions = [
   ],
   "EXPLANATION_TEXT": "Explicação: O método de Trade-offs pode ser aplicado em qualquer fase do MDA (nosso super amigo ADM!) e em qualquer nível de arquitetura, sempre que houver necessidade de avaliar alternativas e tomar decisões arquiteturais fundamentadas.",
   "CORRECT_ANSWER": "D",
-  "JSONINDEX": "110",
+  "JSONINDEX": "108",
   "Probability": 1,
   "versions": ["10"],
   "klp": {
@@ -2336,7 +2316,7 @@ const questions = [
 },
 
     {
-        "QUESTION_NUMBER": "111",
+        "QUESTION_NUMBER": "109",
         "QUESTION_TEXT": "Segundo a definição ISO/IEC/IEEE 42010:2011 adotada pelo Padrão TOGAF®, o que é arquitetura?",
         "POSSIBLE_ANSWERS": [
             "A. Um conjunto de processos operacionais usados para controlar mudanças organizacionais.",
@@ -2346,6 +2326,46 @@ const questions = [
         ],
         "EXPLANATION_TEXT": "Explicação: A definição da ISO/IEC/IEEE 42010:2011 descreve arquitetura como os conceitos ou propriedades fundamentais de um sistema em seu ambiente, incorporados em seus elementos, relacionamentos e nos princípios de seu design e evolução.",
         "CORRECT_ANSWER": "B",
+        "JSONINDEX": "109",
+        "Probability": 1.0,
+        "versions": ["9"],
+        "klp": {
+            "9": ["2.2"]
+        },
+        "category": "1. Introdução",
+        "subject": "Definições essenciais"
+    },
+    {
+        "QUESTION_NUMBER": "110",
+        "QUESTION_TEXT": "Além da definição da ISO/IEC/IEEE 42010:2011, o Padrão TOGAF® também define arquitetura como:",
+        "POSSIBLE_ANSWERS": [
+            "A. Um catálogo de requisitos de negócio, dados, aplicações e tecnologia.",
+            "B. Um processo de governança usado para aprovar mudanças arquiteturais.",
+            "C. Uma técnica para representar visualmente os componentes de uma solução.",
+            "D. A estrutura de componentes, seus inter-relacionamentos, e os princípios e diretrizes que governam seu design e evolução ao longo do tempo."
+        ],
+        "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® apresenta uma segunda definição de arquitetura, dependendo do contexto: a estrutura de componentes, seus inter-relacionamentos, e os princípios e diretrizes que governam seu design e evolução ao longo do tempo.",
+        "CORRECT_ANSWER": "D",
+        "JSONINDEX": "110",
+        "Probability": 1.0,
+        "versions": ["9"],
+        "klp": {
+            "9": ["3.7"]
+        },
+        "category": "1. Introdução",
+        "subject": "Definições essenciais"
+    },
+    {
+        "QUESTION_NUMBER": "111",
+        "QUESTION_TEXT": "No contexto do Padrão TOGAF®, como a empresa é considerada?",
+        "POSSIBLE_ANSWERS": [
+            "A. Como um sistema de elementos interconectados.",
+            "B. Como um conjunto de projetos independentes.",
+            "C. Como uma coleção de aplicações computacionais.",
+            "D. Como uma unidade exclusivamente organizacional."
+        ],
+        "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® considera a empresa como um sistema. Essa visão permite aplicar o conceito de arquitetura ao contexto da empresa, seus elementos, relacionamentos e evolução.",
+        "CORRECT_ANSWER": "A",
         "JSONINDEX": "111",
         "Probability": 1.0,
         "versions": ["9"],
@@ -2357,46 +2377,6 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "112",
-        "QUESTION_TEXT": "Além da definição da ISO/IEC/IEEE 42010:2011, o Padrão TOGAF® também define arquitetura como:",
-        "POSSIBLE_ANSWERS": [
-            "A. Um catálogo de requisitos de negócio, dados, aplicações e tecnologia.",
-            "B. Um processo de governança usado para aprovar mudanças arquiteturais.",
-            "C. Uma técnica para representar visualmente os componentes de uma solução.",
-            "D. A estrutura de componentes, seus inter-relacionamentos, e os princípios e diretrizes que governam seu design e evolução ao longo do tempo."
-        ],
-        "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® apresenta uma segunda definição de arquitetura, dependendo do contexto: a estrutura de componentes, seus inter-relacionamentos, e os princípios e diretrizes que governam seu design e evolução ao longo do tempo.",
-        "CORRECT_ANSWER": "D",
-        "JSONINDEX": "112",
-        "Probability": 1.0,
-        "versions": ["9"],
-        "klp": {
-            "9": ["3.7"]
-        },
-        "category": "1. Introdução",
-        "subject": "Definições essenciais"
-    },
-    {
-        "QUESTION_NUMBER": "113",
-        "QUESTION_TEXT": "No contexto do Padrão TOGAF®, como a empresa é considerada?",
-        "POSSIBLE_ANSWERS": [
-            "A. Como um sistema de elementos interconectados.",
-            "B. Como um conjunto de projetos independentes.",
-            "C. Como uma coleção de aplicações computacionais.",
-            "D. Como uma unidade exclusivamente organizacional."
-        ],
-        "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® considera a empresa como um sistema. Essa visão permite aplicar o conceito de arquitetura ao contexto da empresa, seus elementos, relacionamentos e evolução.",
-        "CORRECT_ANSWER": "A",
-        "JSONINDEX": "113",
-        "Probability": 1.0,
-        "versions": ["9"],
-        "klp": {
-            "9": ["2.2"]
-        },
-        "category": "1. Introdução",
-        "subject": "Definições essenciais"
-    },
-    {
-        "QUESTION_NUMBER": "114",
         "QUESTION_TEXT": "Ao tratar do conceito de arquitetura, o Padrão TOGAF® procura equilibrar:",
         "POSSIBLE_ANSWERS": [
             "A. A documentação técnica e a documentação de negócio usadas em projetos de transformação.",
@@ -2406,7 +2386,7 @@ const questions = [
         ],
         "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® procura equilibrar conceitos e terminologia derivados de padrões relevantes com uma terminologia comumente aceita e familiar à maioria dos seus leitores.",
         "CORRECT_ANSWER": "C",
-        "JSONINDEX": "114",
+        "JSONINDEX": "112",
         "Probability": 1.0,
         "versions": ["9"],
         "klp": {
@@ -2417,7 +2397,7 @@ const questions = [
     },
 
     {
-        "QUESTION_NUMBER": "115",
+        "QUESTION_NUMBER": "113",
         "QUESTION_TEXT": "Uma organização iniciou uma iniciativa de Arquitetura Corporativa após perceber que seus processos manuais e automatizados estavam fragmentados, com pouca integração entre áreas e baixa capacidade de resposta a mudanças estratégicas. Segundo o Padrão TOGAF®, qual é o principal propósito dessa iniciativa?",
         "POSSIBLE_ANSWERS": [
             "A. Criar uma documentação completa de todos os sistemas existentes, independentemente da estratégia organizacional.",
@@ -2427,6 +2407,47 @@ const questions = [
         ],
         "EXPLANATION_TEXT": "Explicação: O propósito da Arquitetura Corporativa, segundo o Padrão TOGAF®, é otimizar o legado de processos da corporação, frequentemente fragmentado, tanto manual quanto automatizado, transformando-o em um ambiente integrado, responsivo à mudança e capaz de apoiar a entrega da estratégia de negócio.",
         "CORRECT_ANSWER": "C",
+        "JSONINDEX": "113",
+        "Probability": 1.0,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["1.3"],
+            "10": ["{S0} §1.1"]
+        },
+        "category": "1. Introdução",
+        "subject": "Definições essenciais"
+    },
+    {
+        "QUESTION_NUMBER": "114",
+        "QUESTION_TEXT": "Uma empresa trata sua Arquitetura Corporativa apenas como um conjunto de diagramas criados para atender a uma auditoria. Depois da entrega dos documentos, os modelos não são mais atualizados e deixam de refletir a realidade da organização. Qual entendimento do Padrão TOGAF® foi negligenciado?",
+        "POSSIBLE_ANSWERS": [
+            "A. A Arquitetura Corporativa deve ser também uma prática contínua de gestão e evolução da arquitetura em diferentes níveis de controle, mudança e ritmo.",
+            "B. A Arquitetura Corporativa deve eliminar a necessidade de governança, pois os diagramas já indicam como a organização funciona.",
+            "C. A Arquitetura Corporativa deve se limitar à descrição dos sistemas de informação, pois mudanças organizacionais pertencem à gestão de projetos.",
+            "D. A Arquitetura Corporativa deve ser criada apenas uma vez, desde que a documentação inicial seja suficientemente detalhada."
+        ],
+        "EXPLANATION_TEXT": "Explicação: A Arquitetura Corporativa não é apenas uma descrição estática dos elementos da organização. Segundo o Padrão TOGAF®, ela também é a prática de atuar para gerenciar e evoluir a arquitetura em todos os níveis de controle, mudança e ritmo. Por isso, tratá-la apenas como documentação de auditoria reduz indevidamente seu papel.",
+        "CORRECT_ANSWER": "A",
+        "JSONINDEX": "114",
+        "Probability": 1.0,
+        "versions": ["10"],
+        "klp": {
+            "10": ["G20F §1.2"]
+        },
+        "category": "1. Introdução",
+        "subject": "Definições essenciais"
+    },
+    {
+        "QUESTION_NUMBER": "115",
+        "QUESTION_TEXT": "Segundo o Padrão TOGAF®, uma Corporação pode incluir quais elementos?",
+        "POSSIBLE_ANSWERS": [
+            "A. Apenas unidades internas de negócio.",
+            "B. Somente departamentos que pertencem juridicamente à mesma empresa.",
+            "C. Apenas áreas diretamente subordinadas ao departamento de TI.",
+            "D. Parceiros, fornecedores, clientes e unidades internas de negócio."
+        ],
+        "EXPLANATION_TEXT": "Explicação: No contexto de Arquitetura Corporativa, uma Enterprise pode incluir parceiros, fornecedores, clientes e unidades internas de negócio. O escopo da arquitetura pode atravessar vários sistemas e grupos funcionais.",
+        "CORRECT_ANSWER": "D",
         "JSONINDEX": "115",
         "Probability": 1.0,
         "versions": ["9", "10"],
@@ -2439,47 +2460,6 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "116",
-        "QUESTION_TEXT": "Uma empresa trata sua Arquitetura Corporativa apenas como um conjunto de diagramas criados para atender a uma auditoria. Depois da entrega dos documentos, os modelos não são mais atualizados e deixam de refletir a realidade da organização. Qual entendimento do Padrão TOGAF® foi negligenciado?",
-        "POSSIBLE_ANSWERS": [
-            "A. A Arquitetura Corporativa deve ser também uma prática contínua de gestão e evolução da arquitetura em diferentes níveis de controle, mudança e ritmo.",
-            "B. A Arquitetura Corporativa deve eliminar a necessidade de governança, pois os diagramas já indicam como a organização funciona.",
-            "C. A Arquitetura Corporativa deve se limitar à descrição dos sistemas de informação, pois mudanças organizacionais pertencem à gestão de projetos.",
-            "D. A Arquitetura Corporativa deve ser criada apenas uma vez, desde que a documentação inicial seja suficientemente detalhada."
-        ],
-        "EXPLANATION_TEXT": "Explicação: A Arquitetura Corporativa não é apenas uma descrição estática dos elementos da organização. Segundo o Padrão TOGAF®, ela também é a prática de atuar para gerenciar e evoluir a arquitetura em todos os níveis de controle, mudança e ritmo. Por isso, tratá-la apenas como documentação de auditoria reduz indevidamente seu papel.",
-        "CORRECT_ANSWER": "A",
-        "JSONINDEX": "116",
-        "Probability": 1.0,
-        "versions": ["10"],
-        "klp": {
-            "10": ["G20F §1.2"]
-        },
-        "category": "1. Introdução",
-        "subject": "Definições essenciais"
-    },
-    {
-        "QUESTION_NUMBER": "117",
-        "QUESTION_TEXT": "Segundo o Padrão TOGAF®, uma Corporação pode incluir quais elementos?",
-        "POSSIBLE_ANSWERS": [
-            "A. Apenas unidades internas de negócio.",
-            "B. Somente departamentos que pertencem juridicamente à mesma empresa.",
-            "C. Apenas áreas diretamente subordinadas ao departamento de TI.",
-            "D. Parceiros, fornecedores, clientes e unidades internas de negócio."
-        ],
-        "EXPLANATION_TEXT": "Explicação: No contexto de Arquitetura Corporativa, uma Enterprise pode incluir parceiros, fornecedores, clientes e unidades internas de negócio. O escopo da arquitetura pode atravessar vários sistemas e grupos funcionais.",
-        "CORRECT_ANSWER": "D",
-        "JSONINDEX": "117",
-        "Probability": 1.0,
-        "versions": ["9", "10"],
-        "klp": {
-            "9": ["1.3"],
-            "10": ["{S0} §1.1"]
-        },
-        "category": "1. Introdução",
-        "subject": "Definições essenciais"
-    },
-    {
-        "QUESTION_NUMBER": "118",
         "QUESTION_TEXT": "Segundo o Padrão TOGAF®, a Arquitetura Corporativa é desenvolvida por qual razão principal?",
         "POSSIBLE_ANSWERS": [
             "A. Orientar mudanças efetivas.",
@@ -2489,7 +2469,7 @@ const questions = [
         ],
         "EXPLANATION_TEXT": "Explicação: A Arquitetura Corporativa é desenvolvida por uma razão central: orientar mudanças efetivas. A organização busca melhorar, e a arquitetura ajuda a conduzir essa mudança de forma deliberada e alinhada ao valor esperado.",
         "CORRECT_ANSWER": "A",
-        "JSONINDEX": "118",
+        "JSONINDEX": "116",
         "Probability": 1.0,
         "versions": ["10"],
         "klp": {
@@ -2499,7 +2479,7 @@ const questions = [
         "subject": "Definições essenciais"
     },
     {
-        "QUESTION_NUMBER": "119",
+        "QUESTION_NUMBER": "117",
         "QUESTION_TEXT": "Segundo o Padrão TOGAF®, qual alternativa expressa corretamente a definição de Arquitetura Corporativa?",
         "POSSIBLE_ANSWERS": [
             "A. É uma documentação técnica dos sistemas da organização, usada principalmente para registrar aplicações, dados e infraestrutura.",
@@ -2509,7 +2489,7 @@ const questions = [
         ],
         "EXPLANATION_TEXT": "Explicação: Segundo o Padrão TOGAF®, a Arquitetura Corporativa envolve três aspectos complementares: a descrição dos elementos da organização, uma estrutura para gerenciar mudanças nesses elementos e a prática de atuar para gerir e evoluir a arquitetura em todos os níveis de controle, mudança e ritmo. Portanto, ela não se limita a documentação, diagramas ou gestão de projetos.",
         "CORRECT_ANSWER": "D",
-        "JSONINDEX": "119",
+        "JSONINDEX": "117",
         "Probability": 1.0,
         "versions": ["10"],
         "klp": {
@@ -2520,7 +2500,7 @@ const questions = [
     },
 
     {
-        "QUESTION_NUMBER": "120",
+        "QUESTION_NUMBER": "118",
         "QUESTION_TEXT": "Uma empresa deseja usar o Padrão TOGAF, mas ainda não tem maturidade para adotar todos os seus componentes. A equipe de arquitetura decide começar apenas pelo MDA e deixar os materiais sobre Capacidade de Arquitetura para uma etapa posterior. Como essa decisão deve ser avaliada segundo o Padrão TOGAF®?",
         "POSSIBLE_ANSWERS": [
             "A. É inadequada, pois o Padrão TOGAF só pode ser adotado integralmente.",
@@ -2530,6 +2510,46 @@ const questions = [
         ],
         "EXPLANATION_TEXT": "Explicação: A divisão do Padrão TOGAF em documentos independentes permite que diferentes áreas sejam consideradas em detalhe e, quando necessário, adotadas separadamente. O padrão reconhece que organizações novas no TOGAF podem iniciar por alguns documentos e deixar outros para consideração posterior.",
         "CORRECT_ANSWER": "D",
+        "JSONINDEX": "118",
+        "Probability": 1,
+        "versions": ["10"],
+        "klp": {
+            "10": ["{S0} §2.2"]
+        },
+        "category": "1. Introdução",
+        "subject": "Estrutura do Padrão TOGAF"
+    },
+    {
+        "QUESTION_NUMBER": "119",
+        "QUESTION_TEXT": "Durante a estruturação da função de Arquitetura Corporativa, uma empresa percebe que precisa definir papéis, responsabilidades, processos, habilidades necessárias e mecanismos de governança. Qual documento do conteúdo fundamental do Padrão TOGAF trata mais diretamente desse assunto?",
+        "POSSIBLE_ANSWERS": [
+            "A. Técnicas do MDA.",
+            "B. Aplicando o MDA.",
+            "C. Capacidade e Governança da Arquitetura Corporativa.",
+            "D. Conteúdo da Arquitetura."
+        ],
+        "EXPLANATION_TEXT": "Explicação: O documento \"Enterprise Architecture Capability and Governance\" trata da organização, processos, habilidades, papéis e responsabilidades necessários para estabelecer e operar uma função de arquitetura dentro da empresa. Ele também descreve um framework de governança de Arquitetura Corporativa.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "119",
+        "Probability": 1,
+        "versions": ["10"],
+        "klp": {
+            "10": ["{S0} §2.2"]
+        },
+        "category": "1. Introdução",
+        "subject": "Estrutura do Padrão TOGAF"
+    },
+    {
+        "QUESTION_NUMBER": "120",
+        "QUESTION_TEXT": "Uma equipe de arquitetura precisa entender o uso de Blocos de Construção reutilizáveis, artefatos arquiteturais, entregáveis típicos e o metamodelo estruturado de conteúdo. Qual documento do conteúdo fundamental do Padrão TOGAF é mais apropriado?",
+        "POSSIBLE_ANSWERS": [
+            "A. Aplicando o MDA.",
+            "B. Técnicas do MDA.",
+            "C. Conteudo da Arquitetura.",
+            "D. Método de Desenvolvimento da Arquitetura."
+        ],
+        "EXPLANATION_TEXT": "Explicação: O documento \"Architecture Content\" descreve o \"TOGAF Content Framework\", o metamodelo estruturado para artefatos arquiteturais, o uso de Blocos de Construção reutilizáveis e uma visão geral dos entregáveis típicos de arquitetura.",
+        "CORRECT_ANSWER": "C",
         "JSONINDEX": "120",
         "Probability": 1,
         "versions": ["10"],
@@ -2541,15 +2561,15 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "121",
-        "QUESTION_TEXT": "Durante a estruturação da função de Arquitetura Corporativa, uma empresa percebe que precisa definir papéis, responsabilidades, processos, habilidades necessárias e mecanismos de governança. Qual documento do conteúdo fundamental do Padrão TOGAF trata mais diretamente desse assunto?",
+        "QUESTION_TEXT": "Uma arquiteta corporativa procura orientação adicional sobre temas como Arquitetura de Segurança, arquitetura para uma empresa ágil e suporte à empresa digital. Esses assuntos não são tratados como parte principal dos seis documentos fundamentais, mas aparecem em materiais de orientação específicos. Onde ela deve procurar esse tipo de conteúdo?",
         "POSSIBLE_ANSWERS": [
-            "A. Técnicas do MDA.",
-            "B. Aplicando o MDA.",
-            "C. Capacidade e Governança da Arquitetura Corporativa.",
-            "D. Conteúdo da Arquitetura."
+            "A. Apenas no documento Architecture Development Method.",
+            "B. Apenas no documento Introduction and Core Concepts.",
+            "C. Apenas no documento Architecture Content.",
+            "D. Nos TOGAF Series Guides."
         ],
-        "EXPLANATION_TEXT": "Explicação: O documento \"Enterprise Architecture Capability and Governance\" trata da organização, processos, habilidades, papéis e responsabilidades necessários para estabelecer e operar uma função de arquitetura dentro da empresa. Ele também descreve um framework de governança de Arquitetura Corporativa.",
-        "CORRECT_ANSWER": "C",
+        "EXPLANATION_TEXT": "Explicação: Além do conteúdo fundamental, o Padrão TOGAF inclui os TOGAF Series Guides, que oferecem orientação prática para preocupações e casos de uso específicos, como Segurança, agilidade, empresa digital, tecnologia, dados e integração com outros padrões.",
+        "CORRECT_ANSWER": "D",
         "JSONINDEX": "121",
         "Probability": 1,
         "versions": ["10"],
@@ -2561,46 +2581,6 @@ const questions = [
     },
     {
         "QUESTION_NUMBER": "122",
-        "QUESTION_TEXT": "Uma equipe de arquitetura precisa entender o uso de Blocos de Construção reutilizáveis, artefatos arquiteturais, entregáveis típicos e o metamodelo estruturado de conteúdo. Qual documento do conteúdo fundamental do Padrão TOGAF é mais apropriado?",
-        "POSSIBLE_ANSWERS": [
-            "A. Aplicando o MDA.",
-            "B. Técnicas do MDA.",
-            "C. Conteudo da Arquitetura.",
-            "D. Método de Desenvolvimento da Arquitetura."
-        ],
-        "EXPLANATION_TEXT": "Explicação: O documento \"Architecture Content\" descreve o \"TOGAF Content Framework\", o metamodelo estruturado para artefatos arquiteturais, o uso de Blocos de Construção reutilizáveis e uma visão geral dos entregáveis típicos de arquitetura.",
-        "CORRECT_ANSWER": "C",
-        "JSONINDEX": "122",
-        "Probability": 1,
-        "versions": ["10"],
-        "klp": {
-            "10": ["{S0} §2.2"]
-        },
-        "category": "1. Introdução",
-        "subject": "Estrutura do Padrão TOGAF"
-    },
-    {
-        "QUESTION_NUMBER": "123",
-        "QUESTION_TEXT": "Uma arquiteta corporativa procura orientação adicional sobre temas como Arquitetura de Segurança, arquitetura para uma empresa ágil e suporte à empresa digital. Esses assuntos não são tratados como parte principal dos seis documentos fundamentais, mas aparecem em materiais de orientação específicos. Onde ela deve procurar esse tipo de conteúdo?",
-        "POSSIBLE_ANSWERS": [
-            "A. Apenas no documento Architecture Development Method.",
-            "B. Apenas no documento Introduction and Core Concepts.",
-            "C. Apenas no documento Architecture Content.",
-            "D. Nos TOGAF Series Guides."
-        ],
-        "EXPLANATION_TEXT": "Explicação: Além do conteúdo fundamental, o Padrão TOGAF inclui os TOGAF Series Guides, que oferecem orientação prática para preocupações e casos de uso específicos, como Segurança, agilidade, empresa digital, tecnologia, dados e integração com outros padrões.",
-        "CORRECT_ANSWER": "D",
-        "JSONINDEX": "123",
-        "Probability": 1,
-        "versions": ["10"],
-        "klp": {
-            "10": ["{S0} §2.2"]
-        },
-        "category": "1. Introdução",
-        "subject": "Estrutura do Padrão TOGAF"
-    },
-    {
-        "QUESTION_NUMBER": "124",
         "QUESTION_TEXT": "Uma organização quer implantar o Padrão TOGAF e pergunta se todos os TOGAF Series Guides precisam ser utilizados em todos os projetos de arquitetura. Qual é a melhor resposta, de acordo com o padrão?",
         "POSSIBLE_ANSWERS": [
             "A. Sim, todos os guias são obrigatórios para qualquer adoção do Padrão TOGAF.",
@@ -2610,7 +2590,7 @@ const questions = [
         ],
         "EXPLANATION_TEXT": "Explicação: Nem todos os TOGAF Series Guides serão relevantes em todas as situações. Contudo, arquitetos corporativos que planejam a implantação do Padrão TOGAF devem estar cientes da orientação disponível.",
         "CORRECT_ANSWER": "B",
-        "JSONINDEX": "124",
+        "JSONINDEX": "122",
         "Probability": 1,
         "versions": ["10"],
         "klp": {
@@ -2621,7 +2601,7 @@ const questions = [
     },
 
 {
-    "QUESTION_NUMBER": "125",
+    "QUESTION_NUMBER": "123",
     "QUESTION_TEXT": "Durante o desenvolvimento da arquitetura de um novo sistema corporativo, a equipe identifica diferentes pessoas, grupos e organizações que possuem interesses relacionados ao sistema. Segundo o Padrão TOGAF®, qual alternativa identifica corretamente quem pode ser considerado uma Parte Interessada?",
     "POSSIBLE_ANSWERS": [
         "A. Somente as pessoas que possuem autoridade para aprovar formalmente a arquitetura.",
@@ -2631,7 +2611,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: No Padrão TOGAF®, uma Parte Interessada é um indivíduo, uma equipe, uma organização ou uma classe desses grupos que tenha interesse em um sistema. Portanto, o conceito não se limita aos responsáveis pela aprovação da arquitetura, aos usuários diretos ou às equipes que desenvolvem e operam a solução.",
     "CORRECT_ANSWER": "B",
-    "JSONINDEX": "125",
+    "JSONINDEX": "123",
     "Probability": 1,
     "versions": ["9", "10"],
     "klp": {
@@ -2643,7 +2623,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "126",
+    "QUESTION_NUMBER": "124",
 
     "QUESTION_TEXT": "A direção de uma empresa espera que a Arquitetura Corporativa ajude a organização a responder melhor às mudanças do mercado. Qual alternativa reúne resultados coerentes com esse objetivo?",
 
@@ -2657,6 +2637,70 @@ const questions = [
     "EXPLANATION_TEXT": "Explicação: Entre os benefícios da Arquitetura Corporativa para a tomada de decisão estratégica estão a resposta rápida às mudanças e a agilidade alinhada à estratégia, a transformação organizacional com adoção de novas tendências de negócios e tecnologia, o apoio à Transformação Digital e as mudanças nos modelos organizacional e operacional para aumentar a eficiência e a eficácia.",
 
     "CORRECT_ANSWER": "A",
+
+    "JSONINDEX": "124",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["1.3"],
+        "10": ["{S0} §1.1"]
+    },
+
+    "category": "1. Introdução",
+
+    "subject": "Benefícios de EA"
+},
+
+{
+    "QUESTION_NUMBER": "125",
+
+    "QUESTION_TEXT": "Uma organização quer avaliar se sua Arquitetura Corporativa está contribuindo para tornar as operações de negócio mais eficazes e eficientes. Qual conjunto de resultados indicaria isso?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Mais especialização das unidades, maior independência entre capacidades e aumento dos controles sobre mudanças.",
+        "B. Menores custos operacionais e de mudança, maior agilidade, capacidades compartilhadas, força de trabalho flexível, maior produtividade e melhor integração em fusões e aquisições.",
+        "C. Maior quantidade de sistemas, equipes mais especializadas e redução do compartilhamento de capacidades entre áreas.",
+        "D. Padronização completa da organização, eliminação das mudanças operacionais e centralização das capacidades de negócio."
+    ],
+
+    "EXPLANATION_TEXT": "Explicação: Nas operações de negócio, os benefícios incluem menores custos operacionais, maior agilidade, capacidades de negócio compartilhadas, menores custos de gerenciamento de mudanças, força de trabalho mais flexível, maior produtividade e melhor integração organizacional para apoiar fusões e aquisições.",
+
+    "CORRECT_ANSWER": "B",
+
+    "JSONINDEX": "125",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["1.3"],
+        "10": ["{S0} §1.1"]
+    },
+
+    "category": "1. Introdução",
+
+    "subject": "Benefícios de EA"
+},
+
+{
+    "QUESTION_NUMBER": "126",
+
+    "QUESTION_TEXT": "Uma empresa está modernizando seu ambiente digital. Qual alternativa apresenta somente benefícios que a Arquitetura Corporativa pode proporcionar nesse contexto?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Eliminação das diferenças entre sistemas, adoção de um único fornecedor e substituição completa dos componentes existentes.",
+        "B. Centralização de todas as operações, redução das integrações e preservação dos sistemas para diminuir os riscos de mudança.",
+        "C. Maior alcance digital, ambiente mais harmonizado, menores custos tecnológicos, melhor interoperabilidade e gestão dos sistemas, melhor tratamento de questões corporativas e troca mais fácil de componentes.",
+        "D. Independência entre os componentes tecnológicos, maior especialização dos sistemas e redução da necessidade de integração."
+    ],
+
+    "EXPLANATION_TEXT": "Explicação: Para a Transformação Digital e as operações, a Arquitetura Corporativa pode ampliar o alcance efetivo da empresa por meio de capacidades digitais, harmonizar seus componentes, reduzir custos de desenvolvimento, implantação, operação, suporte e manutenção, melhorar a interoperabilidade e o gerenciamento dos sistemas, facilitar o tratamento de questões corporativas críticas, como segurança, e tornar mais fácil atualizar ou substituir componentes.",
+
+    "CORRECT_ANSWER": "C",
 
     "JSONINDEX": "126",
 
@@ -2677,18 +2721,18 @@ const questions = [
 {
     "QUESTION_NUMBER": "127",
 
-    "QUESTION_TEXT": "Uma organização quer avaliar se sua Arquitetura Corporativa está contribuindo para tornar as operações de negócio mais eficazes e eficientes. Qual conjunto de resultados indicaria isso?",
+    "QUESTION_TEXT": "Ao analisar investimentos em negócios e TI, a empresa quer aproveitar melhor o que já possui sem comprometer suas escolhas futuras. Como a Arquitetura Corporativa pode contribuir?",
 
     "POSSIBLE_ANSWERS": [
-        "A. Mais especialização das unidades, maior independência entre capacidades e aumento dos controles sobre mudanças.",
-        "B. Menores custos operacionais e de mudança, maior agilidade, capacidades compartilhadas, força de trabalho flexível, maior produtividade e melhor integração em fusões e aquisições.",
-        "C. Maior quantidade de sistemas, equipes mais especializadas e redução do compartilhamento de capacidades entre áreas.",
-        "D. Padronização completa da organização, eliminação das mudanças operacionais e centralização das capacidades de negócio."
+        "A. Priorizando novos investimentos em relação aos existentes e determinando que as soluções sejam desenvolvidas internamente.",
+        "B. Eliminando gradualmente investimentos existentes para reduzir a complexidade da arquitetura.",
+        "C. Padronizando a decisão entre fazer, comprar e terceirizar para que uma única alternativa seja usada em toda a empresa.",
+        "D. Reduzindo a complexidade, maximizando o retorno dos investimentos existentes, permitindo fazer, comprar ou terceirizar e ajudando a compreender como o retorno muda ao longo do tempo."
     ],
 
-    "EXPLANATION_TEXT": "Explicação: Nas operações de negócio, os benefícios incluem menores custos operacionais, maior agilidade, capacidades de negócio compartilhadas, menores custos de gerenciamento de mudanças, força de trabalho mais flexível, maior produtividade e melhor integração organizacional para apoiar fusões e aquisições.",
+    "EXPLANATION_TEXT": "Explicação: A Arquitetura Corporativa pode proporcionar melhor retorno sobre os investimentos existentes e reduzir riscos futuros ao diminuir a complexidade de negócios e TI, maximizar o retorno dos investimentos existentes, proporcionar flexibilidade para fazer, comprar ou terceirizar soluções e permitir compreender como o retorno sobre o investimento se modifica ao longo do tempo.",
 
-    "CORRECT_ANSWER": "B",
+    "CORRECT_ANSWER": "D",
 
     "JSONINDEX": "127",
 
@@ -2709,18 +2753,18 @@ const questions = [
 {
     "QUESTION_NUMBER": "128",
 
-    "QUESTION_TEXT": "Uma empresa está modernizando seu ambiente digital. Qual alternativa apresenta somente benefícios que a Arquitetura Corporativa pode proporcionar nesse contexto?",
+    "QUESTION_TEXT": "Uma empresa considera seu processo de aquisição demorado e pouco coordenado. Qual cenário demonstra benefícios esperados da Arquitetura Corporativa para compras?",
 
     "POSSIBLE_ANSWERS": [
-        "A. Eliminação das diferenças entre sistemas, adoção de um único fornecedor e substituição completa dos componentes existentes.",
-        "B. Centralização de todas as operações, redução das integrações e preservação dos sistemas para diminuir os riscos de mudança.",
-        "C. Maior alcance digital, ambiente mais harmonizado, menores custos tecnológicos, melhor interoperabilidade e gestão dos sistemas, melhor tratamento de questões corporativas e troca mais fácil de componentes.",
-        "D. Independência entre os componentes tecnológicos, maior especialização dos sistemas e redução da necessidade de integração."
+        "A. Informações disponíveis em um plano coerente, decisões mais simples, maior velocidade e flexibilidade, possibilidade de adquirir sistemas abertos de vários fornecedores e obtenção de capacidades mais econômicas.",
+        "B. Compras concentradas em um único fornecedor para reduzir a necessidade de análise arquitetônica.",
+        "C. Maior autonomia de cada área para adquirir soluções, ainda que isso comprometa a coerência da arquitetura.",
+        "D. Redução da variedade de fornecedores e prioridade absoluta para o menor preço, independentemente das necessidades arquitetônicas."
     ],
 
-    "EXPLANATION_TEXT": "Explicação: Para a Transformação Digital e as operações, a Arquitetura Corporativa pode ampliar o alcance efetivo da empresa por meio de capacidades digitais, harmonizar seus componentes, reduzir custos de desenvolvimento, implantação, operação, suporte e manutenção, melhorar a interoperabilidade e o gerenciamento dos sistemas, facilitar o tratamento de questões corporativas críticas, como segurança, e tornar mais fácil atualizar ou substituir componentes.",
+    "EXPLANATION_TEXT": "Explicação: A Arquitetura Corporativa pode tornar as aquisições mais rápidas, simples e econômicas. As informações que orientam as compras ficam disponíveis em um plano coerente, o processo pode ganhar velocidade e flexibilidade sem sacrificar a coerência arquitetônica e a organização pode adquirir sistemas abertos heterogêneos de vários fornecedores e obter capacidades mais econômicas.",
 
-    "CORRECT_ANSWER": "C",
+    "CORRECT_ANSWER": "A",
 
     "JSONINDEX": "128",
 
@@ -2741,70 +2785,6 @@ const questions = [
 {
     "QUESTION_NUMBER": "129",
 
-    "QUESTION_TEXT": "Ao analisar investimentos em negócios e TI, a empresa quer aproveitar melhor o que já possui sem comprometer suas escolhas futuras. Como a Arquitetura Corporativa pode contribuir?",
-
-    "POSSIBLE_ANSWERS": [
-        "A. Priorizando novos investimentos em relação aos existentes e determinando que as soluções sejam desenvolvidas internamente.",
-        "B. Eliminando gradualmente investimentos existentes para reduzir a complexidade da arquitetura.",
-        "C. Padronizando a decisão entre fazer, comprar e terceirizar para que uma única alternativa seja usada em toda a empresa.",
-        "D. Reduzindo a complexidade, maximizando o retorno dos investimentos existentes, permitindo fazer, comprar ou terceirizar e ajudando a compreender como o retorno muda ao longo do tempo."
-    ],
-
-    "EXPLANATION_TEXT": "Explicação: A Arquitetura Corporativa pode proporcionar melhor retorno sobre os investimentos existentes e reduzir riscos futuros ao diminuir a complexidade de negócios e TI, maximizar o retorno dos investimentos existentes, proporcionar flexibilidade para fazer, comprar ou terceirizar soluções e permitir compreender como o retorno sobre o investimento se modifica ao longo do tempo.",
-
-    "CORRECT_ANSWER": "D",
-
-    "JSONINDEX": "129",
-
-    "Probability": 1,
-
-    "versions": ["9", "10"],
-
-    "klp": {
-        "9": ["1.3"],
-        "10": ["{S0} §1.1"]
-    },
-
-    "category": "1. Introdução",
-
-    "subject": "Benefícios de EA"
-},
-
-{
-    "QUESTION_NUMBER": "130",
-
-    "QUESTION_TEXT": "Uma empresa considera seu processo de aquisição demorado e pouco coordenado. Qual cenário demonstra benefícios esperados da Arquitetura Corporativa para compras?",
-
-    "POSSIBLE_ANSWERS": [
-        "A. Informações disponíveis em um plano coerente, decisões mais simples, maior velocidade e flexibilidade, possibilidade de adquirir sistemas abertos de vários fornecedores e obtenção de capacidades mais econômicas.",
-        "B. Compras concentradas em um único fornecedor para reduzir a necessidade de análise arquitetônica.",
-        "C. Maior autonomia de cada área para adquirir soluções, ainda que isso comprometa a coerência da arquitetura.",
-        "D. Redução da variedade de fornecedores e prioridade absoluta para o menor preço, independentemente das necessidades arquitetônicas."
-    ],
-
-    "EXPLANATION_TEXT": "Explicação: A Arquitetura Corporativa pode tornar as aquisições mais rápidas, simples e econômicas. As informações que orientam as compras ficam disponíveis em um plano coerente, o processo pode ganhar velocidade e flexibilidade sem sacrificar a coerência arquitetônica e a organização pode adquirir sistemas abertos heterogêneos de vários fornecedores e obter capacidades mais econômicas.",
-
-    "CORRECT_ANSWER": "A",
-
-    "JSONINDEX": "130",
-
-    "Probability": 1,
-
-    "versions": ["9", "10"],
-
-    "klp": {
-        "9": ["1.3"],
-        "10": ["{S0} §1.1"]
-    },
-
-    "category": "1. Introdução",
-
-    "subject": "Benefícios de EA"
-},
-
-{
-    "QUESTION_NUMBER": "131",
-
     "QUESTION_TEXT": "Uma organização possui diferentes interesses e precisa evoluir continuamente sem perder sua direção estratégica. Qual descrição melhor representa a contribuição da Arquitetura Corporativa?",
 
     "POSSIBLE_ANSWERS": [
@@ -2818,7 +2798,7 @@ const questions = [
 
     "CORRECT_ANSWER": "B",
 
-    "JSONINDEX": "131",
+    "JSONINDEX": "129",
 
     "Probability": 1,
 
@@ -2835,7 +2815,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "132",
+    "QUESTION_NUMBER": "130",
 
     "QUESTION_TEXT": "Uma organização está revisando sua estratégia, estrutura de governança, organização interna e principais processos de negócio. Segundo o Padrão TOGAF®, qual domínio arquitetural concentra essas preocupações?",
 
@@ -2849,6 +2829,70 @@ const questions = [
     "EXPLANATION_TEXT": "Explicação: A Arquitetura de Negócios define a estratégia de negócios, a governança, a organização e os principais processos de negócios. Portanto, uma análise concentrada nesses elementos pertence a esse domínio arquitetural.",
 
     "CORRECT_ANSWER": "A",
+
+    "JSONINDEX": "130",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["2.3"],
+        "10": ["{S0} §3.3"]
+    },
+
+    "category": "1. Introdução",
+
+    "subject": "Domínios arquiteturais"
+},
+
+{
+    "QUESTION_NUMBER": "131",
+
+    "QUESTION_TEXT": "Durante uma iniciativa de Arquitetura Corporativa, a equipe precisa representar os ativos de dados físicos e lógicos da organização e os recursos utilizados para seu gerenciamento. Qual domínio deve ser considerado principalmente?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Arquitetura de Aplicativo",
+        "B. Arquitetura de Dados",
+        "C. Arquitetura de Tecnologia",
+        "D. Arquitetura de Negócios"
+    ],
+
+    "EXPLANATION_TEXT": "Explicação: A Arquitetura de Dados descreve a estrutura dos ativos de dados lógicos e físicos da organização, bem como os recursos utilizados para o gerenciamento desses dados.",
+
+    "CORRECT_ANSWER": "B",
+
+    "JSONINDEX": "131",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["2.3"],
+        "10": ["{S0} §3.3"]
+    },
+
+    "category": "1. Introdução",
+
+    "subject": "Domínios arquiteturais"
+},
+
+{
+    "QUESTION_NUMBER": "132",
+
+    "QUESTION_TEXT": "Uma equipe está definindo quais aplicações serão implantadas, como elas irão interagir entre si e de que maneira se relacionam com os principais processos de negócio. Qual domínio está sendo desenvolvido?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Arquitetura de Dados",
+        "B. Arquitetura de Negócios",
+        "C. Arquitetura de Aplicativo",
+        "D. Arquitetura de Tecnologia"
+    ],
+
+    "EXPLANATION_TEXT": "Explicação: A Arquitetura de Aplicativo fornece um plano para os aplicativos individuais a serem implantados, incluindo suas interações e seus relacionamentos com os principais processos de negócios da organização.",
+
+    "CORRECT_ANSWER": "C",
 
     "JSONINDEX": "132",
 
@@ -2869,18 +2913,18 @@ const questions = [
 {
     "QUESTION_NUMBER": "133",
 
-    "QUESTION_TEXT": "Durante uma iniciativa de Arquitetura Corporativa, a equipe precisa representar os ativos de dados físicos e lógicos da organização e os recursos utilizados para seu gerenciamento. Qual domínio deve ser considerado principalmente?",
+    "QUESTION_TEXT": "Uma organização deseja tratar segurança de forma abrangente, combinando perspectivas provenientes de diferentes domínios arquiteturais. Segundo o Padrão TOGAF®, como essa necessidade pode ser abordada?",
 
     "POSSIBLE_ANSWERS": [
-        "A. Arquitetura de Aplicativo",
-        "B. Arquitetura de Dados",
-        "C. Arquitetura de Tecnologia",
-        "D. Arquitetura de Negócios"
+        "A. Segurança deve ser tratada exclusivamente como parte da Arquitetura de Tecnologia.",
+        "B. Um quinto domínio fundamental deve substituir os quatro domínios existentes.",
+        "C. Segurança deve ser tratada exclusivamente como parte da Arquitetura de Negócios.",
+        "D. Podem ser combinadas visões dos quatro domínios para criar um domínio específico de Arquitetura de Segurança."
     ],
 
-    "EXPLANATION_TEXT": "Explicação: A Arquitetura de Dados descreve a estrutura dos ativos de dados lógicos e físicos da organização, bem como os recursos utilizados para o gerenciamento desses dados.",
+    "EXPLANATION_TEXT": "Explicação: Além dos quatro domínios normalmente aceitos — Negócios, Dados, Aplicativo e Tecnologia —, o Padrão TOGAF® permite combinar visões apropriadas desses domínios para criar outros domínios específicos. Arquiteturas de Risco e Segurança são exemplos apresentados pelo próprio padrão.",
 
-    "CORRECT_ANSWER": "B",
+    "CORRECT_ANSWER": "D",
 
     "JSONINDEX": "133",
 
@@ -2901,16 +2945,16 @@ const questions = [
 {
     "QUESTION_NUMBER": "134",
 
-    "QUESTION_TEXT": "Uma equipe está definindo quais aplicações serão implantadas, como elas irão interagir entre si e de que maneira se relacionam com os principais processos de negócio. Qual domínio está sendo desenvolvido?",
+    "QUESTION_TEXT": "Qual opção apresenta corretamente os domínios de arquitetura comumente aceitos e suportados pelo Padrão TOGAF®?",
 
     "POSSIBLE_ANSWERS": [
-        "A. Arquitetura de Dados",
-        "B. Arquitetura de Negócios",
-        "C. Arquitetura de Aplicativo",
-        "D. Arquitetura de Tecnologia"
+        "A. Estratégica, Segmento e Capacidade",
+        "B. Largura, Profundidade, Tempo e Atualidade",
+        "C. Negócios, Dados, Aplicativo e Tecnologia",
+        "D. Entregável, Artefato, Bloco de Construção, Visão e Ponto de Vista"
     ],
 
-    "EXPLANATION_TEXT": "Explicação: A Arquitetura de Aplicativo fornece um plano para os aplicativos individuais a serem implantados, incluindo suas interações e seus relacionamentos com os principais processos de negócios da organização.",
+    "EXPLANATION_TEXT": "Explicação: Os quatro domínios de arquitetura comumente aceitos e sugeridos pelo Padrão TOGAF® são Arquitetura de Negócios, Arquitetura de Dados, Arquitetura de Aplicativo e Arquitetura de Tecnologia. Arquitetura Estratégica, Arquitetura de Segmento e Arquitetura de Capacidade representam níveis de granularidade da arquitetura. Largura, Profundidade, Tempo e Atualidade são características utilizadas para organizar o Panorama de Arquitetura. Já Entregável, Artefato, Bloco de Construção, Visão e Ponto de Vista são conceitos formalizados no Framework de Conteúdo da Arquitetura.",
 
     "CORRECT_ANSWER": "C",
 
@@ -2932,70 +2976,6 @@ const questions = [
 
 {
     "QUESTION_NUMBER": "135",
-
-    "QUESTION_TEXT": "Uma organização deseja tratar segurança de forma abrangente, combinando perspectivas provenientes de diferentes domínios arquiteturais. Segundo o Padrão TOGAF®, como essa necessidade pode ser abordada?",
-
-    "POSSIBLE_ANSWERS": [
-        "A. Segurança deve ser tratada exclusivamente como parte da Arquitetura de Tecnologia.",
-        "B. Um quinto domínio fundamental deve substituir os quatro domínios existentes.",
-        "C. Segurança deve ser tratada exclusivamente como parte da Arquitetura de Negócios.",
-        "D. Podem ser combinadas visões dos quatro domínios para criar um domínio específico de Arquitetura de Segurança."
-    ],
-
-    "EXPLANATION_TEXT": "Explicação: Além dos quatro domínios normalmente aceitos — Negócios, Dados, Aplicativo e Tecnologia —, o Padrão TOGAF® permite combinar visões apropriadas desses domínios para criar outros domínios específicos. Arquiteturas de Risco e Segurança são exemplos apresentados pelo próprio padrão.",
-
-    "CORRECT_ANSWER": "D",
-
-    "JSONINDEX": "135",
-
-    "Probability": 1,
-
-    "versions": ["9", "10"],
-
-    "klp": {
-        "9": ["2.3"],
-        "10": ["{S0} §3.3"]
-    },
-
-    "category": "1. Introdução",
-
-    "subject": "Domínios arquiteturais"
-},
-
-{
-    "QUESTION_NUMBER": "136",
-
-    "QUESTION_TEXT": "Qual opção apresenta corretamente os domínios de arquitetura comumente aceitos e suportados pelo Padrão TOGAF®?",
-
-    "POSSIBLE_ANSWERS": [
-        "A. Estratégica, Segmento e Capacidade",
-        "B. Largura, Profundidade, Tempo e Atualidade",
-        "C. Negócios, Dados, Aplicativo e Tecnologia",
-        "D. Entregável, Artefato, Bloco de Construção, Visão e Ponto de Vista"
-    ],
-
-    "EXPLANATION_TEXT": "Explicação: Os quatro domínios de arquitetura comumente aceitos e sugeridos pelo Padrão TOGAF® são Arquitetura de Negócios, Arquitetura de Dados, Arquitetura de Aplicativo e Arquitetura de Tecnologia. Arquitetura Estratégica, Arquitetura de Segmento e Arquitetura de Capacidade representam níveis de granularidade da arquitetura. Largura, Profundidade, Tempo e Atualidade são características utilizadas para organizar o Panorama de Arquitetura. Já Entregável, Artefato, Bloco de Construção, Visão e Ponto de Vista são conceitos formalizados no Framework de Conteúdo da Arquitetura.",
-
-    "CORRECT_ANSWER": "C",
-
-    "JSONINDEX": "136",
-
-    "Probability": 1,
-
-    "versions": ["9", "10"],
-
-    "klp": {
-        "9": ["2.3"],
-        "10": ["{S0} §3.3"]
-    },
-
-    "category": "1. Introdução",
-
-    "subject": "Domínios arquiteturais"
-},
-
-{
-    "QUESTION_NUMBER": "137",
     "QUESTION_TEXT": "Uma empresa quer adotar um framework de Arquitetura Corporativa, mas precisa ajustá-lo às suas características sem perder uma forma comum de trabalho. Segundo o Padrão TOGAF®, o que deve resultar dessa adaptação?",
     "POSSIBLE_ANSWERS": [
         "A. Um conjunto fixo de arquiteturas de referência aplicável a todas as áreas.",
@@ -3005,6 +2985,48 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: Um framework de arquitetura é normalmente adaptado às necessidades específicas da organização. Segundo o Padrão TOGAF®, essa adaptação deve estabelecer um conjunto de ferramentas e um vocabulário comum, permitindo que o framework seja utilizado de maneira apropriada ao contexto da organização.",
     "CORRECT_ANSWER": "C",
+    "JSONINDEX": "135",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["1.3"],
+        "10": ["{S0} §1.1"]
+    },
+    "category": "1. Introdução",
+    "subject": "Framework de arquitetura"
+},
+{
+    "QUESTION_NUMBER": "136",
+    "QUESTION_TEXT": "Uma organização pretende iniciar uma grande transformação e decidiu utilizar o Padrão TOGAF®. Qual resultado está mais alinhado ao valor esperado dessa escolha?",
+    "POSSIBLE_ANSWERS": [
+        "A. Uma Arquitetura Corporativa consistente, baseada em boas práticas e atenta às necessidades atuais e futuras do negócio.",
+        "B. Uma Arquitetura Corporativa voltada prioritariamente à padronização das tecnologias utilizadas pela organização.",
+        "C. Uma redução da participação das partes interessadas para tornar o desenvolvimento da arquitetura mais eficiente.",
+        "D. Uma arquitetura independente das características da organização, garantindo maior uniformidade entre empresas."
+    ],
+    "EXPLANATION_TEXT": "Explicação: O uso do Padrão TOGAF® contribui para uma Arquitetura Corporativa consistente, que reflita as necessidades das partes interessadas, empregue boas práticas e considere tanto os requisitos atuais quanto as necessidades futuras percebidas do negócio.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "136",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["1.3"],
+        "10": ["{S0} §1.1"]
+    },
+    "category": "1. Introdução",
+    "subject": "Framework de arquitetura"
+},
+{
+    "QUESTION_NUMBER": "137",
+    "QUESTION_TEXT": "Uma empresa costuma envolver sua equipe de Arquitetura Corporativa apenas depois que as principais decisões de transformação já foram aprovadas. Segundo o Padrão TOGAF®, qual é a principal limitação dessa abordagem?",
+    "POSSIBLE_ANSWERS": [
+        "A. A arquitetura deixa de poder representar os estados de linha de base e de destino.",
+        "B. Os blocos de construção deixam de poder ser utilizados para representar a empresa.",
+        "C. A organização perde a possibilidade de utilizar práticas reconhecidas de mercado.",
+        "D. A arquitetura tende a apenas documentar ou aplicar decisões já tomadas, sem oferecer entendimento prévio sobre seus impactos."
+    ],
+    "EXPLANATION_TEXT": "Explicação: Para gerar seu maior benefício, a Arquitetura Corporativa deve ser realizada desde o início e ao longo do processo de mudança, ajudando os tomadores de decisão a compreender as implicações de suas escolhas. Quando realizada somente após as decisões, tende a se limitar à documentação ou, no máximo, à aplicação dessas decisões.",
+    "CORRECT_ANSWER": "D",
     "JSONINDEX": "137",
     "Probability": 1,
     "versions": ["9", "10"],
@@ -3017,48 +3039,6 @@ const questions = [
 },
 {
     "QUESTION_NUMBER": "138",
-    "QUESTION_TEXT": "Uma organização pretende iniciar uma grande transformação e decidiu utilizar o Padrão TOGAF®. Qual resultado está mais alinhado ao valor esperado dessa escolha?",
-    "POSSIBLE_ANSWERS": [
-        "A. Uma Arquitetura Corporativa consistente, baseada em boas práticas e atenta às necessidades atuais e futuras do negócio.",
-        "B. Uma Arquitetura Corporativa voltada prioritariamente à padronização das tecnologias utilizadas pela organização.",
-        "C. Uma redução da participação das partes interessadas para tornar o desenvolvimento da arquitetura mais eficiente.",
-        "D. Uma arquitetura independente das características da organização, garantindo maior uniformidade entre empresas."
-    ],
-    "EXPLANATION_TEXT": "Explicação: O uso do Padrão TOGAF® contribui para uma Arquitetura Corporativa consistente, que reflita as necessidades das partes interessadas, empregue boas práticas e considere tanto os requisitos atuais quanto as necessidades futuras percebidas do negócio.",
-    "CORRECT_ANSWER": "A",
-    "JSONINDEX": "138",
-    "Probability": 1,
-    "versions": ["9", "10"],
-    "klp": {
-        "9": ["1.3"],
-        "10": ["{S0} §1.1"]
-    },
-    "category": "1. Introdução",
-    "subject": "Framework de arquitetura"
-},
-{
-    "QUESTION_NUMBER": "139",
-    "QUESTION_TEXT": "Uma empresa costuma envolver sua equipe de Arquitetura Corporativa apenas depois que as principais decisões de transformação já foram aprovadas. Segundo o Padrão TOGAF®, qual é a principal limitação dessa abordagem?",
-    "POSSIBLE_ANSWERS": [
-        "A. A arquitetura deixa de poder representar os estados de linha de base e de destino.",
-        "B. Os blocos de construção deixam de poder ser utilizados para representar a empresa.",
-        "C. A organização perde a possibilidade de utilizar práticas reconhecidas de mercado.",
-        "D. A arquitetura tende a apenas documentar ou aplicar decisões já tomadas, sem oferecer entendimento prévio sobre seus impactos."
-    ],
-    "EXPLANATION_TEXT": "Explicação: Para gerar seu maior benefício, a Arquitetura Corporativa deve ser realizada desde o início e ao longo do processo de mudança, ajudando os tomadores de decisão a compreender as implicações de suas escolhas. Quando realizada somente após as decisões, tende a se limitar à documentação ou, no máximo, à aplicação dessas decisões.",
-    "CORRECT_ANSWER": "D",
-    "JSONINDEX": "139",
-    "Probability": 1,
-    "versions": ["9", "10"],
-    "klp": {
-        "9": ["1.3"],
-        "10": ["{S0} §1.1"]
-    },
-    "category": "1. Introdução",
-    "subject": "Framework de arquitetura"
-},
-{
-    "QUESTION_NUMBER": "140",
     "QUESTION_TEXT": "Uma organização quer estruturar sua capacidade de Arquitetura Corporativa para apoiar mudanças em diferentes níveis de escala, ritmo e detalhe. Qual conjunto melhor representa o apoio oferecido pelo Padrão TOGAF®?",
     "POSSIBLE_ANSWERS": [
         "A. Um catálogo de tecnologias, um processo de aquisição e um conjunto de arquiteturas prontas.",
@@ -3068,7 +3048,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® fornece uma definição e descrição de um ciclo padrão de mudança, uma definição dos blocos de construção utilizados na empresa e um conjunto de diretrizes, técnicas e conselhos para criar e manter uma Arquitetura Corporativa eficaz e promover mudanças por meio de Arquiteturas de Solução.",
     "CORRECT_ANSWER": "B",
-    "JSONINDEX": "140",
+    "JSONINDEX": "138",
     "Probability": 1,
     "versions": ["10"],
     "klp": {
@@ -3078,7 +3058,7 @@ const questions = [
     "subject": "Framework de arquitetura"
 },
 {
-    "QUESTION_NUMBER": "141",
+    "QUESTION_NUMBER": "139",
     "QUESTION_TEXT": "Uma organização avalia se deve criar sua Arquitetura Corporativa do zero ou adotar um framework de arquitetura. Qual opção reúne benefícios associados ao uso de um framework, segundo o Padrão TOGAF®?",
     "POSSIBLE_ANSWERS": [
         "A. Sistematizar o trabalho, estabelecer um vocabulário comum e permitir adaptações às necessidades específicas da organização.",
@@ -3088,7 +3068,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: Um framework de arquitetura oferece uma estrutura e um método para apoiar o desenvolvimento da arquitetura. Ele é normalmente adaptado às necessidades específicas da organização, e essa adaptação deve estabelecer um conjunto de ferramentas e um vocabulário comum. O Padrão TOGAF® também oferece práticas reconhecidas que ajudam a estruturar e reduzir os riscos do processo de desenvolvimento da arquitetura.",
     "CORRECT_ANSWER": "A",
-    "JSONINDEX": "141",
+    "JSONINDEX": "139",
     "Probability": 1,
     "versions": ["9", "10"],
     "klp": {
@@ -3100,7 +3080,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "142",
+    "QUESTION_NUMBER": "140",
     "QUESTION_TEXT": "Quais são os dois principais componentes que constituem o Padrão TOGAF®?",
     "POSSIBLE_ANSWERS": [
         "A. O Conteúdo Fundamental do TOGAF e os Guias da Série TOGAF.",
@@ -3110,6 +3090,48 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® compreende o Conteúdo Fundamental do TOGAF e uma coleção de Guias da Série TOGAF, que fornecem orientação prática para sua aplicação.",
     "CORRECT_ANSWER": "A",
+    "JSONINDEX": "140",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["{S0} §2.2"]
+    },
+    "category": "1. Introdução",
+    "subject": "Estrutura do Padrão TOGAF"
+},
+
+{
+    "QUESTION_NUMBER": "141",
+    "QUESTION_TEXT": "Uma empresa já possui seu próprio framework de arquitetura e deseja aproveitar apenas algumas partes do Padrão TOGAF®. Qual alternativa está de acordo com a estrutura proposta pelo padrão?",
+    "POSSIBLE_ANSWERS": [
+        "A. A empresa deve substituir integralmente seu framework antes de utilizar o Padrão TOGAF®.",
+        "B. A empresa pode selecionar determinados documentos para adoção e combinar aspectos do Padrão TOGAF® com seu framework existente.",
+        "C. A adoção do MDA exige obrigatoriamente a adoção dos materiais relacionados à Capacidade de Arquitetura.",
+        "D. Apenas organizações sem um framework de arquitetura existente podem realizar uma adoção incremental."
+    ],
+    "EXPLANATION_TEXT": "Explicação: Os documentos que constituem o Padrão TOGAF® trabalham juntos como um todo, mas é possível selecionar documentos específicos para adoção. Organizações que já possuem frameworks de arquitetura também podem combiná-los com aspectos do Padrão TOGAF®.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "141",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["{S0} §2.2"]
+    },
+    "category": "1. Introdução",
+    "subject": "Estrutura do Padrão TOGAF"
+},
+
+{
+    "QUESTION_NUMBER": "142",
+    "QUESTION_TEXT": "Qual das opções abaixo NÃO corresponde a um dos seis documentos independentes que compõem o Conteúdo Fundamental do Padrão TOGAF®?",
+    "POSSIBLE_ANSWERS": [
+        "A. Padrão TOGAF® — Técnicas ADM.",
+        "B. Padrão TOGAF® — Conteúdo de Arquitetura.",
+        "C. Padrão TOGAF® — Capacidade e Governança de Arquitetura Corporativa.",
+        "D. Padrão TOGAF® — Arquitetura de Segurança e Gerenciamento de Riscos."
+    ],
+    "EXPLANATION_TEXT": "Explicação: Arquitetura de Segurança e Gerenciamento de Riscos não é um dos seis documentos do Conteúdo Fundamental. Segurança é uma das áreas para as quais os Guias da Série TOGAF podem fornecer orientação específica.",
+    "CORRECT_ANSWER": "D",
     "JSONINDEX": "142",
     "Probability": 1,
     "versions": ["10"],
@@ -3122,15 +3144,15 @@ const questions = [
 
 {
     "QUESTION_NUMBER": "143",
-    "QUESTION_TEXT": "Uma empresa já possui seu próprio framework de arquitetura e deseja aproveitar apenas algumas partes do Padrão TOGAF®. Qual alternativa está de acordo com a estrutura proposta pelo padrão?",
+    "QUESTION_TEXT": "Um arquiteto precisa de orientação mais detalhada para aplicar o Padrão TOGAF® a uma necessidade específica que não é tratada em profundidade pelo conteúdo fundamental. Onde ele deve procurar prioritariamente?",
     "POSSIBLE_ANSWERS": [
-        "A. A empresa deve substituir integralmente seu framework antes de utilizar o Padrão TOGAF®.",
-        "B. A empresa pode selecionar determinados documentos para adoção e combinar aspectos do Padrão TOGAF® com seu framework existente.",
-        "C. A adoção do MDA exige obrigatoriamente a adoção dos materiais relacionados à Capacidade de Arquitetura.",
-        "D. Apenas organizações sem um framework de arquitetura existente podem realizar uma adoção incremental."
+        "A. Exclusivamente no documento que descreve o MDA.",
+        "B. Apenas nos documentos do Conteúdo Fundamental, pois eles concentram toda a orientação prática.",
+        "C. Nos Guias da Série TOGAF, que oferecem orientação para necessidades, preocupações e casos de uso mais específicos.",
+        "D. Somente em materiais externos ao Padrão TOGAF® publicados por outras organizações."
     ],
-    "EXPLANATION_TEXT": "Explicação: Os documentos que constituem o Padrão TOGAF® trabalham juntos como um todo, mas é possível selecionar documentos específicos para adoção. Organizações que já possuem frameworks de arquitetura também podem combiná-los com aspectos do Padrão TOGAF®.",
-    "CORRECT_ANSWER": "B",
+    "EXPLANATION_TEXT": "Explicação: Os Guias da Série TOGAF complementam o conteúdo fundamental e atendem a necessidades mais específicas de profissionais que precisam de explicações adicionais ou maior nível de detalhe.",
+    "CORRECT_ANSWER": "C",
     "JSONINDEX": "143",
     "Probability": 1,
     "versions": ["10"],
@@ -3143,48 +3165,6 @@ const questions = [
 
 {
     "QUESTION_NUMBER": "144",
-    "QUESTION_TEXT": "Qual das opções abaixo NÃO corresponde a um dos seis documentos independentes que compõem o Conteúdo Fundamental do Padrão TOGAF®?",
-    "POSSIBLE_ANSWERS": [
-        "A. Padrão TOGAF® — Técnicas ADM.",
-        "B. Padrão TOGAF® — Conteúdo de Arquitetura.",
-        "C. Padrão TOGAF® — Capacidade e Governança de Arquitetura Corporativa.",
-        "D. Padrão TOGAF® — Arquitetura de Segurança e Gerenciamento de Riscos."
-    ],
-    "EXPLANATION_TEXT": "Explicação: Arquitetura de Segurança e Gerenciamento de Riscos não é um dos seis documentos do Conteúdo Fundamental. Segurança é uma das áreas para as quais os Guias da Série TOGAF podem fornecer orientação específica.",
-    "CORRECT_ANSWER": "D",
-    "JSONINDEX": "144",
-    "Probability": 1,
-    "versions": ["10"],
-    "klp": {
-        "10": ["{S0} §2.2"]
-    },
-    "category": "1. Introdução",
-    "subject": "Estrutura do Padrão TOGAF"
-},
-
-{
-    "QUESTION_NUMBER": "145",
-    "QUESTION_TEXT": "Um arquiteto precisa de orientação mais detalhada para aplicar o Padrão TOGAF® a uma necessidade específica que não é tratada em profundidade pelo conteúdo fundamental. Onde ele deve procurar prioritariamente?",
-    "POSSIBLE_ANSWERS": [
-        "A. Exclusivamente no documento que descreve o MDA.",
-        "B. Apenas nos documentos do Conteúdo Fundamental, pois eles concentram toda a orientação prática.",
-        "C. Nos Guias da Série TOGAF, que oferecem orientação para necessidades, preocupações e casos de uso mais específicos.",
-        "D. Somente em materiais externos ao Padrão TOGAF® publicados por outras organizações."
-    ],
-    "EXPLANATION_TEXT": "Explicação: Os Guias da Série TOGAF complementam o conteúdo fundamental e atendem a necessidades mais específicas de profissionais que precisam de explicações adicionais ou maior nível de detalhe.",
-    "CORRECT_ANSWER": "C",
-    "JSONINDEX": "145",
-    "Probability": 1,
-    "versions": ["10"],
-    "klp": {
-        "10": ["{S0} §2.2"]
-    },
-    "category": "1. Introdução",
-    "subject": "Estrutura do Padrão TOGAF"
-},
-
-{
-    "QUESTION_NUMBER": "146",
     "QUESTION_TEXT": "Por que as diretrizes e técnicas que apoiam o MDA são descritas separadamente da descrição do próprio método?",
     "POSSIBLE_ANSWERS": [
         "A. Para que possam ser utilizadas somente depois que todas as fases do MDA forem concluídas.",
@@ -3194,7 +3174,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: As diretrizes e técnicas são descritas separadamente para que possam ser referenciadas nos pontos relevantes do MDA (O AMD - Método de Desenvolvimento da Arquitetura) conforme necessário, evitando que o detalhamento desses materiais sobrecarregue a descrição do próprio método.",
     "CORRECT_ANSWER": "B",
-    "JSONINDEX": "146",
+    "JSONINDEX": "144",
     "Probability": 1,
     "versions": ["10"],
     "klp": {
@@ -3205,7 +3185,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "147",
+    "QUESTION_NUMBER": "145",
 
     "QUESTION_TEXT": "Uma empresa criou uma equipe de arquitetos experientes, mas ainda não definiu claramente funções, responsabilidades e processos para a atividade arquitetural. Segundo o Padrão TOGAF®, qual ação melhor contribui para estabelecer sua Capacidade de Arquitetura?",
 
@@ -3220,7 +3200,7 @@ const questions = [
 
     "CORRECT_ANSWER": "A",
 
-    "JSONINDEX": "147",
+    "JSONINDEX": "145",
 
     "Probability": 1,
 
@@ -3237,7 +3217,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "148",
+    "QUESTION_NUMBER": "146",
 
     "QUESTION_TEXT": "Uma prática de Arquitetura Corporativa já utiliza os processos centrais do MDA. Seu responsável considera que isso é suficiente para mantê-la funcionando de forma contínua. De acordo com o Padrão TOGAF®, qual avaliação está correta?",
 
@@ -3252,7 +3232,7 @@ const questions = [
 
     "CORRECT_ANSWER": "B",
 
-    "JSONINDEX": "148",
+    "JSONINDEX": "146",
 
     "Probability": 1,
 
@@ -3269,7 +3249,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "149",
+    "QUESTION_NUMBER": "147",
 
     "QUESTION_TEXT": "Uma organização deseja aumentar a supervisão sobre decisões tomadas em níveis mais baixos que possam gerar consequências estratégicas relevantes. Qual benefício da Governança de Arquitetura está mais diretamente relacionado a esse objetivo?",
 
@@ -3284,7 +3264,7 @@ const questions = [
 
     "CORRECT_ANSWER": "C",
 
-    "JSONINDEX": "149",
+    "JSONINDEX": "147",
 
     "Probability": 1,
 
@@ -3301,7 +3281,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "150",
+    "QUESTION_NUMBER": "148",
 
     "QUESTION_TEXT": "Segundo o Padrão TOGAF®, o que é necessário para estabelecer uma Capacidade de Arquitetura adequada dentro de uma empresa?",
 
@@ -3316,7 +3296,7 @@ const questions = [
 
     "CORRECT_ANSWER": "D",
 
-    "JSONINDEX": "150",
+    "JSONINDEX": "148",
 
     "Probability": 1,
 
@@ -3333,7 +3313,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "151",
+    "QUESTION_NUMBER": "149",
 
     "QUESTION_TEXT": "Uma equipe questiona se o MDA pode ser utilizado para arquitetar a própria Capacidade de Arquitetura da empresa. Segundo o Padrão TOGAF®, qual resposta está correta?",
 
@@ -3347,6 +3327,70 @@ const questions = [
     "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® indica que não há diferença fundamental entre utilizar o MDA para arquitetar uma Capacidade de Arquitetura, uma capacidade financeira, um portfólio ou uma estratégia organizacional. A aplicação das etapas do MDA é limitada pelo contexto do trabalho.",
 
     "CORRECT_ANSWER": "C",
+
+    "JSONINDEX": "149",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["40.1"],
+        "10": ["G184 §13.1"]
+    },
+
+    "category": "5. Governança",
+
+    "subject": "Estabelecer Capacidade de EA"
+},
+
+{
+    "QUESTION_NUMBER": "150",
+
+    "QUESTION_TEXT": "Ao definir os objetivos de negócio para sua Capacidade de Arquitetura, uma empresa está utilizando a Fase A no nível de capacidade. Qual dos itens abaixo é um resultado esperado desse trabalho?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Um Plano de Implementação e Migração completamente executado.",
+        "B. Apenas a definição do Metamodelo de Conteúdo da Arquitetura.",
+        "C. A implantação definitiva da estrutura organizacional da equipe de arquitetura.",
+        "D. Uma Capacidade de Arquitetura candidata, um modelo operacional candidato e um roteiro prioritário para tratar lacunas."
+    ],
+
+    "EXPLANATION_TEXT": "Explicação: No nível de capacidade, a Fase A ajuda a definir os objetivos de negócio para a Capacidade de Arquitetura. Entre seus resultados estão uma Capacidade de Arquitetura candidata, um modelo operacional candidato e um roteiro de prioridades para tratar as lacunas identificadas.",
+
+    "CORRECT_ANSWER": "D",
+
+    "JSONINDEX": "150",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["40.1"],
+        "10": ["G184 §13.1"]
+    },
+
+    "category": "5. Governança",
+
+    "subject": "Estabelecer Capacidade de EA"
+},
+
+{
+    "QUESTION_NUMBER": "151",
+
+    "QUESTION_TEXT": "Uma organização já definiu objetivos, governança e o modelo organizacional de sua Capacidade de Arquitetura. Agora precisa organizar como essa capacidade será desenvolvida por meio de mudanças no modelo organizacional, nos processos, no Conteúdo de Arquitetura e no Repositório de Arquitetura. Qual atividade atende a essa necessidade?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Criar o roteiro da Capacidade de Arquitetura utilizando a Fase E.",
+        "B. Definir novamente o contexto empresarial utilizando parcialmente a Fase B.",
+        "C. Customizar exclusivamente o Metamodelo de Conteúdo utilizando a Fase C.",
+        "D. Executar imediatamente a Fase G para governar todas as mudanças."
+    ],
+
+    "EXPLANATION_TEXT": "Explicação: A Fase E é utilizada para criar o roteiro de desenvolvimento da Capacidade de Arquitetura, contemplando mudanças no modelo organizacional, modelo de processo, Estrutura de Conteúdo de Arquitetura e Repositório de Arquitetura.",
+
+    "CORRECT_ANSWER": "A",
 
     "JSONINDEX": "151",
 
@@ -3367,70 +3411,6 @@ const questions = [
 {
     "QUESTION_NUMBER": "152",
 
-    "QUESTION_TEXT": "Ao definir os objetivos de negócio para sua Capacidade de Arquitetura, uma empresa está utilizando a Fase A no nível de capacidade. Qual dos itens abaixo é um resultado esperado desse trabalho?",
-
-    "POSSIBLE_ANSWERS": [
-        "A. Um Plano de Implementação e Migração completamente executado.",
-        "B. Apenas a definição do Metamodelo de Conteúdo da Arquitetura.",
-        "C. A implantação definitiva da estrutura organizacional da equipe de arquitetura.",
-        "D. Uma Capacidade de Arquitetura candidata, um modelo operacional candidato e um roteiro prioritário para tratar lacunas."
-    ],
-
-    "EXPLANATION_TEXT": "Explicação: No nível de capacidade, a Fase A ajuda a definir os objetivos de negócio para a Capacidade de Arquitetura. Entre seus resultados estão uma Capacidade de Arquitetura candidata, um modelo operacional candidato e um roteiro de prioridades para tratar as lacunas identificadas.",
-
-    "CORRECT_ANSWER": "D",
-
-    "JSONINDEX": "152",
-
-    "Probability": 1,
-
-    "versions": ["9", "10"],
-
-    "klp": {
-        "9": ["40.1"],
-        "10": ["G184 §13.1"]
-    },
-
-    "category": "5. Governança",
-
-    "subject": "Estabelecer Capacidade de EA"
-},
-
-{
-    "QUESTION_NUMBER": "153",
-
-    "QUESTION_TEXT": "Uma organização já definiu objetivos, governança e o modelo organizacional de sua Capacidade de Arquitetura. Agora precisa organizar como essa capacidade será desenvolvida por meio de mudanças no modelo organizacional, nos processos, no Conteúdo de Arquitetura e no Repositório de Arquitetura. Qual atividade atende a essa necessidade?",
-
-    "POSSIBLE_ANSWERS": [
-        "A. Criar o roteiro da Capacidade de Arquitetura utilizando a Fase E.",
-        "B. Definir novamente o contexto empresarial utilizando parcialmente a Fase B.",
-        "C. Customizar exclusivamente o Metamodelo de Conteúdo utilizando a Fase C.",
-        "D. Executar imediatamente a Fase G para governar todas as mudanças."
-    ],
-
-    "EXPLANATION_TEXT": "Explicação: A Fase E é utilizada para criar o roteiro de desenvolvimento da Capacidade de Arquitetura, contemplando mudanças no modelo organizacional, modelo de processo, Estrutura de Conteúdo de Arquitetura e Repositório de Arquitetura.",
-
-    "CORRECT_ANSWER": "A",
-
-    "JSONINDEX": "153",
-
-    "Probability": 1,
-
-    "versions": ["9", "10"],
-
-    "klp": {
-        "9": ["40.1"],
-        "10": ["G184 §13.1"]
-    },
-
-    "category": "5. Governança",
-
-    "subject": "Estabelecer Capacidade de EA"
-},
-
-{
-    "QUESTION_NUMBER": "154",
-
     "QUESTION_TEXT": "Segundo o Padrão TOGAF®, o que melhor descreve uma Capacidade de Arquitetura?",
 
     "POSSIBLE_ANSWERS": [
@@ -3444,7 +3424,7 @@ const questions = [
 
     "CORRECT_ANSWER": "B",
 
-    "JSONINDEX": "154",
+    "JSONINDEX": "152",
 
     "Probability": 1,
 
@@ -3461,7 +3441,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "155",
+    "QUESTION_NUMBER": "153",
     "QUESTION_TEXT": "Segundo o Padrão TOGAF®, o que é Governança de Arquitetura?",
     "POSSIBLE_ANSWERS": [
         "A. A gestão exclusiva dos projetos de implementação de tecnologia.",
@@ -3471,7 +3451,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: Governança de Arquitetura é a prática e orientação pela qual Arquiteturas Corporativas e outras arquiteturas são gerenciadas e controladas em nível corporativo. Ela normalmente opera inserida em uma hierarquia mais ampla de estruturas de governança.",
     "CORRECT_ANSWER": "B",
-    "JSONINDEX": "155",
+    "JSONINDEX": "153",
     "Probability": 1,
     "versions": ["9", "10"],
     "klp": {
@@ -3483,7 +3463,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "156",
+    "QUESTION_NUMBER": "154",
     "QUESTION_TEXT": "Quais domínios de governança são citados pelo Padrão TOGAF® como podendo coexistir na organização?",
     "POSSIBLE_ANSWERS": [
         "A. Governança Corporativa, Governança Financeira, Governança de Dados e Governança de Projetos.",
@@ -3493,7 +3473,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® cita como domínios distintos a Governança Corporativa, Governança Tecnológica, Governança de TI e Governança de Arquitetura. Esses domínios podem existir em diferentes níveis geográficos, como global, regional e local.",
     "CORRECT_ANSWER": "D",
-    "JSONINDEX": "156",
+    "JSONINDEX": "154",
     "Probability": 1,
     "versions": ["9", "10"],
     "klp": {
@@ -3505,7 +3485,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "157",
+    "QUESTION_NUMBER": "155",
     "QUESTION_TEXT": "Qual conjunto apresenta somente características de governança destacadas pelo Padrão TOGAF®?",
     "POSSIBLE_ANSWERS": [
         "A. Disciplina, transparência, independência, prestação de contas, responsabilidade e justiça.",
@@ -3515,7 +3495,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: As características destacadas são disciplina, transparência, independência, prestação de contas, responsabilidade e justiça. Elas evidenciam o valor e a necessidade da governança dentro das organizações.",
     "CORRECT_ANSWER": "A",
-    "JSONINDEX": "157",
+    "JSONINDEX": "155",
     "Probability": 1,
     "versions": ["9", "10"],
     "klp": {
@@ -3527,7 +3507,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "158",
+    "QUESTION_NUMBER": "156",
     "QUESTION_TEXT": "Segundo o Padrão TOGAF®, quais são as duas coisas distintas que devem ser governadas em relação à Arquitetura Alvo?",
     "POSSIBLE_ANSWERS": [
         "A. Os requisitos de negócio e os requisitos tecnológicos.",
@@ -3537,7 +3517,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: Duas coisas distintas devem ser governadas: o desenvolvimento da Arquitetura Alvo e todas as mudanças dentro do escopo dessa arquitetura. Governar apenas seu desenvolvimento não garante que as mudanças posteriores sigam o caminho definido.",
     "CORRECT_ANSWER": "C",
-    "JSONINDEX": "158",
+    "JSONINDEX": "156",
     "Probability": 1,
     "versions": ["10"],
     "klp": {
@@ -3548,7 +3528,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "159",
+    "QUESTION_NUMBER": "157",
     "QUESTION_TEXT": "Qual conceito do Padrão TOGAF® é utilizado para governar o desenvolvimento da Arquitetura Alvo?",
     "POSSIBLE_ANSWERS": [
         "A. Contrato de Arquitetura.",
@@ -3558,7 +3538,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: O conceito-chave apresentado pelo Padrão TOGAF® para governar o desenvolvimento da Arquitetura Alvo é o Projeto de Arquitetura. Ele é utilizado para direcionar e controlar a equipe de Arquitetura Corporativa dentro de um escopo controlado.",
     "CORRECT_ANSWER": "B",
-    "JSONINDEX": "159",
+    "JSONINDEX": "157",
     "Probability": 1,
     "versions": ["10"],
     "klp": {
@@ -3569,7 +3549,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "160",
+    "QUESTION_NUMBER": "158",
     "QUESTION_TEXT": "Quais conceitos são utilizados pelo Padrão TOGAF® para governar projetos de implementação e outras mudanças?",
     "POSSIBLE_ANSWERS": [
         "A. Projeto de Arquitetura e Requisição de Trabalho de Arquitetura.",
@@ -3579,7 +3559,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: Para governar projetos de implementação e outras mudanças, o Padrão TOGAF® apresenta dois conceitos-chave: o Contrato de Arquitetura e a Especificação de Requisitos de Arquitetura. Eles permitem direcionar e controlar o trabalho da equipe de implementação.",
     "CORRECT_ANSWER": "D",
-    "JSONINDEX": "160",
+    "JSONINDEX": "158",
     "Probability": 1,
     "versions": ["10"],
     "klp": {
@@ -3590,7 +3570,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "161",
+    "QUESTION_NUMBER": "159",
     "QUESTION_TEXT": "Durante uma avaliação, o Comitê de Arquitetura identifica que algumas fases do MDA foram ignoradas e entregáveis obrigatórios não foram produzidos. Por que isso é um problema de governança?",
     "POSSIBLE_ANSWERS": [
         "A. Porque a conformidade com o MDA ajuda a garantir que todas as considerações sejam feitas e os entregáveis necessários sejam produzidos.",
@@ -3600,7 +3580,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: A conformidade com o MDA é fundamental para a Governança de Arquitetura, pois ajuda a assegurar que todas as considerações sejam feitas e que todos os entregáveis necessários sejam produzidos. O Comitê de Arquitetura deve verificar se o método está sendo aplicado corretamente.",
     "CORRECT_ANSWER": "A",
-    "JSONINDEX": "161",
+    "JSONINDEX": "159",
     "Probability": 1,
     "versions": ["9", "10"],
     "klp": {
@@ -3612,7 +3592,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "162",
+    "QUESTION_NUMBER": "160",
     "QUESTION_TEXT": "Uma organização entende governança principalmente como fiscalização rígida, cumprimento de regras e punição. Qual orientação está mais alinhada ao Padrão TOGAF®?",
     "POSSIBLE_ANSWERS": [
         "A. Concentrar todas as decisões nos níveis mais altos da organização.",
@@ -3622,7 +3602,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: A governança consiste menos em controle excessivo e adesão rígida às regras e mais em orientação e utilização eficaz e equitativa dos recursos, buscando garantir a sustentabilidade dos objetivos estratégicos da organização.",
     "CORRECT_ANSWER": "C",
-    "JSONINDEX": "162",
+    "JSONINDEX": "160",
     "Probability": 1,
     "versions": ["9", "10"],
     "klp": {
@@ -3634,7 +3614,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "163",
+    "QUESTION_NUMBER": "161",
     "QUESTION_TEXT": "Qual opção melhor descreve como a Governança de Arquitetura normalmente opera em uma organização?",
     "POSSIBLE_ANSWERS": [
         "A. Como uma atividade independente das demais estruturas de governança.",
@@ -3644,7 +3624,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: A Governança de Arquitetura normalmente não opera isoladamente. Ela funciona dentro de uma hierarquia de estruturas de governança existentes na organização.",
     "CORRECT_ANSWER": "B",
-    "JSONINDEX": "163",
+    "JSONINDEX": "161",
     "Probability": 1,
     "versions": ["9", "10"],
     "klp": {
@@ -3656,7 +3636,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "164",
+    "QUESTION_NUMBER": "162",
     "QUESTION_TEXT": "Em relação à Governança de Arquitetura, qual das seguintes afirmações é a mais correta?",
     "POSSIBLE_ANSWERS": [
         "A. O Praticante controla as Partes Interessadas e direciona o implementador.",
@@ -3666,7 +3646,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: O ponto central da governança é dirigir e controlar. Segundo o Padrão TOGAF®, normalmente o Praticante e o implementador são direcionados, e ambos são controlados pelas Partes Interessadas.",
     "CORRECT_ANSWER": "C",
-    "JSONINDEX": "164",
+    "JSONINDEX": "162",
     "Probability": 1,
     "versions": ["10"],
     "klp": {
@@ -3677,7 +3657,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "165",
+    "QUESTION_NUMBER": "163",
     "QUESTION_TEXT": "Um Projeto de Arquitetura está sendo iniciado para tratar problemas identificados na organização. Qual combinação representa corretamente seu início e seu principal mecanismo de controle?",
     "POSSIBLE_ANSWERS": [
         "A. Inicia com uma Requisição de Trabalho de Arquitetura e é controlado principalmente pela Declaração do Trabalho de Arquitetura.",
@@ -3687,7 +3667,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: Um Projeto de Arquitetura começa com uma Requisição de Trabalho de Arquitetura. Seu principal controle é o gerenciamento do Projeto de Arquitetura utilizando a Declaração do Trabalho de Arquitetura.",
     "CORRECT_ANSWER": "A",
-    "JSONINDEX": "165",
+    "JSONINDEX": "163",
     "Probability": 1,
     "versions": ["10"],
     "klp": {
@@ -3698,7 +3678,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "166",
+    "QUESTION_NUMBER": "164",
     "QUESTION_TEXT": "As ações realizadas e as informações que fundamentaram uma decisão de governança podem ser inspecionadas pelas partes autorizadas. Qual característica da governança está sendo aplicada?",
     "POSSIBLE_ANSWERS": [
         "A. Responsabilidade.",
@@ -3708,7 +3688,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: Transparência significa que as ações implementadas e as informações utilizadas para apoiar as decisões ficam disponíveis para inspeção pelas partes autorizadas da organização e dos provedores.",
     "CORRECT_ANSWER": "D",
-    "JSONINDEX": "166",
+    "JSONINDEX": "164",
     "Probability": 1,
     "versions": ["9", "10"],
     "klp": {
@@ -3720,7 +3700,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "167",
+    "QUESTION_NUMBER": "165",
     "QUESTION_TEXT": "Qual afirmação melhor descreve como o Padrão TOGAF® relaciona o MDA, a Governança de Arquitetura e os repositórios?",
     "POSSIBLE_ANSWERS": [
         "A. O MDA deve ser governado, enquanto os demais artefatos de arquitetura são apenas armazenados no Repositório de Arquitetura.",
@@ -3730,7 +3710,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: O MDA é um processo-chave que deve ser gerenciado e governado da mesma forma que os demais artefatos de arquitetura. A gestão dos artefatos, da governança e dos processos relacionados deve ser apoiada por um ambiente controlado, normalmente baseado em um ou mais repositórios que suportem objetos versionados, controle de processo e status.",
     "CORRECT_ANSWER": "C",
-    "JSONINDEX": "167",
+    "JSONINDEX": "165",
     "Probability": 1,
     "versions": ["9", "10"],
     "klp": {
@@ -3742,7 +3722,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "168",
+    "QUESTION_NUMBER": "166",
     "QUESTION_TEXT": "Segundo o Padrão TOGAF®, qual é um papel fundamental do Comitê de Arquitetura em uma estratégia de Governança de Arquitetura?",
     "POSSIBLE_ANSWERS": [
         "A. Executar diretamente a implementação das arquiteturas.",
@@ -3752,7 +3732,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: O Comitê de Arquitetura é um elemento-chave da Governança de Arquitetura e deve supervisionar a implementação da estratégia. Também deve representar as principais partes interessadas na arquitetura e normalmente inclui executivos responsáveis pela revisão e manutenção da arquitetura geral.",
     "CORRECT_ANSWER": "B",
-    "JSONINDEX": "168",
+    "JSONINDEX": "166",
     "Probability": 1,
     "versions": ["9", "10"],
     "klp": {
@@ -3764,7 +3744,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "169",
+    "QUESTION_NUMBER": "167",
     "QUESTION_TEXT": "Quais escopos um Comitê de Arquitetura pode ter, segundo o Padrão TOGAF®?",
     "POSSIBLE_ANSWERS": [
         "A. Local, global ou regional.",
@@ -3774,7 +3754,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: Segundo o Padrão TOGAF®, os Comitês de Arquitetura podem possuir escopo global, regional ou de linha de negócios. Em organizações maiores, podem ainda incluir representantes em níveis local e global.",
     "CORRECT_ANSWER": "D",
-    "JSONINDEX": "169",
+    "JSONINDEX": "167",
     "Probability": 1,
     "versions": ["9", "10"],
     "klp": {
@@ -3786,7 +3766,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "170",
+    "QUESTION_NUMBER": "168",
     "QUESTION_TEXT": "Qual das opções apresenta uma responsabilidade operacional do Comitê de Arquitetura?",
     "POSSIBLE_ANSWERS": [
         "A. Monitorar e controlar os aspectos relacionados ao Contrato de Arquitetura.",
@@ -3796,6 +3776,49 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: Entre as responsabilidades operacionais do Comitê de Arquitetura estão todos os aspectos de monitoramento e controle do Contrato de Arquitetura, além de atividades como reunir-se regularmente e resolver questões ou conflitos escalados.",
     "CORRECT_ANSWER": "A",
+    "JSONINDEX": "168",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["41.2"],
+        "10": ["{S5} §4.2"]
+    },
+    "category": "5. Governança",
+    "subject": "Comitê"
+},
+
+{
+    "QUESTION_NUMBER": "169",
+    "QUESTION_TEXT": "Um Comitê de Arquitetura afirma possuir os direitos de decisão sobre a arquitetura alvo, dispensas e aplicação da arquitetura. De acordo com o Padrão TOGAF®, o que está errado nessa situação?",
+    "POSSIBLE_ANSWERS": [
+        "A. O Comitê deveria possuir apenas os direitos relativos às dispensas.",
+        "B. Os direitos deveriam pertencer aos especialistas de domínio.",
+        "C. Esses direitos pertencem às partes interessadas; o Comitê possui o processo e faz recomendações sobre o trabalho realizado.",
+        "D. O Comitê só poderia assumir esses direitos se tivesse escopo global."
+    ],
+    "EXPLANATION_TEXT": "Explicação: Os direitos de decisão sobre a arquitetura alvo, dispensas e aplicação pertencem às partes interessadas da arquitetura. O Comitê de Governança possui o processo e faz uma recomendação quanto à completude e à confiança no trabalho que levou à arquitetura alvo.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "169",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G184 §6.2"]
+    },
+    "category": "5. Governança",
+    "subject": "Comitê"
+},
+
+{
+    "QUESTION_NUMBER": "170",
+    "QUESTION_TEXT": "Segundo o Padrão TOGAF®, qual elemento atua como um mecanismo de controle para ajudar a garantir a implementação eficaz da arquitetura?",
+    "POSSIBLE_ANSWERS": [
+        "A. Contrato de Arquitetura",
+        "B. Conformidade da Arquitetura",
+        "C. Comitê de Arquitetura",
+        "D. Arquitetura Corporativa"
+    ],
+    "EXPLANATION_TEXT": "Explicação: O Comitê de Arquitetura atua como um mecanismo fundamental de controle da Governança de Arquitetura, ajudando a garantir que a arquitetura seja implementada de forma eficaz e consistente. Entre suas responsabilidades também estão promover a conformidade com a arquitetura, monitorar e controlar o Contrato de Arquitetura, resolver questões e conflitos escalados, fornecer orientação, apoiar o tratamento de decisões fora dos limites e identificar divergências que exijam dispensas ou atualizações de políticas.",
+    "CORRECT_ANSWER": "C",
     "JSONINDEX": "170",
     "Probability": 1,
     "versions": ["9", "10"],
@@ -3809,49 +3832,6 @@ const questions = [
 
 {
     "QUESTION_NUMBER": "171",
-    "QUESTION_TEXT": "Um Comitê de Arquitetura afirma possuir os direitos de decisão sobre a arquitetura alvo, dispensas e aplicação da arquitetura. De acordo com o Padrão TOGAF®, o que está errado nessa situação?",
-    "POSSIBLE_ANSWERS": [
-        "A. O Comitê deveria possuir apenas os direitos relativos às dispensas.",
-        "B. Os direitos deveriam pertencer aos especialistas de domínio.",
-        "C. Esses direitos pertencem às partes interessadas; o Comitê possui o processo e faz recomendações sobre o trabalho realizado.",
-        "D. O Comitê só poderia assumir esses direitos se tivesse escopo global."
-    ],
-    "EXPLANATION_TEXT": "Explicação: Os direitos de decisão sobre a arquitetura alvo, dispensas e aplicação pertencem às partes interessadas da arquitetura. O Comitê de Governança possui o processo e faz uma recomendação quanto à completude e à confiança no trabalho que levou à arquitetura alvo.",
-    "CORRECT_ANSWER": "C",
-    "JSONINDEX": "171",
-    "Probability": 1,
-    "versions": ["10"],
-    "klp": {
-        "10": ["G184 §6.2"]
-    },
-    "category": "5. Governança",
-    "subject": "Comitê"
-},
-
-{
-    "QUESTION_NUMBER": "172",
-    "QUESTION_TEXT": "Segundo o Padrão TOGAF®, qual elemento atua como um mecanismo de controle para ajudar a garantir a implementação eficaz da arquitetura?",
-    "POSSIBLE_ANSWERS": [
-        "A. Contrato de Arquitetura",
-        "B. Conformidade da Arquitetura",
-        "C. Comitê de Arquitetura",
-        "D. Arquitetura Corporativa"
-    ],
-    "EXPLANATION_TEXT": "Explicação: O Comitê de Arquitetura atua como um mecanismo fundamental de controle da Governança de Arquitetura, ajudando a garantir que a arquitetura seja implementada de forma eficaz e consistente. Entre suas responsabilidades também estão promover a conformidade com a arquitetura, monitorar e controlar o Contrato de Arquitetura, resolver questões e conflitos escalados, fornecer orientação, apoiar o tratamento de decisões fora dos limites e identificar divergências que exijam dispensas ou atualizações de políticas.",
-    "CORRECT_ANSWER": "C",
-    "JSONINDEX": "172",
-    "Probability": 1,
-    "versions": ["9", "10"],
-    "klp": {
-        "9": ["41.2"],
-        "10": ["{S5} §4.2"]
-    },
-    "category": "5. Governança",
-    "subject": "Comitê"
-},
-
-{
-    "QUESTION_NUMBER": "173",
 
     "QUESTION_TEXT": "Segundo o Padrão TOGAF®, o que são Contratos de Arquitetura?",
 
@@ -3865,6 +3845,70 @@ const questions = [
     "EXPLANATION_TEXT": "Explicação: Os Contratos de Arquitetura são acordos conjuntos entre parceiros de desenvolvimento e patrocinadores que estabelecem os entregáveis, a qualidade e a adequação à finalidade de uma arquitetura. Sua implementação bem-sucedida depende de uma Governança de Arquitetura eficaz.",
 
     "CORRECT_ANSWER": "A",
+
+    "JSONINDEX": "171",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["43.2"],
+        "10": ["{S5} §5.1"]
+    },
+
+    "category": "5. Governança",
+
+    "subject": "Contrato"
+},
+
+{
+    "QUESTION_NUMBER": "172",
+
+    "QUESTION_TEXT": "Qual das opções apresenta um resultado esperado de uma abordagem governada para a gestão de Contratos de Arquitetura?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Eliminar a necessidade de auditoria das atividades relacionadas à arquitetura.",
+        "B. Transferir para os fornecedores toda a responsabilidade pela Governança de Arquitetura.",
+        "C. Assegurar a aderência aos princípios, padrões e requisitos das arquiteturas existentes ou em desenvolvimento.",
+        "D. Permitir que cada equipe defina independentemente seus próprios padrões arquiteturais."
+    ],
+
+    "EXPLANATION_TEXT": "Explicação: Uma abordagem governada para a gestão de Contratos de Arquitetura deve, entre outros aspectos, assegurar a aderência aos princípios, padrões e requisitos das arquiteturas existentes ou em desenvolvimento.",
+
+    "CORRECT_ANSWER": "C",
+
+    "JSONINDEX": "172",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["43.2"],
+        "10": ["{S5} §5.1"]
+    },
+
+    "category": "5. Governança",
+
+    "subject": "Contrato"
+},
+
+{
+    "QUESTION_NUMBER": "173",
+
+    "QUESTION_TEXT": "Na Fase A do MDA, é criada a Declaração de Trabalho de Arquitetura. Segundo o Padrão TOGAF®, como esse documento pode ser entendido no contexto dos Contratos de Arquitetura?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Como um contrato entre a função de implementação e os usuários de negócio.",
+        "B. Como um acordo exclusivo entre diferentes equipes de implementação.",
+        "C. Como um documento que substitui todos os demais Contratos de Arquitetura.",
+        "D. Como um Contrato de Arquitetura entre a organização de arquitetura e o patrocinador da Arquitetura Corporativa ou a função de governança de TI."
+    ],
+
+    "EXPLANATION_TEXT": "Explicação: A Declaração de Trabalho de Arquitetura criada na Fase A do MDA é efetivamente um Contrato de Arquitetura entre a organização de arquitetura e o patrocinador da Arquitetura Corporativa, ou a função de governança de TI.",
+
+    "CORRECT_ANSWER": "D",
 
     "JSONINDEX": "173",
 
@@ -3885,18 +3929,18 @@ const questions = [
 {
     "QUESTION_NUMBER": "174",
 
-    "QUESTION_TEXT": "Qual das opções apresenta um resultado esperado de uma abordagem governada para a gestão de Contratos de Arquitetura?",
+    "QUESTION_TEXT": "Uma organização inicia a Fase G do MDA e precisa formalizar a relação entre a função de arquitetura e a equipe responsável pela implementação. Segundo o Padrão TOGAF®, qual mecanismo é adequado para esse propósito?",
 
     "POSSIBLE_ANSWERS": [
-        "A. Eliminar a necessidade de auditoria das atividades relacionadas à arquitetura.",
-        "B. Transferir para os fornecedores toda a responsabilidade pela Governança de Arquitetura.",
-        "C. Assegurar a aderência aos princípios, padrões e requisitos das arquiteturas existentes ou em desenvolvimento.",
-        "D. Permitir que cada equipe defina independentemente seus próprios padrões arquiteturais."
+        "A. Um novo ciclo completo do MDA.",
+        "B. Um Contrato de Arquitetura.",
+        "C. Um conjunto independente de Princípios de Arquitetura.",
+        "D. Uma nova Arquitetura de Referência."
     ],
 
-    "EXPLANATION_TEXT": "Explicação: Uma abordagem governada para a gestão de Contratos de Arquitetura deve, entre outros aspectos, assegurar a aderência aos princípios, padrões e requisitos das arquiteturas existentes ou em desenvolvimento.",
+    "EXPLANATION_TEXT": "Explicação: No início da Fase G, um Contrato de Arquitetura pode ser estabelecido entre a função de arquitetura e a função responsável pela implementação da Arquitetura Corporativa definida nas fases anteriores do MDA. Esse contrato é fundamental para governar a implementação.",
 
-    "CORRECT_ANSWER": "C",
+    "CORRECT_ANSWER": "B",
 
     "JSONINDEX": "174",
 
@@ -3916,70 +3960,6 @@ const questions = [
 
 {
     "QUESTION_NUMBER": "175",
-
-    "QUESTION_TEXT": "Na Fase A do MDA, é criada a Declaração de Trabalho de Arquitetura. Segundo o Padrão TOGAF®, como esse documento pode ser entendido no contexto dos Contratos de Arquitetura?",
-
-    "POSSIBLE_ANSWERS": [
-        "A. Como um contrato entre a função de implementação e os usuários de negócio.",
-        "B. Como um acordo exclusivo entre diferentes equipes de implementação.",
-        "C. Como um documento que substitui todos os demais Contratos de Arquitetura.",
-        "D. Como um Contrato de Arquitetura entre a organização de arquitetura e o patrocinador da Arquitetura Corporativa ou a função de governança de TI."
-    ],
-
-    "EXPLANATION_TEXT": "Explicação: A Declaração de Trabalho de Arquitetura criada na Fase A do MDA é efetivamente um Contrato de Arquitetura entre a organização de arquitetura e o patrocinador da Arquitetura Corporativa, ou a função de governança de TI.",
-
-    "CORRECT_ANSWER": "D",
-
-    "JSONINDEX": "175",
-
-    "Probability": 1,
-
-    "versions": ["9", "10"],
-
-    "klp": {
-        "9": ["43.2"],
-        "10": ["{S5} §5.1"]
-    },
-
-    "category": "5. Governança",
-
-    "subject": "Contrato"
-},
-
-{
-    "QUESTION_NUMBER": "176",
-
-    "QUESTION_TEXT": "Uma organização inicia a Fase G do MDA e precisa formalizar a relação entre a função de arquitetura e a equipe responsável pela implementação. Segundo o Padrão TOGAF®, qual mecanismo é adequado para esse propósito?",
-
-    "POSSIBLE_ANSWERS": [
-        "A. Um novo ciclo completo do MDA.",
-        "B. Um Contrato de Arquitetura.",
-        "C. Um conjunto independente de Princípios de Arquitetura.",
-        "D. Uma nova Arquitetura de Referência."
-    ],
-
-    "EXPLANATION_TEXT": "Explicação: No início da Fase G, um Contrato de Arquitetura pode ser estabelecido entre a função de arquitetura e a função responsável pela implementação da Arquitetura Corporativa definida nas fases anteriores do MDA. Esse contrato é fundamental para governar a implementação.",
-
-    "CORRECT_ANSWER": "B",
-
-    "JSONINDEX": "176",
-
-    "Probability": 1,
-
-    "versions": ["9", "10"],
-
-    "klp": {
-        "9": ["43.2"],
-        "10": ["{S5} §5.1"]
-    },
-
-    "category": "5. Governança",
-
-    "subject": "Contrato"
-},
-
-{
-    "QUESTION_NUMBER": "178",
     "QUESTION_TEXT": "Por que a Conformidade de Arquitetura é importante segundo o Padrão TOGAF®?",
     "POSSIBLE_ANSWERS": [
         "A. Porque ajuda a garantir que os projetos estejam alinhados à Arquitetura Corporativa.",
@@ -3989,7 +3969,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: A Conformidade de Arquitetura ajuda a garantir que os projetos sejam desenvolvidos e implementados de acordo com a Arquitetura Corporativa.",
     "CORRECT_ANSWER": "A",
-    "JSONINDEX": "178",
+    "JSONINDEX": "175",
     "Probability": 1,
     "versions": ["9", "10"],
     "klp": {
@@ -4001,7 +3981,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "179",
+    "QUESTION_NUMBER": "176",
     "QUESTION_TEXT": "Segundo o Padrão TOGAF®, quem pode aprovar uma arquitetura?",
     "POSSIBLE_ANSWERS": [
         "A. O arquiteto responsável por sua elaboração.",
@@ -4011,7 +3991,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: Segundo o Padrão TOGAF®, apenas os stakeholders podem aprovar uma arquitetura.",
     "CORRECT_ANSWER": "D",
-    "JSONINDEX": "179",
+    "JSONINDEX": "176",
     "Probability": 1,
     "versions": ["10"],
     "klp": {
@@ -4022,7 +4002,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "180",
+    "QUESTION_NUMBER": "177",
     "QUESTION_TEXT": "Qual é um propósito das avaliações periódicas de conformidade dos projetos de implementação?",
     "POSSIBLE_ANSWERS": [
         "A. Aprovar formalmente a Arquitetura Corporativa em nome dos stakeholders.",
@@ -4032,7 +4012,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: As avaliações periódicas de conformidade permitem revisar o progresso dos projetos e verificar se o design e a implementação continuam alinhados aos objetivos estratégicos e arquiteturais.",
     "CORRECT_ANSWER": "B",
-    "JSONINDEX": "180",
+    "JSONINDEX": "177",
     "Probability": 1,
     "versions": ["10"],
     "klp": {
@@ -4043,7 +4023,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "181",
+    "QUESTION_NUMBER": "178",
     "QUESTION_TEXT": "Uma arquitetura já foi definida e os projetos começaram sua implementação. Segundo o Padrão TOGAF®, qual prática ajuda a verificar se a implementação continua alinhada aos objetivos arquiteturais?",
     "POSSIBLE_ANSWERS": [
         "A. Elaborar novamente a Visão da Arquitetura.",
@@ -4053,7 +4033,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: As avaliações periódicas de conformidade ajudam a verificar se a implementação permanece alinhada à arquitetura definida e aos objetivos estratégicos e arquiteturais.",
     "CORRECT_ANSWER": "C",
-    "JSONINDEX": "181",
+    "JSONINDEX": "178",
     "Probability": 1,
     "versions": ["10"],
     "klp": {
@@ -4064,7 +4044,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "182",
+    "QUESTION_NUMBER": "179",
     "QUESTION_TEXT": "Uma organização deseja criar um relatório resumido de conformidade. Sempre que possível, qual abordagem está mais alinhada às orientações do Padrão TOGAF®?",
     "POSSIBLE_ANSWERS": [
         "A. Utilizar uma escala detalhada de 1 a 10 para todos os critérios avaliados.",
@@ -4074,7 +4054,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: Sempre que possível, devem ser utilizados testes binários de conformidade e não conformidade. Quando isso não for possível, pode-se utilizar uma escala de três níveis.",
     "CORRECT_ANSWER": "B",
-    "JSONINDEX": "182",
+    "JSONINDEX": "179",
     "Probability": 1,
     "versions": ["10"],
     "klp": {
@@ -4085,7 +4065,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "183",
+    "QUESTION_NUMBER": "180",
     "QUESTION_TEXT": "Qual nível de conformidade indica que todas as características especificadas na arquitetura foram implementadas de acordo com a especificação e não existem características adicionais?",
     "POSSIBLE_ANSWERS": [
         "A. Consistente.",
@@ -4095,7 +4075,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: O nível Totalmente Conforme indica correspondência completa entre a especificação da arquitetura e a implementação: todas as características especificadas são implementadas de acordo com a especificação e não existem características adicionais.",
     "CORRECT_ANSWER": "C",
-    "JSONINDEX": "183",
+    "JSONINDEX": "180",
     "Probability": 1,
     "versions": ["9"],
     "klp": {
@@ -4106,7 +4086,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "184",
+    "QUESTION_NUMBER": "181",
     "QUESTION_TEXT": "Qual é um dos principais objetivos de uma Revisão de Conformidade de Arquitetura?",
     "POSSIBLE_ANSWERS": [
         "A. Identificar erros na arquitetura do projeto antecipadamente, reduzindo custos e riscos de alterações posteriores.",
@@ -4116,7 +4096,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: Um dos principais objetivos da Revisão de Conformidade de Arquitetura é identificar erros na arquitetura do projeto o mais cedo possível, reduzindo o custo e o risco de alterações necessárias posteriormente.",
     "CORRECT_ANSWER": "A",
-    "JSONINDEX": "184",
+    "JSONINDEX": "181",
     "Probability": 1,
     "versions": ["9"],
     "klp": {
@@ -4127,7 +4107,7 @@ const questions = [
 },
 
 {
-    "QUESTION_NUMBER": "185",
+    "QUESTION_NUMBER": "182",
     "QUESTION_TEXT": "Qual opção melhor descreve, de forma geral, o processo de Revisão de Conformidade de Arquitetura?",
     "POSSIBLE_ANSWERS": [
         "A. Definir uma nova Arquitetura Corporativa para cada projeto.",
@@ -4137,7 +4117,7 @@ const questions = [
     ],
     "EXPLANATION_TEXT": "Explicação: O processo de Revisão de Conformidade envolve avaliar o projeto em relação à arquitetura e aos padrões aplicáveis, analisar os resultados e documentar as conclusões da revisão.",
     "CORRECT_ANSWER": "D",
-    "JSONINDEX": "185",
+    "JSONINDEX": "182",
     "Probability": 1,
     "versions": ["9"],
     "klp": {
