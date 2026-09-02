@@ -440,7 +440,7 @@ const questions_en = [
         "9":  ["1.3"],
         "10": ["{S0} §1.1", "{S0} §1.4"]
     },
-    "subject": "TOGAF Standard"
+    "subject": "1. Introduction - Architecture Framework"
 },
 
 {
@@ -461,7 +461,7 @@ const questions_en = [
         "9":  ["1.3"],
         "10": ["{S0} §1.1", "{S0} §1.4"]
     },
-    "subject": "TOGAF Standard"
+    "subject": "1. Introduction - Architecture Framework"
 },
 
 {
@@ -482,7 +482,7 @@ const questions_en = [
         "9":  ["1.3"],
         "10": ["{S0} §1.1", "{S0} §1.4"]
     },
-    "subject": "TOGAF Standard"
+    "subject": "1. Introduction - Architecture Framework"
 },
 
 {
@@ -503,7 +503,7 @@ const questions_en = [
         "9":  ["1.1"],
         "10": ["{S1} §1.1.3"]
     },
-    "subject": "ADM"
+    "subject": "1. Introduction - Structure of the TOGAF Standard"
 },
 
 
@@ -524,7 +524,7 @@ const questions_en = [
     "klp": {
         "10": ["{S0} §2.2"]
     },
-    "subject": "TOGAF Standard"
+    "subject": "1. Introduction - Structure of the TOGAF Standard"
 },
 
 {
@@ -542,10 +542,10 @@ const questions_en = [
     "Probability": 1,
     "versions": ["9","10"],
     "klp": {
-        "9":  ["Sorry, I don’t remember!"],
+        "9":  ["1.1"],
         "10": ["{S0} §2.2"]
     },
-    "subject": "TOGAF Standard"
+    "subject": "1. Introduction - Structure of the TOGAF Standard"
 },
 
 {
@@ -563,10 +563,10 @@ const questions_en = [
     "Probability": 1,
     "versions": ["9","10"],
     "klp": {
-        "9":  ["Sorry, I don’t remember!"],
+        "9":  ["1.1"],
         "10": ["{S0} §2.2"]
     },
-    "subject": "TOGAF Standard"
+    "subject": "1. Introduction - Structure of the TOGAF Standard"
 },
 
 
@@ -844,8 +844,6 @@ const questions_en = [
     },
     "subject": "ADM Phases"
 },
-
-
 {
   "QUESTION_NUMBER": "41",
   "QUESTION_TEXT": "What is the main focus of Phase G, according to the TOGAF® Standard?",
@@ -860,6 +858,11 @@ const questions_en = [
   "JSONINDEX": "41",
   "Probability": 1,
   "versions": ["9","10"]
+    "klp": {
+        "9": ["2.4"],
+        "10": ["{S0} §3.4"]
+    },
+    "subject": "ADM Phases"
 },
 {
   "QUESTION_NUMBER": "42",
@@ -875,6 +878,11 @@ const questions_en = [
   "JSONINDEX": "42",
   "Probability": 1,
   "versions": ["9","10"]
+    "klp": {
+        "9": ["2.4"],
+        "10": ["{S0} §3.4"]
+    },
+    "subject": "ADM Phases"
 },
 {
   "QUESTION_NUMBER": "43",
@@ -890,6 +898,11 @@ const questions_en = [
   "JSONINDEX": "43",
   "Probability": 1,
   "versions": ["9","10"]
+    "klp": {
+        "9": ["2.4"],
+        "10": ["{S0} §3.4"]
+    },
+    "subject": "ADM Phases"
 },
 {
   "QUESTION_NUMBER": "44",
@@ -905,6 +918,11 @@ const questions_en = [
   "JSONINDEX": "44",
   "Probability": 1,
   "versions": ["9","10"]
+    "klp": {
+        "9": ["2.4"],
+        "10": ["{S0} §3.4"]
+    },
+    "subject": "ADM Phases"
 },
 {
   "QUESTION_NUMBER": "45",
@@ -920,6 +938,11 @@ const questions_en = [
   "JSONINDEX": "45",
   "Probability": 1,
   "versions": ["9","10"]
+    "klp": {
+        "9": ["2.4"],
+        "10": ["{S0} §3.4"]
+    },
+    "subject": "ADM Phases"
 },
 {
   "QUESTION_NUMBER": "46",
@@ -935,6 +958,11 @@ const questions_en = [
   "JSONINDEX": "46",
   "Probability": 1,
   "versions": ["9","10"]
+    "klp": {
+        "9": ["2.4"],
+        "10": ["{S0} §3.4"]
+    },
+    "subject": "ADM Phases"
 },
 {
   "QUESTION_NUMBER": "47",
@@ -950,6 +978,11 @@ const questions_en = [
   "JSONINDEX": "47",
   "Probability": 1,
   "versions": ["9","10"]
+    "klp": {
+        "9": ["2.4"],
+        "10": ["{S0} §3.4"]
+    },
+    "subject": "ADM Phases"
 },
 {
   "QUESTION_NUMBER": "48",
@@ -965,9 +998,12 @@ const questions_en = [
   "JSONINDEX": "48",
   "Probability": 1,
   "versions": ["9","10"]
+    "klp": {
+        "9": ["2.4"],
+        "10": ["{S0} §3.4"]
+    },
+    "subject": "ADM Phases"
 },
-
-
 {
   "QUESTION_NUMBER": "49",
   "QUESTION_TEXT": "What is the primary role of the Architecture Landscape according to the TOGAF® Standard?",
@@ -1633,7 +1669,7 @@ const questions_en = [
   "klp": {
     "10": ["G184 §8.3"]
   },
-  "subject": "Architecture Capability"
+  "subject": "Metamodel"
 },
 {
   "QUESTION_NUMBER": "84",
@@ -1728,7 +1764,7 @@ const questions_en = [
   "klp": {
     "10": ["G184 §8.3"]
   },
-  "subject": "Architecture Capability"
+  "subject": "Metamodel"
 },
 {
   "QUESTION_NUMBER": "89",
@@ -1936,8 +1972,6 @@ const questions_en = [
   },
   "subject": "Continuum"
 },
-
-
 {
   "QUESTION_NUMBER": "99",
   "QUESTION_TEXT": "According to the TOGAF® Standard, how is risk defined in the context of Enterprise Architecture?",
@@ -2074,8 +2108,6 @@ const questions_en = [
   },
   "subject": "Risks"
 },
-
-
 {
   "QUESTION_NUMBER": "106",
   "QUESTION_TEXT": "Which option lists examples of external artifacts referenced in the Enterprise Continuum?",
@@ -2087,7 +2119,7 @@ const questions_en = [
   ],
   "EXPLANATION_TEXT": "Explanation: The Enterprise Continuum includes widely recognized external artifacts, such as the TOGAF TRM, SOA reference architectures, and models developed by industry consortia. These assets can be reused and adapted according to the organization’s context.",
   "CORRECT_ANSWER": "C",
-  "JSONINDEX": "99",
+  "JSONINDEX": "106",
   "Probability": 1,
   "versions": ["9", "10"],
   "klp": {
@@ -2189,9 +2221,9 @@ const questions_en = [
         "Probability": 1.0,
         "versions": ["9"],
         "klp": {
-            "9": ["3.7"]
+            "9": ["2.2"]
         },
-        "subject": "EA Definition"
+        "subject": "1. Introduction - Essential definitions"
     },
     {
         "QUESTION_NUMBER": "112",
@@ -2210,7 +2242,7 @@ const questions_en = [
         "klp": {
             "9": ["3.7"]
         },
-        "subject": "EA Definition"
+        "subject": "1. Introduction - Essential definitions"
     },
     {
         "QUESTION_NUMBER": "113",
@@ -2229,7 +2261,7 @@ const questions_en = [
         "klp": {
             "9": ["3.7"]
         },
-        "subject": "EA Definition"
+        "subject": "1. Introduction - Essential definitions"
     },
     {
         "QUESTION_NUMBER": "114",
@@ -2248,7 +2280,7 @@ const questions_en = [
         "klp": {
             "9": ["3.7"]
         },
-        "subject": "EA Definition"
+        "subject": "1. Introduction - Essential definitions"
     },
 
     {
@@ -2269,7 +2301,7 @@ const questions_en = [
             "9": ["1.3"],
             "10": ["{S0} §1.1"]
         },
-        "subject": "EA Definition"
+        "subject": "1. Introduction - Essential definitions"
     },
     {
         "QUESTION_NUMBER": "116",
@@ -2288,7 +2320,7 @@ const questions_en = [
         "klp": {
             "10": ["G20F §1.2"]
         },
-        "subject": "EA Definition"
+        "subject": "1. Introduction - Essential definitions"
     },
     {
         "QUESTION_NUMBER": "117",
@@ -2308,7 +2340,7 @@ const questions_en = [
             "9": ["1.3"],
             "10": ["{S0} §1.1"]
         },
-        "subject": "EA Definition"
+        "subject": "1. Introduction - Essential definitions"
     },
     {
         "QUESTION_NUMBER": "118",
@@ -2327,7 +2359,7 @@ const questions_en = [
         "klp": {
             "10": ["G186 §3.1"]
         },
-        "subject": "EA Definition"
+        "subject": "1. Introduction - Essential definitions"
     },
     {
         "QUESTION_NUMBER": "119",
@@ -2346,7 +2378,7 @@ const questions_en = [
         "klp": {
             "10": ["G20F §1.2"]
         },
-        "subject": "EA Definition"
+        "subject": "1. Introduction - Essential definitions"
     },
 
     {
@@ -2464,8 +2496,1431 @@ const questions_en = [
         "10": ["{S0} §4.75"]
     },
     "subject": "Stakeholder"
+},
+
+{
+    "QUESTION_NUMBER": "126",
+
+    "QUESTION_TEXT": "The leadership of an enterprise expects Enterprise Architecture to help the organization respond more effectively to changes in the market. Which option brings together outcomes that are consistent with this objective?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Greater Enterprise agility aligned with strategy, adoption of new business and technology trends, support for Digital Transformation, and changes to organizational and operating models.",
+        "B. Greater organizational stability, fewer strategic changes, and preservation of existing operating models.",
+        "C. Greater autonomy for business areas to define independent strategies and adopt technologies without enterprise-wide coordination.",
+        "D. Concentration of strategic decisions within the IT function and reduced participation of business leaders."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: Benefits of Enterprise Architecture for more effective strategic decision-making include quick response to change and Enterprise agility aligned with the organization strategy, organizational transformation through the adoption of new business and technology trends, organizational change to support Digital Transformation, and organizational and operating model changes to improve efficiency and effectiveness.",
+
+    "CORRECT_ANSWER": "A",
+
+    "JSONINDEX": "126",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["1.3"],
+        "10": ["{S0} §1.1"]
+    },
+
+    "subject": "1. Introduction - Benefits of EA"
+},
+
+{
+    "QUESTION_NUMBER": "127",
+
+    "QUESTION_TEXT": "An enterprise wants to assess whether its Enterprise Architecture is contributing to more effective and efficient business operations. Which set of outcomes would indicate this?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. More specialized business units, greater independence between capabilities, and increased controls over change.",
+        "B. Lower business operation and change management costs, greater agility, shared business capabilities, a more flexible workforce, improved productivity, and better integration in support of mergers and acquisitions.",
+        "C. A larger number of systems, more specialized teams, and less sharing of business capabilities across the organization.",
+        "D. Complete organizational standardization, elimination of operational change, and centralization of all business capabilities."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: Benefits related to more effective and efficient business operations include lower business operation costs, a more agile organization, business capabilities shared across the organization, lower change management costs, a more flexible workforce, improved business productivity, and improved organization integration in support of mergers and acquisitions.",
+
+    "CORRECT_ANSWER": "B",
+
+    "JSONINDEX": "127",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["1.3"],
+        "10": ["{S0} §1.1"]
+    },
+
+    "subject": "1. Introduction - Benefits of EA"
+},
+
+{
+    "QUESTION_NUMBER": "128",
+
+    "QUESTION_TEXT": "An enterprise is modernizing its digital environment. Which option contains only benefits that Enterprise Architecture can provide in this context?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Elimination of differences between systems, adoption of a single vendor, and complete replacement of existing components.",
+        "B. Centralization of all operations, reduction of integration, and preservation of existing systems to minimize the risks of change.",
+        "C. Extended digital reach, a more harmonized environment, lower technology-related costs, improved interoperability and system management, better handling of Enterprise-wide issues, and easier replacement of system components.",
+        "D. Greater independence between technology components, increased specialization of systems, and reduced need for integration."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: Benefits related to more effective and efficient Digital Transformation and operations include extending the effective reach of the Enterprise through digital capability, bringing Enterprise components into a harmonized environment, lowering development, deployment, operations, support, and maintenance costs, improving interoperability and system management, improving the ability to address critical Enterprise-wide issues such as security, and making system components easier to upgrade or exchange.",
+
+    "CORRECT_ANSWER": "C",
+
+    "JSONINDEX": "128",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["1.3"],
+        "10": ["{S0} §1.1"]
+    },
+
+    "subject": "1. Introduction - Benefits of EA"
+},
+
+{
+    "QUESTION_NUMBER": "129",
+
+    "QUESTION_TEXT": "When reviewing investments in business and IT, an enterprise wants to make better use of what it already has without limiting future choices. How can Enterprise Architecture contribute?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. By prioritizing new investments over existing ones and requiring solutions to be developed internally.",
+        "B. By gradually eliminating existing investments in order to reduce architecture complexity.",
+        "C. By standardizing the make, buy, or outsource decision so that the same option is used throughout the Enterprise.",
+        "D. By reducing complexity, maximizing return on existing investments, providing flexibility to make, buy, or outsource solutions, and helping the enterprise understand how return on investment changes over time."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: Enterprise Architecture can provide better return on existing investment and reduce risk for future investment by reducing complexity in business and IT, maximizing return on existing business and IT investments, providing flexibility to make, buy, or outsource business and IT solutions, and supporting an understanding of how return on investment changes over time.",
+
+    "CORRECT_ANSWER": "D",
+
+    "JSONINDEX": "129",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["1.3"],
+        "10": ["{S0} §1.1"]
+    },
+
+    "subject": "1. Introduction - Benefits of EA"
+},
+
+{
+    "QUESTION_NUMBER": "130",
+
+    "QUESTION_TEXT": "An enterprise considers its procurement process slow and poorly coordinated. Which scenario demonstrates expected Enterprise Architecture benefits for procurement?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Procurement information is readily available in a coherent plan, buying decisions are simpler, speed and flexibility are improved without sacrificing architectural coherence, and heterogeneous multi-vendor open systems and more economic capabilities can be procured.",
+        "B. Procurement is concentrated with a single vendor in order to reduce the need for architectural analysis.",
+        "C. Each business area has greater autonomy to procure solutions even when this compromises architectural coherence.",
+        "D. The range of vendors is reduced and the lowest price is always prioritized regardless of architectural requirements."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: Enterprise Architecture can enable faster, simpler, and cheaper procurement. Buying decisions become simpler because procurement information is readily available in a coherent plan; the procurement process can become faster and more flexible without sacrificing architectural coherence; and the enterprise can procure heterogeneous, multi-vendor open systems and secure more economic capabilities.",
+
+    "CORRECT_ANSWER": "A",
+
+    "JSONINDEX": "130",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["1.3"],
+        "10": ["{S0} §1.1"]
+    },
+
+    "subject": "1. Introduction - Benefits of EA"
+},
+
+{
+    "QUESTION_NUMBER": "131",
+
+    "QUESTION_TEXT": "An enterprise has different stakeholder interests and must continually evolve without losing its strategic direction. Which description best represents the contribution of Enterprise Architecture?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. It defines an ideal configuration of the Enterprise that, once achieved, should be preserved in order to reduce the impact of change.",
+        "B. It helps optimize the Enterprise to realize its strategy or mission, enables its components to work together, supports responsiveness to change, facilitates the exploitation of opportunities, and helps balance conflicting demands.",
+        "C. It seeks to optimize each Enterprise component independently, allowing each area to choose the solution that produces the best local results.",
+        "D. It prioritizes technology efficiency because competitive advantage depends primarily on optimizing IT components."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: The purpose of Enterprise Architecture is to optimize the Enterprise to realize a specific business strategy or mission. This optimization must be responsive to change and requires Enterprise components to work together. Enterprise Architecture also provides strategic context for the evolution of the Enterprise, facilitates effective management and the exploitation of opportunities, and helps achieve the right balance across conflicting demands.",
+
+    "CORRECT_ANSWER": "B",
+
+    "JSONINDEX": "131",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["1.3"],
+        "10": ["G184 §3.6"]
+    },
+
+    "subject": "1. Introduction - Benefits of EA"
+},
+
+{
+    "QUESTION_NUMBER": "132",
+
+    "QUESTION_TEXT": "An organization is reviewing its business strategy, governance structure, internal organization, and key business processes. According to the TOGAF Standard, which architecture domain focuses on these concerns?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Business Architecture",
+        "B. Data Architecture",
+        "C. Application Architecture",
+        "D. Technology Architecture"
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: Business Architecture defines the business strategy, governance, organization, and key business processes. Therefore, an analysis focused on these elements belongs to this architecture domain.",
+
+    "CORRECT_ANSWER": "A",
+
+    "JSONINDEX": "132",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["2.3"],
+        "10": ["{S0} §3.3"]
+    },
+
+    "subject": "1. Introduction - Architecture Domains"
+},
+
+{
+    "QUESTION_NUMBER": "133",
+
+    "QUESTION_TEXT": "During an Enterprise Architecture initiative, the team needs to represent the organization's logical and physical data assets and the resources used for their management. Which domain should primarily be considered?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Application Architecture",
+        "B. Data Architecture",
+        "C. Technology Architecture",
+        "D. Business Architecture"
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: Data Architecture describes the structure of an organization's logical and physical data assets and data management resources.",
+
+    "CORRECT_ANSWER": "B",
+
+    "JSONINDEX": "133",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["2.3"],
+        "10": ["{S0} §3.3"]
+    },
+
+    "subject": "1. Introduction - Architecture Domains"
+},
+
+{
+    "QUESTION_NUMBER": "134",
+
+    "QUESTION_TEXT": "A team is defining which applications will be deployed, how they will interact with each other, and how they relate to the organization's key business processes. Which domain is being developed?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Data Architecture",
+        "B. Business Architecture",
+        "C. Application Architecture",
+        "D. Technology Architecture"
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: Application Architecture provides a blueprint for the individual applications to be deployed, their interactions, and their relationships to the core business processes of the organization.",
+
+    "CORRECT_ANSWER": "C",
+
+    "JSONINDEX": "134",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["2.3"],
+        "10": ["{S0} §3.3"]
+    },
+
+    "subject": "1. Introduction - Architecture Domains"
+},
+
+{
+    "QUESTION_NUMBER": "135",
+
+    "QUESTION_TEXT": "An organization wants to address security comprehensively by combining perspectives from different architecture domains. According to the TOGAF Standard, how can this need be addressed?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Security must be addressed exclusively as part of Technology Architecture.",
+        "B. A fifth fundamental domain must replace the four existing domains.",
+        "C. Security must be addressed exclusively as part of Business Architecture.",
+        "D. Views of the four domains can be combined to create a specific Security Architecture domain."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: In addition to the four commonly accepted domains — Business, Data, Application, and Technology — the TOGAF Standard enables appropriate views of these domains to be combined to create other specific domains. Risk and Security Architectures are examples provided by the standard.",
+
+    "CORRECT_ANSWER": "D",
+
+    "JSONINDEX": "135",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["2.3"],
+        "10": ["{S0} §3.3"]
+    },
+
+    "subject": "1. Introduction - Architecture Domains"
+},
+
+{
+    "QUESTION_NUMBER": "136",
+
+    "QUESTION_TEXT": "Which option correctly identifies the commonly accepted architecture domains supported by the TOGAF Standard?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Strategic, Segment, and Capability",
+        "B. Breadth, Depth, Time, and Recency",
+        "C. Business, Data, Application, and Technology",
+        "D. Deliverable, Artifact, Building Block, View, and Viewpoint"
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: The four commonly accepted architecture domains supported by the TOGAF Standard are Business Architecture, Data Architecture, Application Architecture, and Technology Architecture. Strategic Architecture, Segment Architecture, and Capability Architecture represent levels of architecture granularity. Breadth, Depth, Time, and Recency are characteristics used to organize the Architecture Landscape. Deliverable, Artifact, Building Block, View, and Viewpoint are concepts formalized in the Architecture Content Framework.",
+
+    "CORRECT_ANSWER": "C",
+
+    "JSONINDEX": "136",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["2.3"],
+        "10": ["{S0} §3.3"]
+    },
+
+    "subject": "1. Introduction - Architecture Domains"
+},
+
+{
+    "QUESTION_NUMBER": "137",
+    "QUESTION_TEXT": "An organization wants to adopt an Enterprise Architecture framework, but needs to adapt it to its characteristics without losing a common way of working. According to the TOGAF Standard, what should result from this tailoring?",
+    "POSSIBLE_ANSWERS": [
+        "A. A fixed set of Reference Architectures applicable to all areas.",
+        "B. A detailed specification of the solutions that must make up the target state.",
+        "C. A set of tools and a common vocabulary suited to the needs of the organization.",
+        "D. A single transformation process that eliminates the need for further tailoring."
+    ],
+    "EXPLANATION_TEXT": "Explanation: An architecture framework is typically tailored to meet the specific needs of the organization. According to the TOGAF Standard, this tailoring should establish a set of tools and a common vocabulary, allowing the framework to be used appropriately within the organization's context.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "137",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["1.3"],
+        "10": ["{S0} §1.1"]
+    },
+    "subject": "1. Introduction - Architecture Framework"
+},
+{
+    "QUESTION_NUMBER": "138",
+    "QUESTION_TEXT": "An organization is about to begin a major transformation and has decided to use the TOGAF Standard. Which outcome is most closely aligned with the expected value of this choice?",
+    "POSSIBLE_ANSWERS": [
+        "A. An Enterprise Architecture that is consistent, employs best practice, and considers both current requirements and perceived future business needs.",
+        "B. An Enterprise Architecture primarily focused on standardizing the technologies used by the organization.",
+        "C. Reduced stakeholder participation in order to make architecture development more efficient.",
+        "D. An architecture independent of the organization's characteristics, ensuring greater uniformity across enterprises."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Using the TOGAF Standard results in Enterprise Architecture that is consistent, reflects the needs of stakeholders, employs best practice, and gives due consideration both to current requirements and the perceived future needs of the business.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "138",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["1.3"],
+        "10": ["{S0} §1.1"]
+    },
+    "subject": "1. Introduction - Architecture Framework"
+},
+{
+    "QUESTION_NUMBER": "139",
+    "QUESTION_TEXT": "An organization usually involves its Enterprise Architecture team only after the main transformation decisions have already been approved. According to the TOGAF Standard, what is the main limitation of this approach?",
+    "POSSIBLE_ANSWERS": [
+        "A. The architecture can no longer describe the baseline and target states.",
+        "B. Building blocks can no longer be used to represent the Enterprise.",
+        "C. The organization loses the ability to use recognized best practices.",
+        "D. Enterprise Architecture tends to merely document or enforce decisions already made, without providing prior insight into their implications."
+    ],
+    "EXPLANATION_TEXT": "Explanation: To gain the greatest benefit from Enterprise Architecture, it should be done early and throughout the change process, helping decision-makers understand the implications of their decisions. When it is done only after decisions have been made, it is merely documentation of those decisions or, at best, enforcement of them.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "139",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["1.3"],
+        "10": ["{S0} §1.1"]
+    },
+    "subject": "1. Introduction - Architecture Framework"
+},
+{
+    "QUESTION_NUMBER": "140",
+    "QUESTION_TEXT": "An organization wants to structure its Enterprise Architecture capability to support change at different levels of scale, pace, and detail. Which set best represents the support provided by the TOGAF Standard?",
+    "POSSIBLE_ANSWERS": [
+        "A. A technology catalog, a procurement process, and a set of ready-made architectures.",
+        "B. A standard cycle of change, a description of building blocks, and guidelines, techniques, and advice for creating and maintaining the architecture.",
+        "C. A governance model, a mandatory organizational structure, and a software development method.",
+        "D. A set of reference solutions, mandatory technical standards, and processes specific to Digital Transformation."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The TOGAF Standard provides a definition and description of a standard cycle of change, a definition and description of the building blocks in an Enterprise, and a set of guidelines, techniques, and advice to create and maintain an effective Enterprise Architecture and deliver change through new Solution Architectures.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "140",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G20F §1.2"]
+    },
+    "subject": "1. Introduction - Architecture Framework"
+},
+{
+    "QUESTION_NUMBER": "141",
+    "QUESTION_TEXT": "An organization is considering whether to create its Enterprise Architecture approach from scratch or adopt an architecture framework. Which option identifies benefits associated with using a framework, according to the TOGAF Standard?",
+    "POSSIBLE_ANSWERS": [
+        "A. Providing a structured approach, establishing a common vocabulary, and allowing tailoring to the specific needs of the organization.",
+        "B. Providing a ready-made architecture, eliminating the need for tailoring, and standardizing all organizational decisions.",
+        "C. Focusing the work on technology, replacing decision-making processes, and defining the target state in advance.",
+        "D. Preventing changes to the adopted method, establishing mandatory tools, and eliminating the need to consider different use-cases."
+    ],
+    "EXPLANATION_TEXT": "Explanation: An architecture framework provides a foundational structure and a method to support architecture development. It is typically tailored to meet the specific needs of the organization, and this tailoring should establish a set of tools and a common vocabulary. The TOGAF Standard also provides recognized best practices that help standardize and de-risk the architecture development process.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "141",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["1.3"],
+        "10": ["{S0} §1.1"]
+    },
+    "subject": "1. Introduction - Architecture Framework"
+},
+
+
+{
+    "QUESTION_NUMBER": "142",
+    "QUESTION_TEXT": "What are the two main components that comprise the TOGAF Standard?",
+    "POSSIBLE_ANSWERS": [
+        "A. The TOGAF Fundamental Content and the TOGAF Series Guides.",
+        "B. The ADM and the TOGAF Library.",
+        "C. The Content Framework and the Architecture Repository.",
+        "D. The ADM Techniques and reference models."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The TOGAF Standard comprises the TOGAF Fundamental Content and a collection of TOGAF Series Guides, which provide practical guidance in the application of the TOGAF Standard.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "142",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["{S0} §2.2"]
+    },
+    "subject": "1. Introduction - Structure of the TOGAF Standard"
+},
+
+{
+    "QUESTION_NUMBER": "143",
+    "QUESTION_TEXT": "An enterprise already has its own architecture framework and wants to use only selected parts of the TOGAF Standard. Which approach is consistent with the Standard?",
+    "POSSIBLE_ANSWERS": [
+        "A. The enterprise must completely replace its existing framework before using the TOGAF Standard.",
+        "B. The enterprise may select particular documents for adoption and merge aspects of the TOGAF Standard with its existing framework.",
+        "C. Adoption of the ADM requires the mandatory adoption of all materials related to Architecture Capability.",
+        "D. Only organizations without an existing architecture framework may adopt the TOGAF Standard incrementally."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Although the constituent documents of the TOGAF Standard work together as a whole, particular documents may be selected for adoption. Organizations that have already deployed architecture frameworks may also merge those frameworks with aspects of the TOGAF Standard.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "143",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["{S0} §2.2"]
+    },
+    "subject": "1. Introduction - Structure of the TOGAF Standard"
+},
+
+{
+    "QUESTION_NUMBER": "144",
+    "QUESTION_TEXT": "Which of the following is NOT one of the six free-standing documents that make up the TOGAF Standard Fundamental Content?",
+    "POSSIBLE_ANSWERS": [
+        "A. The TOGAF Standard — ADM Techniques.",
+        "B. The TOGAF Standard — Architecture Content.",
+        "C. The TOGAF Standard — Enterprise Architecture Capability and Governance.",
+        "D. The TOGAF Standard — Security Architecture and Risk Management."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Security Architecture and Risk Management is not one of the six documents in the TOGAF Standard Fundamental Content. Security Architecture is an example of an area for which the TOGAF Series Guides may provide specific guidance.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "144",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["{S0} §2.2"]
+    },
+    "subject": "1. Introduction - Structure of the TOGAF Standard"
+},
+
+{
+    "QUESTION_NUMBER": "145",
+    "QUESTION_TEXT": "An architect needs more detailed guidance for applying the TOGAF Standard to a specific need that is not covered in depth by the fundamental content. Where should they look first?",
+    "POSSIBLE_ANSWERS": [
+        "A. Exclusively in the document that describes the ADM.",
+        "B. Only in the Fundamental Content documents, since they contain all practical guidance.",
+        "C. In the TOGAF Series Guides, which provide guidance for more specific needs, concerns, and use-cases.",
+        "D. Only in materials published outside the TOGAF Standard by other organizations."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The TOGAF Series Guides supplement the fundamental content and are designed to support more specific practitioner needs where further explanation or more detail is required.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "145",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["{S0} §2.2"]
+    },
+    "subject": "1. Introduction - Structure of the TOGAF Standard"
+},
+
+{
+    "QUESTION_NUMBER": "146",
+    "QUESTION_TEXT": "Why are the guidelines and techniques that support the ADM described separately from the description of the ADM itself?",
+    "POSSIBLE_ANSWERS": [
+        "A. So that they can be used only after all ADM phases have been completed.",
+        "B. So that they can be referenced from relevant points in the ADM without cluttering its description with detailed text.",
+        "C. So that they can be applied independently of the TOGAF Standard.",
+        "D. So that they can replace the activities defined in the ADM phases when necessary."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The individual guidelines and techniques are described separately so that they can be referenced from the relevant points in the ADM as necessary, rather than having the detailed text clutter the description of the ADM itself.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "146",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["{S1} §1.1.3"]
+    },
+    "subject": "1. Introduction - Structure of the TOGAF Standard"
+},
+
+{
+    "QUESTION_NUMBER": "147",
+
+    "QUESTION_TEXT": "An enterprise has created a team of experienced architects, but has not yet clearly defined roles, responsibilities, and processes for architecture activities. According to the TOGAF Standard, which action best contributes to establishing its Architecture Capability?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Establish the business capability for architecture through organization structures, roles, responsibilities, skills, and processes.",
+        "B. Focus on producing architectures, leaving the organization of the architecture practice to later stages.",
+        "C. Replace formal structures and responsibilities with governance mechanisms applied only to projects.",
+        "D. Limit the capability to hiring professionals with specialized technical knowledge."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: To carry out architecture activities effectively, it is necessary to establish an appropriate business capability for architecture through organization structures, roles, responsibilities, skills, and processes.",
+
+    "CORRECT_ANSWER": "A",
+
+    "JSONINDEX": "147",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["2.9"],
+        "10": ["{S0} §3.13"]
+    },
+
+    "subject": "5. Governance – Establishing EA Capability"
+},
+
+{
+    "QUESTION_NUMBER": "148",
+
+    "QUESTION_TEXT": "An Enterprise Architecture practice already uses the core ADM processes. Its leader believes this is sufficient to keep the practice operating on an ongoing basis. According to the TOGAF Standard, which assessment is correct?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. This is correct because the ADM processes include all capabilities required to operate the practice.",
+        "B. This is incorrect because an ongoing practice should operate as a business unit and also establish management capabilities such as Financial, Performance, Resource, and Risk Management.",
+        "C. This is correct provided that the team has clearly defined roles and responsibilities.",
+        "D. This is incorrect because an ongoing practice should replace the ADM processes with operational management processes."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: An ongoing Enterprise Architecture practice needs a firm operational footing and should be treated like a business. In addition to the core ADM processes, it should establish capabilities such as Financial Management, Performance Management, Risk and Opportunity Management, and Resource Management.",
+
+    "CORRECT_ANSWER": "B",
+
+    "JSONINDEX": "148",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["2.9"],
+        "10": ["{S0} §3.14"]
+    },
+
+    "subject": "5. Governance – Establishing EA Capability"
+},
+
+{
+    "QUESTION_NUMBER": "149",
+
+    "QUESTION_TEXT": "An organization wants to increase oversight of decisions made at lower levels that may have significant strategic consequences. Which benefit of Architecture Governance is most directly related to this objective?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Increased reuse of existing architecture components.",
+        "B. Greater shareholder value through protection of intellectual property.",
+        "C. Increased visibility of decision-making, enabling oversight at an appropriate level of the enterprise.",
+        "D. Integration with existing processes through the addition of control capabilities."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: One benefit of Architecture Governance is increased visibility of decision-making. This ensures that decisions made at lower levels, but which may have far-reaching strategic consequences, are subject to oversight at an appropriate level.",
+
+    "CORRECT_ANSWER": "C",
+
+    "JSONINDEX": "149",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["2.9"],
+        "10": ["{S0} §3.14"]
+    },
+
+    "subject": "5. Governance – Establishing EA Capability"
+},
+
+{
+    "QUESTION_NUMBER": "150",
+
+    "QUESTION_TEXT": "According to the TOGAF Standard, what is necessary to establish an appropriate Architecture Capability within an enterprise?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Only a set of tools and repositories for storing architecture artifacts.",
+        "B. A specific process used exclusively to execute the ADM.",
+        "C. A structure focused only on defining architecture standards and principles.",
+        "D. Organization structures, roles, responsibilities, skills, and processes that support architecture activities."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: An Architecture Capability is established through organization structures, roles, responsibilities, skills, and processes, providing the conditions required to carry out architecture activities effectively.",
+
+    "CORRECT_ANSWER": "D",
+
+    "JSONINDEX": "150",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["2.9"],
+        "10": ["{S0} §3.13"]
+    },
+
+    "subject": "5. Governance – Establishing EA Capability"
+},
+
+{
+    "QUESTION_NUMBER": "151",
+
+    "QUESTION_TEXT": "A team questions whether the ADM can be used to architect the enterprise's own Architecture Capability. According to the TOGAF Standard, which answer is correct?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. No, because the ADM applies only to the four architecture domains.",
+        "B. No, because the Architecture Capability must be established exclusively through the Preliminary Phase.",
+        "C. Yes. The concepts of the ADM can be used to architect an Architecture Capability, just as they can be used for other capabilities, portfolios, or organizational strategies.",
+        "D. Yes, but only after the enterprise has developed a complete Enterprise Architecture."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: The TOGAF Standard indicates that there is no fundamental difference between exercising the ADM to architect an EA Capability, a financial capability, a portfolio, or an organizational strategy. The application of ADM steps is limited by the context of the work.",
+
+    "CORRECT_ANSWER": "C",
+
+    "JSONINDEX": "151",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["40.1"],
+        "10": ["G184 §13.1"]
+    },
+
+    "subject": "5. Governance – Establishing EA Capability"
+},
+
+{
+    "QUESTION_NUMBER": "152",
+
+    "QUESTION_TEXT": "When defining the business objectives for its EA Capability, an enterprise is using Phase A at the Capability Level. Which of the following is an expected result of this work?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. A fully executed Implementation and Migration Plan.",
+        "B. Only the definition of the EA Content Metamodel.",
+        "C. Final implementation of the organizational structure for the architecture team.",
+        "D. A candidate EA Capability, a candidate operating model, and an EA Capability gap and priority roadmap."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: At the Capability Level, Phase A helps establish the business objectives for the EA Capability. Its results include initial goals and objectives, selection of a reference EA Capability and maturity model, a candidate EA Capability, a candidate operating model, and an EA Capability gap and priority roadmap.",
+
+    "CORRECT_ANSWER": "D",
+
+    "JSONINDEX": "152",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["40.1"],
+        "10": ["G184 §13.1"]
+    },
+
+    "subject": "5. Governance – Establishing EA Capability"
+},
+
+{
+    "QUESTION_NUMBER": "153",
+
+    "QUESTION_TEXT": "An organization has already defined the objectives, governance, and organizational model for its EA Capability. It now needs to organize how that capability will be developed through changes to the organizational model, process model, EA Content Framework, and Architecture Repository. Which activity addresses this need?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Create the EA Capability Roadmap using Phase E.",
+        "B. Redefine the enterprise context using a partial Phase B.",
+        "C. Customize only the EA Content Metamodel using Phase C.",
+        "D. Immediately execute Phase G to govern all changes."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: Phase E is used to create the EA Capability Roadmap, highlighting development of the capability through changes in the organizational model, process model, EA Content Framework, and Architecture Repository.",
+
+    "CORRECT_ANSWER": "A",
+
+    "JSONINDEX": "153",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["40.1"],
+        "10": ["G184 §13.1"]
+    },
+
+    "subject": "5. Governance – Establishing EA Capability"
+},
+
+{
+    "QUESTION_NUMBER": "154",
+
+    "QUESTION_TEXT": "According to the TOGAF Standard, which statement best describes an Architecture Capability?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. The set of architectures developed by the enterprise over time.",
+        "B. The business capability that enables the enterprise to carry out architecture activities effectively.",
+        "C. The set of tools used to document and store architecture artifacts.",
+        "D. The application of the ADM exclusively to develop the Enterprise Architecture."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: An Architecture Capability is the business capability required for the enterprise to carry out architecture activities effectively. It is supported by elements such as organization structures, roles, responsibilities, skills, and processes.",
+
+    "CORRECT_ANSWER": "B",
+
+    "JSONINDEX": "154",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["2.9"],
+        "10": ["{S0} §3.13"]
+    },
+
+    "subject": "5. Governance – Establishing EA Capability"
+},
+
+
+{
+    "QUESTION_NUMBER": "155",
+    "QUESTION_TEXT": "According to the TOGAF Standard, what is Architecture Governance?",
+    "POSSIBLE_ANSWERS": [
+        "A. The exclusive management of technology implementation projects.",
+        "B. The practice and orientation by which Enterprise Architectures and other architectures are managed and controlled at an enterprise-wide level.",
+        "C. The process of developing the requirements for a Target Architecture.",
+        "D. The application of the ADM without any adaptation by the organization."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Architecture Governance is the practice and orientation by which Enterprise Architectures and other architectures are managed and controlled at an enterprise-wide level. It typically operates within a broader hierarchy of governance structures.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "155",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["44.1"],
+        "10": ["{S5} §3.1.1"]
+    },
+    "subject": "5. Governance – EA Governance"
+},
+
+{
+    "QUESTION_NUMBER": "156",
+    "QUESTION_TEXT": "Which governance domains are identified by the TOGAF Standard as potentially coexisting within an organization?",
+    "POSSIBLE_ANSWERS": [
+        "A. Corporate Governance, Financial Governance, Data Governance, and Project Governance.",
+        "B. Strategic Governance, Tactical Governance, Operational Governance, and IT Governance.",
+        "C. Corporate Governance, Process Governance, Project Governance, and Architecture Governance.",
+        "D. Corporate Governance, Technology Governance, IT Governance, and Architecture Governance."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The TOGAF Standard identifies Corporate Governance, Technology Governance, IT Governance, and Architecture Governance as distinct governance domains. These domains may also exist at different geographic levels, such as global, regional, and local.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "156",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["44.1"],
+        "10": ["{S5} §3.1.1"]
+    },
+    "subject": "5. Governance – EA Governance"
+},
+
+{
+    "QUESTION_NUMBER": "157",
+    "QUESTION_TEXT": "Which set contains only governance characteristics identified by the TOGAF Standard?",
+    "POSSIBLE_ANSWERS": [
+        "A. Discipline, transparency, independence, accountability, responsibility, and fairness.",
+        "B. Centralization, standardization, authority, efficiency, compliance, and control.",
+        "C. Transparency, agility, autonomy, innovation, responsibility, and efficiency.",
+        "D. Discipline, control, productivity, authority, independence, and standardization."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The governance characteristics identified are discipline, transparency, independence, accountability, responsibility, and fairness. They highlight the value and necessity of governance within organizations.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "157",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["44.1"],
+        "10": ["G184 §6.1.1"]
+    },
+    "subject": "5. Governance – EA Governance"
+},
+
+{
+    "QUESTION_NUMBER": "158",
+    "QUESTION_TEXT": "According to the TOGAF Standard, which two distinct things must be governed in relation to the Target Architecture?",
+    "POSSIBLE_ANSWERS": [
+        "A. The business requirements and the technology requirements.",
+        "B. The work of the architecture team and the work of the stakeholders.",
+        "C. The development of the Target Architecture and all change within its scope.",
+        "D. The Reference Architecture and the projects that use that architecture."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Two distinct things must be governed: the development of the Target Architecture and all change within the scope of the Target Architecture. Governing only its development does not ensure that subsequent changes follow the intended direction.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "158",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G186 §15.1.1"]
+    },
+    "subject": "5. Governance – EA Governance"
+},
+
+{
+    "QUESTION_NUMBER": "159",
+    "QUESTION_TEXT": "Which concept in the TOGAF Standard is used to govern the development of the Target Architecture?",
+    "POSSIBLE_ANSWERS": [
+        "A. Architecture Contract.",
+        "B. Architecture Project.",
+        "C. Architecture Requirements Specification.",
+        "D. Architecture Repository."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The key concept provided by the TOGAF Standard to govern the development of the Target Architecture is the Architecture Project. It is used to direct and control the Enterprise Architecture team within a controlled scope.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "159",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G186 §15.1.1"]
+    },
+    "subject": "5. Governance – EA Governance"
+},
+
+{
+    "QUESTION_NUMBER": "160",
+    "QUESTION_TEXT": "Which concepts are used by the TOGAF Standard to govern Implementation Projects and other change?",
+    "POSSIBLE_ANSWERS": [
+        "A. Architecture Project and Request for Architecture Work.",
+        "B. Statement of Architecture Work and Architecture Repository.",
+        "C. ADM and Enterprise Continuum.",
+        "D. Architecture Contract and Architecture Requirements Specification."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The TOGAF Standard provides two key concepts to govern Implementation Projects and other change: the Architecture Contract and the Architecture Requirements Specification. They are used to direct and control the work of the implementation team.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "160",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G186 §15.1.2"]
+    },
+    "subject": "5. Governance – EA Governance"
+},
+
+{
+    "QUESTION_NUMBER": "161",
+    "QUESTION_TEXT": "During an assessment, the Architecture Board identifies that some ADM phases were skipped and required deliverables were not produced. Why is this a governance issue?",
+    "POSSIBLE_ANSWERS": [
+        "A. Because compliance with the ADM helps ensure that all considerations are made and all required deliverables are produced.",
+        "B. Because any adaptation of the ADM is prohibited by the TOGAF Standard.",
+        "C. Because only the Architecture Board is allowed to perform ADM phases.",
+        "D. Because all artifacts produced by the ADM must be approved by the stakeholders."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Compliance with the ADM is fundamental to Architecture Governance because it helps ensure that all considerations are made and all required deliverables are produced. The Architecture Board should be satisfied that the method is being applied correctly.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "161",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["4.4"],
+        "10": ["{S1} §1.4"]
+    },
+    "subject": "5. Governance – EA Governance"
+},
+
+{
+    "QUESTION_NUMBER": "162",
+    "QUESTION_TEXT": "An organization views governance mainly as strict oversight, rule enforcement, and punishment. Which approach is more aligned with the TOGAF Standard?",
+    "POSSIBLE_ANSWERS": [
+        "A. Concentrate all decisions at the highest levels of the organization.",
+        "B. Eliminate local autonomy to ensure compliance.",
+        "C. Emphasize guidance and the effective and equitable use of resources to sustain strategic objectives.",
+        "D. Prioritize adherence to rules even when they do not contribute to strategic objectives."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Governance is less about overt control and strict adherence to rules, and more about guidance and the effective and equitable use of resources to support the sustainability of the organization's strategic objectives.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "162",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["44.1"],
+        "10": ["{S5} §3.1.2"]
+    },
+    "subject": "5. Governance – EA Governance"
+},
+
+{
+    "QUESTION_NUMBER": "163",
+    "QUESTION_TEXT": "Which option best describes how Architecture Governance typically operates within an organization?",
+    "POSSIBLE_ANSWERS": [
+        "A. As an activity independent of other governance structures.",
+        "B. Within a hierarchy of governance structures.",
+        "C. Exclusively within IT Governance.",
+        "D. Only at the global level of the organization."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Architecture Governance typically does not operate in isolation. It functions within a hierarchy of governance structures that exist across the organization.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "163",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["44.1"],
+        "10": ["{S5} §3.1.1"]
+    },
+    "subject": "5. Governance – EA Governance"
+},
+
+{
+    "QUESTION_NUMBER": "164",
+    "QUESTION_TEXT": "Which of the following statements about Architecture Governance is the most correct?",
+    "POSSIBLE_ANSWERS": [
+        "A. The Practitioner controls the stakeholders and directs the implementer.",
+        "B. The implementer directs the Practitioner, while the stakeholders control the project.",
+        "C. The Practitioner and implementer are directed, and both are controlled by the stakeholder.",
+        "D. The Architecture Board alone directs and controls both the Practitioner and the implementer."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Central to the definition of governance is 'directs and controls'. Typically, the Practitioner and implementer are directed, and both are controlled by the stakeholder.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "164",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G186 §15.1.1"]
+    },
+    "subject": "5. Governance – EA Governance"
+},
+
+{
+    "QUESTION_NUMBER": "165",
+    "QUESTION_TEXT": "An Architecture Project is being initiated to address issues in the enterprise. Which combination correctly represents how it starts and its primary control?",
+    "POSSIBLE_ANSWERS": [
+        "A. It starts with a Request for Architecture Work and is primarily controlled through the Statement of Architecture Work.",
+        "B. It starts with an Architecture Contract and is controlled through the Target Architecture.",
+        "C. It starts with an Architecture Requirements Specification and is controlled through the Enterprise Continuum.",
+        "D. It starts with a Statement of Architecture Work and is controlled through the Request for Architecture Work."
+    ],
+    "EXPLANATION_TEXT": "Explanation: An Architecture Project starts with a Request for Architecture Work. Its primary control is Architecture Project management using the Statement of Architecture Work.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "165",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G186 §15.1.1"]
+    },
+    "subject": "5. Governance – EA Governance"
+},
+
+{
+    "QUESTION_NUMBER": "166",
+    "QUESTION_TEXT": "Actions taken and the information supporting a governance decision can be inspected by authorized parties. Which governance characteristic does this demonstrate?",
+    "POSSIBLE_ANSWERS": [
+        "A. Responsibility.",
+        "B. Discipline.",
+        "C. Independence.",
+        "D. Transparency."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Transparency means that implemented actions and their decision support are available for inspection by authorized enterprise and provider parties.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "166",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["44.1"],
+        "10": ["G184 §6.1.1"]
+    },
+    "subject": "5. Governance – EA Governance"
+},
+
+{
+    "QUESTION_NUMBER": "167",
+    "QUESTION_TEXT": "Which statement best describes how the TOGAF Standard relates the ADM, Architecture Governance, and repositories?",
+    "POSSIBLE_ANSWERS": [
+        "A. The ADM must be governed, while other architecture artifacts are only stored in the Architecture Repository.",
+        "B. Repositories are mainly used to store the final outputs of the ADM after architecture development has been completed.",
+        "C. The ADM and other architecture artifacts and related processes should be governed within a controlled environment, typically supported by one or more repositories.",
+        "D. Using a repository removes the need to control processes related to architecture development."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The ADM is a key process that should be managed and governed in the same manner as other architecture artifacts. The management of architecture artifacts, governance, and related processes should be supported by a controlled environment, typically based on one or more repositories supporting versioned objects, process control, and status.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "167",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["4.4"],
+        "10": ["{S1} §1.4"]
+    },
+    "subject": "5. Governance – EA Governance"
+},
+
+
+{
+    "QUESTION_NUMBER": "168",
+    "QUESTION_TEXT": "According to the TOGAF Standard, what is a fundamental role of the Architecture Board in an Architecture Governance strategy?",
+    "POSSIBLE_ANSWERS": [
+        "A. Directly execute the implementation of the architectures.",
+        "B. Oversee the implementation of the strategy and represent the key stakeholders in the architecture.",
+        "C. Replace the stakeholders in decisions related to the architecture.",
+        "D. Act exclusively in the resolution of technical conflicts."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The Architecture Board is a key element of Architecture Governance and should oversee the implementation of the strategy. It should also represent the key stakeholders in the architecture and will typically include executives responsible for the review and maintenance of the overall architecture.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "168",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["41.1"],
+        "10": ["{S5} §4.1"]
+    },
+    "subject": "5. Governance – Architecture Board"
+},
+
+{
+    "QUESTION_NUMBER": "169",
+    "QUESTION_TEXT": "According to the TOGAF Standard, what scopes may an Architecture Board have?",
+    "POSSIBLE_ANSWERS": [
+        "A. Local, global, or regional.",
+        "B. Global, local, or business line.",
+        "C. Regional, local, or organization-wide.",
+        "D. Global, regional, or business line."
+    ],
+    "EXPLANATION_TEXT": "Explanation: According to the TOGAF Standard, Architecture Boards may have global, regional, or business line scope. Particularly in larger enterprises, they may also include representatives at local and global levels.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "169",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["41.1"],
+        "10": ["{S5} §4.1"]
+    },
+    "subject": "5. Governance – Architecture Board"
+},
+
+{
+    "QUESTION_NUMBER": "170",
+    "QUESTION_TEXT": "Which of the following is an operational responsibility of the Architecture Board?",
+    "POSSIBLE_ANSWERS": [
+        "A. Monitor and control aspects related to the Architecture Contract.",
+        "B. Assume the decision rights that belong to the stakeholders.",
+        "C. Determine whether the Board will have global, regional, or business line scope.",
+        "D. Become accountable for the strategic objectives of the business."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Operational responsibilities of the Architecture Board include all aspects of monitoring and control of the Architecture Contract, as well as activities such as meeting regularly and resolving ambiguities, issues, or conflicts that have been escalated.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "170",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["41.2"],
+        "10": ["{S5} §4.2"]
+    },
+    "subject": "5. Governance – Architecture Board"
+},
+
+{
+    "QUESTION_NUMBER": "171",
+    "QUESTION_TEXT": "An Architecture Board claims to hold the decision rights over the target architecture, dispensations, and enforcement. According to the TOGAF Standard, what is wrong with this situation?",
+    "POSSIBLE_ANSWERS": [
+        "A. The Board should hold only the decision rights related to dispensations.",
+        "B. The decision rights should belong to the domain experts.",
+        "C. These decision rights belong to the stakeholders; the Board owns the process and makes recommendations regarding the work performed.",
+        "D. The Board could assume these decision rights only if it had global scope."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Decision rights about the target architecture, dispensations, and enforcement are vested in the architecture's stakeholders. The EA governance board owns the process and provides a recommendation regarding the completeness and confidence in the work that led to the target architecture.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "171",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G184 §6.2"]
+    },
+    "subject": "5. Governance – Architecture Board"
+},
+
+{
+    "QUESTION_NUMBER": "172",
+    "QUESTION_TEXT": "According to the TOGAF Standard, which element acts as a control mechanism to help ensure the effective implementation of the architecture?",
+    "POSSIBLE_ANSWERS": [
+        "A. Architecture Contract",
+        "B. Architecture Compliance",
+        "C. Architecture Board",
+        "D. Enterprise Architecture"
+    ],
+    "EXPLANATION_TEXT": "Explanation: The Architecture Board acts as a fundamental control mechanism within Architecture Governance, helping to ensure the effective and consistent implementation of the architecture. Its responsibilities also include enforcing Architecture Compliance, monitoring and controlling the Architecture Contract, resolving escalated issues and conflicts, providing advice and guidance, supporting escalation for out-of-bounds decisions, and identifying divergence from the architecture that may require dispensations or policy updates.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "172",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["41.2"],
+        "10": ["{S5} §4.2"]
+    },
+    "subject": "5. Governance – Architecture Board"
+},
+
+{
+    "QUESTION_NUMBER": "173",
+
+    "QUESTION_TEXT": "According to the TOGAF Standard, what are Architecture Contracts?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Joint agreements between development partners and sponsors on the deliverables, quality, and fitness-for-purpose of an architecture.",
+        "B. Documents used exclusively to approve changes to the Enterprise Architecture.",
+        "C. Commercial contracts between technology suppliers and business units.",
+        "D. Agreements used only to establish Architecture Principles."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: Architecture Contracts are joint agreements between development partners and sponsors on the deliverables, quality, and fitness-for-purpose of an architecture. Successful implementation of these agreements is delivered through effective Architecture Governance.",
+
+    "CORRECT_ANSWER": "A",
+
+    "JSONINDEX": "173",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["43.2"],
+        "10": ["{S5} §5.1"]
+    },
+
+    "subject": "5. Governance – Contract"
+},
+
+{
+    "QUESTION_NUMBER": "174",
+
+    "QUESTION_TEXT": "Which of the following is an expected result of a governed approach to the management of Architecture Contracts?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. Eliminating the need to audit architecture-related activities.",
+        "B. Transferring all responsibility for Architecture Governance to suppliers.",
+        "C. Ensuring adherence to the principles, standards, and requirements of existing or developing architectures.",
+        "D. Allowing each team to independently define its own architecture standards."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: A governed approach to the management of Architecture Contracts should, among other things, ensure adherence to the principles, standards, and requirements of existing or developing architectures.",
+
+    "CORRECT_ANSWER": "C",
+
+    "JSONINDEX": "174",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["43.2"],
+        "10": ["{S5} §5.1"]
+    },
+
+    "subject": "5. Governance – Contract"
+},
+
+{
+    "QUESTION_NUMBER": "175",
+
+    "QUESTION_TEXT": "The Statement of Architecture Work is created in Phase A of the ADM. According to the TOGAF Standard, how can this document be understood in the context of Architecture Contracts?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. As a contract between the implementation function and the business users.",
+        "B. As an agreement exclusively between different implementation teams.",
+        "C. As a document that replaces all other Architecture Contracts.",
+        "D. As an Architecture Contract between the architecting organization and the sponsor of the Enterprise Architecture or the IT governance function."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: The Statement of Architecture Work created in Phase A of the ADM is effectively an Architecture Contract between the architecting organization and the sponsor of the Enterprise Architecture, or the IT governance function.",
+
+    "CORRECT_ANSWER": "D",
+
+    "JSONINDEX": "175",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["43.2"],
+        "10": ["{S5} §5.1"]
+    },
+
+    "subject": "5. Governance – Contract"
+},
+
+{
+    "QUESTION_NUMBER": "176",
+
+    "QUESTION_TEXT": "An organization is beginning Phase G of the ADM and needs to formalize the relationship between the architecture function and the function responsible for implementation. According to the TOGAF Standard, which mechanism is appropriate?",
+
+    "POSSIBLE_ANSWERS": [
+        "A. A new complete cycle of the ADM.",
+        "B. An Architecture Contract.",
+        "C. An independent set of Architecture Principles.",
+        "D. A new Reference Architecture."
+    ],
+
+    "EXPLANATION_TEXT": "Explanation: At the beginning of Phase G, an Architecture Contract may be established between the architecture function and the function responsible for implementing the Enterprise Architecture defined in the preceding ADM phases. The Architecture Contract is key to governing the implementation.",
+
+    "CORRECT_ANSWER": "B",
+
+    "JSONINDEX": "176",
+
+    "Probability": 1,
+
+    "versions": ["9", "10"],
+
+    "klp": {
+        "9": ["43.2"],
+        "10": ["{S5} §5.1"]
+    },
+
+    "subject": "5. Governance – Contract"
+},
+
+{
+    "QUESTION_NUMBER": "178",
+    "QUESTION_TEXT": "Why is Architecture Compliance important according to the TOGAF Standard?",
+    "POSSIBLE_ANSWERS": [
+        "A. Because it helps ensure that projects are aligned with the Enterprise Architecture.",
+        "B. Because it eliminates the need for Architecture Governance.",
+        "C. Because it allows each project to establish its own standards.",
+        "D. Because it replaces project management activities."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Architecture Compliance helps ensure that projects are developed and implemented in accordance with the Enterprise Architecture.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "178",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["42.1"],
+        "10": ["{S5} §6.1"]
+    },
+    "subject": "5. Governance – Compliance"
+},
+
+{
+    "QUESTION_NUMBER": "179",
+    "QUESTION_TEXT": "According to the TOGAF Standard, who can approve an architecture?",
+    "POSSIBLE_ANSWERS": [
+        "A. The architect responsible for developing it.",
+        "B. The Architecture Board.",
+        "C. Subject Matter Experts (SMEs).",
+        "D. The stakeholders."
+    ],
+    "EXPLANATION_TEXT": "Explanation: According to the TOGAF Standard, only stakeholders can approve an architecture.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "179",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G186 §15.2.1"]
+    },
+    "subject": "5. Governance – Compliance"
+},
+
+{
+    "QUESTION_NUMBER": "180",
+    "QUESTION_TEXT": "What is one purpose of periodic compliance assessments of implementation projects?",
+    "POSSIBLE_ANSWERS": [
+        "A. To formally approve the Enterprise Architecture on behalf of the stakeholders.",
+        "B. To review project progress and ensure that design and implementation remain aligned with strategic and architectural objectives.",
+        "C. To determine which projects should be included in the enterprise portfolio.",
+        "D. To define the business requirements used to develop the Target Architecture."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Periodic compliance assessments provide a mechanism to review project progress and ensure that design and implementation remain aligned with strategic and architectural objectives.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "180",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["{S4} §2.13"]
+    },
+    "subject": "5. Governance – Compliance"
+},
+
+{
+    "QUESTION_NUMBER": "181",
+    "QUESTION_TEXT": "An architecture has been defined and projects have begun implementation. According to the TOGAF Standard, which practice helps verify that implementation remains aligned with architectural objectives?",
+    "POSSIBLE_ANSWERS": [
+        "A. Develop the Architecture Vision again.",
+        "B. Transfer responsibility for Architecture Governance to each project.",
+        "C. Conduct periodic compliance assessments.",
+        "D. Suspend changes to the architecture throughout implementation."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Periodic compliance assessments help verify that implementation remains aligned with the defined architecture and with strategic and architectural objectives.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "181",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["{S4} §2.13"]
+    },
+    "subject": "5. Governance – Compliance"
+},
+
+{
+    "QUESTION_NUMBER": "182",
+    "QUESTION_TEXT": "An organization wants to create a summary compliance report. Whenever possible, which approach is most consistent with the guidance in the TOGAF Standard?",
+    "POSSIBLE_ANSWERS": [
+        "A. Use a detailed scale from 1 to 10 for all criteria assessed.",
+        "B. Use binary tests of compliance and non-compliance and, when this is not possible, use a three-level scale.",
+        "C. Record only cases of non-compliance, excluding conformant or not applicable items.",
+        "D. Use only qualitative assessments without standardized classifications."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Whenever possible, binary tests of compliance and non-compliance should be used. Where binary testing is not possible, a three-level scale can be used.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "182",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G186 §15.2.3"]
+    },
+    "subject": "5. Governance – Compliance"
+},
+
+{
+    "QUESTION_NUMBER": "183",
+    "QUESTION_TEXT": "Which level of conformance indicates that all features specified in the architecture have been implemented in accordance with the specification and that no additional features have been implemented?",
+    "POSSIBLE_ANSWERS": [
+        "A. Consistent.",
+        "B. Conformant.",
+        "C. Fully Conformant.",
+        "D. Compliant."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Fully Conformant indicates complete correspondence between the architecture specification and the implementation: all specified features are implemented in accordance with the specification and no additional features are implemented.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "183",
+    "Probability": 1,
+    "versions": ["9"],
+    "klp": {
+        "9": ["42.2"]
+    },
+    "subject": "5. Governance – Compliance"
+},
+
+{
+    "QUESTION_NUMBER": "184",
+    "QUESTION_TEXT": "What is one of the main goals of an Architecture Compliance Review?",
+    "POSSIBLE_ANSWERS": [
+        "A. To catch errors in the project architecture early, reducing the cost and risk of changes required later.",
+        "B. To replace the project architecture with the Enterprise Architecture.",
+        "C. To eliminate the need for enterprise standards.",
+        "D. To define the project's business objectives."
+    ],
+    "EXPLANATION_TEXT": "Explanation: One of the main goals of an Architecture Compliance Review is to catch errors in the project architecture as early as possible, thereby reducing the cost and risk of changes required later in the lifecycle.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "184",
+    "Probability": 1,
+    "versions": ["9"],
+    "klp": {
+        "9": ["42.3"]
+    },
+    "subject": "5. Governance – Compliance"
+},
+
+{
+    "QUESTION_NUMBER": "185",
+    "QUESTION_TEXT": "Which option best describes, at a high level, the Architecture Compliance Review process?",
+    "POSSIBLE_ANSWERS": [
+        "A. Define a new Enterprise Architecture for each project.",
+        "B. Assess only the project's business requirements.",
+        "C. Replace the project team with members of the architecture function.",
+        "D. Assess the project against architectural criteria and document the results of the review."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The Architecture Compliance Review process involves assessing the project against the applicable architecture and standards, analyzing the results, and documenting the conclusions of the review.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "185",
+    "Probability": 1,
+    "versions": ["9"],
+    "klp": {
+        "9": ["42.4"]
+    },
+    "subject": "5. Governance – Compliance"
 }
-
-//Slot 65 está vago! Eu apaguei a questão e não coloquei outra no lugar.
-
 ];
