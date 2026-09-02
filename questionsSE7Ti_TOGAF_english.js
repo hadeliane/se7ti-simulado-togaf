@@ -857,7 +857,7 @@ const questions_en = [
   "CORRECT_ANSWER": "B",
   "JSONINDEX": "41",
   "Probability": 1,
-  "versions": ["9","10"]
+  "versions": ["9","10"],
     "klp": {
         "9": ["2.4"],
         "10": ["{S0} §3.4"]
@@ -877,7 +877,7 @@ const questions_en = [
   "CORRECT_ANSWER": "D",
   "JSONINDEX": "42",
   "Probability": 1,
-  "versions": ["9","10"]
+  "versions": ["9","10"],
     "klp": {
         "9": ["2.4"],
         "10": ["{S0} §3.4"]
@@ -897,7 +897,7 @@ const questions_en = [
   "CORRECT_ANSWER": "B",
   "JSONINDEX": "43",
   "Probability": 1,
-  "versions": ["9","10"]
+  "versions": ["9","10"],
     "klp": {
         "9": ["2.4"],
         "10": ["{S0} §3.4"]
@@ -917,7 +917,7 @@ const questions_en = [
   "CORRECT_ANSWER": "A",
   "JSONINDEX": "44",
   "Probability": 1,
-  "versions": ["9","10"]
+  "versions": ["9","10"],
     "klp": {
         "9": ["2.4"],
         "10": ["{S0} §3.4"]
@@ -937,7 +937,7 @@ const questions_en = [
   "CORRECT_ANSWER": "D",
   "JSONINDEX": "45",
   "Probability": 1,
-  "versions": ["9","10"]
+  "versions": ["9","10"],
     "klp": {
         "9": ["2.4"],
         "10": ["{S0} §3.4"]
@@ -957,7 +957,7 @@ const questions_en = [
   "CORRECT_ANSWER": "D",
   "JSONINDEX": "46",
   "Probability": 1,
-  "versions": ["9","10"]
+  "versions": ["9","10"],
     "klp": {
         "9": ["2.4"],
         "10": ["{S0} §3.4"]
@@ -977,7 +977,7 @@ const questions_en = [
   "CORRECT_ANSWER": "A",
   "JSONINDEX": "47",
   "Probability": 1,
-  "versions": ["9","10"]
+  "versions": ["9","10"],
     "klp": {
         "9": ["2.4"],
         "10": ["{S0} §3.4"]
@@ -997,7 +997,7 @@ const questions_en = [
   "CORRECT_ANSWER": "D",
   "JSONINDEX": "48",
   "Probability": 1,
-  "versions": ["9","10"]
+  "versions": ["9","10"],
     "klp": {
         "9": ["2.4"],
         "10": ["{S0} §3.4"]
