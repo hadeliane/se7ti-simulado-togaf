@@ -603,14 +603,14 @@ const questions = [
 
 {
     "QUESTION_NUMBER": "28",
-    "QUESTION_TEXT": "O que é realizado na Fase Preliminar, segundo o Padrão TOGAF®?",
+    "QUESTION_TEXT": "O que é realizado na 1. Fase Preliminar, segundo o Padrão TOGAF®?",
     "POSSIBLE_ANSWERS": [
         "A. A execução dos projetos-piloto de arquitetura corporativa.",
         "B. A criação de visões com catálogos e matrizes para uso em todas as fases do MDA.",
         "C. A preparação da capacidade de arquitetura, incluindo a customização do framework e definição de princípios.",
         "D. O detalhamento das arquiteturas alvo de negócio, dados, aplicações e tecnologia."
     ],
-    "EXPLANATION_TEXT": "Explicação: A Fase Preliminar descreve as atividades de preparação e iniciação necessárias para estabelecer a Capacidade de Arquitetura, incluindo a customização do Padrão TOGAF® e a definição de Princípios de Arquitetura.",
+    "EXPLANATION_TEXT": "Explicação: A 1. Fase Preliminar descreve as atividades de preparação e iniciação necessárias para estabelecer a Capacidade de Arquitetura, incluindo a customização do Padrão TOGAF® e a definição de Princípios de Arquitetura.",
     "CORRECT_ANSWER": "C",
     "JSONINDEX": "28",
     "Probability": 1,
@@ -620,19 +620,19 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
     "QUESTION_NUMBER": "29",
-    "QUESTION_TEXT": "De acordo com o Padrão TOGAF®, qual é o papel da Fase Preliminar em relação às demais fases do MDA?",
+    "QUESTION_TEXT": "De acordo com o Padrão TOGAF®, qual é o papel da 1. Fase Preliminar em relação às demais fases do MDA?",
     "POSSIBLE_ANSWERS": [
         "A. Estabelecer uma base metodológica antes do início das rodadas.",
         "B. Definir a arquitetura alvo antes das fases de execução.",
         "C. Fornecer informações operacionais para cada fase das rodadas.",
         "D. Consolidar os entregáveis finais do MDA."
     ],
-    "EXPLANATION_TEXT": "Explicação: A Fase Preliminar prepara o ambiente organizacional, metodológico e de governança antes do início das iterações do MDA (Método de Desenvolvimento da Arquitetura). Por isso, ela está posicionada fora do ciclo contínuo.",
+    "EXPLANATION_TEXT": "Explicação: A 1. Fase Preliminar prepara o ambiente organizacional, metodológico e de governança antes do início das iterações do MDA (Método de Desenvolvimento da Arquitetura). Por isso, ela está posicionada fora do ciclo contínuo.",
     "CORRECT_ANSWER": "A",
     "JSONINDEX": "29",
     "Probability": 1,
@@ -642,19 +642,19 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
     "QUESTION_NUMBER": "30",
-    "QUESTION_TEXT": "Em que momento a Fase Preliminar deve ser revisitada dentro do ciclo do MDA?",
+    "QUESTION_TEXT": "Em que momento a 1. Fase Preliminar deve ser revisitada dentro do ciclo do MDA?",
     "POSSIBLE_ANSWERS": [
         "A. Sempre que uma nova demanda de arquitetura surgir.",
         "B. Apenas quando houver mudança estratégica significativa ou necessidade de atualização na capacidade de Arquitetura Corporativa.",
         "C. No início de cada fase do ciclo.",
         "D. Durante a transição entre a Fase H e a Fase A."
     ],
-    "EXPLANATION_TEXT": "Explicação: A Fase Preliminar não é revisitada a cada nova demanda. Ela pode ser reavaliada quando houver mudanças estratégicas, estruturais ou quando for necessário atualizar a capacidade de Arquitetura Corporativa.",
+    "EXPLANATION_TEXT": "Explicação: A 1. Fase Preliminar não é revisitada a cada nova demanda. Ela pode ser reavaliada quando houver mudanças estratégicas, estruturais ou quando for necessário atualizar a capacidade de Arquitetura Corporativa.",
     "CORRECT_ANSWER": "B",
     "JSONINDEX": "30",
     "Probability": 1,
@@ -664,7 +664,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -686,7 +686,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -708,7 +708,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -730,7 +730,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -752,7 +752,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -774,7 +774,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -796,7 +796,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -818,7 +818,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -840,7 +840,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -862,7 +862,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -884,7 +884,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -906,7 +906,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -928,7 +928,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -950,7 +950,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -972,7 +972,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -994,7 +994,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -1016,7 +1016,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -1038,7 +1038,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 
 {
@@ -1060,7 +1060,7 @@ const questions = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Resumo das fases"
+    "subject": "0. Visão Geral das Fases"
 },
 {
   "QUESTION_NUMBER": "49",
@@ -1287,14 +1287,14 @@ const questions = [
 },
 {
   "QUESTION_NUMBER": "60",
-  "QUESTION_TEXT": "Uma das tarefas essenciais durante a Fase Preliminar é:",
+  "QUESTION_TEXT": "Uma das tarefas essenciais durante a 1. Fase Preliminar é:",
   "POSSIBLE_ANSWERS": [
     "A. Selecionar fornecedores de ferramentas de modelagem.",
     "B. Definir o framework de conteúdo a ser seguindo nas descrições de arquitetura.",
     "C. Implementar o repositório central de dados operacionais.",
     "D. Mapear os objetivos estratégicos das partes interessadas."
   ],
-  "EXPLANATION_TEXT": "Explicação: Uma das tarefas essenciais da Fase Preliminar é definir o framework de conteúdo para estruturar as descrições de arquitetura e os produtos gerados. As demais respostas estão incorretas porque: ( A ) Selecionar fornecedores de ferramentas de modelagem – está parcialmente relacionado, mas não é essencial, pois podemos ter arquitetura sem ferramenta de modelagem. ( C ) Implementar o repositório central de dados operacionais – está incorreta porque o TOGAF trata de repositórios de artefatos arquiteturais, não de dados operacionais. ( D ) Mapear os objetivos estratégicos das partes interessadas – é relevante em fases iniciais como a Fase A, mas não é o foco da Fase Preliminar.",
+  "EXPLANATION_TEXT": "Explicação: Uma das tarefas essenciais da 1. Fase Preliminar é definir o framework de conteúdo para estruturar as descrições de arquitetura e os produtos gerados. As demais respostas estão incorretas porque: ( A ) Selecionar fornecedores de ferramentas de modelagem – está parcialmente relacionado, mas não é essencial, pois podemos ter arquitetura sem ferramenta de modelagem. ( C ) Implementar o repositório central de dados operacionais – está incorreta porque o TOGAF trata de repositórios de artefatos arquiteturais, não de dados operacionais. ( D ) Mapear os objetivos estratégicos das partes interessadas – é relevante em fases iniciais como a Fase A, mas não é o foco da 1. Fase Preliminar.",
   "CORRECT_ANSWER": "B",
   "JSONINDEX": "60",
   "Probability": 1,
@@ -1304,7 +1304,7 @@ const questions = [
     "10": ["{S0} §3.12"]
   },
   "category": "2. ADM",
-  "subject": "Fase Preliminar"
+  "subject": "1. Fase Preliminar"
 },
 {
   "QUESTION_NUMBER": "61",
@@ -1333,7 +1333,7 @@ const questions = [
   "POSSIBLE_ANSWERS": [
     "A. O MDA organiza as informações em fases, enquanto o Framework de Conteúdo define os papéis das partes interessadas.",
     "B. O MDA representa o método de desenvolvimento, enquanto o Framework de Conteúdo organiza os produtos gerados.",
-    "C. Ambos tratam dos artefatos que compõem a arquitetura, mas o Framework de Conteúdo trata apenas da Fase Preliminar.",
+    "C. Ambos tratam dos artefatos que compõem a arquitetura, mas o Framework de Conteúdo trata apenas da 1. Fase Preliminar.",
     "D. O Framework de Conteúdo contempla a estrutura da organização, enquanto o MDA define a base orçamentária."
   ],
   "EXPLANATION_TEXT": "Explicação: O MDA (Método de Desenvolvimento da Arquitetura – ADM em inglês) descreve como a arquitetura é criada, utilizada e mantida. O Framework de Conteúdo, por sua vez, organiza e estrutura os elementos e produtos arquiteturais gerados ao longo do ADM.",
@@ -3319,7 +3319,7 @@ const questions = [
 
     "POSSIBLE_ANSWERS": [
         "A. Não, pois o MDA se aplica somente aos quatro domínios de arquitetura.",
-        "B. Não, pois a Capacidade de Arquitetura deve ser estabelecida exclusivamente pela Fase Preliminar.",
+        "B. Não, pois a Capacidade de Arquitetura deve ser estabelecida exclusivamente pela 1. Fase Preliminar.",
         "C. Sim. Os conceitos do MDA podem ser utilizados para arquitetar uma Capacidade de Arquitetura, assim como outras capacidades, portfólios ou estratégias.",
         "D. Sim, mas somente após a empresa possuir uma Arquitetura Corporativa completamente desenvolvida."
     ],
@@ -3544,8 +3544,8 @@ const questions = [
     "klp": {
         "10": ["G186 §15.1.1"]
     },
-    "category": "5. Governança",
-    "subject": "Governança de EA"
+    "category": "2. ADM",
+    "subject": "2. Fase A"
 },
 
 {
@@ -4125,7 +4125,720 @@ const questions = [
     },
     "category": "5. Governança",
     "subject": "Conformidade"
-}
+},
+
+    {
+        "QUESTION_NUMBER": "183",
+        "QUESTION_TEXT": "Quais são os dois principais objetivos da 1. Fase Preliminar do MDA, segundo o Padrão TOGAF®?",
+        "POSSIBLE_ANSWERS": [
+            "A. Definir os Princípios de Arquitetura e implementar ferramentas de arquitetura.",
+            "B. Avaliar a maturidade da arquitetura e estabelecer os processos de governança.",
+            "C. Determinar a capacidade de arquitetura desejada pela organização e estabelecer essa capacidade.",
+            "D. Identificar as organizações afetadas e definir o Modelo Organizacional para Arquitetura Corporativa."
+        ],
+        "EXPLANATION_TEXT": "Explicação: A 1. Fase Preliminar possui dois objetivos principais: determinar a capacidade de arquitetura desejada pela organização e estabelecer essa capacidade. O primeiro envolve compreender o contexto e definir a capacidade pretendida, enquanto o segundo envolve estabelecer os elementos necessários para seu funcionamento.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "183",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["5.1"],
+            "10": ["{S1} §2.1"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Fase Preliminar"
+    },
+    {
+        "QUESTION_NUMBER": "184",
+        "QUESTION_TEXT": "Uma organização está iniciando sua prática de Arquitetura Corporativa e precisa avaliar seu contexto, identificar processos existentes e definir o nível de maturidade que deseja alcançar. A qual objetivo da 1. Fase Preliminar essas atividades estão associadas?",
+        "POSSIBLE_ANSWERS": [
+            "A. Determinar a capacidade de arquitetura desejada pela organização.",
+            "B. Estabelecer a capacidade de arquitetura por meio da implementação de ferramentas.",
+            "C. Definir e estabelecer os recursos necessários para a Governança de Arquitetura.",
+            "D. Estabelecer a capacidade de arquitetura por meio da definição dos Princípios de Arquitetura."
+        ],
+        "EXPLANATION_TEXT": "Explicação: Revisar o contexto organizacional, identificar frameworks, métodos e processos existentes e estabelecer uma meta de maturidade são atividades relacionadas à determinação da capacidade de arquitetura desejada pela organização. Elas permitem compreender o ambiente no qual a capacidade será estabelecida.",
+        "CORRECT_ANSWER": "A",
+        "JSONINDEX": "184",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["5.1"],
+            "10": ["{S1} §2.1"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Fase Preliminar"
+    },
+    {
+        "QUESTION_NUMBER": "185",
+        "QUESTION_TEXT": "Determinar a Capacidade de Arquitetura desejada pela organização e estabelecer essa capacidade são objetivos de qual fase do MDA, segundo o Padrão TOGAF®?",
+        "POSSIBLE_ANSWERS": [
+            "A. Fase A",
+            "B. Fase B",
+            "C. 1. Fase Preliminar",
+            "D. Fase G"
+        ],
+        "EXPLANATION_TEXT": "Explicação: A 1. Fase Preliminar tem dois objetivos principais: determinar a Capacidade de Arquitetura desejada pela organização e estabelecer essa capacidade. Isso inclui definir a meta de maturidade, o Modelo Organizacional para Arquitetura Corporativa, os processos e recursos de governança, as ferramentas de suporte e os Princípios de Arquitetura.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "185",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["5.1"],
+            "10": ["{S1} §2.1"]
+        },
+        "category": "2. ADM",
+        "subject": "Resumão das Fases"
+    },
+
+   {
+        "QUESTION_NUMBER": "186",
+        "QUESTION_TEXT": "Uma organização identifica que seus profissionais possuem habilidades específicas e que seus sistemas também são capazes de realizar determinadas atividades. Segundo o Padrão TOGAF®, qual afirmação está correta sobre o conceito de Capacidade (Capability)?",
+        "POSSIBLE_ANSWERS": [
+            "A. Uma capacidade está sempre associada aos recursos tecnológicos de uma organização.",
+            "B. Apenas habilidades formalmente documentadas podem ser consideradas capacidades.",
+            "C. Uma capacidade representa exclusivamente as habilidades individuais dos profissionais.",
+            "D. Uma capacidade é uma habilidade que pode ser possuída por uma organização, pessoa ou sistema."
+        ],
+        "EXPLANATION_TEXT": "Explicação: Segundo o Padrão TOGAF®, uma Capacidade é uma habilidade que uma organização, pessoa ou sistema possui. Portanto, o conceito não se limita às habilidades individuais dos profissionais ou aos recursos tecnológicos.",
+        "CORRECT_ANSWER": "D",
+        "JSONINDEX": "186",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["3.30"],
+            "10": ["{S0} §4.33"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Fase Preliminar"
+    },
+    {
+        "QUESTION_NUMBER": "187",
+        "QUESTION_TEXT": "Segundo o Padrão TOGAF®, qual conceito é definido como uma habilidade que uma organização, pessoa ou sistema possui?",
+        "POSSIBLE_ANSWERS": [
+            "A. Recurso (Resource)",
+            "B. Capacidade (Capability)",
+            "C. Competência (Competence)",
+            "D. Função (Function)"
+        ],
+        "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® define Capacidade (Capability) como uma habilidade que uma organização, pessoa ou sistema possui.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "187",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["3.30"],
+            "10": ["{S0} §4.33"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Fase Preliminar"
+    },
+
+    {
+        "QUESTION_NUMBER": "188",
+        "QUESTION_TEXT": "Segundo o Padrão TOGAF®, qual é o propósito dos princípios, objetivos e direcionadores de negócio no desenvolvimento da arquitetura?",
+        "POSSIBLE_ANSWERS": [
+            "( A ) Fornecer contexto para o trabalho de arquitetura, descrevendo as necessidades e formas de trabalho da empresa.",
+            "( B ) Estabelecer os processos e métodos que devem ser obrigatoriamente utilizados pela equipe de arquitetura.",
+            "( C ) Garantir que apenas fatores diretamente relacionados à disciplina de arquitetura influenciem seu desenvolvimento.",
+            "( D ) Definir como a organização patrocinadora deve solicitar o início de um ciclo de desenvolvimento de arquitetura."
+        ],
+        "EXPLANATION_TEXT": "Explicação: Os princípios, objetivos e direcionadores de negócio fornecem contexto para o trabalho de arquitetura, descrevendo as necessidades e formas de trabalho empregadas pela empresa. Mesmo fatores externos à disciplina de arquitetura podem ter implicações significativas na forma como a arquitetura é desenvolvida.",
+        "CORRECT_ANSWER": "A",
+        "JSONINDEX": "188",
+        "Probability": 1,
+        "versions": ["10"],
+        "klp": {
+            "10": ["{S4} §4.2.9"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Fase Preliminar"
+    },
+    {
+        "QUESTION_NUMBER": "189",
+        "QUESTION_TEXT": "Uma organização está iniciando um novo trabalho de arquitetura em decorrência de um planejamento de migração. Um arquiteto afirma que a Requisição de Trabalho de Arquitetura só pode ser criada na 1. Fase Preliminar. Segundo o Padrão TOGAF®, essa afirmação está correta?",
+        "POSSIBLE_ANSWERS": [
+            "( A ) Sim, pois a Requisição de Trabalho de Arquitetura é produzida exclusivamente na 1. Fase Preliminar.",
+            "( B ) Não, pois ela também pode ser originada de Solicitações de Mudança de Arquitetura aprovadas ou de termos de referência decorrentes do planejamento de migração.",
+            "( C ) Sim, pois trabalhos originados do planejamento de migração não precisam de uma Requisição de Trabalho de Arquitetura.",
+            "( D ) Não, pois esse documento só pode ser criado após a aprovação de uma Solicitação de Mudança de Arquitetura."
+        ],
+        "EXPLANATION_TEXT": "Explicação: A Requisição de Trabalho de Arquitetura pode ser criada como uma saída da 1. Fase Preliminar, como resultado de Solicitações de Mudança de Arquitetura aprovadas ou a partir de termos de referência para trabalhos de arquitetura originados do planejamento de migração. Portanto, sua criação não está restrita à 1. Fase Preliminar.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "189",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["5.4"],
+            "10": ["{S4} §4.2.17"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Fase Preliminar"
+    },
+    {
+        "QUESTION_NUMBER": "190",
+        "QUESTION_TEXT": "Segundo o Padrão TOGAF®, qual entregável é enviado pela organização patrocinadora à organização de arquitetura, contendo informações de alto nível, com o propósito de desencadear o início de um ciclo de desenvolvimento de arquitetura?",
+        "POSSIBLE_ANSWERS": [
+            "( A ) Declaração de Trabalho de Arquitetura",
+            "( B ) Documento de Definição de Arquitetura",
+            "( C ) Solicitação de Mudança de Arquitetura",
+            "( D ) Requisição de Trabalho de Arquitetura"
+        ],
+        "EXPLANATION_TEXT": "Explicação: A Requisição de Trabalho de Arquitetura é o documento enviado pela organização patrocinadora à organização de arquitetura para desencadear o início de um ciclo de desenvolvimento de arquitetura. Em geral, as informações contidas nesse documento devem ser apresentadas em alto nível.",
+        "CORRECT_ANSWER": "D",
+        "JSONINDEX": "190",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["5.4"],
+            "10": ["{S4} §4.2.17"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Fase Preliminar"
+    },
+    {
+        "QUESTION_NUMBER": "191",
+        "QUESTION_TEXT": "Segundo o Padrão TOGAF®, quais são as quatro dimensões normalmente utilizadas para definir e limitar o escopo de uma arquitetura?",
+        "POSSIBLE_ANSWERS": [
+            "( A ) Negócio, Dados, Aplicativos e Tecnologia.",
+            "( B ) Segmento, Capacidade, Estratégia e Governança.",
+            "( C ) Amplitude, Profundidade, Período de Tempo e Domínios de Arquitetura.",
+            "( D ) Princípios de Arquitetura, Requisitos de Arquitetura, Visões e Blocos de Construção."
+        ],
+        "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® estabelece quatro dimensões normalmente utilizadas para definir e limitar o escopo de uma arquitetura: amplitude, que determina a extensão da organização abrangida; profundidade, que define o nível de detalhamento; período de tempo, que determina o horizonte temporal; e domínios de arquitetura, que definem quais domínios serão abordados.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "191",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["4.5"],
+            "10": ["{S1} §1.5"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Fase Preliminar"
+    },
+    {
+        "QUESTION_NUMBER": "192",
+        "QUESTION_TEXT": "Segundo o Padrão TOGAF®, quais são os principais fatores que podem levar à necessidade de restringir o escopo de uma atividade de arquitetura?",
+        "POSSIBLE_ANSWERS": [
+            "( A ) A necessidade de incluir todos os domínios de arquitetura e todas as unidades organizacionais.",
+            "( B ) A complexidade dos sistemas existentes e a quantidade de ferramentas de arquitetura utilizadas.",
+            "( C ) A necessidade de estabelecer Arquiteturas de Transição para todos os projetos da organização.",
+            "( D ) Os limites de autoridade da equipe, os objetivos e preocupações das partes interessadas e a disponibilidade de recursos."
+        ],
+        "EXPLANATION_TEXT": "Explicação: A necessidade de restringir o escopo de uma atividade de arquitetura está relacionada principalmente aos limites de autoridade organizacional da equipe responsável, aos objetivos e preocupações das partes interessadas que devem ser abordados e à disponibilidade de pessoas, recursos financeiros e outros recursos.",
+        "CORRECT_ANSWER": "D",
+        "JSONINDEX": "192",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["4.5"],
+            "10": ["{S1} §1.5"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Fase Preliminar"
+    },
+    {
+        "QUESTION_NUMBER": "193",
+        "QUESTION_TEXT": "Em uma grande organização, diferentes equipes de arquitetura estão desenvolvendo trabalhos duplicados e, em alguns casos, conflitantes. Segundo o Padrão TOGAF®, qual abordagem é mais adequada para evitar esse problema?",
+        "POSSIBLE_ANSWERS": [
+            "( A ) Permitir que cada equipe otimize sua própria arquitetura, independentemente das demais.",
+            "( B ) Estabelecer partições de arquitetura alinhadas, definindo relações de reutilização e conformidade entre elas.",
+            "( C ) Concentrar todos os trabalhos de arquitetura em uma única equipe, eliminando a necessidade de particionamento.",
+            "( D ) Limitar os trabalhos de arquitetura a um único domínio, evitando a necessidade de integração."
+        ],
+        "EXPLANATION_TEXT": "Explicação: O Padrão TOGAF® recomenda estabelecer partições de arquitetura alinhadas, permitindo que os trabalhos dos arquitetos sejam governados e integrados. Essas partições devem possuir relações de reutilização e conformidade definidas, evitando atividades duplicadas ou conflitantes. O objetivo é favorecer a otimização da arquitetura no nível da organização como um todo, e não apenas de cada área isoladamente.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "193",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["4.5"],
+            "10": ["{S1} §1.5"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Fase Preliminar"
+    },
+
+
+{
+    "QUESTION_NUMBER": "194",
+    "QUESTION_TEXT": "Uma organização está estruturando a governança de sua Arquitetura Corporativa e deseja utilizar diferentes repositórios para apoiar esse trabalho. Segundo o Padrão TOGAF®, qual afirmação está correta?",
+    "POSSIBLE_ANSWERS": [
+        "( A ) A governança da arquitetura exige um único Repositório de Arquitetura centralizado.",
+        "( B ) O MDA deve ser governado em um ambiente controlado, que pode ser apoiado por um ou mais repositórios.",
+        "( C ) A existência de múltiplos repositórios dispensa a necessidade de governança do MDA.",
+        "( D ) Apenas os artefatos de arquitetura precisam ser governados, não sendo necessário governar o próprio MDA."
+    ],
+    "EXPLANATION_TEXT": "Explicação: O MDA é um processo-chave que deve ser governado da mesma forma que os demais artefatos arquiteturais. Essa governança deve ser apoiada por um ambiente controlado, que pode utilizar um ou mais repositórios, com suporte a versionamento de objetos, controle de processos e acompanhamento de status. Portanto, o Padrão TOGAF® não exige que todas as informações sejam mantidas em um único repositório.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "194",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["{S1} §1.4"]
+    },
+    "category": "2. ADM",
+    "subject": "1. Fase Preliminar"
+},
+
+    {
+        "QUESTION_NUMBER": "195",
+        "QUESTION_TEXT": "Segundo o Padrão TOGAF®, quais são as principais questões que devem ser definidas durante a 1. Fase Preliminar?",
+        "POSSIBLE_ANSWERS": [
+            "( A ) Onde, o quê, por quê, quem e como a arquitetura será realizada na organização.",
+            "( B ) Quais sistemas serão desenvolvidos, quais tecnologias serão adotadas e quais projetos serão implementados.",
+            "( C ) Quais arquiteturas serão migradas, quais soluções serão adquiridas e quais mudanças serão implementadas.",
+            "( D ) Quais requisitos serão atendidos, quais entregáveis serão aprovados e quais sistemas serão substituídos."
+        ],
+        "EXPLANATION_TEXT": "Explicação: A 1. Fase Preliminar trata da definição de onde, o quê, por quê, quem e como a arquitetura será realizada na organização. Isso envolve definir a empresa, identificar direcionadores e elementos do contexto organizacional, estabelecer requisitos e Princípios de Arquitetura, definir frameworks e suas relações e avaliar a maturidade da Arquitetura Corporativa.",
+        "CORRECT_ANSWER": "A",
+        "JSONINDEX": "195",
+        "Probability": 1,
+        "versions": ["9"],
+        "klp": {
+            "9": ["5.5"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Fase Preliminar"
+    },
+    {
+        "QUESTION_NUMBER": "196",
+        "QUESTION_TEXT": "Segundo o Padrão TOGAF®, qual afirmação está correta sobre a adaptação do MDA às necessidades de uma organização?",
+        "POSSIBLE_ANSWERS": [
+            "( A ) O MDA deve ser aplicado exatamente como documentado, independentemente das características da organização.",
+            "( B ) A adaptação do MDA permite modificar suas atividades, mas não a sequência de suas fases.",
+            "( C ) O MDA é um método genérico que pode ser adaptado às necessidades da organização, inclusive quanto à sequência de suas fases.",
+            "( D ) A adaptação do MDA é necessária apenas quando a organização utiliza outros frameworks de Arquitetura Corporativa."
+        ],
+        "EXPLANATION_TEXT": "Explicação: O MDA é um método genérico que pode ser modificado ou estendido para atender às necessidades específicas de uma organização. Sua adaptação pode incluir alterações na sequência das fases, considerando fatores como a maturidade da prática de arquitetura, os princípios organizacionais e a necessidade de integração com outros frameworks.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "196",
+        "Probability": 1,
+        "versions": ["9"],
+        "klp": {
+            "9": ["4.3"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Fase Preliminar"
+    },
+{
+    "QUESTION_NUMBER": "197",
+    "QUESTION_TEXT": "Qual é o principal propósito da Fase A do MDA, segundo o Padrão TOGAF®?",
+    "POSSIBLE_ANSWERS": [
+        "A. Desenvolver detalhadamente as arquiteturas dos quatro domínios.",
+        "B. Definir o plano de implementação das soluções tecnológicas.",
+        "C. Estabelecer uma direção inicial para o trabalho de arquitetura, alinhada às expectativas das principais partes interessadas.",
+        "D. Validar a conformidade das soluções implementadas com a arquitetura alvo."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A Fase A estabelece as bases para o desenvolvimento da arquitetura, definindo o problema a ser resolvido, o escopo do trabalho e uma visão inicial do alvo. Seu propósito é assegurar que as principais partes interessadas compreendam e concordem com a direção, o valor e o esforço da mudança antes que o trabalho detalhado seja realizado.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "197",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G186 §5.2.1"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Fase A"
+},
+{
+    "QUESTION_NUMBER": "198",
+    "QUESTION_TEXT": "Quais são os três elementos essenciais para a preparação da Fase A, segundo o Padrão TOGAF®?",
+    "POSSIBLE_ANSWERS": [
+        "A. Definir o escopo, identificar as partes interessadas e avaliar a capacidade da equipe de arquitetura.",
+        "B. Definir o escopo, identificar as partes interessadas e avaliar a prontidão da organização para a transformação.",
+        "C. Definir o escopo, avaliar a capacidade da equipe de arquitetura e obter a concordância das partes interessadas sobre a arquitetura alvo.",
+        "D. Identificar as partes interessadas, avaliar a capacidade da equipe de arquitetura e explorar todos os domínios arquiteturais."
+    ],
+    "EXPLANATION_TEXT": "Explicação: Os três elementos essenciais para a preparação da Fase A são definir o escopo do Projeto de Arquitetura, identificar as partes interessadas, suas preocupações e requisitos, e avaliar a capacidade da equipe de Arquitetura Corporativa. As demais alternativas incluem atividades relacionadas à Fase A, mas que não compõem os três elementos essenciais de sua preparação apresentados nesta KLP.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "198",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G186 §5.2.1"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Fase A"
+},
+{
+    "QUESTION_NUMBER": "199",
+    "QUESTION_TEXT": "Uma equipe concluiu a exploração inicial da arquitetura e identificou três alternativas viáveis para a arquitetura alvo. Qual deve ser sua abordagem?",
+    "POSSIBLE_ANSWERS": [
+        "A. Selecionar imediatamente a alternativa de menor custo.",
+        "B. Descartar as alternativas menos detalhadas e desenvolver apenas uma.",
+        "C. Solicitar que as partes interessadas escolham uma alternativa antes de avaliar suas implicações.",
+        "D. Manter as alternativas para permitir uma análise mais detalhada e avaliar os compromissos envolvidos."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A Fase A pode resultar na identificação de diferentes arquiteturas alvo candidatas. Manter essas alternativas permite avaliar melhor os compromissos e as vantagens de cada abordagem durante análises posteriores. Enquanto o alvo não estiver definido, o arquiteto deve explorar os futuros possíveis, e não defender antecipadamente uma solução específica.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "199",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G186 §5.2.1"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Fase A"
+},
+{
+    "QUESTION_NUMBER": "200",
+    "QUESTION_TEXT": "Uma equipe pretende iniciar o detalhamento da arquitetura, mas as principais partes interessadas ainda não concordaram com o valor e o esforço da mudança. Qual é a abordagem mais adequada?",
+    "POSSIBLE_ANSWERS": [
+        "A. Prosseguir com o detalhamento para demonstrar os benefícios da arquitetura.",
+        "B. Buscar o acordo das principais partes interessadas antes de avançar com o trabalho detalhado.",
+        "C. Concentrar o trabalho nos domínios de arquitetura que apresentam menor resistência.",
+        "D. Adiar o envolvimento das partes interessadas até que a arquitetura alvo esteja completamente definida."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A concordância das principais partes interessadas sobre o alvo resumido, o valor esperado e o esforço necessário para a mudança é fundamental para a conclusão da Fase A. Avançar sem esse alinhamento aumenta o risco de desenvolver uma arquitetura que não atenda às expectativas ou que não receba apoio para sua implementação.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "200",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G186 §5.2.1"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Fase A"
+},
+
+
+{
+    "QUESTION_NUMBER": "201",
+    "QUESTION_TEXT": "Quais são os dois objetivos da Fase A, segundo o Padrão TOGAF®?",
+    "POSSIBLE_ANSWERS": [
+        "A. Desenvolver uma Arquitetura Alvo detalhada e definir o plano para sua implementação.",
+        "B. Desenvolver uma visão de alto nível da Arquitetura Alvo e emitir uma Requisição de Trabalho de Arquitetura.",
+        "C. Desenvolver uma visão aspiracional de alto nível das capacidades e do valor de negócio e obter aprovação da Declaração de Trabalho de Arquitetura.",
+        "D. Desenvolver uma visão de alto nível da Arquitetura Linha de Base e obter aprovação dos requisitos de implementação."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A Fase A possui dois objetivos: desenvolver uma visão aspiracional de alto nível das capacidades e do valor de negócio a serem entregues pela Arquitetura Corporativa proposta e obter aprovação de uma Declaração de Trabalho de Arquitetura que estabeleça o programa de trabalhos para desenvolver e implantar a arquitetura delineada na Visão da Arquitetura.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "201",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.1"],
+        "10": ["{S1} §3.1"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Fase A"
+},
+{
+    "QUESTION_NUMBER": "202",
+    "QUESTION_TEXT": "Uma equipe desenvolveu uma visão de alto nível das capacidades e do valor de negócio esperados com a Arquitetura Corporativa proposta. O que ainda precisa realizar para atender aos objetivos da Fase A?",
+    "POSSIBLE_ANSWERS": [
+        "A. Obter aprovação da Arquitetura Alvo detalhada, incluindo todos os seus componentes.",
+        "B. Elaborar um plano detalhado de implementação e migração das soluções.",
+        "C. Validar se as capacidades previstas foram efetivamente entregues ao negócio.",
+        "D. Obter aprovação de uma Declaração de Trabalho de Arquitetura que defina o programa de trabalhos para desenvolver e implantar a arquitetura."
+    ],
+    "EXPLANATION_TEXT": "Explicação: Além de desenvolver a visão aspiracional de alto nível, a Fase A tem como objetivo obter aprovação da Declaração de Trabalho de Arquitetura. Esse documento define o programa de trabalhos necessário para desenvolver e implantar a arquitetura delineada na Visão da Arquitetura.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "202",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.1"],
+        "10": ["{S1} §3.1"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Fase A"
+},
+{
+    "QUESTION_NUMBER": "203",
+    "QUESTION_TEXT": "Em qual fase do MDA é desenvolvida uma visão aspiracional de alto nível das capacidades e do valor de negócio a serem entregues, buscando-se também a aprovação da Declaração de Trabalho de Arquitetura?",
+    "POSSIBLE_ANSWERS": [
+        "A. Fase A",
+        "B. Fase B",
+        "C. Fase E",
+        "D. Fase F"
+    ],
+    "EXPLANATION_TEXT": "Explicação: A Fase A do MDA tem como objetivos desenvolver a Visão da Arquitetura, apresentando as capacidades e o valor de negócio esperados, e obter aprovação da Declaração de Trabalho de Arquitetura.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "203",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.1"],
+        "10": ["{S1} §3.1"]
+    },
+    "category": "2. ADM",
+    "subject": "Resumão das Fases"
+},
+
+
+{
+    "QUESTION_NUMBER": "204",
+    "QUESTION_TEXT": "Qual é o principal propósito da Visão da Arquitetura, segundo o Padrão TOGAF®?",
+    "POSSIBLE_ANSWERS": [
+        "A. Fornecer às principais partes interessadas um resultado formalmente acordado sobre as mudanças esperadas na organização.",
+        "B. Definir o escopo e a abordagem para completar um ciclo de desenvolvimento de arquitetura.",
+        "C. Avaliar os níveis de capacidade e maturidade da organização antes do desenvolvimento detalhado da arquitetura.",
+        "D. Estabelecer um processo planejado e gerenciado para a comunicação com as partes interessadas."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A Visão da Arquitetura fornece um resumo das mudanças esperadas na organização como resultado da implantação bem-sucedida da Arquitetura Alvo. Seu propósito é proporcionar às principais partes interessadas um resultado formalmente acordado, facilitando a comunicação e permitindo que os arquitetos se concentrem nos detalhes necessários para validar a viabilidade da arquitetura.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "204",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.4"],
+        "10": ["{S4} §4.2.8"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Fase A"
+},
+{
+    "QUESTION_NUMBER": "205",
+    "QUESTION_TEXT": "Qual é o principal propósito da Avaliação de Capacidade, segundo o Padrão TOGAF®?",
+    "POSSIBLE_ANSWERS": [
+        "A. Estabelecer os critérios para avaliar o sucesso da execução de um projeto de arquitetura.",
+        "B. Identificar as mudanças organizacionais resultantes da implantação da Arquitetura Alvo.",
+        "C. Compreender os níveis de capacidade da Linha de Base e da capacidade alvo da organização antes do detalhamento da arquitetura.",
+        "D. Definir os mecanismos de comunicação necessários para obter a aprovação das partes interessadas."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A Avaliação de Capacidade tem como propósito compreender os níveis de capacidade da Linha de Base e da capacidade alvo da organização antes de iniciar uma definição detalhada da arquitetura. Essa avaliação considera as capacidades da organização, da função de TI e da função de arquitetura, além da prontidão para a transformação.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "205",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.4"],
+        "10": ["{S4} §4.2.10"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Fase A"
+},
+{
+    "QUESTION_NUMBER": "206",
+    "QUESTION_TEXT": "Qual é o propósito do Plano de Comunicações, segundo o Padrão TOGAF®?",
+    "POSSIBLE_ANSWERS": [
+        "A. Formalizar os resultados esperados da implantação da Arquitetura Alvo.",
+        "B. Permitir que as informações de arquitetura sejam comunicadas às partes interessadas adequadas, no momento certo, de forma planejada e gerenciada.",
+        "C. Estabelecer o escopo e a abordagem do trabalho de arquitetura, incluindo os critérios para avaliar seu sucesso.",
+        "D. Avaliar a capacidade da organização para desenvolver e implementar a Arquitetura Alvo."
+    ],
+    "EXPLANATION_TEXT": "Explicação: O Plano de Comunicações permite que informações relevantes sobre a Arquitetura Corporativa sejam transmitidas às partes interessadas adequadas, no momento certo, dentro de um processo planejado e gerenciado. A comunicação eficaz é considerada um Fator Crítico de Sucesso para a Arquitetura Corporativa.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "206",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.4"],
+        "10": ["{S4} §4.2.12"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Fase A"
+},
+{
+    "QUESTION_NUMBER": "207",
+    "QUESTION_TEXT": "Qual é o principal propósito da Declaração de Trabalho de Arquitetura, segundo o Padrão TOGAF®?",
+    "POSSIBLE_ANSWERS": [
+        "A. Apresentar um resumo das mudanças que serão obtidas com a implantação da Arquitetura Alvo.",
+        "B. Avaliar os níveis de capacidade e maturidade da organização para orientar o desenvolvimento da arquitetura.",
+        "C. Definir como as informações de arquitetura serão comunicadas às partes interessadas.",
+        "D. Definir o escopo e a abordagem do ciclo de desenvolvimento de arquitetura, servindo como referência para avaliar a execução do projeto."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A Declaração de Trabalho de Arquitetura define o escopo e a abordagem utilizados para completar um ciclo de desenvolvimento de arquitetura. Normalmente, serve como referência para avaliar o sucesso da execução do projeto e pode constituir a base de um acordo contratual entre o fornecedor e o consumidor de serviços de arquitetura.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "207",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.4"],
+        "10": ["{S4} §4.2.20"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Fase A"
+},
+{
+    "QUESTION_NUMBER": "208",
+    "QUESTION_TEXT": "Qual entregável do Padrão TOGAF® define o escopo e a abordagem de um ciclo de desenvolvimento de arquitetura e pode servir de base para um acordo contratual entre fornecedor e consumidor de serviços de arquitetura?",
+    "POSSIBLE_ANSWERS": [
+        "A. Declaração de Trabalho de Arquitetura.",
+        "B. Requisição de Trabalho de Arquitetura.",
+        "C. Documento de Definição de Arquitetura.",
+        "D. Contrato de Arquitetura."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A Declaração de Trabalho de Arquitetura é o entregável que estabelece o escopo e a abordagem do ciclo de desenvolvimento de arquitetura. Também pode servir como referência para avaliar o sucesso do projeto e fundamentar um acordo contratual. Não deve ser confundida com a Requisição de Trabalho de Arquitetura, que solicita a realização do trabalho, nem com o Contrato de Arquitetura, associado à formalização de acordos sobre entregas de arquitetura.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "208",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.4"],
+        "10": ["{S4} §4.2.20"]
+    },
+    "category": "2. ADM",
+    "subject": "Resumão das Fases"
+},
+{
+    "QUESTION_NUMBER": "209",
+    "QUESTION_TEXT": "Em qual fase do MDA se busca obter a aprovação da Declaração de Trabalho de Arquitetura, que define o programa de trabalhos para desenvolver e implantar a arquitetura?",
+    "POSSIBLE_ANSWERS": [
+        "A. Fase G",
+        "B. Fase A",
+        "C. Fase F",
+        "D. Fase B"
+    ],
+    "EXPLANATION_TEXT": "Explicação: Um dos objetivos da Fase A é obter a aprovação da Declaração de Trabalho de Arquitetura, que define o programa de trabalhos necessário para desenvolver e implantar a arquitetura delineada na Visão da Arquitetura.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "209",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.1"],
+        "10": ["{S1} §3.1"]
+    },
+    "category": "2. ADM",
+    "subject": "Resumão das Fases"
+},
+
+    {
+        "QUESTION_NUMBER": "210",
+        "QUESTION_TEXT": "Segundo o Padrão TOGAF®, como a Arquitetura de Negócio é caracterizada?",
+        "POSSIBLE_ANSWERS": [
+            "A. Uma representação detalhada dos processos operacionais e dos sistemas que os automatizam.",
+            "B. Uma representação holística e multidimensional das capacidades, entrega de valor, informações, estrutura organizacional e seus relacionamentos.",
+            "C. Um conjunto de modelos de tecnologia que determina como os objetivos de negócio serão implementados.",
+            "D. Uma representação da estrutura hierárquica e dos relacionamentos de autoridade da organização."
+        ],
+        "EXPLANATION_TEXT": "Explicação: A Arquitetura de Negócio representa visões holísticas e multidimensionais das capacidades, da entrega de valor ponta a ponta, das informações e da estrutura organizacional. Também considera os relacionamentos dessas visões com estratégias, produtos, políticas, iniciativas e partes interessadas.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "210",
+        "Probability": 1,
+        "versions": ["9"],
+        "klp": {
+            "9": ["7.5"]
+        },
+        "category": "2. ADM",
+        "subject": "3. Fase B"
+    },
+    {
+        "QUESTION_NUMBER": "211",
+        "QUESTION_TEXT": "Por que a Arquitetura de Negócio deve ser desenvolvida antes das arquiteturas dos demais domínios?",
+        "POSSIBLE_ANSWERS": [
+            "A. Porque define os componentes tecnológicos que serão utilizados nos demais domínios.",
+            "B. Porque substitui a necessidade de desenvolver arquiteturas de Dados e Aplicativos.",
+            "C. Porque estabelece todos os requisitos técnicos necessários à implementação das soluções.",
+            "D. Porque seu conhecimento é um pré-requisito para o trabalho de arquitetura nos demais domínios."
+        ],
+        "EXPLANATION_TEXT": "Explicação: O conhecimento da Arquitetura de Negócio é um pré-requisito para o desenvolvimento das Arquiteturas de Dados, Aplicativos e Tecnologia. Por isso, deve ser a primeira atividade de desenvolvimento arquitetural, caso não tenha sido contemplada em outros processos organizacionais.",
+        "CORRECT_ANSWER": "D",
+        "JSONINDEX": "211",
+        "Probability": 1,
+        "versions": ["9"],
+        "klp": {
+            "9": ["7.5"]
+        },
+        "category": "2. ADM",
+        "subject": "3. Fase B"
+    },
+    {
+        "QUESTION_NUMBER": "212",
+        "QUESTION_TEXT": "Uma empresa nunca desenvolveu formalmente sua Arquitetura de Negócio. Qual abordagem é recomendada pelo Padrão TOGAF®?",
+        "POSSIBLE_ANSWERS": [
+            "A. Investigar e validar os principais objetivos e processos de negócio, buscando o comprometimento das partes interessadas.",
+            "B. Desenvolver primeiro a Arquitetura de Tecnologia para compreender as limitações da organização.",
+            "C. Limitar o trabalho à identificação dos sistemas existentes e de seus responsáveis.",
+            "D. Adiar a Arquitetura de Negócio até que a organização desenvolva formalmente seu planejamento estratégico."
+        ],
+        "EXPLANATION_TEXT": "Explicação: Quando pouco ou nenhum trabalho de Arquitetura de Negócio foi realizado, a equipe deve investigar, verificar e obter o comprometimento das partes interessadas em relação aos principais objetivos e processos de negócio que a arquitetura deverá apoiar. Esse trabalho pode ocorrer separadamente ou como parte da Fase A.",
+        "CORRECT_ANSWER": "A",
+        "JSONINDEX": "212",
+        "Probability": 1,
+        "versions": ["9"],
+        "klp": {
+            "9": ["7.5"]
+        },
+        "category": "2. ADM",
+        "subject": "3. Fase B"
+    },
+    {
+        "QUESTION_NUMBER": "213",
+        "QUESTION_TEXT": "Qual característica é fundamental para um Mapa de Capacidades de Negócio?",
+        "POSSIBLE_ANSWERS": [
+            "A. Representar exclusivamente as capacidades suportadas pelos aplicativos existentes.",
+            "B. Reproduzir a estrutura hierárquica das unidades responsáveis pela execução dos processos.",
+            "C. Fornecer uma visão das capacidades independente da estrutura organizacional, dos processos e dos sistemas existentes.",
+            "D. Descrever detalhadamente os fluxos de atividades necessários à entrega de valor."
+        ],
+        "EXPLANATION_TEXT": "Explicação: O Mapa de Capacidades de Negócio fornece uma visão independente da estrutura organizacional, dos processos, dos sistemas de informação, dos aplicativos e do portfólio de produtos e serviços. Posteriormente, essas capacidades podem ser relacionadas às unidades organizacionais, aos fluxos de valor e aos planos estratégicos.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "213",
+        "Probability": 1,
+        "versions": ["9"],
+        "klp": {
+            "9": ["7.5"]
+        },
+        "category": "2. ADM",
+        "subject": "3. Fase B"
+    },
+    {
+        "QUESTION_NUMBER": "214",
+        "QUESTION_TEXT": "Qual é a principal contribuição dos Fluxos de Valor para a análise das Capacidades de Negócio?",
+        "POSSIBLE_ANSWERS": [
+            "A. Identificar quais unidades organizacionais possuem autoridade sobre cada capacidade.",
+            "B. Demonstrar por que determinadas capacidades são necessárias para entregar valor às partes interessadas.",
+            "C. Determinar os sistemas de informação responsáveis pela implementação das capacidades.",
+            "D. Estabelecer uma classificação hierárquica das capacidades, conforme a estrutura da organização."
+        ],
+        "EXPLANATION_TEXT": "Explicação: Os Fluxos de Valor ajudam a compreender por que a organização precisa de determinadas capacidades, considerando o valor entregue às partes interessadas. As Capacidades de Negócio, por sua vez, representam o que a organização precisa para que as etapas do Fluxo de Valor sejam bem-sucedidas.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "214",
+        "Probability": 1,
+        "versions": ["9"],
+        "klp": {
+            "9": ["7.5"]
+        },
+        "category": "2. ADM",
+        "subject": "3. Fase B"
+    },
+    {
+        "QUESTION_NUMBER": "215",
+        "QUESTION_TEXT": "Uma equipe elaborou modelos de capacidades, fluxos de valor, informações e estrutura organizacional. Entretanto, esses modelos foram desenvolvidos isoladamente. O que falta para que representem adequadamente a Arquitetura de Negócio?",
+        "POSSIBLE_ANSWERS": [
+            "A. Incorporar os componentes de tecnologia que sustentam cada capacidade.",
+            "B. Detalhar os processos operacionais até o nível das atividades executadas.",
+            "C. Estabelecer os relacionamentos entre essas visões e elementos como estratégias, produtos, políticas, processos, iniciativas e partes interessadas.",
+            "D. Consolidar os modelos em uma única representação hierárquica da organização."
+        ],
+        "EXPLANATION_TEXT": "Explicação: A Arquitetura de Negócio não se limita à representação isolada das diferentes visões do negócio. Ela também contempla os relacionamentos entre essas visões e elementos como estratégias, produtos, políticas, processos, iniciativas e partes interessadas.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "215",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["3.24"],
+            "10": ["{S0} §4.27"]
+        },
+        "category": "2. ADM",
+        "subject": "3. Fase B"
+    },
+    {
+        "QUESTION_NUMBER": "216",
+        "QUESTION_TEXT": "Uma organização precisa representar, de maneira holística e multidimensional, suas capacidades, a entrega de valor, as informações e a estrutura organizacional, considerando seus relacionamentos com estratégias, políticas e partes interessadas. A qual domínio de arquitetura essa representação corresponde?",
+        "POSSIBLE_ANSWERS": [
+            "A. Arquitetura de Negócio.",
+            "B. Arquitetura de Dados.",
+            "C. Arquitetura de Aplicativos.",
+            "D. Arquitetura de Tecnologia."
+        ],
+        "EXPLANATION_TEXT": "Explicação: A representação holística e multidimensional das capacidades, da entrega de valor ponta a ponta, das informações, da estrutura organizacional e de seus relacionamentos com outros elementos do negócio corresponde à definição de Arquitetura de Negócio.",
+        "CORRECT_ANSWER": "A",
+        "JSONINDEX": "216",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["3.24"],
+            "10": ["{S0} §4.27"]
+        },
+        "category": "2. ADM",
+        "subject": "Resumão das Fases"
+    }
+
 
 ];
 

@@ -30,6 +30,21 @@ const examTips = [
     "tip": "Vamos concentrar porque esse assunto é o coração do Padrão TOGAF®. 💙\n\nSegundo o plano de exame para a prova TOGAF Enterprise Architecture Part 1 (Foundation), 14 das 40 questões da prova são sobre o ADM. Por isso, é muito importante se concentrar nesse estudo!\n\nSó tem um pequenino detalhe... a tia Hadê aqui ainda não finalizou essas questões. Até dá para você ter uma base, mas precisará estudar mais utilizando outro material."
   },
   {
+    "category": "2. ADM",
+    "subject": "0. Visão Geral das Fases",
+    "tip": "Atenção! Nas provas de certificação, as fases do ADM são identificadas apenas pela letra. Então, não tem muito jeito... é preciso memorizar a letra e o nome das fases.\n\nPara ajudar (ou não! rs), lembre dos mnemônicos que funcionam bem na cabeça da tia Hadê:\n\n👁️ Fase A – Visão da Arquitetura\nA → V, é só virar... Fase A é da Visão.\n\n💼 Fase B – Arquitetura de Negócio\nPense em inglês: B de Business. Fácil.\n\n💻 Fase C – Arquiteturas de Sistemas de Informação\nCistemas de informação... hehehe.\nNa Casa C, conectam-se o casal DADOS e APLICATIVOS.\n\n🏢 Fase D – Arquitetura de Tecnologia\nArquitetura de Data Center.\nBem sem graça. Aceito sugestões!\n\n🔎 Fase E – Oportunidades e Soluções\nFase É: oportunidades É soluções\n(lembre do sotaque da professora!).\n\n🏁 Fase F – Plano de Migração\nFlano de Migração. Funciona melhor falando do que lendo!\nSe quiser um mnemônico mais adulto, pense em Finalização, porque nessa fase o planejamento e seus principais documentos são finalizados.\n\n🪪 Fase G – Governança da Implementação\nEssa nem precisa de mnemônico já que governança, obviamente, começa com G.\n\n🔄 Fase H – Gerenciamento de Mudança na Arquitetura\nPense na Hadeliane, com H, trazendo mudanças para a sua vida! <3"
+  },
+  {
+    "category": "2. ADM",
+    "subject": "1. Fase Preliminar",
+    "tip": "Como diria meu filho, tenho QUASE certeza absoluta de que haverá uma questão na prova sobre a Fase Preliminar.\n\nMinhas apostas seriam:\n1) Objetivos da Fase Preliminar\n2) Requisição de Trabalho de Arquitetura\n\nMas é só uma aposta..."
+  },
+  {
+    "category": "2. ADM",
+    "subject": "2. Fase A",
+    "tip": "Já memorizou que a Fase A é a Visão da Arquitetura?\nEu daria atenção especial para o objetivo da Fase A e para a Declaração de Trabalho de Arquitetura. "
+  },
+  {
     "category": "3. Técnicas do ADM",
     "subject": null,
     "tip": "Segundo o plano de exame para a prova TOGAF Enterprise Architecture Part 1 (Foundation), 6 das 40 questões da prova são sobre as Técnicas do ADM.\n\nVale a pena dar uma olhada nessas questões com atenção.\n\nQuem for fazer a prova do TOGAF 9, não precisa se preocupar em estudar a técnica de Trade-offs porque ela só é conteúdo do TOGAF 10."

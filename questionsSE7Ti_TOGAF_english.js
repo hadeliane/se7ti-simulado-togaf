@@ -599,14 +599,14 @@ const questions_en = [
 
 {
     "QUESTION_NUMBER": "28",
-    "QUESTION_TEXT": "What is performed in the Preliminary Phase according to the TOGAF® Standard?",
+    "QUESTION_TEXT": "What is performed in the 1. Preliminary Phase according to the TOGAF® Standard?",
     "POSSIBLE_ANSWERS": [
         "A. The execution of enterprise architecture pilot projects.",
         "B. The creation of views with catalogs and matrices for use across all phases of the ADM.",
         "C. The preparation of the architecture capability, including framework customization and definition of principles.",
         "D. The detailed design of the target Business, Data, Application, and Technology Architectures."
     ],
-    "EXPLANATION_TEXT": "Explanation: The Preliminary Phase describes the preparation and initiation activities required to establish the Architecture Capability, including customization of the TOGAF® Standard and the definition of Architecture Principles.",
+    "EXPLANATION_TEXT": "Explanation: The 1. Preliminary Phase describes the preparation and initiation activities required to establish the Architecture Capability, including customization of the TOGAF® Standard and the definition of Architecture Principles.",
     "CORRECT_ANSWER": "C",
     "JSONINDEX": "28",
     "Probability": 1,
@@ -616,19 +616,19 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 
 {
     "QUESTION_NUMBER": "29",
-    "QUESTION_TEXT": "According to the TOGAF® Standard, what is the role of the Preliminary Phase in relation to the cyclical phases of the ADM?",
+    "QUESTION_TEXT": "According to the TOGAF® Standard, what is the role of the 1. Preliminary Phase in relation to the cyclical phases of the ADM?",
     "POSSIBLE_ANSWERS": [
         "A. To establish a methodological baseline before the start of the continuous cycle.",
         "B. To define the target architecture before the execution phases.",
         "C. To provide operational information for each phase of the cycle.",
         "D. To consolidate the final ADM deliverables."
     ],
-    "EXPLANATION_TEXT": "Explanation: The Preliminary Phase prepares the organizational, methodological, and governance environment before the start of the ADM (Architecture Development Method) iterations. For this reason, it is positioned outside the continuous cycle.",
+    "EXPLANATION_TEXT": "Explanation: The 1. Preliminary Phase prepares the organizational, methodological, and governance environment before the start of the ADM (Architecture Development Method) iterations. For this reason, it is positioned outside the continuous cycle.",
     "CORRECT_ANSWER": "A",
     "JSONINDEX": "29",
     "Probability": 1,
@@ -638,19 +638,19 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 
 {
     "QUESTION_NUMBER": "30",
-    "QUESTION_TEXT": "When should the Preliminary Phase be revisited within the ADM cycle?",
+    "QUESTION_TEXT": "When should the 1. Preliminary Phase be revisited within the ADM cycle?",
     "POSSIBLE_ANSWERS": [
         "A. Whenever a new architecture demand arises.",
         "B. Only when there is a significant strategic change or a need to update the Enterprise Architecture capability.",
         "C. At the beginning of each phase of the cycle.",
         "D. During the transition between Phases F and G."
     ],
-    "EXPLANATION_TEXT": "Explanation: The Preliminary Phase is not revisited for every new demand. It may be re-evaluated when there are strategic or structural changes, or when it is necessary to update the Enterprise Architecture capability.",
+    "EXPLANATION_TEXT": "Explanation: The 1. Preliminary Phase is not revisited for every new demand. It may be re-evaluated when there are strategic or structural changes, or when it is necessary to update the Enterprise Architecture capability.",
     "CORRECT_ANSWER": "B",
     "JSONINDEX": "30",
     "Probability": 1,
@@ -660,7 +660,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 
 
@@ -683,7 +683,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 
 {
@@ -705,7 +705,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 
 {
@@ -727,7 +727,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 
 {
@@ -749,7 +749,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 
 {
@@ -771,7 +771,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 
 
@@ -794,7 +794,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 
 {
@@ -816,7 +816,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 
 {
@@ -838,7 +838,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 
 {
@@ -860,7 +860,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 
 {
@@ -882,7 +882,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 {
   "QUESTION_NUMBER": "41",
@@ -903,7 +903,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 {
   "QUESTION_NUMBER": "42",
@@ -924,7 +924,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 {
   "QUESTION_NUMBER": "43",
@@ -945,7 +945,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 {
   "QUESTION_NUMBER": "44",
@@ -966,7 +966,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 {
   "QUESTION_NUMBER": "45",
@@ -987,7 +987,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 {
   "QUESTION_NUMBER": "46",
@@ -1008,7 +1008,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 {
   "QUESTION_NUMBER": "47",
@@ -1029,7 +1029,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 {
   "QUESTION_NUMBER": "48",
@@ -1050,7 +1050,7 @@ const questions_en = [
         "10": ["{S0} §3.4"]
     },
     "category": "2. ADM",
-    "subject": "Phase Overview"
+    "subject": "0. Phase Overview"
 },
 {
   "QUESTION_NUMBER": "49",
@@ -1278,14 +1278,14 @@ const questions_en = [
 },
 {
   "QUESTION_NUMBER": "60",
-  "QUESTION_TEXT": "One of the essential tasks during the Preliminary Phase is:",
+  "QUESTION_TEXT": "One of the essential tasks during the 1. Preliminary Phase is:",
   "POSSIBLE_ANSWERS": [
     "A. Selecting modeling tool vendors",
     "B. Defining the content framework for architecture descriptions",
     "C. Implementing the central repository for operational data",
     "D. Mapping stakeholders’ strategic objectives"
   ],
-  "EXPLANATION_TEXT": "Explanation: One of the essential tasks of the Preliminary Phase is to define the content framework to structure architecture descriptions and the deliverables produced. ( A ) Selecting modeling tool vendors is partially related, but not essential, since the tool choice may influence the content framework but does not define it. ( C ) Implementing a central repository for operational data is incorrect because TOGAF refers to repositories of architectural artifacts, not operational data. ( D ) Mapping stakeholders’ strategic objectives is important in early phases such as Phase A, but it is not the focus of the Preliminary Phase.",
+  "EXPLANATION_TEXT": "Explanation: One of the essential tasks of the 1. Preliminary Phase is to define the content framework to structure architecture descriptions and the deliverables produced. ( A ) Selecting modeling tool vendors is partially related, but not essential, since the tool choice may influence the content framework but does not define it. ( C ) Implementing a central repository for operational data is incorrect because TOGAF refers to repositories of architectural artifacts, not operational data. ( D ) Mapping stakeholders’ strategic objectives is important in early phases such as Phase A, but it is not the focus of the 1. Preliminary Phase.",
   "CORRECT_ANSWER": "B",
   "JSONINDEX": "60",
   "Probability": 1,
@@ -1295,7 +1295,7 @@ const questions_en = [
     "10": ["{S0} §3.12"]
   },
   "category": "2. ADM",
-  "subject": "Preliminary Phase"
+  "subject": "1. Preliminary Phase"
 },
 {
   "QUESTION_NUMBER": "61",
@@ -1324,7 +1324,7 @@ const questions_en = [
   "POSSIBLE_ANSWERS": [
     "A. The ADM organizes information into phases, while the Framework defines stakeholder roles",
     "B. The ADM represents the development method, while the Content Framework organizes the deliverables produced",
-    "C. Both address architectural artifacts, but the Framework applies only to the Preliminary Phase",
+    "C. Both address architectural artifacts, but the Framework applies only to the 1. Preliminary Phase",
     "D. The Content Framework defines the organizational structure, while the ADM defines the IT budget"
   ],
   "EXPLANATION_TEXT": "Explanation: The ADM (Architecture Development Method) describes how architecture is created, used, and maintained. The Content Framework, in turn, organizes and structures the architectural elements and deliverables produced throughout the ADM.",
@@ -3300,7 +3300,7 @@ const questions_en = [
 
     "POSSIBLE_ANSWERS": [
         "A. No, because the ADM applies only to the four architecture domains.",
-        "B. No, because the Architecture Capability must be established exclusively through the Preliminary Phase.",
+        "B. No, because the Architecture Capability must be established exclusively through the 1. Preliminary Phase.",
         "C. Yes. The concepts of the ADM can be used to architect an Architecture Capability, just as they can be used for other capabilities, portfolios, or organizational strategies.",
         "D. Yes, but only after the enterprise has developed a complete Enterprise Architecture."
     ],
@@ -4108,5 +4108,716 @@ const questions_en = [
     },
     "category": "5. Governance",
     "subject": "Compliance"
-}
+},
+
+    {
+        "QUESTION_NUMBER": "183",
+        "QUESTION_TEXT": "What are the two main objectives of the 1. Preliminary Phase of the ADM, according to the TOGAF Standard?",
+        "POSSIBLE_ANSWERS": [
+            "A. Define the Architecture Principles and implement architecture tools.",
+            "B. Assess architecture maturity and establish governance processes.",
+            "C. Determine the Architecture Capability desired by the organization and establish that capability.",
+            "D. Identify the affected organizations and define the Organizational Model for Enterprise Architecture."
+        ],
+        "EXPLANATION_TEXT": "Explanation: The 1. Preliminary Phase has two main objectives: to determine the Architecture Capability desired by the organization and to establish that capability. The first involves understanding the organizational context and defining the desired capability, while the second involves establishing the elements required to make that capability operational.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "183",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["5.1"],
+            "10": ["{S1} §2.1"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Preliminary Phase"
+    },
+    {
+        "QUESTION_NUMBER": "184",
+        "QUESTION_TEXT": "An organization is starting its Enterprise Architecture practice and needs to review its organizational context, identify existing processes, and establish its target level of capability maturity. Which objective of the 1. Preliminary Phase are these activities associated with?",
+        "POSSIBLE_ANSWERS": [
+            "A. Determine the Architecture Capability desired by the organization.",
+            "B. Establish the Architecture Capability by implementing supporting tools.",
+            "C. Define and establish the resources required for Architecture Governance.",
+            "D. Establish the Architecture Capability by defining the Architecture Principles."
+        ],
+        "EXPLANATION_TEXT": "Explanation: Reviewing the organizational context, identifying existing frameworks, methods, and processes, and establishing a Capability Maturity target are activities associated with determining the Architecture Capability desired by the organization. These activities help the organization understand the environment in which the capability will be established.",
+        "CORRECT_ANSWER": "A",
+        "JSONINDEX": "184",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["5.1"],
+            "10": ["{S1} §2.1"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Preliminary Phase"
+    },
+    {
+        "QUESTION_NUMBER": "185",
+        "QUESTION_TEXT": "Determining the Architecture Capability desired by the organization and establishing that capability are objectives of which ADM phase, according to the TOGAF Standard?",
+        "POSSIBLE_ANSWERS": [
+            "A. Phase A",
+            "B. Phase B",
+            "C. 1. Preliminary Phase",
+            "D. Phase G"
+        ],
+        "EXPLANATION_TEXT": "Explanation: The 1. Preliminary Phase has two main objectives: to determine the Architecture Capability desired by the organization and to establish that capability. This includes establishing a Capability Maturity target, defining the Organizational Model for Enterprise Architecture, establishing Architecture Governance processes and resources, selecting and implementing supporting tools, and defining the Architecture Principles.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "185",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["5.1"],
+            "10": ["{S1} §2.1"]
+        },
+        "category": "2. ADM",
+        "subject": "Summary of the Phases"
+    },
+
+    {
+        "QUESTION_NUMBER": "186",
+        "QUESTION_TEXT": "An organization identifies that its professionals possess specific abilities and that its systems are also able to perform certain activities. According to the TOGAF Standard, which statement is correct regarding the concept of Capability?",
+        "POSSIBLE_ANSWERS": [
+            "A. A capability is always associated with an organization's technological resources.",
+            "B. Only formally documented abilities can be considered capabilities.",
+            "C. A capability exclusively represents the individual abilities of professionals.",
+            "D. A capability is an ability that an organization, person, or system possesses."
+        ],
+        "EXPLANATION_TEXT": "Explanation: According to the TOGAF Standard, a Capability is an ability that an organization, person, or system possesses. Therefore, the concept is not limited to the individual abilities of professionals or technological resources.",
+        "CORRECT_ANSWER": "D",
+        "JSONINDEX": "186",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["3.30"],
+            "10": ["{S0} §4.33"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Preliminary Phase"
+    },
+    {
+        "QUESTION_NUMBER": "187",
+        "QUESTION_TEXT": "According to the TOGAF Standard, which concept is defined as an ability that an organization, person, or system possesses?",
+        "POSSIBLE_ANSWERS": [
+            "A. Resource",
+            "B. Capability",
+            "C. Competence",
+            "D. Function"
+        ],
+        "EXPLANATION_TEXT": "Explanation: The TOGAF Standard defines Capability as an ability that an organization, person, or system possesses.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "187",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["3.30"],
+            "10": ["{S0} §4.33"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Preliminary Phase"
+    },
+
+    {
+        "QUESTION_NUMBER": "188",
+        "QUESTION_TEXT": "According to the TOGAF Standard, what is the purpose of Business Principles, Business Goals, and Business Drivers in architecture development?",
+        "POSSIBLE_ANSWERS": [
+            "( A ) Provide context for architecture work by describing the needs and ways of working employed by the enterprise.",
+            "( B ) Establish the processes and methods that must be used by the architecture team.",
+            "( C ) Ensure that only factors directly related to the architecture discipline influence its development.",
+            "( D ) Define how the sponsoring organization should request the start of an architecture development cycle."
+        ],
+        "EXPLANATION_TEXT": "Explanation: Business Principles, Business Goals, and Business Drivers provide context for architecture work by describing the needs and ways of working employed by the enterprise. Even factors outside the scope of the architecture discipline may have significant implications for how the architecture is developed.",
+        "CORRECT_ANSWER": "A",
+        "JSONINDEX": "188",
+        "Probability": 1,
+        "versions": ["10"],
+        "klp": {
+            "10": ["{S4} §4.2.9"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Preliminary Phase"
+    },
+    {
+        "QUESTION_NUMBER": "189",
+        "QUESTION_TEXT": "An organization is initiating new architecture work as a result of migration planning. An architect states that a Request for Architecture Work can only be created during the 1. Preliminary Phase. According to the TOGAF Standard, is this statement correct?",
+        "POSSIBLE_ANSWERS": [
+            "( A ) Yes, because a Request for Architecture Work is produced exclusively during the 1. Preliminary Phase.",
+            "( B ) No, because it can also result from approved Architecture Change Requests or terms of reference arising from migration planning.",
+            "( C ) Yes, because work originating from migration planning does not require a Request for Architecture Work.",
+            "( D ) No, because this document can only be created after an Architecture Change Request has been approved."
+        ],
+        "EXPLANATION_TEXT": "Explanation: A Request for Architecture Work may be created as an output of the 1. Preliminary Phase, as a result of approved Architecture Change Requests, or from terms of reference for architecture work originating from migration planning. Therefore, its creation is not restricted to the 1. Preliminary Phase.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "189",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["5.4"],
+            "10": ["{S4} §4.2.17"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Preliminary Phase"
+    },
+    {
+        "QUESTION_NUMBER": "190",
+        "QUESTION_TEXT": "According to the TOGAF Standard, which deliverable is sent from the sponsoring organization to the architecture organization, containing high-level information, to trigger the start of an architecture development cycle?",
+        "POSSIBLE_ANSWERS": [
+            "( A ) Statement of Architecture Work",
+            "( B ) Architecture Definition Document",
+            "( C ) Architecture Change Request",
+            "( D ) Request for Architecture Work"
+        ],
+        "EXPLANATION_TEXT": "Explanation: The Request for Architecture Work is the document sent from the sponsoring organization to the architecture organization to trigger the start of an architecture development cycle. In general, all information contained in this document should be at a high level.",
+        "CORRECT_ANSWER": "D",
+        "JSONINDEX": "190",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["5.4"],
+            "10": ["{S4} §4.2.17"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Preliminary Phase"
+    },
+    {
+        "QUESTION_NUMBER": "191",
+        "QUESTION_TEXT": "According to the TOGAF Standard, what are the four dimensions typically used to define and limit the scope of an architecture?",
+        "POSSIBLE_ANSWERS": [
+            "( A ) Business, Data, Application, and Technology.",
+            "( B ) Segment, Capability, Strategy, and Governance.",
+            "( C ) Breadth, Depth, Time Period, and Architecture Domains.",
+            "( D ) Architecture Principles, Architecture Requirements, Views, and Building Blocks."
+        ],
+        "EXPLANATION_TEXT": "Explanation: The TOGAF Standard identifies four dimensions typically used to define and limit the scope of an architecture: Breadth, which determines the extent of the enterprise covered; Depth, which defines the level of detail; Time Period, which establishes the time horizon; and Architecture Domains, which determine the domains to be addressed.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "191",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["4.5"],
+            "10": ["{S1} §1.5"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Preliminary Phase"
+    },
+    {
+        "QUESTION_NUMBER": "192",
+        "QUESTION_TEXT": "According to the TOGAF Standard, what are the main factors that may lead to restricting the scope of an architecture activity?",
+        "POSSIBLE_ANSWERS": [
+            "( A ) The need to include all architecture domains and all organizational units.",
+            "( B ) The complexity of existing systems and the number of architecture tools being used.",
+            "( C ) The need to establish Transition Architectures for all projects within the organization.",
+            "( D ) Limits on the team's organizational authority, stakeholder objectives and concerns, and the availability of resources."
+        ],
+        "EXPLANATION_TEXT": "Explanation: The need to restrict the scope of an architecture activity is primarily related to limits on the organizational authority of the architecture team, the objectives and concerns of stakeholders to be addressed, and the availability of people, financial resources, and other resources.",
+        "CORRECT_ANSWER": "D",
+        "JSONINDEX": "192",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["4.5"],
+            "10": ["{S1} §1.5"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Preliminary Phase"
+    },
+    {
+        "QUESTION_NUMBER": "193",
+        "QUESTION_TEXT": "In a large organization, different architecture teams are performing duplicate and sometimes conflicting activities. According to the TOGAF Standard, which approach is most appropriate to avoid this problem?",
+        "POSSIBLE_ANSWERS": [
+            "( A ) Allow each team to optimize its own architecture independently of the others.",
+            "( B ) Establish aligned architecture partitions, defining re-use and compliance relationships between them.",
+            "( C ) Centralize all architecture work within a single team, eliminating the need for architecture partitioning.",
+            "( D ) Restrict architecture work to a single domain to avoid the need for integration."
+        ],
+        "EXPLANATION_TEXT": "Explanation: The TOGAF Standard recommends establishing aligned architecture partitions so that the work of architects can be effectively governed and integrated. Re-use and compliance relationships should be defined between these partitions to prevent duplicate or conflicting activities. The goal is to optimize architecture at the enterprise level rather than within individual areas.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "193",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["4.5"],
+            "10": ["{S1} §1.5"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Preliminary Phase"
+    },
+
+{
+    "QUESTION_NUMBER": "194",
+    "QUESTION_TEXT": "An organization is establishing its Enterprise Architecture Governance and intends to use multiple repositories to support this work. According to the TOGAF Standard, which statement is correct?",
+    "POSSIBLE_ANSWERS": [
+        "( A ) Architecture Governance requires a single centralized Architecture Repository.",
+        "( B ) The ADM must be governed within a controlled environment, which may be supported by one or more repositories.",
+        "( C ) The existence of multiple repositories eliminates the need for ADM governance.",
+        "( D ) Only architecture artifacts need to be governed; the ADM itself does not require governance."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The ADM is a key process that must be governed in the same manner as other architecture artifacts. This governance should be supported by a controlled environment, which may use one or more repositories supporting versioned objects, process control, and status tracking. Therefore, the TOGAF Standard does not require all information to be maintained in a single repository.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "194",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["{S1} §1.4"]
+    },
+    "category": "2. ADM",
+    "subject": "1. Preliminary Phase"
+},
+    {
+        "QUESTION_NUMBER": "195",
+        "QUESTION_TEXT": "According to the TOGAF Standard, what are the main questions to be addressed during the 1. Preliminary Phase?",
+        "POSSIBLE_ANSWERS": [
+            "( A ) Where, what, why, who, and how architecture will be performed within the enterprise.",
+            "( B ) Which systems will be developed, which technologies will be adopted, and which projects will be implemented.",
+            "( C ) Which architectures will be migrated, which solutions will be acquired, and which changes will be implemented.",
+            "( D ) Which requirements will be addressed, which deliverables will be approved, and which systems will be replaced."
+        ],
+        "EXPLANATION_TEXT": "Explanation: The 1. Preliminary Phase is about defining where, what, why, who, and how architecture is performed within the enterprise. This involves defining the enterprise, identifying key drivers and elements of the organizational context, defining requirements and Architecture Principles, establishing frameworks and their relationships, and evaluating Enterprise Architecture maturity.",
+        "CORRECT_ANSWER": "A",
+        "JSONINDEX": "195",
+        "Probability": 1,
+        "versions": ["9"],
+        "klp": {
+            "9": ["5.5"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Preliminary Phase"
+    },
+    {
+        "QUESTION_NUMBER": "196",
+        "QUESTION_TEXT": "According to the TOGAF Standard, which statement is correct regarding adapting the ADM to meet an enterprise's needs?",
+        "POSSIBLE_ANSWERS": [
+            "( A ) The ADM must be applied exactly as documented, regardless of the enterprise's characteristics.",
+            "( B ) Adapting the ADM allows its activities to be modified, but not the sequence of its phases.",
+            "( C ) The ADM is a generic method that can be tailored to meet the enterprise's needs, including changes to the sequence of its phases.",
+            "( D ) Adapting the ADM is only necessary when the enterprise uses other Enterprise Architecture frameworks."
+        ],
+        "EXPLANATION_TEXT": "Explanation: The ADM is a generic method that can be modified or extended to meet the specific needs of an enterprise. Tailoring may include changing the sequence of its phases, considering factors such as the maturity of the architecture discipline, enterprise principles, and the need to integrate with other frameworks.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "196",
+        "Probability": 1,
+        "versions": ["9"],
+        "klp": {
+            "9": ["4.3"]
+        },
+        "category": "2. ADM",
+        "subject": "1. Preliminary Phase"
+    },
+
+{
+    "QUESTION_NUMBER": "197",
+    "QUESTION_TEXT": "What is the main purpose of Phase A of the ADM, according to the TOGAF Standard?",
+    "POSSIBLE_ANSWERS": [
+        "A. Develop detailed architectures for all four architecture domains.",
+        "B. Define the implementation plan for technology solutions.",
+        "C. Establish an initial direction for architecture work, aligned with the expectations of key stakeholders.",
+        "D. Validate the compliance of implemented solutions with the Target Architecture."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Phase A establishes the foundation for architecture development by defining the problem to be addressed, the scope of the work, and an initial vision of the target. Its purpose is to ensure that key stakeholders understand and agree on the direction, value, and effort of the change before detailed work begins.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "197",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G186 §5.2.1"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Phase A"
+},
+{
+    "QUESTION_NUMBER": "198",
+    "QUESTION_TEXT": "What are the three essential elements for setting up Phase A, according to the TOGAF Standard?",
+    "POSSIBLE_ANSWERS": [
+        "A. Define the scope, identify stakeholders, and assess the capability of the Enterprise Architecture team.",
+        "B. Define the scope, identify stakeholders, and assess the organization's readiness for business transformation.",
+        "C. Define the scope, assess the capability of the Enterprise Architecture team, and obtain stakeholder agreement on the Target Architecture.",
+        "D. Identify stakeholders, assess the capability of the Enterprise Architecture team, and explore all architecture domains."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The three essential elements for setting up Phase A are defining the scope of the Architecture Project, identifying stakeholders, their concerns and associated requirements, and assessing the capability of the Enterprise Architecture team. The other options include activities related to Phase A, but they do not represent the three set-up essentials described in this KLP.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "198",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G186 §5.2.1"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Phase A"
+},
+{
+    "QUESTION_NUMBER": "199",
+    "QUESTION_TEXT": "An architecture team has completed its initial exploration and identified three viable candidate Target Architectures. What should the team do?",
+    "POSSIBLE_ANSWERS": [
+        "A. Immediately select the least expensive alternative.",
+        "B. Discard the less detailed alternatives and develop only one.",
+        "C. Ask stakeholders to select one alternative before evaluating its implications.",
+        "D. Retain the alternatives to enable more detailed analysis and evaluate the trade-offs involved."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Phase A may identify multiple candidate Target Architectures. Retaining these alternatives enables better evaluation of the trade-offs and benefits of each approach during subsequent analysis. Until the target is finalized, the architect should explore the best potential future rather than advocate for a particular solution.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "199",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G186 §5.2.1"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Phase A"
+},
+{
+    "QUESTION_NUMBER": "200",
+    "QUESTION_TEXT": "An architecture team is ready to begin detailed architecture work, but key stakeholders have not yet agreed on the value and effort of the change. What should the team do?",
+    "POSSIBLE_ANSWERS": [
+        "A. Proceed with detailed work to demonstrate the benefits of the architecture.",
+        "B. Obtain agreement from key stakeholders before proceeding with detailed work.",
+        "C. Focus on architecture domains where there is less resistance to change.",
+        "D. Postpone stakeholder involvement until the Target Architecture is fully defined."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Agreement among key stakeholders on the summary target, its expected value, and the effort required for change is essential to completing Phase A. Proceeding without this alignment increases the risk of developing an architecture that does not meet stakeholder expectations or gain support for implementation.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "200",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["G186 §5.2.1"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Phase A"
+},
+
+
+{
+    "QUESTION_NUMBER": "201",
+    "QUESTION_TEXT": "What are the two objectives of Phase A, according to the TOGAF Standard?",
+    "POSSIBLE_ANSWERS": [
+        "A. Develop a detailed Target Architecture and define the plan for its implementation.",
+        "B. Develop a high-level view of the Target Architecture and issue a Request for Architecture Work.",
+        "C. Develop a high-level aspirational vision of the capabilities and business value and obtain approval for the Statement of Architecture Work.",
+        "D. Develop a high-level view of the Baseline Architecture and obtain approval for the implementation requirements."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Phase A has two objectives: to develop a high-level aspirational vision of the capabilities and business value to be delivered as a result of the proposed Enterprise Architecture, and to obtain approval for a Statement of Architecture Work that defines a program of works to develop and deploy the architecture outlined in the Architecture Vision.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "201",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.1"],
+        "10": ["{S1} §3.1"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Phase A"
+},
+{
+    "QUESTION_NUMBER": "202",
+    "QUESTION_TEXT": "An architecture team has developed a high-level vision of the capabilities and business value expected from the proposed Enterprise Architecture. What else must be done to meet the objectives of Phase A?",
+    "POSSIBLE_ANSWERS": [
+        "A. Obtain approval for the detailed Target Architecture, including all its components.",
+        "B. Develop a detailed Implementation and Migration Plan for the solutions.",
+        "C. Validate whether the planned capabilities have actually been delivered to the business.",
+        "D. Obtain approval for a Statement of Architecture Work that defines the program of works to develop and deploy the architecture."
+    ],
+    "EXPLANATION_TEXT": "Explanation: In addition to developing a high-level aspirational vision, Phase A aims to obtain approval for the Statement of Architecture Work. This document defines the program of works required to develop and deploy the architecture outlined in the Architecture Vision.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "202",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.1"],
+        "10": ["{S1} §3.1"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Phase A"
+},
+{
+    "QUESTION_NUMBER": "203",
+    "QUESTION_TEXT": "In which phase of the ADM is a high-level aspirational vision of the capabilities and business value to be delivered developed, while also seeking approval for the Statement of Architecture Work?",
+    "POSSIBLE_ANSWERS": [
+        "A. Phase A",
+        "B. Phase B",
+        "C. Phase E",
+        "D. Phase F"
+    ],
+    "EXPLANATION_TEXT": "Explanation: Phase A of the ADM aims to develop the Architecture Vision, presenting the expected capabilities and business value, and to obtain approval for the Statement of Architecture Work.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "203",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.1"],
+        "10": ["{S1} §3.1"]
+    },
+    "category": "2. ADM",
+    "subject": "Summary of the Phases"
+},
+
+{
+    "QUESTION_NUMBER": "204",
+    "QUESTION_TEXT": "What is the main purpose of the Architecture Vision, according to the TOGAF Standard?",
+    "POSSIBLE_ANSWERS": [
+        "A. Provide key stakeholders with a formally agreed outcome regarding the expected changes to the enterprise.",
+        "B. Define the scope and approach for completing an architecture development cycle.",
+        "C. Assess the capability and maturity levels of the enterprise before detailed architecture development.",
+        "D. Establish a planned and managed process for communicating with stakeholders."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The Architecture Vision provides a summary of the changes expected in the enterprise as a result of successful deployment of the Target Architecture. Its purpose is to provide key stakeholders with a formally agreed outcome, supporting communication and allowing architects to focus on the details necessary to validate the feasibility of the architecture.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "204",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.4"],
+        "10": ["{S4} §4.2.8"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Phase A"
+},
+{
+    "QUESTION_NUMBER": "205",
+    "QUESTION_TEXT": "What is the main purpose of the Capability Assessment, according to the TOGAF Standard?",
+    "POSSIBLE_ANSWERS": [
+        "A. Establish criteria for assessing the successful execution of an architecture project.",
+        "B. Identify the organizational changes resulting from deployment of the Target Architecture.",
+        "C. Understand the baseline and target capability levels of the enterprise before detailed architecture definition.",
+        "D. Define the communication mechanisms required to obtain stakeholder approval."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The Capability Assessment aims to understand the baseline and target capability levels of the enterprise before embarking upon a detailed Architecture Definition. This assessment considers the capabilities of the enterprise as a whole, the IT function, and the architecture function, as well as business transformation readiness.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "205",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.4"],
+        "10": ["{S4} §4.2.10"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Phase A"
+},
+{
+    "QUESTION_NUMBER": "206",
+    "QUESTION_TEXT": "What is the purpose of the Communications Plan, according to the TOGAF Standard?",
+    "POSSIBLE_ANSWERS": [
+        "A. Formalize the expected outcomes of deploying the Target Architecture.",
+        "B. Enable architecture information to be communicated to the right stakeholders at the right time through a planned and managed process.",
+        "C. Establish the scope and approach for architecture work, including criteria for assessing its success.",
+        "D. Assess the enterprise's capability to develop and implement the Target Architecture."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The Communications Plan enables relevant Enterprise Architecture information to be communicated to the appropriate stakeholders at the right time within a planned and managed process. Effective communication is considered a Critical Success Factor for Enterprise Architecture.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "206",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.4"],
+        "10": ["{S4} §4.2.12"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Phase A"
+},
+{
+    "QUESTION_NUMBER": "207",
+    "QUESTION_TEXT": "What is the main purpose of the Statement of Architecture Work, according to the TOGAF Standard?",
+    "POSSIBLE_ANSWERS": [
+        "A. Provide a summary of the changes to be achieved through deployment of the Target Architecture.",
+        "B. Assess the capability and maturity levels of the enterprise to guide architecture development.",
+        "C. Define how architecture information will be communicated to stakeholders.",
+        "D. Define the scope and approach of the architecture development cycle, serving as a reference for assessing project execution."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The Statement of Architecture Work defines the scope and approach used to complete an architecture development cycle. It is typically the document against which successful execution of the architecture project is measured and may form the basis for a contractual agreement between the supplier and consumer of architecture services.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "207",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.4"],
+        "10": ["{S4} §4.2.20"]
+    },
+    "category": "2. ADM",
+    "subject": "2. Phase A"
+},
+{
+    "QUESTION_NUMBER": "208",
+    "QUESTION_TEXT": "Which TOGAF Standard deliverable defines the scope and approach for an architecture development cycle and may form the basis for a contractual agreement between the supplier and consumer of architecture services?",
+    "POSSIBLE_ANSWERS": [
+        "A. Statement of Architecture Work.",
+        "B. Request for Architecture Work.",
+        "C. Architecture Definition Document.",
+        "D. Architecture Contract."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The Statement of Architecture Work defines the scope and approach of the architecture development cycle. It also serves as a reference for measuring successful project execution and may form the basis for a contractual agreement. It should not be confused with the Request for Architecture Work, which requests architecture work, or the Architecture Contract, which formalizes agreements concerning architecture deliverables.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "208",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.4"],
+        "10": ["{S4} §4.2.20"]
+    },
+    "category": "2. ADM",
+    "subject": "Summary of the Phases"
+},
+{
+    "QUESTION_NUMBER": "209",
+    "QUESTION_TEXT": "In which phase of the ADM is approval sought for the Statement of Architecture Work, which defines the program of works to develop and deploy the architecture?",
+    "POSSIBLE_ANSWERS": [
+        "A. Phase G",
+        "B. Phase A",
+        "C. Phase E",
+        "D. Phase B"
+    ],
+    "EXPLANATION_TEXT": "Explanation: One of the objectives of Phase A is to obtain approval for the Statement of Architecture Work, which defines the program of works required to develop and deploy the architecture outlined in the Architecture Vision.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "209",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["6.1"],
+        "10": ["{S1} §3.1"]
+    },
+    "category": "2. ADM",
+    "subject": "Summary of the Phases"
+},
+    {
+        "QUESTION_NUMBER": "210",
+        "QUESTION_TEXT": "According to the TOGAF Standard, how is Business Architecture characterized?",
+        "POSSIBLE_ANSWERS": [
+            "A. A detailed representation of operational processes and the systems that automate them.",
+            "B. A holistic, multi-dimensional representation of capabilities, value delivery, information, organizational structure, and their relationships.",
+            "C. A set of technology models that determines how business objectives will be implemented.",
+            "D. A representation of the hierarchical structure and authority relationships within the organization."
+        ],
+        "EXPLANATION_TEXT": "Explanation: Business Architecture represents holistic, multi-dimensional views of capabilities, end-to-end value delivery, information, and organizational structure. It also considers the relationships among these views and strategies, products, policies, initiatives, and stakeholders.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "210",
+        "Probability": 1,
+        "versions": ["9"],
+        "klp": {
+            "9": ["7.5"]
+        },
+        "category": "2. ADM",
+        "subject": "3. Phase B"
+    },
+    {
+        "QUESTION_NUMBER": "211",
+        "QUESTION_TEXT": "Why should Business Architecture be developed before the architectures of other domains?",
+        "POSSIBLE_ANSWERS": [
+            "A. Because it defines the technology components to be used in the other domains.",
+            "B. Because it eliminates the need to develop Data and Application Architectures.",
+            "C. Because it establishes all the technical requirements needed to implement solutions.",
+            "D. Because knowledge of Business Architecture is a prerequisite for architecture work in the other domains."
+        ],
+        "EXPLANATION_TEXT": "Explanation: Knowledge of Business Architecture is a prerequisite for developing Data, Application, and Technology Architectures. Therefore, it should be the first architecture development activity undertaken, unless it has already been addressed through other organizational processes.",
+        "CORRECT_ANSWER": "D",
+        "JSONINDEX": "211",
+        "Probability": 1,
+        "versions": ["9"],
+        "klp": {
+            "9": ["7.5"]
+        },
+        "category": "2. ADM",
+        "subject": "3. Phase B"
+    },
+    {
+        "QUESTION_NUMBER": "212",
+        "QUESTION_TEXT": "An enterprise has never formally developed its Business Architecture. Which approach is recommended by the TOGAF Standard?",
+        "POSSIBLE_ANSWERS": [
+            "A. Research and validate key business objectives and processes, obtaining stakeholder buy-in.",
+            "B. Develop Technology Architecture first to understand the enterprise's limitations.",
+            "C. Limit the work to identifying existing systems and their owners.",
+            "D. Postpone Business Architecture until the enterprise formally develops its strategic business plan."
+        ],
+        "EXPLANATION_TEXT": "Explanation: When little or no Business Architecture work has been performed, the architecture team should research, verify, and obtain stakeholder buy-in for the key business objectives and processes that the architecture will support. This work may be carried out as a separate exercise or as part of Phase A.",
+        "CORRECT_ANSWER": "A",
+        "JSONINDEX": "212",
+        "Probability": 1,
+        "versions": ["9"],
+        "klp": {
+            "9": ["7.5"]
+        },
+        "category": "2. ADM",
+        "subject": "3. Phase B"
+    },
+    {
+        "QUESTION_NUMBER": "213",
+        "QUESTION_TEXT": "Which characteristic is essential to a Business Capability Map?",
+        "POSSIBLE_ANSWERS": [
+            "A. Representing only the capabilities supported by existing applications.",
+            "B. Reproducing the hierarchical structure of the organizational units responsible for executing processes.",
+            "C. Providing a view of business capabilities independent of organizational structure, processes, and existing systems.",
+            "D. Describing in detail the activity flows required to deliver value."
+        ],
+        "EXPLANATION_TEXT": "Explanation: A Business Capability Map provides a view of the business that is independent of organizational structure, business processes, information systems, applications, and the product or service portfolio. These capabilities can subsequently be mapped to organizational units, value streams, information systems, and strategic plans.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "213",
+        "Probability": 1,
+        "versions": ["9"],
+        "klp": {
+            "9": ["7.5"]
+        },
+        "category": "2. ADM",
+        "subject": "3. Phase B"
+    },
+    {
+        "QUESTION_NUMBER": "214",
+        "QUESTION_TEXT": "What is the main contribution of Value Streams to the analysis of Business Capabilities?",
+        "POSSIBLE_ANSWERS": [
+            "A. Identifying which organizational units have authority over each capability.",
+            "B. Demonstrating why certain capabilities are needed to deliver value to stakeholders.",
+            "C. Determining the information systems responsible for implementing capabilities.",
+            "D. Establishing a hierarchical classification of capabilities based on the organizational structure."
+        ],
+        "EXPLANATION_TEXT": "Explanation: Value Streams help explain why the enterprise needs particular business capabilities by considering the value delivered to stakeholders. Business Capabilities, in turn, represent what the enterprise needs for a particular value stream stage to be successful.",
+        "CORRECT_ANSWER": "B",
+        "JSONINDEX": "214",
+        "Probability": 1,
+        "versions": ["9"],
+        "klp": {
+            "9": ["7.5"]
+        },
+        "category": "2. ADM",
+        "subject": "3. Phase B"
+    },
+    {
+        "QUESTION_NUMBER": "215",
+        "QUESTION_TEXT": "An architecture team has developed models of business capabilities, value streams, information, and organizational structure. However, these models were developed in isolation. What is missing for them to adequately represent Business Architecture?",
+        "POSSIBLE_ANSWERS": [
+            "A. Incorporating the technology components that support each capability.",
+            "B. Detailing operational processes down to the level of individual activities.",
+            "C. Establishing relationships among these views and elements such as strategies, products, policies, processes, initiatives, and stakeholders.",
+            "D. Consolidating the models into a single hierarchical representation of the organization."
+        ],
+        "EXPLANATION_TEXT": "Explanation: Business Architecture is not limited to representing different business views in isolation. It also encompasses the relationships among these views and elements such as strategies, products, policies, processes, initiatives, and stakeholders.",
+        "CORRECT_ANSWER": "C",
+        "JSONINDEX": "215",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["3.24"],
+            "10": ["{S0} §4.27"]
+        },
+        "category": "2. ADM",
+        "subject": "3. Phase B"
+    },
+    {
+        "QUESTION_NUMBER": "216",
+        "QUESTION_TEXT": "An enterprise needs a holistic, multi-dimensional representation of its capabilities, value delivery, information, and organizational structure, considering their relationships with strategies, policies, and stakeholders. Which architecture domain does this representation correspond to?",
+        "POSSIBLE_ANSWERS": [
+            "A. Business Architecture.",
+            "B. Data Architecture.",
+            "C. Application Architecture.",
+            "D. Technology Architecture."
+        ],
+        "EXPLANATION_TEXT": "Explanation: A holistic, multi-dimensional representation of capabilities, end-to-end value delivery, information, organizational structure, and their relationships with other business elements corresponds to the definition of Business Architecture.",
+        "CORRECT_ANSWER": "A",
+        "JSONINDEX": "216",
+        "Probability": 1,
+        "versions": ["9", "10"],
+        "klp": {
+            "9": ["3.24"],
+            "10": ["{S0} §4.27"]
+        },
+        "category": "2. ADM",
+        "subject": "Summary of the Phases"
+    }
+
+
 ];
