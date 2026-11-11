@@ -4837,8 +4837,321 @@ const questions = [
         },
         "category": "2. ADM",
         "subject": "Resumão das Fases"
-    }
+    },
+{
+    "QUESTION_NUMBER": "217",
+    "QUESTION_TEXT": "Segundo o Padrão TOGAF®, quais elementos são contemplados pela Arquitetura de Dados?",
+    "POSSIBLE_ANSWERS": [
+        "A. Processos de negócio, fluxos de valor e informações utilizadas pelas unidades organizacionais.",
+        "B. Principais tipos e fontes de dados, ativos lógicos e físicos de dados e recursos de gerenciamento de dados.",
+        "C. Componentes de aplicativos, serviços de tecnologia e interfaces de integração.",
+        "D. Principais tipos e fontes de dados, aplicativos responsáveis pelo seu processamento e componentes de tecnologia utilizados para armazená-los."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A Arquitetura de Dados descreve a estrutura dos principais tipos e fontes de dados da organização, contemplando os ativos de dados lógicos e físicos e os recursos utilizados para o gerenciamento desses dados.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "217",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["3.36"],
+        "10": ["{S0} §4.39"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Fase C"
+},
 
+{
+    "QUESTION_NUMBER": "218",
+    "QUESTION_TEXT": "Segundo o Padrão TOGAF®, qual é o principal benefício de uma abordagem estruturada e abrangente para a Gestão de Dados?",
+    "POSSIBLE_ANSWERS": [
+        "A. Eliminar a necessidade de governança durante a transformação.",
+        "B. Permitir o uso eficaz dos dados pela organização.",
+        "C. Centralizar todos os dados em um único ambiente de armazenamento.",
+        "D. Reduzir a necessidade de integração entre aplicativos."
+    ],
+    "EXPLANATION_TEXT": "Explicação: Quando uma organização realiza uma transformação arquitetural de grande escala, é importante compreender e abordar os problemas relacionados à Gestão de Dados. Uma abordagem estruturada e abrangente permite que a organização utilize seus dados de maneira eficaz.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "218",
+    "Probability": 1,
+    "versions": ["9"],
+    "klp": {
+        "9": ["9.5"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Fase C"
+},
+{
+    "QUESTION_NUMBER": "219",
+    "QUESTION_TEXT": "Segundo o Padrão TOGAF®, quais necessidades devem ser consideradas pela Arquitetura de Dados durante uma migração?",
+    "POSSIBLE_ANSWERS": [
+        "A. Substituição de aplicativos, atualização da infraestrutura e reorganização dos processos.",
+        "B. Definição de capacidades, identificação de serviços e estruturação das informações.",
+        "C. Padronização dos aplicativos, documentação de processos e definição de tecnologias.",
+        "D. Transformação, remoção e limpeza dos dados para atender aos requisitos e restrições da Arquitetura Alvo."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A Arquitetura de Dados deve identificar os requisitos de migração e indicar as necessidades de transformação, remoção e limpeza dos dados, para que estejam em um formato compatível com os requisitos e restrições da Arquitetura Alvo.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "219",
+    "Probability": 1,
+    "versions": ["9"],
+    "klp": {
+        "9": ["9.5"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Fase C"
+},
+{
+    "QUESTION_NUMBER": "220",
+    "QUESTION_TEXT": "Uma equipe considera que a Arquitetura de Dados se limita à identificação dos dados armazenados pela organização. Segundo o Padrão TOGAF®, qual alternativa apresenta uma visão mais abrangente do trabalho nesse domínio?",
+    "POSSIBLE_ANSWERS": [
+        "A. Identificar as fontes de dados, os aplicativos que os utilizam e os componentes tecnológicos responsáveis pelo armazenamento.",
+        "B. Concentrar o trabalho na modelagem dos dados e na definição dos requisitos de migração para novos aplicativos.",
+        "C. Considerar os requisitos de migração, a gestão e a governança de dados, além dos recursos disponíveis no Repositório de Arquitetura.",
+        "D. Priorizar a governança e a padronização dos dados, deixando sua modelagem e migração para os projetos de implementação."
+    ],
+    "EXPLANATION_TEXT": "Explicação: Segundo o Padrão TOGAF®, a abordagem da Arquitetura de Dados contempla diferentes aspectos, incluindo a gestão eficaz dos dados, os requisitos de migração, a governança necessária para apoiar a transformação e a utilização de recursos relevantes do Repositório de Arquitetura.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "220",
+    "Probability": 1,
+    "versions": ["9"],
+    "klp": {
+        "9": ["9.5"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Fase C"
+},
+
+{
+    "QUESTION_NUMBER": "221",
+    "QUESTION_TEXT": "Segundo o Padrão TOGAF®, qual é o principal foco da Arquitetura de Aplicativos?",
+    "POSSIBLE_ANSWERS": [
+        "A. Descrever os processos de negócio e os fluxos de valor que orientam o funcionamento da organização.",
+        "B. Descrever a estrutura e a interação dos aplicativos que fornecem capacidades essenciais de negócio e gerenciam os ativos de dados.",
+        "C. Descrever os serviços e componentes tecnológicos que sustentam os sistemas de informação.",
+        "D. Descrever a estrutura dos principais tipos e fontes de dados e seus recursos de gerenciamento."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A Arquitetura de Aplicativos descreve a estrutura e a interação dos aplicativos que fornecem capacidades essenciais de negócio e gerenciam os ativos de dados da organização.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "221",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["3.3"],
+        "10": ["{S0} §4.3"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Fase C"
+},
+{
+    "QUESTION_NUMBER": "222",
+    "QUESTION_TEXT": "Uma organização já identificou suas principais capacidades de negócio e seus ativos de dados. Agora, precisa compreender como os aplicativos que sustentam essas capacidades estão estruturados e interagem entre si. Qual domínio de arquitetura atende a essa necessidade?",
+    "POSSIBLE_ANSWERS": [
+        "A. Arquitetura de Dados.",
+        "B. Arquitetura de Tecnologia.",
+        "C. Arquitetura de Negócio.",
+        "D. Arquitetura de Aplicativos."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A Arquitetura de Aplicativos é responsável por descrever a estrutura e a interação dos aplicativos que apoiam as principais capacidades de negócio e gerenciam os ativos de dados.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "222",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["3.3"],
+        "10": ["{S0} §4.3"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Fase C"
+},
+{
+    "QUESTION_NUMBER": "223",
+    "QUESTION_TEXT": "Uma equipe de arquitetura precisa descrever a estrutura dos serviços e componentes de tecnologia de uma organização, bem como as interações entre eles. Segundo o Padrão TOGAF®, qual domínio de arquitetura é responsável por essa descrição?",
+    "POSSIBLE_ANSWERS": [
+        "A. Arquitetura de Aplicativos.",
+        "B. Arquitetura de Dados.",
+        "C. Arquitetura de Tecnologia.",
+        "D. Arquitetura de Negócio."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A Arquitetura de Tecnologia descreve a estrutura e a interação dos serviços de tecnologia e dos componentes de tecnologia da organização.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "223",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["3.77"],
+        "10": ["{S0} §4.81"]
+    },
+    "category": "2. ADM",
+    "subject": "5. Fase D"
+},
+
+{
+    "QUESTION_NUMBER": "224",
+    "QUESTION_TEXT": "Segundo o Padrão TOGAF®, qual é o papel da Arquitetura de Tecnologia diante da evolução de novas tecnologias?",
+    "POSSIBLE_ANSWERS": [
+        "A. Garantir que todas as novas tecnologias sejam incorporadas à organização.",
+        "B. Identificar oportunidades de transformação proporcionadas pela adoção de novas tecnologias.",
+        "C. Priorizar a substituição das tecnologias existentes por alternativas mais recentes.",
+        "D. Restringir a adoção de tecnologias que não tenham sido previstas na estratégia de negócio."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A evolução de novas tecnologias é um importante direcionador de mudanças nas organizações. A Arquitetura de Tecnologia deve identificar as oportunidades de transformação disponíveis por meio da adoção dessas tecnologias, permitindo que a organização explore novas formas de operar e melhorar seus negócios.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "224",
+    "Probability": 1,
+    "versions": ["9"],
+    "klp": {
+        "9": ["11.5"]
+    },
+    "category": "2. ADM",
+    "subject": "5. Fase D"
+},
+{
+    "QUESTION_NUMBER": "225",
+    "QUESTION_TEXT": "Uma organização está adotando rapidamente diferentes tecnologias para modernizar suas operações. Embora cada iniciativa apresente benefícios individuais, surgem dificuldades para manter a coerência entre as soluções. Qual abordagem está mais alinhada ao Padrão TOGAF®?",
+    "POSSIBLE_ANSWERS": [
+        "A. Permitir que cada iniciativa escolha suas tecnologias sem considerar os demais projetos.",
+        "B. Suspender a adoção de tecnologias emergentes até que todas as arquiteturas estejam concluídas.",
+        "C. Utilizar uma abordagem sólida de Arquitetura Corporativa para orientar a adoção das tecnologias e evitar descontinuidades.",
+        "D. Concentrar as decisões tecnológicas exclusivamente nas equipes responsáveis pela implementação."
+    ],
+    "EXPLANATION_TEXT": "Explicação: Uma abordagem sólida de Arquitetura Corporativa ajuda a evitar as descontinuidades que podem resultar da rápida adoção de tecnologias em evolução. Dessa forma, a organização pode explorar oportunidades de inovação sem perder a coerência de sua arquitetura.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "225",
+    "Probability": 1,
+    "versions": ["9"],
+    "klp": {
+        "9": ["11.5"]
+    },
+    "category": "2. ADM",
+    "subject": "5. Fase D"
+},
+{
+    "QUESTION_NUMBER": "226",
+    "QUESTION_TEXT": "Segundo o Padrão TOGAF®, quais são os principais objetivos da Fase B do MDA?",
+    "POSSIBLE_ANSWERS": [
+        "A. Desenvolver a Arquitetura Linha de Base de Negócio e definir os projetos de implementação necessários para alcançar os objetivos estratégicos.",
+        "B. Desenvolver a Arquitetura Alvo de Negócio e identificar componentes candidatos ao Roadmap de Arquitetura a partir das diferenças entre as arquiteturas Linha de Base e Alvo.",
+        "C. Desenvolver a Arquitetura Linha de Base de Negócio e a Arquitetura Alvo de Negócio.",
+        "D. Desenvolver a Arquitetura Alvo de Negócio e elaborar um plano detalhado de migração para a implementação das soluções."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A Fase B tem como objetivos desenvolver a Arquitetura Alvo de Negócio, descrevendo como a organização precisa operar para alcançar seus objetivos e responder aos direcionadores estratégicos definidos na Visão da Arquitetura, considerando a Declaração de Trabalho de Arquitetura e as preocupações das partes interessadas. Também deve identificar componentes candidatos ao Roadmap de Arquitetura com base nas diferenças entre as arquiteturas Linha de Base e Alvo de Negócio.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "226",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["7.1"],
+        "10": ["{S1} §4.1"]
+    },
+    "category": "2. ADM",
+    "subject": "3. Fase B"
+},
+{
+    "QUESTION_NUMBER": "227",
+    "QUESTION_TEXT": "Na Fase C, uma equipe desenvolveu a Arquitetura Alvo de Dados para viabilizar a Arquitetura de Negócio e a Visão da Arquitetura. Segundo o Padrão TOGAF®, o que ainda precisa fazer para cumprir os objetivos dessa atividade?",
+    "POSSIBLE_ANSWERS": [
+        "A. Definir os Blocos de Construção de Solução correspondentes à arquitetura definida.",
+        "B. Elaborar o plano detalhado de migração dos dados entre os sistemas existentes e os novos aplicativos.",
+        "C. Identificar componentes candidatos ao Roadmap de Arquitetura com base nas diferenças entre as arquiteturas Linha de Base e Alvo de Dados.",
+        "D. Identificar exclusivamente as diferenças entre as arquiteturas Linha de Base e Alvo de Aplicativos."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A atividade de Arquitetura de Dados da Fase C tem dois objetivos principais: desenvolver a Arquitetura Alvo de Dados que viabilize a Arquitetura de Negócio e a Visão da Arquitetura, considerando a Declaração de Trabalho de Arquitetura e as preocupações das partes interessadas; e identificar componentes candidatos ao Roadmap de Arquitetura com base nas diferenças entre as arquiteturas Linha de Base e Alvo de Dados.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "227",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["9.1"],
+        "10": ["{S1} §6.1"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Fase C"
+},
+{
+    "QUESTION_NUMBER": "228",
+    "QUESTION_TEXT": "Uma equipe está iniciando o desenvolvimento da Arquitetura de Aplicativos na Fase C. Segundo o Padrão TOGAF®, qual deve ser um dos principais objetivos desse trabalho?",
+    "POSSIBLE_ANSWERS": [
+        "A. Desenvolver a Arquitetura Alvo de Aplicativos que viabilize a Arquitetura de Negócio e a Visão da Arquitetura, considerando a Declaração de Trabalho de Arquitetura e as preocupações das partes interessadas.",
+        "B. Definir as capacidades de negócio necessárias para alcançar os objetivos estratégicos da organização.",
+        "C. Desenvolver a Arquitetura Alvo de Tecnologia que permita implementar os componentes de aplicativos identificados.",
+        "D. Identificar os projetos de implementação e estabelecer o cronograma detalhado de migração dos aplicativos."
+    ],
+    "EXPLANATION_TEXT": "Explicação: Um dos objetivos da Arquitetura de Aplicativos na Fase C é desenvolver a Arquitetura Alvo de Aplicativos que viabilize a Arquitetura de Negócio e a Visão da Arquitetura, considerando a Declaração de Trabalho de Arquitetura e as preocupações das partes interessadas. Outro objetivo é identificar componentes candidatos ao Roadmap de Arquitetura a partir das diferenças entre as arquiteturas Linha de Base e Alvo de Aplicativos.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "228",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["10.1"],
+        "10": ["{S1} §7.1"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Fase C"
+},
+{
+    "QUESTION_NUMBER": "229",
+    "QUESTION_TEXT": "Durante a Fase D, uma equipe precisa desenvolver a Arquitetura Alvo de Tecnologia. Segundo o Padrão TOGAF®, qual deve ser o propósito dessa arquitetura?",
+    "POSSIBLE_ANSWERS": [
+        "A. Definir os Blocos de Construção de Solução com base nas necessidades dos aplicativos existentes.",
+        "B. Identificar as tecnologias mais recentes disponíveis no mercado e priorizar sua adoção pela organização.",
+        "C. Estabelecer os padrões tecnológicos que deverão ser utilizados nos projetos, independentemente das demais arquiteturas.",
+        "D. Viabilizar a Visão da Arquitetura e a entrega dos blocos de construção alvo de Negócio, Dados e Aplicativos por meio de componentes e serviços de tecnologia."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A Fase D tem como objetivo desenvolver a Arquitetura Alvo de Tecnologia que permita concretizar a Visão da Arquitetura e os blocos de construção alvo de Negócio, Dados e Aplicativos por meio de componentes e serviços de tecnologia, considerando a Declaração de Trabalho de Arquitetura e as preocupações das partes interessadas. Também deve identificar componentes candidatos ao Roadmap de Arquitetura com base nas diferenças entre as arquiteturas Linha de Base e Alvo de Tecnologia.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "229",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["11.1"],
+        "10": ["{S1} §8.1"]
+    },
+    "category": "2. ADM",
+    "subject": "5. Fase D"
+},
+
+{
+    "QUESTION_NUMBER": "230",
+    "QUESTION_TEXT": "Segundo o Padrão TOGAF®, quais domínios arquiteturais são desenvolvidos durante a Fase C do MDA?",
+    "POSSIBLE_ANSWERS": [
+        "A. Arquitetura de Negócio e Arquitetura de Dados.",
+        "B. Arquitetura de Dados e Arquitetura de Aplicativos.",
+        "C. Arquitetura de Aplicativos e Arquitetura de Tecnologia.",
+        "D. Arquitetura de Dados e Arquitetura de Tecnologia."
+    ],
+    "EXPLANATION_TEXT": "Explicação: A Fase C do MDA corresponde à Arquitetura de Sistemas de Informação e contempla o desenvolvimento de dois domínios arquiteturais: Arquitetura de Dados e Arquitetura de Aplicativos.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "230",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["8.1"],
+        "10": ["{S1} §5.1"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Fase C"
+},
+
+{
+    "QUESTION_NUMBER": "231",
+    "QUESTION_TEXT": "Segundo o Padrão TOGAF®, qual entregável reúne os principais artefatos arquiteturais produzidos durante um projeto, abrangendo os quatro domínios arquiteturais e os estados Linha de Base, Transição e Alvo?",
+    "POSSIBLE_ANSWERS": [
+        "A. Documento de Definição da Arquitetura.",
+        "B. Requisição de Trabalho de Arquitetura.",
+        "C. Declaração de Trabalho de Arquitetura.",
+        "D. Especificação de Requisitos de Arquitetura."
+    ],
+    "EXPLANATION_TEXT": "Explicação: O Documento de Definição da Arquitetura reúne os principais artefatos arquiteturais produzidos durante um projeto e informações importantes relacionadas a eles. Abrange os domínios de Negócio, Dados, Aplicativos e Tecnologia, considerando as arquiteturas Linha de Base, de Transição e Alvo. Apresenta uma visão qualitativa da solução, complementando a Especificação de Requisitos de Arquitetura, que apresenta critérios mensuráveis para sua implementação.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "231",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["{S4} §4.2.3"]
+    },
+    "category": "2. ADM",
+    "subject": "0. Visão Geral das Fases"
+},
 
 ];
 

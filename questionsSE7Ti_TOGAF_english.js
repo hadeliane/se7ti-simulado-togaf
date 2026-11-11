@@ -4817,7 +4817,324 @@ const questions_en = [
         },
         "category": "2. ADM",
         "subject": "Summary of the Phases"
-    }
+    },
+
+{
+    "QUESTION_NUMBER": "217",
+    "QUESTION_TEXT": "According to the TOGAF Standard, which elements are covered by Data Architecture?",
+    "POSSIBLE_ANSWERS": [
+        "A. Business processes, value streams, and information used by organizational units.",
+        "B. Major types and sources of data, logical and physical data assets, and data management resources.",
+        "C. Application components, technology services, and integration interfaces.",
+        "D. Major types and sources of data, applications responsible for processing them, and technology components used to store them."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Data Architecture describes the structure of the enterprise's major types and sources of data, including logical and physical data assets and the resources used to manage that data.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "217",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["3.36"],
+        "10": ["{S0} §4.39"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Phase C"
+},
+
+{
+    "QUESTION_NUMBER": "218",
+    "QUESTION_TEXT": "According to the TOGAF Standard, what is the main benefit of a structured and comprehensive approach to Data Management?",
+    "POSSIBLE_ANSWERS": [
+        "A. Eliminating the need for governance during transformation.",
+        "B. Enabling the effective use of data by the enterprise.",
+        "C. Centralizing all data in a single storage environment.",
+        "D. Reducing the need for integration between applications."
+    ],
+    "EXPLANATION_TEXT": "Explanation: When an enterprise undertakes large-scale architectural transformation, it is important to understand and address data management issues. A structured and comprehensive approach enables the enterprise to use its data effectively.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "218",
+    "Probability": 1,
+    "versions": ["9"],
+    "klp": {
+        "9": ["9.5"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Phase C"
+},
+{
+    "QUESTION_NUMBER": "219",
+    "QUESTION_TEXT": "According to the TOGAF Standard, which needs should Data Architecture consider during data migration?",
+    "POSSIBLE_ANSWERS": [
+        "A. Application replacement, infrastructure upgrades, and process reorganization.",
+        "B. Capability definition, service identification, and information structuring.",
+        "C. Application standardization, process documentation, and technology selection.",
+        "D. Data transformation, weeding, and cleansing to meet the requirements and constraints of the Target Architecture."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Data Architecture should identify data migration requirements and indicate the necessary levels of data transformation, weeding, and cleansing to ensure that data is presented in a format that meets the requirements and constraints of the Target Architecture.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "219",
+    "Probability": 1,
+    "versions": ["9"],
+    "klp": {
+        "9": ["9.5"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Phase C"
+},
+{
+    "QUESTION_NUMBER": "220",
+    "QUESTION_TEXT": "An architecture team believes that Data Architecture is limited to identifying the data stored by the enterprise. According to the TOGAF Standard, which option provides a more comprehensive view of the work in this domain?",
+    "POSSIBLE_ANSWERS": [
+        "A. Identifying data sources, the applications that use them, and the technology components responsible for storage.",
+        "B. Focusing on data modeling and defining migration requirements for new applications.",
+        "C. Considering data migration requirements, data management, and data governance, as well as resources available in the Architecture Repository.",
+        "D. Prioritizing data governance and standardization, leaving data modeling and migration to implementation projects."
+    ],
+    "EXPLANATION_TEXT": "Explanation: According to the TOGAF Standard, the Data Architecture approach covers several aspects, including effective data management, data migration requirements, the governance needed to support transformation, and the use of relevant resources from the Architecture Repository.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "220",
+    "Probability": 1,
+    "versions": ["9"],
+    "klp": {
+        "9": ["9.5"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Phase C"
+},
+
+{
+    "QUESTION_NUMBER": "221",
+    "QUESTION_TEXT": "According to the TOGAF Standard, what is the primary focus of Application Architecture?",
+    "POSSIBLE_ANSWERS": [
+        "A. Describing the business processes and value streams that guide the enterprise's operations.",
+        "B. Describing the structure and interaction of applications that provide key business capabilities and manage data assets.",
+        "C. Describing the technology services and components that support information systems.",
+        "D. Describing the structure of the major types and sources of data and their management resources."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Application Architecture describes the structure and interaction of applications that provide key business capabilities and manage the enterprise's data assets.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "221",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["3.3"],
+        "10": ["{S0} §4.3"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Phase C"
+},
+{
+    "QUESTION_NUMBER": "222",
+    "QUESTION_TEXT": "An enterprise has already identified its key business capabilities and data assets. It now needs to understand how the applications supporting these capabilities are structured and interact with one another. Which architecture domain addresses this need?",
+    "POSSIBLE_ANSWERS": [
+        "A. Data Architecture.",
+        "B. Technology Architecture.",
+        "C. Business Architecture.",
+        "D. Application Architecture."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Application Architecture describes the structure and interaction of applications that support key business capabilities and manage data assets.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "222",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["3.3"],
+        "10": ["{S0} §4.3"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Phase C"
+},
+
+{
+    "QUESTION_NUMBER": "223",
+    "QUESTION_TEXT": "An architecture team needs to describe the structure of an enterprise's technology services and technology components, as well as the interactions between them. According to the TOGAF Standard, which architecture domain is responsible for this description?",
+    "POSSIBLE_ANSWERS": [
+        "A. Application Architecture.",
+        "B. Data Architecture.",
+        "C. Technology Architecture.",
+        "D. Business Architecture."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Technology Architecture describes the structure and interaction of the enterprise's technology services and technology components.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "223",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["3.77"],
+        "10": ["{S0} §4.81"]
+    },
+    "category": "2. ADM",
+    "subject": "5. Phase D"
+},
+
+{
+    "QUESTION_NUMBER": "224",
+    "QUESTION_TEXT": "According to the TOGAF Standard, what is the role of Technology Architecture in response to the evolution of new technologies?",
+    "POSSIBLE_ANSWERS": [
+        "A. Ensuring that all new technologies are adopted by the enterprise.",
+        "B. Identifying transformation opportunities made possible through the adoption of new technologies.",
+        "C. Prioritizing the replacement of existing technologies with more recent alternatives.",
+        "D. Restricting the adoption of technologies that were not anticipated in the business strategy."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The evolution of new technologies is a major driver of change in enterprises. Technology Architecture should identify transformation opportunities made possible through the adoption of these technologies, enabling the enterprise to explore innovative ways of operating and improving its business.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "224",
+    "Probability": 1,
+    "versions": ["9"],
+    "klp": {
+        "9": ["11.5"]
+    },
+    "category": "2. ADM",
+    "subject": "5. Phase D"
+},
+{
+    "QUESTION_NUMBER": "225",
+    "QUESTION_TEXT": "An enterprise is rapidly adopting different technologies to modernize its operations. Although each initiative offers individual benefits, difficulties arise in maintaining consistency across solutions. Which approach is most aligned with the TOGAF Standard?",
+    "POSSIBLE_ANSWERS": [
+        "A. Allowing each initiative to select its technologies without considering other projects.",
+        "B. Suspending the adoption of emerging technologies until all architectures have been completed.",
+        "C. Using a strong Enterprise Architecture approach to guide technology adoption and avoid discontinuities.",
+        "D. Assigning technology decisions exclusively to the teams responsible for implementation."
+    ],
+    "EXPLANATION_TEXT": "Explanation: A strong Enterprise Architecture approach helps prevent discontinuities that may result from the rapid adoption of evolving technologies. This enables the enterprise to explore innovation opportunities while maintaining architectural coherence.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "225",
+    "Probability": 1,
+    "versions": ["9"],
+    "klp": {
+        "9": ["11.5"]
+    },
+    "category": "2. ADM",
+    "subject": "5. Phase D"
+},
+
+
+{
+    "QUESTION_NUMBER": "226",
+    "QUESTION_TEXT": "According to the TOGAF Standard, what are the main objectives of Phase B of the ADM?",
+    "POSSIBLE_ANSWERS": [
+        "A. Develop the Baseline Business Architecture and define the implementation projects required to achieve strategic objectives.",
+        "B. Develop the Target Business Architecture and identify candidate Architecture Roadmap components based on gaps between the Baseline and Target Architectures.",
+        "C. Develop the Baseline Business Architecture and the Target Business Architecture.",
+        "D. Develop the Target Business Architecture and prepare a detailed migration plan for implementing solutions."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The objectives of Phase B are to develop the Target Business Architecture, describing how the enterprise needs to operate to achieve its goals and respond to the strategic drivers established in the Architecture Vision, while addressing the Statement of Architecture Work and stakeholder concerns. Phase B also identifies candidate Architecture Roadmap components based on gaps between the Baseline and Target Business Architectures.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "226",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["7.1"],
+        "10": ["{S1} §4.1"]
+    },
+    "category": "2. ADM",
+    "subject": "3. Phase B"
+},
+{
+    "QUESTION_NUMBER": "227",
+    "QUESTION_TEXT": "In Phase C, an architecture team has developed the Target Data Architecture to enable the Business Architecture and the Architecture Vision. According to the TOGAF Standard, what else must the team do to fulfill the objectives of this activity?",
+    "POSSIBLE_ANSWERS": [
+        "A. Define the Solution Building Blocks corresponding to the defined architecture.",
+        "B. Prepare a detailed data migration plan between existing systems and new applications.",
+        "C. Identify candidate Architecture Roadmap components based on gaps between the Baseline and Target Data Architectures.",
+        "D. Identify only the gaps between the Baseline and Target Application Architectures."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The Data Architecture activity in Phase C has two main objectives: to develop the Target Data Architecture that enables the Business Architecture and the Architecture Vision, while addressing the Statement of Architecture Work and stakeholder concerns; and to identify candidate Architecture Roadmap components based on gaps between the Baseline and Target Data Architectures.",
+    "CORRECT_ANSWER": "C",
+    "JSONINDEX": "227",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["9.1"],
+        "10": ["{S1} §6.1"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Phase C"
+},
+{
+    "QUESTION_NUMBER": "228",
+    "QUESTION_TEXT": "An architecture team is beginning the development of Application Architecture in Phase C. According to the TOGAF Standard, what should be one of the main objectives of this work?",
+    "POSSIBLE_ANSWERS": [
+        "A. Develop the Target Application Architecture that enables the Business Architecture and the Architecture Vision, while addressing the Statement of Architecture Work and stakeholder concerns.",
+        "B. Define the business capabilities required to achieve the enterprise's strategic objectives.",
+        "C. Develop the Target Technology Architecture that enables the implementation of the identified application components.",
+        "D. Identify implementation projects and establish a detailed application migration schedule."
+    ],
+    "EXPLANATION_TEXT": "Explanation: One objective of Application Architecture in Phase C is to develop the Target Application Architecture that enables the Business Architecture and the Architecture Vision, while addressing the Statement of Architecture Work and stakeholder concerns. Another objective is to identify candidate Architecture Roadmap components based on gaps between the Baseline and Target Application Architectures.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "228",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["10.1"],
+        "10": ["{S1} §7.1"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Phase C"
+},
+{
+    "QUESTION_NUMBER": "229",
+    "QUESTION_TEXT": "During Phase D, an architecture team needs to develop the Target Technology Architecture. According to the TOGAF Standard, what should be the purpose of this architecture?",
+    "POSSIBLE_ANSWERS": [
+        "A. Define Solution Building Blocks based on the needs of existing applications.",
+        "B. Identify the latest technologies available in the market and prioritize their adoption by the enterprise.",
+        "C. Establish the technology standards to be used in projects, independently of the other architectures.",
+        "D. Enable the delivery of the Architecture Vision and the target Business, Data, and Application building blocks through technology components and technology services."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Phase D aims to develop the Target Technology Architecture that enables the Architecture Vision and the target Business, Data, and Application building blocks to be delivered through technology components and technology services, while addressing the Statement of Architecture Work and stakeholder concerns. It also identifies candidate Architecture Roadmap components based on gaps between the Baseline and Target Technology Architectures.",
+    "CORRECT_ANSWER": "D",
+    "JSONINDEX": "229",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["11.1"],
+        "10": ["{S1} §8.1"]
+    },
+    "category": "2. ADM",
+    "subject": "5. Phase D"
+},
+{
+    "QUESTION_NUMBER": "230",
+    "QUESTION_TEXT": "According to the TOGAF Standard, which architecture domains are developed during Phase C of the ADM?",
+    "POSSIBLE_ANSWERS": [
+        "A. Business Architecture and Data Architecture.",
+        "B. Data Architecture and Application Architecture.",
+        "C. Application Architecture and Technology Architecture.",
+        "D. Data Architecture and Technology Architecture."
+    ],
+    "EXPLANATION_TEXT": "Explanation: Phase C of the ADM corresponds to Information Systems Architectures and includes the development of two architecture domains: Data Architecture and Application Architecture.",
+    "CORRECT_ANSWER": "B",
+    "JSONINDEX": "230",
+    "Probability": 1,
+    "versions": ["9", "10"],
+    "klp": {
+        "9": ["8.1"],
+        "10": ["{S1} §5.1"]
+    },
+    "category": "2. ADM",
+    "subject": "4. Phase C"
+},
+
+{
+    "QUESTION_NUMBER": "231",
+    "QUESTION_TEXT": "According to the TOGAF Standard, which deliverable contains the core architectural artifacts created during a project, covering all four architecture domains and the Baseline, Transition, and Target Architecture states?",
+    "POSSIBLE_ANSWERS": [
+        "A. Architecture Definition Document.",
+        "B. Request for Architecture Work.",
+        "C. Statement of Architecture Work.",
+        "D. Architecture Requirements Specification."
+    ],
+    "EXPLANATION_TEXT": "Explanation: The Architecture Definition Document contains the core architectural artifacts created during a project and important related information. It covers the Business, Data, Application, and Technology domains, considering the Baseline, Transition, and Target Architectures. It provides a qualitative view of the solution, complementing the Architecture Requirements Specification, which defines measurable criteria that must be met during implementation.",
+    "CORRECT_ANSWER": "A",
+    "JSONINDEX": "231",
+    "Probability": 1,
+    "versions": ["10"],
+    "klp": {
+        "10": ["{S4} §4.2.3"]
+    },
+    "category": "2. ADM",
+    "subject": "0. Overview of the Phases"
+},
 
 
 ];
